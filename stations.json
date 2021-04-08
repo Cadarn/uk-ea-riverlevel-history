@@ -99082,17 +99082,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "label": "FENCE BRIDGE GATE RL",
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
+      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -120703,7 +120708,7 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SE68ST00CO",
-      "gridReference": "TA0969",
+      "gridReference": "SE6281",
       "label": "Sproxton",
       "measures": [
         {
@@ -121399,7 +121404,7 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/692204",
-      "label": "Toddbrock Reservoir",
+      "label": "Toddbrook Reservoir",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/692204-level-stage-i-15_min-m",
@@ -121996,6 +122001,95 @@
       "northing": 370152,
       "notation": "E46497",
       "stationReference": "E46497"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/43179",
+      "gridReference": "SU0431",
+      "label": "BARFORD CEMETERY GW",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43179-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "43179",
+      "stationReference": "43179"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/45175",
+      "gridReference": "SX9598",
+      "label": "BUSSELLS 7A BH",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/45175-level-groundwater-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        }
+      ],
+      "notation": "45175",
+      "stationReference": "45175"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/43180",
+      "gridReference": "ST8406",
+      "label": "BROADLEY WOOD GW",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43180-level-groundwater-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        }
+      ],
+      "notation": "43180",
+      "stationReference": "43180"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/45174",
+      "gridReference": "SY0789",
+      "label": "BURROW BH",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/45174-level-groundwater-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        }
+      ],
+      "notation": "45174",
+      "stationReference": "45174"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/585122",
+      "easting": 342150,
+      "gridReference": "NY421016",
+      "label": "Rainfall station",
+      "lat": 54.406987,
+      "long": -2.892739,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/585122-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 501650,
+      "notation": "585122",
+      "stationReference": "585122"
     }
   ]
 }
