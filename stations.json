@@ -60647,7 +60647,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/48111",
       "easting": 204495,
       "gridReference": "SX0449552892",
-      "label": "BOSCUNDLE",
+      "label": "BOSCUNDLE WITS IP",
       "lat": 50.343417,
       "long": -4.749042,
       "measures": [
@@ -88162,7 +88162,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4816",
       "easting": 504926,
       "gridReference": "TL0492683900",
-      "label": "BARNWELL FSR",
+      "label": "BARNWELL FSR WITS",
       "lat": 52.442994,
       "long": -0.457726,
       "measures": [
@@ -99082,22 +99082,17 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "easting": 614950,
-      "gridReference": "TM149414",
-      "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "label": "FENCE BRIDGE GATE RL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
