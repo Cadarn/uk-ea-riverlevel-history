@@ -84380,12 +84380,12 @@
       "long": -1.761294,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/022021-level-stage-i-15_min----",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/022021-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "---"
+          "unitName": "m"
         }
       ],
       "northing": 585380,
@@ -122093,6 +122093,23 @@
       "northing": 501650,
       "notation": "585122",
       "stationReference": "585122"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SD53_68",
+      "gridReference": "SD5430",
+      "label": "Moor Park Deepdale",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SD53_68-level-groundwater-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        }
+      ],
+      "notation": "SD53_68",
+      "stationReference": "SD53_68"
     }
   ]
 }
