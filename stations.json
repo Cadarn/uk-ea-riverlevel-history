@@ -36941,6 +36941,14 @@
       "long": -1.697906,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1208TH-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1208TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -66831,7 +66839,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4088",
       "easting": 484238,
       "gridReference": "SE8423824156",
-      "label": "Blacktoft MGX TL",
+      "label": "Blacktoft TL",
       "lat": 53.707031,
       "long": -0.725316,
       "measures": [
