@@ -60658,17 +60658,17 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E15460",
       "easting": 547550,
       "gridReference": "TQ475703",
-      "label": "RUXLEY OUTFALL GS",
+      "label": "Ruxley Pits Outfall RL",
       "lat": 51.412972,
       "long": 0.120315,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E15460-level-stage-i-15_min-mASD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E15460-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "mASD"
+          "unitName": "mAOD"
         }
       ],
       "northing": 170350,
@@ -63999,28 +63999,12 @@
       "long": 0.032669,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Downstream Stage",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mASD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
@@ -114560,7 +114544,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Barstaple_Yeo_FC",
       "easting": 256336,
       "gridReference": "SS5633633975",
-      "label": "BARNSTAPLE RALEIGH MEADOW",
+      "label": "BARSTAPLE RALEIGH MEADOW IP",
       "lat": 51.087045,
       "long": -4.052625,
       "measures": [
