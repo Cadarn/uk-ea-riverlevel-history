@@ -9325,7 +9325,7 @@
       "riverName": "River Severn",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2175/stageScale",
       "stationReference": "2175",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Crewgreen",
       "wiskiID": "2175"
     },
@@ -61841,6 +61841,14 @@
       "long": -2.288707,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690551-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690551-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -62132,6 +62140,14 @@
       "lat": 53.509373,
       "long": -2.288707,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690552-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690552-level-stage-i-15_min-m",
           "parameter": "level",
@@ -63828,6 +63844,14 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2421TH-level-height-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Height",
           "unitName": "mASD"
         },
         {
@@ -71236,6 +71260,14 @@
       "lat": 53.808702,
       "long": -1.948901,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L1431-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L1431-level-stage-i-15_min-m",
           "parameter": "level",
@@ -107273,6 +107305,14 @@
       "long": -2.35078,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/562656-rainfall-tipping_bucket_raingauge-t-15_min----",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/562656-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -122542,6 +122582,48 @@
       ],
       "notation": "SD53_68",
       "stationReference": "SD53_68"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E68044",
+      "easting": 490994,
+      "gridReference": "SK9099476277",
+      "label": "TILL WASHLAND CONTROL SAXILBY WITS",
+      "lat": 53.275667,
+      "long": -0.636863,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E68044-level-downstage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 376277,
+      "notation": "E68044",
+      "stationReference": "E68044"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E68137",
+      "easting": 495255,
+      "gridReference": "SK9525563964",
+      "label": "WITHAM CONTROL SLUICE WASHLANDS WADDINGTON WITS",
+      "lat": 53.164274,
+      "long": -0.576657,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E68137-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 363964,
+      "notation": "E68137",
+      "stationReference": "E68137"
     }
   ]
 }
