@@ -78332,14 +78332,6 @@
       "label": "Gibbet Cottage OBH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -84707,14 +84699,6 @@
       "lat": 50.936779,
       "long": -1.367352,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12411-flow--i-15_min----",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "---"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12411-flow--i-15_min-m3_s",
           "parameter": "flow",
@@ -112378,52 +112362,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/",
-      "easting": 477435,
-      "gridReference": "SK77431866",
-      "label": "Brentingby Dam GATE",
-      "lat": 52.760041,
-      "long": -0.853952,
+      "easting": 452237,
+      "gridReference": "SE5223725319",
+      "label": "West Holme Washlands",
+      "lat": 53.721659,
+      "long": -1.209849,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-flow-logged-i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "Logged",
-          "unitName": "m3/s"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-level-downstage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Downstream Stage",
-          "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-level-downstage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Downstream Stage",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-level-reservoir_level-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Reservoir Level",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-level-stage-i-15_min-m",
           "parameter": "level",
@@ -112431,17 +112375,9 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
-      "northing": 318665,
+      "northing": 425319,
       "notation": "",
       "stationReference": ""
     },
