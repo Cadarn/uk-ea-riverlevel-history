@@ -111190,14 +111190,6 @@
       "long": -0.509511,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2517SO-flow--Mean-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2517SO-flow--i-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
@@ -114546,7 +114538,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Barstaple_Yeo_FC",
       "easting": 256336,
       "gridReference": "SS5633633975",
-      "label": "BARSTAPLE RALEIGH MEADOW IP",
+      "label": "BARSTAPLE RALEIGH MEADOW",
       "lat": 51.087045,
       "long": -4.052625,
       "measures": [
