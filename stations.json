@@ -45979,6 +45979,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21046-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 248903,
@@ -69098,7 +69106,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/531173",
       "easting": 375265,
       "gridReference": "ST7526564889",
-      "label": "PULTENEY",
+      "label": "PULTENEY WITS",
       "lat": 51.3825,
       "long": -2.356804,
       "measures": [
@@ -69830,7 +69838,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/531174",
       "easting": 375265,
       "gridReference": "ST7526564889",
-      "label": "PULTENEY",
+      "label": "PULTENEY WITS",
       "lat": 51.3825,
       "long": -2.356804,
       "measures": [
@@ -71614,6 +71622,14 @@
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4173TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 168155,
@@ -73331,6 +73347,14 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "2",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
           "unitName": "mAOD"
         }
       ],
@@ -76652,6 +76676,14 @@
       "gridReference": "SP9705",
       "label": "Ashley Green STW OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP90_64-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP90_64-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -82171,14 +82203,6 @@
       "label": "West Horsley Place OBH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -85479,11 +85503,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3403",
-      "easting": 531352,
-      "gridReference": "TF3135287021",
-      "label": "LOUTH NORTH FSR",
-      "lat": 53.363734,
-      "long": -0.027521,
+      "easting": 621150,
+      "gridReference": "TR211575",
+      "label": "LITTLEBOURNE USGS",
+      "lat": 51.274155,
+      "long": 1.16925,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-flow--i-15_min-m3_s",
@@ -85492,17 +85516,9 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
         }
       ],
-      "northing": 387021,
+      "northing": 157550,
       "notation": "E3403",
       "stationReference": "E3403"
     },
@@ -86219,14 +86235,6 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -89662,7 +89670,7 @@
       "riverName": "Marton West Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3921/stageScale",
       "stationReference": "L3921",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Middlesbrough Albert Park Screen",
       "wiskiID": "L3921"
     },
@@ -120909,7 +120917,7 @@
       "riverName": "Low Moor Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L13810/stageScale",
       "stationReference": "L13810",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Oakenshaw Wyke Bottoms",
       "wiskiID": "L13810"
     },
@@ -120996,7 +121004,7 @@
       "riverName": "Bradford Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L1656/stageScale",
       "stationReference": "L1656",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Bradford Greenside",
       "wiskiID": "L1656"
     },
@@ -121943,7 +121951,7 @@
       "riverName": "Oil Mill Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L1783/stageScale",
       "stationReference": "L1783",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Horsforth Cornmill View",
       "wiskiID": "L1783"
     },
@@ -121972,7 +121980,7 @@
       "riverName": "Knoll Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L0851/stageScale",
       "stationReference": "L0851",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Manvers Old Moor Lane",
       "wiskiID": "L0851"
     },
@@ -122001,7 +122009,7 @@
       "riverName": "South Cave Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3493/stageScale",
       "stationReference": "L3493",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "South Cave Beverley Road",
       "wiskiID": "L3493"
     },
