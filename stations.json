@@ -9317,7 +9317,7 @@
       "riverName": "River Severn",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2175/stageScale",
       "stationReference": "2175",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Crewgreen",
       "wiskiID": "2175"
     },
@@ -69106,7 +69106,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/531173",
       "easting": 375265,
       "gridReference": "ST7526564889",
-      "label": "PULTENEY WITS",
+      "label": "PULTENEY",
       "lat": 51.3825,
       "long": -2.356804,
       "measures": [
@@ -69838,7 +69838,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/531174",
       "easting": 375265,
       "gridReference": "ST7526564889",
-      "label": "PULTENEY WITS",
+      "label": "PULTENEY",
       "lat": 51.3825,
       "long": -2.356804,
       "measures": [
@@ -71621,14 +71621,6 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
-          "unitName": "mASD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4173TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
           "unitName": "mASD"
         }
       ],
@@ -81682,7 +81674,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SJ89_257",
       "gridReference": "SJ8190",
-      "label": "Wythenshawe Deep OBH",
+      "label": "Wythenshawe Pk Deep ",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ89_257-level-groundwater-i-1_h-m",
@@ -82203,6 +82195,14 @@
       "label": "West Horsley Place OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82602,7 +82602,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SJ89_258",
       "gridReference": "SJ8190",
-      "label": "Wythenshawe Park Shallow OBH",
+      "label": "Wythenshawe Pk Shallow",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ89_258-level-groundwater-i-1_h-m",
@@ -86235,6 +86235,14 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
