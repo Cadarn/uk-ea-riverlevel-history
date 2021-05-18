@@ -60523,7 +60523,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/44133",
       "easting": 346345,
       "gridReference": "SY4634590570",
-      "label": "GEORGE STREET",
+      "label": "GEORGE STREET WITS",
       "lat": 50.712271,
       "long": -2.761296,
       "measures": [
@@ -67304,14 +67304,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3901-temperature-dry_bulb-i-15_min-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 900,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "notation": "3901",
@@ -77287,6 +77279,22 @@
       "lat": 51.52639,
       "long": 0.091773,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5484TH-level-1-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5484TH-level-2-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5484TH-level-stage-i-15_min-mASD",
           "parameter": "level",
@@ -99140,17 +99148,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "label": "FENCE BRIDGE GATE RL",
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
+      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -121169,7 +121182,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/FWGE01_FW",
       "easting": 346345,
       "gridReference": "SY4634590570",
-      "label": "GEORGE STREET",
+      "label": "GEORGE STREET WITS",
       "lat": 50.712271,
       "long": -2.761296,
       "measures": [
