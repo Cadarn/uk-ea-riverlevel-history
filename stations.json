@@ -79252,14 +79252,6 @@
       "label": "BEEDING HILL GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2308SO-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2308SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -122325,6 +122317,153 @@
       "northing": 146267,
       "notation": "0100LB",
       "stationReference": "0100LB"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E68200",
+      "easting": 494828,
+      "gridReference": "SK9482862494",
+      "label": "BRANT CONTROL SLUICE AUBOURN WITS",
+      "lat": 53.151141,
+      "long": -0.583477,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E68200-level-1-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 362494,
+      "notation": "E68200",
+      "stationReference": "E68200"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E49234",
+      "easting": 515994,
+      "gridReference": "TL1599453487",
+      "label": "TEMPSFORD ROXTON GS BACKUP",
+      "lat": 52.167461,
+      "long": -0.305433,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E49234-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 253487,
+      "notation": "E49234",
+      "stationReference": "E49234"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E68301",
+      "easting": 494281,
+      "gridReference": "SK9428160061",
+      "label": "SAND SYKE PS WITHAM WASHLANDS WITS",
+      "lat": 53.129374,
+      "long": -0.592368,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E68301-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 360061,
+      "notation": "E68301",
+      "stationReference": "E68301"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E68102",
+      "easting": 495255,
+      "gridReference": "SK9525563964",
+      "label": "WITHAM CONTROL SLUICE WASHLANDS WADDINGTON WITS",
+      "lat": 53.164274,
+      "long": -0.576657,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E68102-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 363964,
+      "notation": "E68102",
+      "stationReference": "E68102"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E68302",
+      "easting": 494281,
+      "gridReference": "SK9428160061",
+      "label": "SAND SYKE PS WITHAM WASHLANDS WITS",
+      "lat": 53.129374,
+      "long": -0.592368,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E68302-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 360061,
+      "notation": "E68302",
+      "stationReference": "E68302"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E68100",
+      "easting": 495255,
+      "gridReference": "SK9525563964",
+      "label": "WITHAM CONTROL SLUICE WASHLANDS WADDINGTON WITS",
+      "lat": 53.164274,
+      "long": -0.576657,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E68100-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 363964,
+      "notation": "E68100",
+      "stationReference": "E68100"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E68000",
+      "easting": 490994,
+      "gridReference": "SK9099476277",
+      "label": "TILL WASHLAND CONTROL SAXILBY WITS",
+      "lat": 53.275667,
+      "long": -0.636863,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E68000-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 376277,
+      "notation": "E68000",
+      "stationReference": "E68000"
     }
   ]
 }
