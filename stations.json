@@ -122464,6 +122464,27 @@
       "northing": 376277,
       "notation": "E68000",
       "stationReference": "E68000"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E68002",
+      "easting": 490994,
+      "gridReference": "SK9099476277",
+      "label": "TILL WASHLAND CONTROL SAXILBY WITS",
+      "lat": 53.275667,
+      "long": -0.636863,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E68002-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 376277,
+      "notation": "E68002",
+      "stationReference": "E68002"
     }
   ]
 }
