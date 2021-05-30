@@ -50775,6 +50775,14 @@
       "long": -1.826539,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0390TH-flow--Mean-15_min----",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0390TH-flow--Mean-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
@@ -63185,14 +63193,6 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "1",
-          "unitName": "mASD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5563TH-level-2-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "2",
           "unitName": "mASD"
         },
         {
@@ -82273,7 +82273,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SJ38_89",
       "gridReference": "SJ3084",
-      "label": "Storeton OBH",
+      "label": "Storeton",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ38_89-level-groundwater-i-1_h-m",
