@@ -20570,6 +20570,14 @@
       "long": -0.836924,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2486TH-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2486TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -58197,6 +58205,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2700-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 232555,
@@ -59205,12 +59221,44 @@
           "unitName": "mAOD"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-1-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-2-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-3-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "3",
+          "unitName": "mm"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mm"
         }
       ],
       "northing": 181023,
@@ -79437,22 +79485,6 @@
       "label": "BEEDING HILL GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2308SO-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2308SO-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2308SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83822,7 +83854,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SJ97_139",
       "gridReference": "SJ9177",
-      "label": "Prestbury Deep OBH",
+      "label": "Prestbury Deep",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ97_139-level-groundwater-i-1_h-m",
@@ -121037,7 +121069,7 @@
       "riverName": "Bradford Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L1656/stageScale",
       "stationReference": "L1656",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Bradford Greenside",
       "wiskiID": "L1656"
     },
@@ -121239,11 +121271,11 @@
       "RLOIid": "9405",
       "catchmentName": "Hull and East Riding",
       "dateOpened": "2006-02-24",
-      "easting": 405013,
+      "easting": 505013,
       "gridReference": "TA0501330528",
       "label": "North Hull Birdsall Avenue",
-      "lat": 54.669786,
-      "long": -1.923783,
+      "lat": 53.76052,
+      "long": -0.408546,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L32013_NE-level-stage-i-15_min-m",
@@ -121254,7 +121286,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 530528,
+      "northing": 430528,
       "notation": "L32013_NE",
       "riverName": "Setting Dyke",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L32013_NE/stageScale",
@@ -121268,11 +121300,11 @@
       "RLOIid": "9404",
       "catchmentName": "Hull and East Riding",
       "dateOpened": "2006-02-24",
-      "easting": 406697,
+      "easting": 506697,
       "gridReference": "TA0669730531",
       "label": "North Hull National Avenue",
-      "lat": 54.669794,
-      "long": -1.897673,
+      "lat": 53.760205,
+      "long": -0.383012,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L32012_NE-level-stage-i-15_min-m",
@@ -121283,7 +121315,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 530531,
+      "northing": 430531,
       "notation": "L32012_NE",
       "riverName": "Setting Dyke",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L32012_NE/stageScale",
@@ -122813,6 +122845,23 @@
       "northing": 158426,
       "notation": "3702SO",
       "stationReference": "3702SO"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SJ88_123",
+      "gridReference": "SJ8482",
+      "label": "Wilmslow Shallow",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ88_123-level-groundwater-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        }
+      ],
+      "notation": "SJ88_123",
+      "stationReference": "SJ88_123"
     }
   ]
 }
