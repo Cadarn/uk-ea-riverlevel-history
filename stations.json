@@ -58734,6 +58734,14 @@
           "period": 900,
           "qualifier": "Height",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2733TH-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 179055,
@@ -67334,6 +67342,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3901-temperature-dry_bulb-i-15_min-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 900,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 379150,
@@ -72804,7 +72820,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22173",
       "easting": 636400,
       "gridReference": "TM3640091600",
-      "label": "ELLINGHAM SLUICE",
+      "label": "ELLINGHAM MILL SLUICE WITS",
       "lat": 52.471099,
       "long": 1.479204,
       "measures": [
@@ -122550,6 +122566,23 @@
       ],
       "notation": "SJ88_123",
       "stationReference": "SJ88_123"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9458SO",
+      "gridReference": "SU4046",
+      "label": "Harewood Forest GWL",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9458SO-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "9458SO",
+      "stationReference": "9458SO"
     }
   ]
 }
