@@ -58120,12 +58120,12 @@
       "long": -1.048633,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2412-level-stage-i-15_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2412-level-stage-i-15_min----",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "mAOD"
+          "unitName": "---"
         }
       ],
       "northing": 434481,
@@ -104068,22 +104068,17 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7040",
-      "easting": 487650,
-      "gridReference": "SK876868",
-      "label": "Rainfall station",
-      "lat": 53.371241,
-      "long": -0.684077,
+      "label": "WANNOCK MILL RL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 386850,
       "notation": "E7040",
       "stationReference": "E7040"
     },
@@ -119304,12 +119299,12 @@
       "long": -1.048633,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2411-level-stage-i-15_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2411-level-stage-i-15_min----",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "mAOD"
+          "unitName": "---"
         }
       ],
       "northing": 434481,
