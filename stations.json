@@ -58120,12 +58120,12 @@
       "long": -1.048633,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2412-level-stage-i-15_min----",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2412-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "---"
+          "unitName": "mAOD"
         }
       ],
       "northing": 434481,
@@ -72807,7 +72807,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22211",
       "easting": 636400,
       "gridReference": "TM3640091600",
-      "label": "ELLINGHAM SLUICE",
+      "label": "ELLINGHAM MILL SLUICE",
       "lat": 52.471099,
       "long": 1.479204,
       "measures": [
@@ -77782,14 +77782,6 @@
       "gridReference": "SU4224",
       "label": "HURSLEY GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -115909,7 +115901,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E2173",
       "easting": 508059,
       "gridReference": "TL0805999560",
-      "label": "WANSFORD A47 NO1",
+      "label": "WANSFORD A47 NO1 WITS",
       "lat": 52.583111,
       "long": -0.406569,
       "measures": [
@@ -119299,12 +119291,12 @@
       "long": -1.048633,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2411-level-stage-i-15_min----",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2411-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "---"
+          "unitName": "mAOD"
         }
       ],
       "northing": 434481,
