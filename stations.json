@@ -35114,6 +35114,14 @@
           "unitName": "---"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3100TH-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3100TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -81920,7 +81928,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SJ55_043",
       "gridReference": "SJ5157",
-      "label": "Honeyend Farm Drift",
+      "label": "Honeyend Drift",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ55_043-level-groundwater-i-1_h-m",
@@ -82158,7 +82166,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SJ45_168",
       "gridReference": "SJ4354",
-      "label": "Barton 2 Obs Borehole",
+      "label": "Barton 2 Obs",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ45_168-level-groundwater-i-1_h-m",
