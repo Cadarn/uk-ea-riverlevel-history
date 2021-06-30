@@ -58626,7 +58626,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/44223",
       "easting": 402081,
       "gridReference": "SZ0208179352",
-      "label": "SWANAGE PROSPECT FARM FAS",
+      "label": "SWANAGE PROSPECT FARM FAS WITS",
       "lat": 50.613874,
       "long": -1.971941,
       "measures": [
@@ -64373,7 +64373,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/44226",
       "easting": 402611,
       "gridReference": "SZ0261179124",
-      "label": "SWANAGE KING GEORGES FIELD FAS",
+      "label": "SWANAGE KING GEORGES FIELD FAS WITS",
       "lat": 50.611822,
       "long": -1.964452,
       "measures": [
@@ -64473,7 +64473,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/44225",
       "easting": 402611,
       "gridReference": "SZ0261179124",
-      "label": "SWANAGE KING GEORGES FIELD FAS",
+      "label": "SWANAGE KING GEORGES FIELD FAS WITS",
       "lat": 50.611822,
       "long": -1.964452,
       "measures": [
@@ -65714,7 +65714,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/44222",
       "easting": 402081,
       "gridReference": "SZ0208179352",
-      "label": "SWANAGE PROSPECT FARM FAS",
+      "label": "SWANAGE PROSPECT FARM FAS WITS",
       "lat": 50.613874,
       "long": -1.971941,
       "measures": [
@@ -71494,7 +71494,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22346",
       "easting": 519008,
       "gridReference": "TL1900837900",
-      "label": "ARLESEY GS",
+      "label": "ARLESEY GS WITS",
       "lat": 52.026749,
       "long": -0.266824,
       "measures": [
@@ -85350,11 +85350,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3403",
-      "easting": 531352,
-      "gridReference": "TF3135287021",
-      "label": "LOUTH NORTH FSR",
-      "lat": 53.363734,
-      "long": -0.027521,
+      "easting": 621150,
+      "gridReference": "TR211575",
+      "label": "LITTLEBOURNE USGS",
+      "lat": 51.274155,
+      "long": 1.16925,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-flow--i-15_min-m3_s",
@@ -85363,17 +85363,9 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
         }
       ],
-      "northing": 387021,
+      "northing": 157550,
       "notation": "E3403",
       "stationReference": "E3403"
     },
