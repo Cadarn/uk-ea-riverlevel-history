@@ -99259,17 +99259,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "label": "FENCE BRIDGE GATE RL",
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
+      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -117980,6 +117985,14 @@
       "long": 0.181352,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0350TH-level-downstage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0350TH-level-stage-i-15_min-mm",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -122673,6 +122686,174 @@
       "northing": 359828,
       "notation": "4821",
       "stationReference": "4821"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7071",
+      "easting": 567173,
+      "gridReference": "TQ6717313769",
+      "label": "HENLEY BRIDGE GS",
+      "lat": 50.899199,
+      "long": 0.375972,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7071-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 113769,
+      "notation": "E7071",
+      "stationReference": "E7071"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7090",
+      "easting": 566193,
+      "gridReference": "TQ6619312875",
+      "label": "TILLEY BRIDGE GS",
+      "lat": 50.89145,
+      "long": 0.361642,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7090-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 112875,
+      "notation": "E7090",
+      "stationReference": "E7090"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7060",
+      "easting": 568405,
+      "gridReference": "TQ6840514145",
+      "label": "HAMMERWOOD BRIDGE GS",
+      "lat": 50.90222,
+      "long": 0.393649,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7060-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 114145,
+      "notation": "E7060",
+      "stationReference": "E7060"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2002SO",
+      "easting": 553288,
+      "gridReference": "TQ5328805159",
+      "label": "SHERMAN BRIDGE GS",
+      "lat": 50.82568,
+      "long": 0.175071,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2002SO-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 105159,
+      "notation": "2002SO",
+      "stationReference": "2002SO"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7091",
+      "easting": 566193,
+      "gridReference": "TQ6619312875",
+      "label": "TILLEY BRIDGE GS",
+      "lat": 50.89145,
+      "long": 0.361642,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7091-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 112875,
+      "notation": "E7091",
+      "stationReference": "E7091"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7061",
+      "easting": 568405,
+      "gridReference": "TQ6840514145",
+      "label": "HAMMERWOOD BRIDGE GS",
+      "lat": 50.90222,
+      "long": 0.393649,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7061-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 114145,
+      "notation": "E7061",
+      "stationReference": "E7061"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7083",
+      "easting": 569728,
+      "gridReference": "TQ6972813539",
+      "label": "COOMBE BRIDGE GS",
+      "lat": 50.896388,
+      "long": 0.412165,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7083-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 113539,
+      "notation": "E7083",
+      "stationReference": "E7083"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7080",
+      "easting": 569728,
+      "gridReference": "TQ6972813539",
+      "label": "COOMBE BRIDGE GS",
+      "lat": 50.896388,
+      "long": 0.412165,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7080-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 113539,
+      "notation": "E7080",
+      "stationReference": "E7080"
     }
   ]
 }
