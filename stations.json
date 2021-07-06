@@ -23015,6 +23015,14 @@
       "long": -1.253163,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2024-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2024-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -71886,14 +71894,6 @@
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mASD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-southern-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 167785,
@@ -71922,14 +71922,6 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
-          "unitName": "mASD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-thames-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
           "unitName": "mASD"
         }
       ],
@@ -95345,11 +95337,7 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3185",
-      "easting": 414750,
-      "gridReference": "SP147788",
       "label": "Rainfall station",
-      "lat": 52.407451,
-      "long": -1.784594,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3185-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -95360,7 +95348,6 @@
           "unitName": "mm"
         }
       ],
-      "northing": 278850,
       "notation": "3185",
       "stationReference": "3185"
     },
@@ -99251,11 +99238,7 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "easting": 614950,
-      "gridReference": "TM149414",
-      "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "label": "FENCE BRIDGE GATE RL",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
@@ -99264,17 +99247,8 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
-      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -112100,7 +112074,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3642",
+      "easting": 451750,
+      "gridReference": "SK517186",
       "label": "Rainfall station",
+      "lat": 52.762972,
+      "long": -1.234524,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3642-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -112111,6 +112089,7 @@
           "unitName": "mm"
         }
       ],
+      "northing": 318650,
       "notation": "3642",
       "stationReference": "3642"
     },
@@ -121853,7 +121832,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/463589",
+      "easting": 357850,
+      "gridReference": "SO578068",
       "label": "Rainfall station",
+      "lat": 51.758734,
+      "long": -2.612081,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/463589-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -121864,6 +121847,7 @@
           "unitName": "mm"
         }
       ],
+      "northing": 206850,
       "notation": "463589",
       "stationReference": "463589"
     },
