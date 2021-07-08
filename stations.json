@@ -19091,6 +19091,14 @@
       "long": -1.6945,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/022017-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/022017-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -71894,14 +71902,6 @@
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mASD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-southern-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 167785,
@@ -71930,14 +71930,6 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
-          "unitName": "mASD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-thames-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
           "unitName": "mASD"
         }
       ],
@@ -89797,6 +89789,14 @@
       "lat": 53.91864,
       "long": -0.932766,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2841-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2841-level-stage-i-15_min-mAOD",
           "parameter": "level",
@@ -112630,10 +112630,10 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/562992_",
       "easting": 382650,
-      "gridReference": "SJ826043",
+      "gridReference": "SD826043",
       "label": "Rainfall station",
-      "lat": 52.636608,
-      "long": -2.257802,
+      "lat": 53.535499,
+      "long": -2.263235,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/562992_-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -112644,7 +112644,7 @@
           "unitName": "mm"
         }
       ],
-      "northing": 304350,
+      "northing": 404350,
       "notation": "562992_",
       "stationReference": "562992_"
     },
