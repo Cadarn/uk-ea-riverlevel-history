@@ -103395,7 +103395,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1819",
+      "easting": 371950,
+      "gridReference": "SO719534",
       "label": "Rainfall station",
+      "lat": 52.178577,
+      "long": -2.411624,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1819-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -103406,6 +103410,7 @@
           "unitName": "mm"
         }
       ],
+      "northing": 253450,
       "notation": "1819",
       "stationReference": "1819"
     },
