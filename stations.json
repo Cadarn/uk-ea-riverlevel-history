@@ -71861,7 +71861,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E26151",
       "easting": 484880,
       "gridReference": "SP8488032340",
-      "label": "WATER EATON BROOK GS BLETCHLEY",
+      "label": "WATER EATON BROOK GS BLETCHLEY WITS",
       "lat": 51.983038,
       "long": -0.765476,
       "measures": [
@@ -104207,17 +104207,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7040",
-      "label": "WANNOCK MILL RL",
+      "easting": 487650,
+      "gridReference": "SK876868",
+      "label": "Rainfall station",
+      "lat": 53.371241,
+      "long": -0.684077,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
+      "northing": 386850,
       "notation": "E7040",
       "stationReference": "E7040"
     },
