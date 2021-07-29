@@ -119581,6 +119581,14 @@
       "long": -1.509878,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L1353-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L1353-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
