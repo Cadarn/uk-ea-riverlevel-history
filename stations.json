@@ -882,7 +882,7 @@
       "dateOpened": "1993-02-26",
       "easting": 388275,
       "gridReference": "SD 88275 12740",
-      "label": "Rochdale ETW",
+      "label": "Rochdale",
       "lat": 53.611067,
       "long": -2.178685,
       "measures": [
@@ -1249,7 +1249,7 @@
       "dateOpened": "2010-02-23",
       "easting": 351826,
       "gridReference": "SD5182693034",
-      "label": "Victoria Bridge - New",
+      "label": "Victoria Bridge",
       "lat": 54.330571,
       "long": -2.742287,
       "measures": [
@@ -4954,7 +4954,7 @@
       "catchmentName": "Severn Vale",
       "dateOpened": "1985-12-27",
       "easting": 382730,
-      "label": "Gloucester (Severn)",
+      "label": "Gloucester",
       "lat": 51.864982,
       "long": -2.252201,
       "measures": [
@@ -8756,7 +8756,7 @@
       "catchmentName": "Ribble Douglas and Crossens",
       "dateOpened": "1997-01-01",
       "easting": 384670,
-      "label": "Oxford Rd",
+      "label": "Oxford Road",
       "lat": 53.78552,
       "long": -2.234141,
       "measures": [
@@ -9172,7 +9172,7 @@
       "dateOpened": "1995-07-01",
       "easting": 326461,
       "gridReference": "NY 26461 19220",
-      "label": "Derwent Water at Lodore",
+      "label": "Lodore",
       "lat": 54.562827,
       "long": -3.138777,
       "measures": [
@@ -10813,7 +10813,7 @@
       "dateOpened": "1992-11-01",
       "datumOffset": 5,
       "easting": 344068,
-      "label": "Huish Episcopi PS",
+      "label": "Huish Episcopi Pumping Station",
       "lat": 51.031669,
       "long": -2.798991,
       "measures": [
@@ -14242,7 +14242,7 @@
       "dateOpened": "1992-01-01",
       "easting": 510676,
       "gridReference": "TL1067611714",
-      "label": "Redbourn River Red",
+      "label": "Redbourn",
       "lat": 51.793132,
       "long": -0.396615,
       "measures": [
@@ -15988,7 +15988,7 @@
       "catchmentName": "Teme",
       "dateOpened": "2009-12-14",
       "easting": 359610,
-      "label": "Tenbury (Kyre Brook)",
+      "label": "Tenbury",
       "lat": 52.309779,
       "long": -2.59384,
       "measures": [
@@ -16241,7 +16241,7 @@
       "dateOpened": "2010-01-01",
       "easting": 384630,
       "gridReference": "SD8463033413",
-      "label": "Thompson park",
+      "label": "Thompson Park",
       "lat": 53.79678,
       "long": -2.234811,
       "measures": [
@@ -17477,7 +17477,7 @@
       "datumOffset": 9.77,
       "easting": 621121,
       "gridReference": "TR2112157530",
-      "label": "Littlebourne River Level",
+      "label": "Littlebourne",
       "lat": 51.273987,
       "long": 1.168823,
       "measures": [
@@ -17705,7 +17705,7 @@
       "dateOpened": "1981-01-01",
       "easting": 543166,
       "gridReference": "TL4316610394",
-      "label": "Harlow, Elizabeth way",
+      "label": "Harlow, Elizabeth Way",
       "lat": 51.773908,
       "long": 0.073644,
       "measures": [
@@ -18555,7 +18555,7 @@
       "dateOpened": "1985-01-01",
       "easting": 505326,
       "gridReference": "TL0532607648",
-      "label": "Hemel Hempstead, Bury Mill,",
+      "label": "Hemel Hempstead, Bury Mill",
       "lat": 51.757619,
       "long": -0.475391,
       "measures": [
@@ -22533,7 +22533,7 @@
       "dateOpened": "1984-01-01",
       "easting": 520194,
       "gridReference": "TQ2019485052",
-      "label": "Brent, Monks park",
+      "label": "Brent, Monks Park",
       "lat": 51.551558,
       "long": -0.267837,
       "measures": [
@@ -23503,7 +23503,7 @@
       "dateOpened": "2003-01-01",
       "datumOffset": 43.4,
       "easting": 439124,
-      "label": "Wherwell RL",
+      "label": "Wherwell",
       "lat": 51.166603,
       "long": -1.441818,
       "measures": [
@@ -23812,7 +23812,7 @@
       "dateOpened": "2008-12-14",
       "easting": 365819,
       "gridReference": "ST6581969277",
-      "label": "Keynsham RL",
+      "label": "Keynsham, Somerdale",
       "lat": 51.421461,
       "long": -2.492956,
       "measures": [
@@ -23869,7 +23869,7 @@
       "dateOpened": "1963-09-12",
       "easting": 485225,
       "gridReference": "SU8522022904",
-      "label": "IPING MILL",
+      "label": "Iping Mill",
       "lat": 50.999232,
       "long": -0.786847,
       "measures": [
@@ -24994,7 +24994,7 @@
       "dateOpened": "1994-05-24",
       "easting": 334507,
       "gridReference": "SJ3450717084",
-      "label": "Cae Howel (Severn)",
+      "label": "Cae Howel",
       "lat": 52.74738,
       "long": -2.971662,
       "measures": [
@@ -26828,7 +26828,7 @@
       "dateOpened": "2006-01-01",
       "easting": 534085,
       "gridReference": "TL3408503406",
-      "label": "Cheshunt, Rosedale way",
+      "label": "Cheshunt, Rosedale Way",
       "lat": 51.713361,
       "long": -0.060582,
       "measures": [
@@ -28388,6 +28388,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1151-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 425430,
@@ -29420,7 +29428,7 @@
       "catchmentName": "Severn Vale",
       "dateOpened": "2002-02-28",
       "easting": 382792,
-      "label": "Sandhurst (Hatherley Brook)",
+      "label": "Sandhurst",
       "lat": 51.887632,
       "long": -2.251427,
       "measures": [
@@ -30143,7 +30151,7 @@
       "dateOpened": "1999-11-17",
       "datumOffset": 5.233,
       "easting": 543740,
-      "label": "Barcombe near reservoir",
+      "label": "Barcombe",
       "lat": 50.915667,
       "long": 0.043425,
       "measures": [
@@ -30907,7 +30915,7 @@
       "dateOpened": "1998-01-01",
       "datumOffset": 0.01,
       "easting": 503200,
-      "label": "Rase at Bishopbridge",
+      "label": "Bishopbridge",
       "lat": 53.406624,
       "long": -0.44906,
       "measures": [
@@ -30922,7 +30930,7 @@
       ],
       "northing": 391100,
       "notation": "E2846",
-      "riverName": "River Ancholme",
+      "riverName": "River Rase",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E2846/stageScale",
       "stationReference": "E2846",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
@@ -33773,7 +33781,7 @@
       "datumOffset": 4.115,
       "easting": 366165,
       "gridReference": "ST6616569003",
-      "label": "Keynsham US",
+      "label": "Keynsham, Rivermead",
       "lat": 51.419019,
       "long": -2.487954,
       "measures": [
@@ -34863,7 +34871,7 @@
       "datumOffset": 5,
       "easting": 344066,
       "gridReference": "ST4407226109",
-      "label": "Huish Episcopi PS",
+      "label": "Huish Episcopi Pumping Station",
       "lat": 51.031606,
       "long": -2.799018,
       "measures": [
@@ -35635,7 +35643,7 @@
       "dateOpened": "1995-11-07",
       "easting": 339612,
       "gridReference": "SD 39612 99883",
-      "label": "Calgarth (Trout beck Bridge)",
+      "label": "Calgarth",
       "lat": 54.390814,
       "long": -2.931474,
       "measures": [
@@ -39835,7 +39843,7 @@
       "dateOpened": "1992-11-01",
       "easting": 337615,
       "gridReference": "ST3761528599",
-      "label": "West Sedgemoor PS",
+      "label": "West Sedgemoor Pumping Station",
       "lat": 51.053328,
       "long": -2.891431,
       "measures": [
@@ -41636,7 +41644,7 @@
       "dateOpened": "1988-01-01",
       "easting": 514914,
       "gridReference": "TQ1491482238",
-      "label": "Greenford,Costons Lane",
+      "label": "Greenford, Costons Lane",
       "lat": 51.527366,
       "long": -0.344873,
       "measures": [
@@ -45148,7 +45156,7 @@
       "dateOpened": "1997-01-01",
       "datumOffset": 5,
       "easting": 341624,
-      "label": "Westover PS",
+      "label": "Westover Pumping Station",
       "lat": 51.034896,
       "long": -2.833902,
       "measures": [
@@ -45177,7 +45185,7 @@
       "dateOpened": "1965-12-01",
       "easting": 352508,
       "gridReference": "NY 52508 28562",
-      "label": "Eamont Bridge, Beehive, River Lowther",
+      "label": "Eamont Bridge",
       "lat": 54.649895,
       "long": -2.737527,
       "measures": [
@@ -45520,7 +45528,7 @@
       "dateOpened": "2010-12-23",
       "easting": 339660,
       "gridReference": "NY3966075120",
-      "label": "Canonbie (SEPA Site)",
+      "label": "Canonbie",
       "lat": 55.066848,
       "long": -2.946363,
       "measures": [
@@ -46141,6 +46149,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21046-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 248903,
@@ -48058,7 +48074,7 @@
       "dateOpened": "1992-11-01",
       "datumOffset": 1,
       "easting": 332500,
-      "label": "Northmoor PS",
+      "label": "Northmoor Pumping Station",
       "lat": 51.073436,
       "long": -2.964828,
       "measures": [
@@ -49529,7 +49545,7 @@
       "catchmentName": "West Cornwall",
       "dateOpened": "2007-01-25",
       "easting": 152085,
-      "label": "St Ives Tide",
+      "label": "St Ives",
       "lat": 50.215231,
       "long": -5.476421,
       "measures": [
@@ -50838,7 +50854,7 @@
       "dateOpened": "1996-01-01",
       "datumOffset": 3.3,
       "easting": 334489,
-      "label": "Currymoor PS",
+      "label": "Currymoor Pumping Station",
       "lat": 51.054966,
       "long": -2.936065,
       "measures": [
@@ -52171,7 +52187,7 @@
       "catchmentName": "Parrett, Brue and West Somerset Streams",
       "dateOpened": "1992-11-01",
       "easting": 337595,
-      "label": "West Sedgemoor PS",
+      "label": "West Sedgemoor Pumping Station",
       "lat": 51.053596,
       "long": -2.891722,
       "measures": [
@@ -52236,7 +52252,7 @@
       "dateOpened": "1992-11-01",
       "datumOffset": 3,
       "easting": 334489,
-      "label": "Currymoor PS",
+      "label": "Currymoor Pumping Station",
       "lat": 51.054966,
       "long": -2.936065,
       "measures": [
@@ -52477,7 +52493,7 @@
       "dateOpened": "2010-07-01",
       "easting": 339919,
       "gridReference": "NY 39919 55561",
-      "label": "Skew Bridge   Carlisle",
+      "label": "Skew Bridge",
       "lat": 54.891143,
       "long": -2.9382,
       "measures": [
@@ -52690,7 +52706,7 @@
       "catchmentName": "Welland",
       "dateOpened": "1979-01-01",
       "easting": 474000,
-      "label": "River Jordan",
+      "label": "Little Bowden",
       "lat": 52.473218,
       "long": -0.911988,
       "measures": [
@@ -55437,7 +55453,7 @@
       "dateOpened": "1986-01-01",
       "easting": 510916,
       "gridReference": "TL1091611904",
-      "label": "Redbourn  River Ver",
+      "label": "Redbourn",
       "lat": 51.794792,
       "long": -0.393076,
       "measures": [
@@ -58565,7 +58581,7 @@
       "datumOffset": 5.98,
       "easting": 568674,
       "gridReference": "TQ6867450327",
-      "label": "Yalding Hamstead Lock River Level",
+      "label": "Yalding Hamstead Lock",
       "lat": 51.227207,
       "long": 0.414329,
       "measures": [
@@ -59373,12 +59389,44 @@
           "unitName": "mAOD"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-1-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-2-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-3-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "3",
+          "unitName": "mm"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mm"
         }
       ],
       "northing": 181023,
@@ -59868,7 +59916,7 @@
       "dateOpened": "2000-01-01",
       "easting": 551938,
       "gridReference": "TQ5193878139",
-      "label": "Erith Deep Wharf TL",
+      "label": "Erith Deep Wharf",
       "lat": 51.481798,
       "long": 0.186705,
       "measures": [
@@ -60289,6 +60337,14 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3004TH-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
           "unitName": "mAOD"
         }
       ],
@@ -60762,6 +60818,14 @@
           "period": 900,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E22300-southern-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
         }
       ],
       "notation": "E22300-southern",
@@ -61046,6 +61110,14 @@
       "lat": 51.295832,
       "long": -0.544825,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3088TH-level-downstage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3088TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
@@ -61513,7 +61585,7 @@
       "dateOpened": "1986-11-01",
       "easting": 504677,
       "gridReference": "TQ0467786493",
-      "label": "Denham Lodge (Main)",
+      "label": "Denham Lodge",
       "lat": 51.567599,
       "long": -0.49112,
       "measures": [
@@ -62494,6 +62566,14 @@
       "long": -0.537112,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3078TH-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3078TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -63088,7 +63168,7 @@
       "datumOffset": 102.737,
       "easting": 544193,
       "gridReference": "TQ4491353988",
-      "label": "Westerham River Level",
+      "label": "Westerham",
       "lat": 51.266809,
       "long": 0.065457,
       "measures": [
@@ -63247,7 +63327,7 @@
       "datumOffset": 0,
       "easting": 511722,
       "gridReference": "TQ1172233150",
-      "label": "Alfoldean GS",
+      "label": "Alfoldean",
       "lat": 51.086792,
       "long": -0.406225,
       "measures": [
@@ -63716,6 +63796,14 @@
           "unitName": "mASD"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1919TH-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1919TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -63926,6 +64014,14 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2421TH-level-height-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Height",
           "unitName": "mASD"
         },
         {
@@ -64814,7 +64910,7 @@
       "dateOpened": "2002-04-12",
       "easting": 438782,
       "gridReference": "SU3874002324",
-      "label": "Beaulieu Sluice Tide",
+      "label": "Beaulieu",
       "lat": 50.819049,
       "long": -1.450824,
       "measures": [
@@ -65742,6 +65838,14 @@
       "long": -0.593392,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-downstage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-height-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -65798,6 +65902,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2872TH-level-stage-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mm"
         }
       ],
       "northing": 174395,
@@ -67168,7 +67280,7 @@
       "dateOpened": "1993-09-29",
       "easting": 546236,
       "gridReference": "TQ4623655013",
-      "label": "Park Farm River Level",
+      "label": "Park Farm",
       "lat": 51.275499,
       "long": 0.095139,
       "measures": [
@@ -67310,7 +67422,7 @@
       "dateOpened": "2012-03-28",
       "easting": 457712,
       "gridReference": "SZ5771085593",
-      "label": "Alverstone RL",
+      "label": "Alverstone",
       "lat": 50.667206,
       "long": -1.184737,
       "measures": [
@@ -67615,7 +67727,7 @@
       "dateOpened": "2007-09-27",
       "easting": 543310,
       "gridReference": "TQ4331014875",
-      "label": "Barcombe TL",
+      "label": "Barcombe",
       "lat": 50.915549,
       "long": 0.037303,
       "measures": [
@@ -68675,7 +68787,7 @@
       "dateOpened": "2002-04-12",
       "easting": 438740,
       "gridReference": "SU3880402334",
-      "label": "Beaulieu Sluice river",
+      "label": "Beaulieu",
       "lat": 50.819258,
       "long": -1.451418,
       "measures": [
@@ -70997,6 +71109,14 @@
           "period": 900,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2202SO-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
         }
       ],
       "notation": "2202SO",
@@ -72377,7 +72497,7 @@
       "dateOpened": "1999-08-25",
       "easting": 436513,
       "gridReference": "SU 36513 12526",
-      "label": "Eling Tide mill tide",
+      "label": "Eling",
       "lat": 50.911049,
       "long": -1.482017,
       "measures": [
@@ -72444,7 +72564,7 @@
       "dateOpened": "2009-08-25",
       "easting": 436500,
       "gridReference": "SU3650012500",
-      "label": "Eling Tide mill River",
+      "label": "Eling",
       "lat": 50.910816,
       "long": -1.482204,
       "measures": [
@@ -73475,6 +73595,14 @@
           "period": 900,
           "qualifier": "2",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 261800,
@@ -73944,6 +74072,14 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ54_102-level-groundwater-i-30_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 1800,
           "qualifier": "Groundwater",
           "unitName": "m"
         }
@@ -75652,6 +75788,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E25767-level-stage-i-30_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 1800,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 256600,
@@ -76612,6 +76756,14 @@
       "label": "CHALTON GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11600-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11600-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -76662,6 +76814,14 @@
       "gridReference": "SU3976",
       "label": "NORTHFIELD FARM OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -76747,6 +76907,14 @@
       "label": "HODCOTT 2 OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU48_72B-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU48_72B-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -76763,6 +76931,14 @@
       "gridReference": "SP9705",
       "label": "Ashley Green STW OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP90_64-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP90_64-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -77672,6 +77848,14 @@
       "long": -0.517993,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2877TH-level-1-i-15_min-_",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "%"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2877TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78283,6 +78467,14 @@
       "label": "MARCHAM OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU49_75B-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU49_75B-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78562,6 +78754,14 @@
       "gridReference": "SU4578",
       "label": "Gibbet Cottage OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -79860,6 +80060,14 @@
       "label": "Macmillan Way OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -79969,6 +80177,14 @@
       "gridReference": "SU3456",
       "label": "VERNHAM DEANE GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E13970-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E13970-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -80426,6 +80642,14 @@
       "label": "Great Shefford OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -80500,6 +80724,14 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -81921,6 +82153,14 @@
       "label": "Priors Heyes",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82209,6 +82449,14 @@
       "gridReference": "TQ0852",
       "label": "West Horsley Place OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -82731,6 +82979,14 @@
       "label": "Sankey Valley Ind Est",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-1-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "1",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82954,6 +83210,14 @@
       "lat": 51.44708,
       "long": -0.347907,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3678TH-level-downstage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3678TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
@@ -84785,7 +85049,7 @@
       "dateOpened": "2009-03-31",
       "easting": 255480,
       "gridReference": "SS5548033220",
-      "label": "Barnstaple Tide Gauge",
+      "label": "Barnstaple",
       "lat": 51.080046,
       "long": -4.064537,
       "measures": [
@@ -86268,6 +86532,14 @@
           "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 300,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
         }
       ],
       "northing": 319770,
@@ -87026,7 +87298,7 @@
       "datumOffset": 58.85,
       "easting": 610721,
       "gridReference": "TR1072137629",
-      "label": "Sellindge RL",
+      "label": "Sellindge",
       "lat": 51.099225,
       "long": 1.00828,
       "measures": [
@@ -87147,7 +87419,7 @@
       "dateOpened": "2002-12-02",
       "easting": 493976,
       "gridReference": "SU9397600612",
-      "label": "Bognor (Aldingbourne)",
+      "label": "Bognor",
       "lat": 50.797459,
       "long": -0.667903,
       "measures": [
@@ -87934,7 +88206,7 @@
       ],
       "northing": 91940,
       "notation": "E14680",
-      "riverName": "Monkton Mead",
+      "riverName": "Monktonmead Brook",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E14680/stageScale",
       "stationReference": "E14680",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
@@ -89628,12 +89900,28 @@
       "label": "High View (Kimpton) OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9409SE-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9409SE-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9409SE-level-groundwater-i-1_h-mBDAT",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mBDAT"
         }
       ],
       "notation": "9409SE",
@@ -89772,7 +90060,7 @@
       "datumOffset": 0,
       "easting": 536390,
       "gridReference": "TL3639014125",
-      "label": "Tumbling Bay Weir DS",
+      "label": "Tumbling Bay Weir",
       "lat": 51.809124,
       "long": -0.023037,
       "measures": [
@@ -102771,6 +103059,14 @@
       "long": -0.73336,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -110924,7 +111220,7 @@
       "dateOpened": "2017-11-30",
       "easting": 325284,
       "gridReference": "ST2528425701",
-      "label": "Bathpool Outfall River Tone",
+      "label": "Bathpool Outfall",
       "lat": 51.025799,
       "long": -3.066732,
       "measures": [
@@ -111098,6 +111394,14 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9430SO-level-groundwater-i-1_h-mBDAT",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mBDAT"
         }
       ],
       "notation": "9430SO",
@@ -111707,7 +112011,7 @@
       "dateOpened": "2003-07-12",
       "easting": 454271,
       "gridReference": "SU5427105903",
-      "label": "Titchfield RL",
+      "label": "Titchfield",
       "lat": 50.850105,
       "long": -1.230435,
       "measures": [
@@ -112836,7 +113140,7 @@
       "dateOpened": "2005-09-01",
       "easting": 468791,
       "gridReference": "SU6879100087",
-      "label": "LANGSTONE",
+      "label": "Langstone",
       "lat": 50.796271,
       "long": -1.025294,
       "measures": [
@@ -112961,7 +113265,7 @@
       "datumOffset": 0.011,
       "easting": 459899,
       "gridReference": "SZ5989992541",
-      "label": "Monkton Mead US",
+      "label": "Monkton Mead",
       "lat": 50.729406,
       "long": -1.152672,
       "measures": [
@@ -112976,7 +113280,7 @@
       ],
       "northing": 92541,
       "notation": "E15060",
-      "riverName": "Monkton Mead",
+      "riverName": "Monktonmead Brook",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E15060/stageScale",
       "stationReference": "E15060",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
@@ -114909,6 +115213,14 @@
       "label": "East Dean Butchers Lane GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2825SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2825SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -115045,7 +115357,7 @@
       "dateOpened": "2012-03-02",
       "easting": 386591,
       "gridReference": "SO8659118944",
-      "label": "Zoons Court River Level",
+      "label": "Zoons Court",
       "lat": 51.868901,
       "long": -2.196147,
       "measures": [
@@ -115306,7 +115618,7 @@
       "dateOpened": "2017-07-26",
       "easting": 508218,
       "gridReference": "TQ0821888451",
-      "label": "Howletts Lane, Ruislip (TEMP)",
+      "label": "Howletts Lane, Ruislip (Temporary)",
       "lat": 51.58453,
       "long": -0.439448,
       "measures": [
@@ -121125,7 +121437,7 @@
       "dateOpened": "2000-01-01",
       "easting": 623067,
       "gridReference": "TR2306757493",
-      "label": "Wingham Road GWL",
+      "label": "Wingham Road",
       "lat": 51.272897,
       "long": 1.196653,
       "measures": [
@@ -123054,7 +123366,7 @@
       "dateOpened": "1994-05-24",
       "easting": 334449,
       "gridReference": "SJ3444917096",
-      "label": "Cae Howel (New Cut)",
+      "label": "Cae Howel",
       "lat": 52.747481,
       "long": -2.972523,
       "measures": [
