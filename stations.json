@@ -64305,20 +64305,20 @@
       "long": 0.032669,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mASD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
-          "unitName": "mASD"
+          "unitName": "mAOD"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "mASD"
+          "unitName": "mAOD"
         }
       ],
       "northing": 174515,
@@ -118656,7 +118656,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E1722",
       "easting": 527044,
       "gridReference": "TA2704409577",
-      "label": "FRESHNEY PS GRIMSBY",
+      "label": "FRESHNEY PS GRIMSBY WITS",
       "lat": 53.567416,
       "long": -0.083112,
       "measures": [
