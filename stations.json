@@ -66621,6 +66621,14 @@
       "long": -0.322425,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3697TH-level-downstage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3697TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -67469,6 +67477,14 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3399TH-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 169850,
@@ -122311,7 +122327,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4934",
       "easting": 510820,
       "gridReference": "TF1082062220",
-      "label": "METHERINGHAM DELPH SLUICE",
+      "label": "METHERINGHAM DELPH SLUICE WITS",
       "lat": 53.145596,
       "long": -0.344543,
       "measures": [
@@ -122661,10 +122677,10 @@
       "long": 0.236553,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0100LB-level-1-i-1_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0100LB-level-1-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
-          "period": 60,
+          "period": 900,
           "qualifier": "1",
           "unitName": "mAOD"
         }
