@@ -75573,7 +75573,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22018",
       "easting": 621000,
       "gridReference": "TG2100005000",
-      "label": "KESWICK MILL SLUICE GSM",
+      "label": "KESWICK MILL SLUICE GSM NEW",
       "lat": 52.597814,
       "long": 1.261783,
       "measures": [
@@ -77449,7 +77449,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E27454",
       "easting": 524146,
       "gridReference": "TA2414609171",
-      "label": "GRIMSBY GREAT COATES BRIDGE GS",
+      "label": "GRIMSBY GREAT COATES BRIDGE GS WITS",
       "lat": 53.564461,
       "long": -0.127006,
       "measures": [
@@ -80372,7 +80372,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E27452",
       "easting": 524146,
       "gridReference": "TA2414609171",
-      "label": "GRIMSBY GREAT COATES BRIDGE GS",
+      "label": "GRIMSBY GREAT COATES BRIDGE GS WITS",
       "lat": 53.564461,
       "long": -0.127006,
       "measures": [
@@ -122037,6 +122037,14 @@
       "lat": 53.726549,
       "long": -1.518386,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L1719-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L1719-level-stage-i-15_min-m",
           "parameter": "level",
