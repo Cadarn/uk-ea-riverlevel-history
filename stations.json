@@ -71829,7 +71829,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E26181",
       "easting": 507580,
       "gridReference": "TL0758075332",
-      "label": "ELLINGTON BROOK GS GSM",
+      "label": "ELLINGTON BROOK GS WITS",
       "lat": 52.365481,
       "long": -0.421447,
       "measures": [
@@ -123576,6 +123576,27 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Brampton",
       "wiskiID": "763404"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SE730",
+      "easting": 576290,
+      "gridReference": "TQ7629055630",
+      "label": "LENSIDE GS",
+      "lat": 51.272544,
+      "long": 0.525902,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SE730-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 155630,
+      "notation": "SE730",
+      "stationReference": "SE730"
     }
   ]
 }
