@@ -20727,6 +20727,14 @@
       "long": -1.789021,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L1605-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L1605-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -58479,7 +58487,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E26921",
       "easting": 604600,
       "gridReference": "TM0460059800",
-      "label": "GIPPING RESERVOIR SLUICE GSM NEW",
+      "label": "GIPPING RESERVOIR SLUICE",
       "lat": 52.19844,
       "long": 0.992405,
       "measures": [
