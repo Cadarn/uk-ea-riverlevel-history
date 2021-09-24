@@ -28967,6 +28967,14 @@
           "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0019-level-tidal_level-i-1_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 60,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
         }
       ],
       "northing": 183020,
@@ -75942,7 +75950,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E24804",
       "easting": 607500,
       "gridReference": "TG0750007500",
-      "label": "BARNHAM BROOM WITS",
+      "label": "BARNHAM BROOM GS",
       "lat": 52.625574,
       "long": 1.064334,
       "measures": [
@@ -123680,6 +123688,363 @@
       "northing": 118750,
       "notation": "340767",
       "stationReference": "340767"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71283",
+      "easting": 274095,
+      "gridReference": "SX7409566088",
+      "label": "BUCKFASTLEIGH KINGCOMBE COURT",
+      "lat": 50.481043,
+      "long": -3.775925,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E71283-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 66088,
+      "notation": "E71283",
+      "stationReference": "E71283"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71983",
+      "easting": 278400,
+      "gridReference": "SX7840056088",
+      "label": "HARBERTONFORD YEOLANDS",
+      "lat": 50.392063,
+      "long": -3.71203,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E71983-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 56088,
+      "notation": "E71983",
+      "stationReference": "E71983"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71963",
+      "easting": 278353,
+      "gridReference": "SX7835356245",
+      "label": "HARBERTONFORD CHURCH",
+      "lat": 50.393464,
+      "long": -3.712742,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E71963-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 56245,
+      "notation": "E71963",
+      "stationReference": "E71963"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E80863",
+      "easting": 295767,
+      "gridReference": "SX9576794071",
+      "label": "EXETER PINHOE TRADING ESTATE",
+      "lat": 50.736865,
+      "long": -3.478452,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E80863-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 94071,
+      "notation": "E80863",
+      "stationReference": "E80863"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71943",
+      "easting": 291596,
+      "gridReference": "SS9159628065",
+      "label": "DULVERTON TOWN MARSH",
+      "lat": 51.041677,
+      "long": -3.547634,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E71943-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 128065,
+      "notation": "E71943",
+      "stationReference": "E71943"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84069",
+      "easting": 259932,
+      "gridReference": "SS5993230986",
+      "label": "LANDKEY NEWLAND TANNERS ROAD",
+      "lat": 51.061074,
+      "long": -4.000156,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E84069-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 130986,
+      "notation": "E84069",
+      "stationReference": "E84069"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E72003",
+      "easting": 273622,
+      "gridReference": "SX7362244525",
+      "label": "KINGSBRIDGE DUNCOMBE ST",
+      "lat": 50.287115,
+      "long": -3.775334,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E72003-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 44525,
+      "notation": "E72003",
+      "stationReference": "E72003"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E80535",
+      "easting": 251214,
+      "gridReference": "SS5121445902",
+      "label": "ILFRACOMBE SALTMER CLOSE",
+      "lat": 51.192912,
+      "long": -4.130635,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E80535-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 145902,
+      "notation": "E80535",
+      "stationReference": "E80535"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84089",
+      "easting": 301661,
+      "gridReference": "ST0166106433",
+      "label": "CULLOMPTON SWALLOW WAY",
+      "lat": 50.849027,
+      "long": -3.398268,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E84089-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 106433,
+      "notation": "E84089",
+      "stationReference": "E84089"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E81959",
+      "easting": 282016,
+      "gridReference": "SX8201677078",
+      "label": "BOVEY TRACEY WIFFORD FOOTBRIDGE",
+      "lat": 50.581483,
+      "long": -3.667814,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E81959-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 77078,
+      "notation": "E81959",
+      "stationReference": "E81959"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84169",
+      "easting": 300125,
+      "gridReference": "SY0012586668",
+      "label": "WOODBURY RYDON LANE",
+      "lat": 50.671079,
+      "long": -3.41471,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E84169-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 86668,
+      "notation": "E84169",
+      "stationReference": "E84169"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84049",
+      "easting": 306152,
+      "gridReference": "SY0615281988",
+      "label": "BUDLEIGH SALTERTON STATION ROAD",
+      "lat": 50.630009,
+      "long": -3.328259,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E84049-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 81988,
+      "notation": "E84049",
+      "stationReference": "E84049"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E81939",
+      "easting": 329941,
+      "gridReference": "SY2994199251",
+      "label": "AXMINSTER WILHAY LANE",
+      "lat": 50.788575,
+      "long": -2.995254,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E81939-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 99251,
+      "notation": "E81939",
+      "stationReference": "E81939"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84009",
+      "easting": 311659,
+      "gridReference": "SY1165989508",
+      "label": "SIDMOUTH HIGHER WOOLBROOK ROAD",
+      "lat": 50.69848,
+      "long": -3.252214,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E84009-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 89508,
+      "notation": "E84009",
+      "stationReference": "E84009"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E81979",
+      "easting": 301984,
+      "gridReference": "SY0198495053",
+      "label": "ROCKBEARE BRIDGE",
+      "lat": 50.746777,
+      "long": -3.39064,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E81979-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 95053,
+      "notation": "E81979",
+      "stationReference": "E81979"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84029",
+      "easting": 308330,
+      "gridReference": "SY0833085311",
+      "label": "OTTERTON FORE STREET GIBBONHOLE",
+      "lat": 50.660231,
+      "long": -3.298296,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E84029-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 85311,
+      "notation": "E84029",
+      "stationReference": "E84029"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71313",
+      "easting": 292231,
+      "gridReference": "SX9223196326",
+      "label": "EXETER PYNES STAFFORD BRIDGE",
+      "lat": 50.75649,
+      "long": -3.529203,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E71313-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 96326,
+      "notation": "E71313",
+      "stationReference": "E71313"
     }
   ]
 }
