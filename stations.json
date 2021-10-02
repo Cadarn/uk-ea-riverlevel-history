@@ -124037,6 +124037,27 @@
       "northing": 96326,
       "notation": "E71313",
       "stationReference": "E71313"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4208",
+      "easting": 462317,
+      "gridReference": "SK6231741782",
+      "label": "Nottingham Carlton Ouse Dyke",
+      "lat": 52.969773,
+      "long": -1.07353,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4208-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 341782,
+      "notation": "4208",
+      "stationReference": "4208"
     }
   ]
 }
