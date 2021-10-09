@@ -62758,7 +62758,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/49119",
       "easting": 223169,
       "gridReference": "SX2316970322",
-      "label": "SIBLYBACK",
+      "label": "SIBLYBACK WITS",
       "lat": 50.505924,
       "long": -4.495089,
       "measures": [
@@ -124069,6 +124069,27 @@
       "northing": 146251,
       "notation": "E15657",
       "stationReference": "E15657"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2548",
+      "easting": 348845,
+      "gridReference": "SO4884567167",
+      "label": "Ludlow Orleton Millbrook Way",
+      "lat": 52.300223,
+      "long": -2.751577,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2548-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 267167,
+      "notation": "2548",
+      "stationReference": "2548"
     }
   ]
 }
