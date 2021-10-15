@@ -29812,6 +29812,14 @@
       "long": -0.736289,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2419TH-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2419TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -59482,14 +59490,6 @@
           "period": 900,
           "qualifier": "1",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 181023,
@@ -64352,28 +64352,12 @@
           "unitName": "mAOD"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Downstream Stage",
-          "unitName": "mASD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -66854,7 +66838,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/46131",
       "easting": 290199,
       "gridReference": "SX9019972408",
-      "label": "COOMBE CELLARS",
+      "label": "COOMBE CELLARS WITS",
       "lat": 50.5411,
       "long": -3.550902,
       "measures": [
@@ -66955,7 +66939,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/46132",
       "easting": 290199,
       "gridReference": "SX9019972408",
-      "label": "COOMBE CELLARS",
+      "label": "COOMBE CELLARS WITS",
       "lat": 50.5411,
       "long": -3.550902,
       "measures": [
@@ -124114,6 +124098,69 @@
       "stationReference": "4671",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "wiskiID": "2548"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/604142",
+      "easting": 354650,
+      "gridReference": "NY546551",
+      "label": "Rainfall station",
+      "lat": 54.889007,
+      "long": -2.708497,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/604142-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 555150,
+      "notation": "604142",
+      "stationReference": "604142"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/F1701",
+      "easting": 446891,
+      "gridReference": "SE4689127109",
+      "label": "Fairburn Sluices",
+      "lat": 53.738253,
+      "long": -1.290587,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F1701-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 427109,
+      "notation": "F1701",
+      "stationReference": "F1701"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/F1960",
+      "easting": 402481,
+      "gridReference": "SE0248164255",
+      "label": "Hebden",
+      "lat": 54.074204,
+      "long": -1.96357,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F1960-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 464255,
+      "notation": "F1960",
+      "stationReference": "F1960"
     }
   ]
 }
