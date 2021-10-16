@@ -59490,6 +59490,14 @@
           "period": 900,
           "qualifier": "1",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 181023,
@@ -64352,12 +64360,28 @@
           "unitName": "mAOD"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -66838,7 +66862,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/46131",
       "easting": 290199,
       "gridReference": "SX9019972408",
-      "label": "COOMBE CELLARS WITS",
+      "label": "COOMBE CELLARS",
       "lat": 50.5411,
       "long": -3.550902,
       "measures": [
@@ -66939,7 +66963,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/46132",
       "easting": 290199,
       "gridReference": "SX9019972408",
-      "label": "COOMBE CELLARS WITS",
+      "label": "COOMBE CELLARS",
       "lat": 50.5411,
       "long": -3.550902,
       "measures": [
@@ -94961,6 +94985,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
