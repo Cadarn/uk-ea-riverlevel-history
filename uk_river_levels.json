@@ -69,12 +69,6 @@
       "value": 0.443
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E26141-level-stage-i-15_min-mAOD/2021-10-25T12-00-00Z",
-      "dateTime": "2021-10-25T12:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E26141-level-stage-i-15_min-mAOD",
-      "value": 29.209
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E22152-level-stage-i-15_min-m/2021-10-22T06-00-00Z",
       "dateTime": "2021-10-22T06:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E22152-level-stage-i-15_min-m",
@@ -135,12 +129,6 @@
       "value": 0.406
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/L2922-level-stage-i-15_min-mAOD/2021-10-25T08-00-00Z",
-      "dateTime": "2021-10-25T08:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2922-level-stage-i-15_min-mAOD",
-      "value": 4.196
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/48122-level-stage-i-15_min-m/2021-10-25T04-00-00Z",
       "dateTime": "2021-10-25T04:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/48122-level-stage-i-15_min-m",
@@ -153,12 +141,6 @@
       "value": 1.104
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E23730-level-stage-i-15_min-m/2021-10-25T12-15-00Z",
-      "dateTime": "2021-10-25T12:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23730-level-stage-i-15_min-m",
-      "value": 0.256
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2029-level-stage-i-15_min-mASD/2021-10-21T00-30-00Z",
       "dateTime": "2021-10-21T00:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2029-level-stage-i-15_min-mASD",
@@ -169,24 +151,6 @@
       "dateTime": "2021-10-14T06:45:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/4026-level-downstage-i-15_min-mASD",
       "value": -1.446
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E24317-level-stage-i-15_min-mASD/2021-10-25T09-00-00Z",
-      "dateTime": "2021-10-25T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24317-level-stage-i-15_min-mASD",
-      "value": 0.031
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2301TH-level-downstage-i-15_min-mASD/2021-10-25T11-00-00Z",
-      "dateTime": "2021-10-25T11:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2301TH-level-downstage-i-15_min-mASD",
-      "value": 2.251
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2301TH-level-stage-i-15_min-mASD/2021-10-25T11-00-00Z",
-      "dateTime": "2021-10-25T11:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2301TH-level-stage-i-15_min-mASD",
-      "value": 0.211
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E23974-level-stage-i-15_min-mAOD/2018-05-27T15-00-00Z",
@@ -207,28 +171,10 @@
       "value": 3.544
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/38_BRENT_RES-level-stage-i-5_min-mASD/2021-10-25T09-20-00Z",
-      "dateTime": "2021-10-25T09:20:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/38_BRENT_RES-level-stage-i-5_min-mASD",
-      "value": -1.053
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/44137-level-tidal_level-i-15_min-mAOD/2021-10-13T09-30-00Z",
       "dateTime": "2021-10-13T09:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/44137-level-tidal_level-i-15_min-mAOD",
       "value": 2.508
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/49119-level-stage-i-15_min-m/2021-10-25T14-00-00Z",
-      "dateTime": "2021-10-25T14:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/49119-level-stage-i-15_min-m",
-      "value": 0.275
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU89_101-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU89_101-level-groundwater-i-1_h-mAOD",
-      "value": 21.864
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/744010-level-stage-i-15_min-m/2021-10-18T11-00-00Z",
@@ -243,22 +189,10 @@
       "value": 11.243
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E7441-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
-      "dateTime": "2021-10-25T08:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7441-level-stage-i-15_min-mAOD",
-      "value": 1.129
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/43237-flow-1-i-15_min-m3_s/2021-10-12T13-30-00Z",
       "dateTime": "2021-10-12T13:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-1-i-15_min-m3_s",
       "value": 0.23
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E11190-level-groundwater-i-15_min-mAOD/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11190-level-groundwater-i-15_min-mAOD",
-      "value": 47.35
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E24817-level-stage-i-15_min-m/2021-10-25T05-30-00Z",
@@ -295,12 +229,6 @@
       "dateTime": "2021-10-24T06:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4752-level-groundwater-i-1_h-mAOD",
       "value": 58.2
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/43168-level-groundwater-i-15_min-mAOD/2021-10-25T09-00-00Z",
-      "dateTime": "2021-10-25T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/43168-level-groundwater-i-15_min-mAOD",
-      "value": 55.541
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E26951-level-stage-i-15_min-mAOD/2021-10-24T05-15-00Z",
@@ -357,52 +285,10 @@
       "value": 2.792
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/43169-level-groundwater-i-15_min-mAOD/2021-10-25T09-00-00Z",
-      "dateTime": "2021-10-25T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/43169-level-groundwater-i-15_min-mAOD",
-      "value": 109.801
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU37_63-level-groundwater-i-1_h-mAOD/2021-10-25T09-00-00Z",
-      "dateTime": "2021-10-25T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h-mAOD",
-      "value": 107.213
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/26102-level-groundwater-i-1_h-mBDAT/2021-10-25T12-00-00Z",
-      "dateTime": "2021-10-25T12:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/26102-level-groundwater-i-1_h-mBDAT",
-      "value": 14.18
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/43185-level-groundwater-i-15_min-m/2021-10-25T09-00-00Z",
-      "dateTime": "2021-10-25T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/43185-level-groundwater-i-15_min-m",
-      "value": 57.457
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SP62_1-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP62_1-level-groundwater-i-1_h-mAOD",
-      "value": 95.559
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E9190-level-groundwater-i-1_h-mAOD/2021-10-25T07-00-00Z",
       "dateTime": "2021-10-25T07:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E9190-level-groundwater-i-1_h-mAOD",
       "value": 29.122
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/431101-level-groundwater-i-15_min-m/2021-10-25T09-00-00Z",
-      "dateTime": "2021-10-25T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/431101-level-groundwater-i-15_min-m",
-      "value": 11.216
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/44237-level-groundwater-i-15_min-mAOD/2021-10-25T09-00-00Z",
-      "dateTime": "2021-10-25T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/44237-level-groundwater-i-15_min-mAOD",
-      "value": 153.988
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2878B-level-groundwater-i-1_h-mBDAT/2021-10-18T09-00-00Z",
@@ -429,34 +315,10 @@
       "value": 14.543
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU47_141-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
-      "value": 111.792
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SP00_62-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP00_62-level-groundwater-i-1_h-mAOD",
-      "value": 100.806
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E5032-level-groundwater-i-15_min-mAOD/2021-10-13T09-00-00Z",
       "dateTime": "2021-10-13T09:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E5032-level-groundwater-i-15_min-mAOD",
       "value": 2.684
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU17_57-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU17_57-level-groundwater-i-1_h-mAOD",
-      "value": 130.336
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/TQ36_38-level-groundwater-i-1_h-mAOD/2021-10-25T16-00-00Z",
-      "dateTime": "2021-10-25T16:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ36_38-level-groundwater-i-1_h-mAOD",
-      "value": 59.872
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SJ56_90B-level-groundwater-i-1_h-m/2021-10-01T07-00-00Z",
@@ -471,22 +333,10 @@
       "value": 1.179
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/TQ04_74-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ04_74-level-groundwater-i-1_h-mAOD",
-      "value": 83.912
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SJ38_78-level-groundwater-i-1_h-m/2021-10-25T07-00-00Z",
       "dateTime": "2021-10-25T07:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ38_78-level-groundwater-i-1_h-m",
       "value": 14.448
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU47_140-level-groundwater-i-1_h-mAOD/2021-10-25T13-00-00Z",
-      "dateTime": "2021-10-25T13:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_140-level-groundwater-i-1_h-mAOD",
-      "value": 96.479
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SJ37_019-level-groundwater-i-1_h-m/2021-10-01T07-00-00Z",
@@ -501,22 +351,10 @@
       "value": 35.562
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU76_44-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU76_44-level-groundwater-i-1_h-mAOD",
-      "value": 36.742
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SJ47_63-level-groundwater-i-1_h-m/2021-10-01T07-00-00Z",
       "dateTime": "2021-10-01T07:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ47_63-level-groundwater-i-1_h-m",
       "value": 4.298
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU97_114-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU97_114-level-groundwater-i-1_h-mAOD",
-      "value": 25.209
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SJ44_088-level-groundwater-i-1_h-m/2021-10-25T07-00-00Z",
@@ -531,22 +369,10 @@
       "value": 21.63
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/TQ05_12-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
-      "value": 60.074
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SJ44_058-level-groundwater-i-1_h-m/2021-10-23T07-00-00Z",
       "dateTime": "2021-10-23T07:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ44_058-level-groundwater-i-1_h-m",
       "value": 13.633
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU47_135-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_135-level-groundwater-i-1_h-mAOD",
-      "value": 111.104
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SJ39_134-level-groundwater-i-1_h-m/2021-10-01T07-00-00Z",
@@ -559,36 +385,6 @@
       "dateTime": "2021-10-21T05:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/9403SE-level-groundwater-i-1_h-mAOD",
       "value": 75.877
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU99_67-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU99_67-level-groundwater-i-1_h-mAOD",
-      "value": 77.499
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/TA06MF00CC-level-groundwater-i-15_min-mAOD/2021-10-25T08-30-00Z",
-      "dateTime": "2021-10-25T08:30:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/TA06MF00CC-level-groundwater-i-15_min-mAOD",
-      "value": 23.88
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E4400-level-stage-i-15_min-m/2021-10-25T09-30-00Z",
-      "dateTime": "2021-10-25T09:30:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4400-level-stage-i-15_min-m",
-      "value": 0.016
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/TL01_176-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/TL01_176-level-groundwater-i-1_h-mAOD",
-      "value": 109.607
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E6217-level-groundwater-i-15_min-mAOD/2021-10-25T09-00-00Z",
-      "dateTime": "2021-10-25T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6217-level-groundwater-i-15_min-mAOD",
-      "value": 8.168
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E4810-level-stage-i-15_min-mAOD/2021-02-11T04-30-00Z",
@@ -609,12 +405,6 @@
       "value": 7.8
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/9237SE-level-groundwater-i-1_h-mAOD/2021-10-25T14-00-00Z",
-      "dateTime": "2021-10-25T14:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/9237SE-level-groundwater-i-1_h-mAOD",
-      "value": 87.517
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E41434-level-stage-i-15_min-mAOD/2021-10-04T05-15-00Z",
       "dateTime": "2021-10-04T05:15:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E41434-level-stage-i-15_min-mAOD",
@@ -627,36 +417,6 @@
       "value": 6.963
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/46839-level-stage-i-15_min-mASD/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/46839-level-stage-i-15_min-mASD",
-      "value": 0.8
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E14320-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
-      "dateTime": "2021-10-25T08:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E14320-level-stage-i-15_min-mAOD",
-      "value": 0.956
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/242534TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/242534TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/000181TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/000181TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/242819TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/242819TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/48148-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-12T04-00-00Z",
       "dateTime": "2021-10-12T04:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/48148-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -666,12 +426,6 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E4753-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-24T06-30-00Z",
       "dateTime": "2021-10-24T06:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4753-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/52100-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T15-00-00Z",
-      "dateTime": "2021-10-25T15:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/52100-rainfall-tipping_bucket_raingauge-t-15_min-mm",
       "value": 0
     },
     {
@@ -699,39 +453,9 @@
       "value": 10
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/261021TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/261021TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/239258TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/239258TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E43041-rainfall-tipping_bucket_raingauge-t-15_min-mm/2020-06-12T10-30-00Z",
       "dateTime": "2020-06-12T10:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E43041-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/266474TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/266474TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/246424TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/246424TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/276956TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/276956TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
       "value": 0
     },
     {
@@ -741,45 +465,9 @@
       "value": 0
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/240350TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T17-15-00Z",
-      "dateTime": "2021-10-25T17:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/240350TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/278744TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/278744TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E802-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T14-00-00Z",
-      "dateTime": "2021-10-25T14:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E802-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/282290TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/282290TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/263541TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T14-00-00Z",
-      "dateTime": "2021-10-25T14:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/263541TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E22309-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-21T04-30-00Z",
       "dateTime": "2021-10-21T04:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E22309-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/276651TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/276651TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
       "value": 0
     },
     {
@@ -789,87 +477,15 @@
       "value": 0
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E19017-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T14-00-00Z",
-      "dateTime": "2021-10-25T14:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E19017-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/240662TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T13-15-00Z",
-      "dateTime": "2021-10-25T13:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/240662TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E22735-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-22T06-30-00Z",
       "dateTime": "2021-10-22T06:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E22735-rainfall-tipping_bucket_raingauge-t-15_min-mm",
       "value": 0
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/240470TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/240470TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/243679TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/243679TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/247344TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/247344TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/245176TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/245176TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E11191-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11191-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/254336TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/254336TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/276036TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T10-15-00Z",
-      "dateTime": "2021-10-25T10:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/276036TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E24585-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-01T06-30-00Z",
       "dateTime": "2021-10-01T06:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24585-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/288092TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/288092TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/243543TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/243543TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E8020-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8020-rainfall-tipping_bucket_raingauge-t-15_min-mm",
       "value": 0
     },
     {
@@ -885,12 +501,6 @@
       "value": -3.034
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E14284-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
-      "dateTime": "2021-10-25T08:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E14284-level-stage-i-15_min-mAOD",
-      "value": 6.945
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E14261-level-stage-i-15_min-mASD/2021-10-21T08-15-00Z",
       "dateTime": "2021-10-21T08:15:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E14261-level-stage-i-15_min-mASD",
@@ -901,48 +511,6 @@
       "dateTime": "2021-10-24T05:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/693027-level-stage-i-15_min-m",
       "value": 0.278
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2509SO-level-downstage-i-15_min-mAOD/2021-10-25T08-45-00Z",
-      "dateTime": "2021-10-25T08:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2509SO-level-downstage-i-15_min-mAOD",
-      "value": 32.747
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E9960-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
-      "dateTime": "2021-10-25T08:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E9960-level-stage-i-15_min-mAOD",
-      "value": 35.423
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E14262-flow--i-15_min-m3_s/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E14262-flow--i-15_min-m3_s",
-      "value": 0.085
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU17_80-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU17_80-level-groundwater-i-1_h-mAOD",
-      "value": 130.238
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU47_27-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_27-level-groundwater-i-1_h-mAOD",
-      "value": 93.874
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU96_70_-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
-      "dateTime": "2021-10-25T10:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU96_70_-level-groundwater-i-1_h-mAOD",
-      "value": 40.209
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU_98_98C_-level-groundwater-i-1_h-mAOD/2021-10-25T11-00-00Z",
-      "dateTime": "2021-10-25T11:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU_98_98C_-level-groundwater-i-1_h-mAOD",
-      "value": 50.574
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SD43_37-level-groundwater-i-1_h-m/2021-10-04T09-00-00Z",
@@ -957,22 +525,10 @@
       "value": 0
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/1822SO-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
-      "dateTime": "2021-10-25T09:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/1822SO-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0.4
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/45189-level-stage-i-15_min-m/2021-10-19T06-00-00Z",
       "dateTime": "2021-10-19T06:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/45189-level-stage-i-15_min-m",
       "value": 0.08
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/45263-level-stage-i-15_min-m/2021-10-25T09-00-00Z",
-      "dateTime": "2021-10-25T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/45263-level-stage-i-15_min-m",
-      "value": 0.083
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/744132-level-stage-i-15_min-m/2021-10-20T04-15-00Z",
@@ -981,34 +537,10 @@
       "value": 0.25
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E10420-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
-      "dateTime": "2021-10-25T08:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E10420-level-stage-i-15_min-mAOD",
-      "value": 25.095
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E9970-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
-      "dateTime": "2021-10-25T08:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E9970-level-stage-i-15_min-mAOD",
-      "value": 40.011
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2292BTH-level-stage-i-15_min-m/2021-10-19T10-00-00Z",
       "dateTime": "2021-10-19T10:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2292BTH-level-stage-i-15_min-m",
       "value": 41.83
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E81361-level-stage-i-15_min-m/2021-10-25T09-00-00Z",
-      "dateTime": "2021-10-25T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E81361-level-stage-i-15_min-m",
-      "value": 0.446
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/45174-level-groundwater-i-15_min-m/2021-10-25T09-00-00Z",
-      "dateTime": "2021-10-25T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/45174-level-groundwater-i-15_min-m",
-      "value": 17.35
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E49234-level-stage-i-15_min-mAOD/2021-10-25T04-00-00Z",
@@ -1047,12 +579,6 @@
       "value": 24.198
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E15657-level-stage-i-15_min-mASD/2021-10-25T10-30-00Z",
-      "dateTime": "2021-10-25T10:30:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E15657-level-stage-i-15_min-mASD",
-      "value": 0.782
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2419TH-level-stage-i-15_min----/2021-10-14T09-30-00Z",
       "dateTime": "2021-10-14T09:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2419TH-level-stage-i-15_min----",
@@ -1069,6 +595,480 @@
       "dateTime": "2021-10-21T08:15:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E14261-level-stage-i-15_min----",
       "value": 0.318
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/L2922-level-stage-i-15_min-mAOD/2021-10-25T08-00-00Z",
+      "dateTime": "2021-10-25T08:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/L2922-level-stage-i-15_min-mAOD",
+      "value": 4.196
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/TA06MF00CC-level-groundwater-i-15_min-mAOD/2021-10-25T08-30-00Z",
+      "dateTime": "2021-10-25T08:30:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/TA06MF00CC-level-groundwater-i-15_min-mAOD",
+      "value": 23.88
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E14284-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
+      "dateTime": "2021-10-25T08:45:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E14284-level-stage-i-15_min-mAOD",
+      "value": 6.945
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E9970-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
+      "dateTime": "2021-10-25T08:45:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E9970-level-stage-i-15_min-mAOD",
+      "value": 40.011
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2509SO-level-downstage-i-15_min-mAOD/2021-10-25T08-45-00Z",
+      "dateTime": "2021-10-25T08:45:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2509SO-level-downstage-i-15_min-mAOD",
+      "value": 32.747
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E9960-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
+      "dateTime": "2021-10-25T08:45:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E9960-level-stage-i-15_min-mAOD",
+      "value": 35.423
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E7441-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
+      "dateTime": "2021-10-25T08:45:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7441-level-stage-i-15_min-mAOD",
+      "value": 1.129
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E10420-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
+      "dateTime": "2021-10-25T08:45:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E10420-level-stage-i-15_min-mAOD",
+      "value": 25.095
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E14320-level-stage-i-15_min-mAOD/2021-10-25T08-45-00Z",
+      "dateTime": "2021-10-25T08:45:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E14320-level-stage-i-15_min-mAOD",
+      "value": 0.956
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/43169-level-groundwater-i-15_min-mAOD/2021-10-25T09-00-00Z",
+      "dateTime": "2021-10-25T09:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/43169-level-groundwater-i-15_min-mAOD",
+      "value": 109.801
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E81361-level-stage-i-15_min-m/2021-10-25T09-00-00Z",
+      "dateTime": "2021-10-25T09:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E81361-level-stage-i-15_min-m",
+      "value": 0.446
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/45174-level-groundwater-i-15_min-m/2021-10-25T09-00-00Z",
+      "dateTime": "2021-10-25T09:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/45174-level-groundwater-i-15_min-m",
+      "value": 17.35
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/45263-level-stage-i-15_min-m/2021-10-25T09-00-00Z",
+      "dateTime": "2021-10-25T09:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/45263-level-stage-i-15_min-m",
+      "value": 0.083
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/43185-level-groundwater-i-15_min-m/2021-10-25T09-00-00Z",
+      "dateTime": "2021-10-25T09:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/43185-level-groundwater-i-15_min-m",
+      "value": 57.457
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E6217-level-groundwater-i-15_min-mAOD/2021-10-25T09-00-00Z",
+      "dateTime": "2021-10-25T09:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6217-level-groundwater-i-15_min-mAOD",
+      "value": 8.168
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/431101-level-groundwater-i-15_min-m/2021-10-25T09-00-00Z",
+      "dateTime": "2021-10-25T09:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/431101-level-groundwater-i-15_min-m",
+      "value": 11.216
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E24317-level-stage-i-15_min-mASD/2021-10-25T09-00-00Z",
+      "dateTime": "2021-10-25T09:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24317-level-stage-i-15_min-mASD",
+      "value": 0.031
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/43168-level-groundwater-i-15_min-mAOD/2021-10-25T09-00-00Z",
+      "dateTime": "2021-10-25T09:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/43168-level-groundwater-i-15_min-mAOD",
+      "value": 55.541
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/44237-level-groundwater-i-15_min-mAOD/2021-10-25T09-00-00Z",
+      "dateTime": "2021-10-25T09:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/44237-level-groundwater-i-15_min-mAOD",
+      "value": 153.988
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU37_63-level-groundwater-i-1_h-mAOD/2021-10-25T09-00-00Z",
+      "dateTime": "2021-10-25T09:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h-mAOD",
+      "value": 107.213
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/247344TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/247344TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/266474TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/266474TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/282290TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/282290TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/243543TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/243543TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E11191-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11191-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E8020-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8020-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/288092TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/288092TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/1822SO-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/1822SO-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0.4
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/242819TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/242819TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/276956TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/276956TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/243679TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/243679TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/46839-level-stage-i-15_min-mASD/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/46839-level-stage-i-15_min-mASD",
+      "value": 0.8
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/245176TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/245176TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/242534TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/242534TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E11190-level-groundwater-i-15_min-mAOD/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11190-level-groundwater-i-15_min-mAOD",
+      "value": 47.35
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/240470TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/240470TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/276651TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/276651TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/000181TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/000181TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/261021TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/261021TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/278744TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/278744TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/246424TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/246424TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/239258TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/239258TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/254336TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T09-15-00Z",
+      "dateTime": "2021-10-25T09:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/254336TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E4400-level-stage-i-15_min-m/2021-10-25T09-30-00Z",
+      "dateTime": "2021-10-25T09:30:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4400-level-stage-i-15_min-m",
+      "value": 0.016
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU17_57-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU17_57-level-groundwater-i-1_h-mAOD",
+      "value": 130.336
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E14262-flow--i-15_min-m3_s/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E14262-flow--i-15_min-m3_s",
+      "value": 0.085
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU96_70_-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU96_70_-level-groundwater-i-1_h-mAOD",
+      "value": 40.209
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/TL01_176-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/TL01_176-level-groundwater-i-1_h-mAOD",
+      "value": 109.607
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU97_114-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU97_114-level-groundwater-i-1_h-mAOD",
+      "value": 25.209
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU17_80-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU17_80-level-groundwater-i-1_h-mAOD",
+      "value": 130.238
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU47_141-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
+      "value": 111.792
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU89_101-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU89_101-level-groundwater-i-1_h-mAOD",
+      "value": 21.864
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/TQ05_12-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
+      "value": 60.074
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SP00_62-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP00_62-level-groundwater-i-1_h-mAOD",
+      "value": 100.806
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU99_67-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU99_67-level-groundwater-i-1_h-mAOD",
+      "value": 77.499
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU76_44-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU76_44-level-groundwater-i-1_h-mAOD",
+      "value": 36.742
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SP62_1-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP62_1-level-groundwater-i-1_h-mAOD",
+      "value": 95.559
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/TQ04_74-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ04_74-level-groundwater-i-1_h-mAOD",
+      "value": 83.912
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/276036TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T10-15-00Z",
+      "dateTime": "2021-10-25T10:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/276036TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E15657-level-stage-i-15_min-mASD/2021-10-25T10-30-00Z",
+      "dateTime": "2021-10-25T10:30:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E15657-level-stage-i-15_min-mASD",
+      "value": 0.782
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU47_135-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_135-level-groundwater-i-1_h-mAOD",
+      "value": 111.104
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU47_27-level-groundwater-i-1_h-mAOD/2021-10-25T10-00-00Z",
+      "dateTime": "2021-10-25T10:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_27-level-groundwater-i-1_h-mAOD",
+      "value": 93.874
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2301TH-level-downstage-i-15_min-mASD/2021-10-25T11-00-00Z",
+      "dateTime": "2021-10-25T11:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2301TH-level-downstage-i-15_min-mASD",
+      "value": 2.251
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2301TH-level-stage-i-15_min-mASD/2021-10-25T11-00-00Z",
+      "dateTime": "2021-10-25T11:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2301TH-level-stage-i-15_min-mASD",
+      "value": 0.211
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU_98_98C_-level-groundwater-i-1_h-mAOD/2021-10-25T11-00-00Z",
+      "dateTime": "2021-10-25T11:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU_98_98C_-level-groundwater-i-1_h-mAOD",
+      "value": 50.574
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/38_BRENT_RES-level-stage-i-5_min-mASD/2021-10-25T09-20-00Z",
+      "dateTime": "2021-10-25T09:20:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/38_BRENT_RES-level-stage-i-5_min-mASD",
+      "value": -1.053
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/26102-level-groundwater-i-1_h-mBDAT/2021-10-25T12-00-00Z",
+      "dateTime": "2021-10-25T12:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/26102-level-groundwater-i-1_h-mBDAT",
+      "value": 14.18
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E26141-level-stage-i-15_min-mAOD/2021-10-25T12-00-00Z",
+      "dateTime": "2021-10-25T12:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E26141-level-stage-i-15_min-mAOD",
+      "value": 29.209
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E23730-level-stage-i-15_min-m/2021-10-25T12-15-00Z",
+      "dateTime": "2021-10-25T12:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23730-level-stage-i-15_min-m",
+      "value": 0.256
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SU47_140-level-groundwater-i-1_h-mAOD/2021-10-25T13-00-00Z",
+      "dateTime": "2021-10-25T13:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_140-level-groundwater-i-1_h-mAOD",
+      "value": 96.479
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/240662TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T13-15-00Z",
+      "dateTime": "2021-10-25T13:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/240662TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/49119-level-stage-i-15_min-m/2021-10-25T14-00-00Z",
+      "dateTime": "2021-10-25T14:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/49119-level-stage-i-15_min-m",
+      "value": 0.275
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/9237SE-level-groundwater-i-1_h-mAOD/2021-10-25T14-00-00Z",
+      "dateTime": "2021-10-25T14:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/9237SE-level-groundwater-i-1_h-mAOD",
+      "value": 87.517
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/263541TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T14-00-00Z",
+      "dateTime": "2021-10-25T14:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/263541TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E19017-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T14-00-00Z",
+      "dateTime": "2021-10-25T14:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E19017-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E802-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T14-00-00Z",
+      "dateTime": "2021-10-25T14:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E802-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/52100-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T15-00-00Z",
+      "dateTime": "2021-10-25T15:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/52100-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/TQ36_38-level-groundwater-i-1_h-mAOD/2021-10-25T16-00-00Z",
+      "dateTime": "2021-10-25T16:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ36_38-level-groundwater-i-1_h-mAOD",
+      "value": 59.872
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/240350TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T17-15-00Z",
+      "dateTime": "2021-10-25T17:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/240350TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+      "value": 0
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E15520-rainfall-tipping_bucket_raingauge-t-15_min-mm/2021-10-25T18-00-00Z",
