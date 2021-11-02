@@ -64437,12 +64437,28 @@
       "long": 0.032669,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
@@ -123736,11 +123752,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71963",
-      "easting": 278353,
-      "gridReference": "SX7835356245",
+      "easting": 278355,
+      "gridReference": "SX7835556239",
       "label": "HARBERTONFORD CHURCH",
-      "lat": 50.393464,
-      "long": -3.712742,
+      "lat": 50.393411,
+      "long": -3.712712,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E71963-level-stage-i-15_min-m",
@@ -123751,7 +123767,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 56245,
+      "northing": 56239,
       "notation": "E71963",
       "stationReference": "E71963"
     },
@@ -123986,11 +124002,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84009",
-      "easting": 311659,
-      "gridReference": "SY1165989508",
+      "easting": 311646,
+      "gridReference": "SY1164689518",
       "label": "SIDMOUTH HIGHER WOOLBROOK ROAD",
-      "lat": 50.69848,
-      "long": -3.252214,
+      "lat": 50.698568,
+      "long": -3.2524,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E84009-level-stage-i-15_min-m",
@@ -124001,7 +124017,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 89508,
+      "northing": 89518,
       "notation": "E84009",
       "stationReference": "E84009"
     },
@@ -124188,11 +124204,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71333",
-      "easting": 299392,
-      "gridReference": "SS9939202414",
+      "easting": 299398,
+      "gridReference": "SS9939802407",
       "label": "BRADNINCH HELE STATION ROAD",
-      "lat": 50.812507,
-      "long": -3.429384,
+      "lat": 50.812445,
+      "long": -3.429297,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E71333-level-stage-i-15_min-m",
@@ -124203,7 +124219,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 102414,
+      "northing": 102407,
       "notation": "E71333",
       "stationReference": "E71333"
     },
@@ -124256,6 +124272,27 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Dulas Brook",
       "wiskiID": "2553"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E82080",
+      "easting": 276450,
+      "gridReference": "SX764560",
+      "label": "Rainfall station",
+      "lat": 50.391314,
+      "long": -3.739437,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E82080-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 56050,
+      "notation": "E82080",
+      "stationReference": "E82080"
     }
   ]
 }
