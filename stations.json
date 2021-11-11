@@ -56623,10 +56623,10 @@
       "catchmentName": "Eden and Esk",
       "dateOpened": "1961-11-01",
       "easting": 339020,
-      "gridReference": "NY 39020 18071",
+      "gridReference": "NY 39020 16920",
       "label": "Glenridding Steamer Pier",
-      "lat": 54.554175,
-      "long": -2.944347,
+      "lat": 54.543833,
+      "long": -2.944108,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/761514-level-stage-i-15_min-m",
@@ -56637,7 +56637,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 518071,
+      "northing": 516920,
       "notation": "761514",
       "riverName": "Ullswater",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/761514/stageScale",
@@ -59559,44 +59559,12 @@
           "unitName": "mAOD"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-1-i-15_min-mm",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "1",
-          "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-2-i-15_min-mm",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "2",
-          "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-3-i-15_min-mm",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "3",
-          "unitName": "mm"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mm",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mm"
         }
       ],
       "northing": 181023,
@@ -59713,11 +59681,11 @@
       "RLOIid": "5206",
       "catchmentName": "Eden and Esk",
       "dateOpened": "2012-08-03",
-      "easting": 346687,
-      "gridReference": "NY4668724237",
-      "label": "Steamer Pier, Pooley Bridge",
-      "lat": 54.610449,
-      "long": -2.82694,
+      "easting": 346680,
+      "gridReference": "NY4668024229",
+      "label": "Pooley Bridge Steamer Pier",
+      "lat": 54.610376,
+      "long": -2.827047,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/761595-level-stage-i-15_min-m",
@@ -59728,7 +59696,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 524237,
+      "northing": 524229,
       "notation": "761595",
       "riverName": "Ullswater",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/761595/stageScale",
@@ -61076,7 +61044,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22300-anglian",
       "easting": 494016,
       "gridReference": "SP9401625958",
-      "label": "CLIPSTONE BROOK GS LEIGHTON BUZZARD",
+      "label": "CLIPSTONE BROOK GS LEIGHTON BUZZARD WITS",
       "lat": 51.924207,
       "long": -0.634231,
       "measures": [
@@ -67539,7 +67507,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22561",
       "easting": 494016,
       "gridReference": "SP9401625958",
-      "label": "CLIPSTONE BROOK GS LEIGHTON BUZZARD",
+      "label": "CLIPSTONE BROOK GS LEIGHTON BUZZARD WITS",
       "lat": 51.924207,
       "long": -0.634231,
       "measures": [
@@ -72890,7 +72858,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E1523",
       "easting": 485293,
       "gridReference": "SP8529394284",
-      "label": "EYE BROOK RESERVOIR CALDECOTT",
+      "label": "EYE BROOK RESERVOIR CALDECOTT WITS",
       "lat": 52.539736,
       "long": -0.743831,
       "measures": [
@@ -82261,14 +82229,6 @@
       "label": "Priors Heyes",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83086,6 +83046,14 @@
       "gridReference": "SJ5794",
       "label": "Sankey Valley Ind Est",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-1-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "1",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-groundwater-i-1_h-m",
           "parameter": "level",
@@ -95271,14 +95239,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -103163,14 +103123,6 @@
       "lat": 52.207563,
       "long": -0.73336,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
@@ -124668,9 +124620,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84109",
+      "RLOIid": "9435",
+      "catchmentName": "Exe",
+      "dateOpened": "2021-07-20",
       "easting": 299749,
-      "gridReference": "SX9974984018",
-      "label": "LYMPSTONE LONGBROOK LANE",
+      "label": "Lympstone Longbrook Lane",
       "lat": 50.647191,
       "long": -3.419311,
       "measures": [
@@ -124685,7 +124639,11 @@
       ],
       "northing": 84018,
       "notation": "E84109",
-      "stationReference": "E84109"
+      "riverName": "Wotton Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84109/stageScale",
+      "stationReference": "E84109",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "SX98F013"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4709",
