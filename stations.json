@@ -59559,12 +59559,44 @@
           "unitName": "mAOD"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-1-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-2-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-3-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "3",
+          "unitName": "mm"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mm"
         }
       ],
       "northing": 181023,
@@ -64475,12 +64507,28 @@
           "unitName": "mAOD"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -71223,6 +71271,14 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2202SO-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
         }
@@ -78235,6 +78291,14 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78575,6 +78639,14 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -82229,6 +82301,14 @@
       "label": "Priors Heyes",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83046,14 +83126,6 @@
       "gridReference": "SJ5794",
       "label": "Sankey Valley Ind Est",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-1-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-groundwater-i-1_h-m",
           "parameter": "level",
@@ -86582,14 +86654,6 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -103124,6 +103188,14 @@
       "long": -0.73336,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -115282,6 +115354,14 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -118632,7 +118712,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4838",
       "easting": 545366,
       "gridReference": "TF4536676034",
-      "label": "ALFORD GS",
+      "label": "ALFORD GS WITS",
       "lat": 53.261383,
       "long": 0.17789,
       "measures": [
@@ -124302,12 +124382,23 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4208",
+      "RLOIid": "9434",
+      "catchmentName": "Lower Trent and Erewash",
+      "dateOpened": "2021-08-20",
       "easting": 462317,
       "gridReference": "SK6231741782",
-      "label": "Nottingham Carlton Ouse Dyke",
+      "label": "Carlton",
       "lat": 52.969773,
       "long": -1.07353,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4208-level-downstage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4208-level-stage-i-15_min-mASD",
           "parameter": "level",
@@ -124319,7 +124410,12 @@
       ],
       "northing": 341782,
       "notation": "4208",
-      "stationReference": "4208"
+      "riverName": "Ouse Dyke",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4208/stageScale",
+      "stationReference": "4208",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Carlton",
+      "wiskiID": "4208"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2548",
@@ -124646,25 +124742,6 @@
       "wiskiID": "SX98F013"
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4709",
-      "RLOIid": "9434",
-      "catchmentName": "Lower Trent and Erewash",
-      "dateOpened": "2021-08-20",
-      "easting": 462317,
-      "gridReference": "SK6231741782",
-      "label": "Carlton",
-      "lat": 52.969773,
-      "long": -1.07353,
-      "northing": 341782,
-      "notation": "4709",
-      "riverName": "Ouse Dyke",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4709/stageScale",
-      "stationReference": "4709",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Carlton",
-      "wiskiID": "4208"
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84129",
       "easting": 296572,
       "gridReference": "SX9657278541",
@@ -124831,6 +124908,25 @@
       "northing": 411325,
       "notation": "700390",
       "stationReference": "700390"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9040",
+      "RLOIid": "9436",
+      "catchmentName": "Colne (Lower)",
+      "dateOpened": "2021-08-25",
+      "easting": 505328,
+      "gridReference": "TQ0532879112",
+      "label": "Thorney Mill Road_West Drayton (Temp)",
+      "lat": 51.501136,
+      "long": -0.483936,
+      "northing": 179112,
+      "notation": "9040",
+      "riverName": "River Colne",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/9040/stageScale",
+      "stationReference": "9040",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "West Drayton",
+      "wiskiID": "2885BTH"
     }
   ]
 }
