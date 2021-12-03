@@ -13883,14 +13883,6 @@
       "long": -3.10829,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/685505-level-stage-i-15_min----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/685505-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -40171,7 +40163,7 @@
       "riverName": "River Thame",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/1993TH/stageScale",
       "stationReference": "1993TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Dorchester",
       "wiskiID": "1993TH"
     },
@@ -57672,7 +57664,6 @@
       "RLOIid": "5030",
       "catchmentName": "Lune and Wyre",
       "dateOpened": "2004-01-01",
-      "datumOffset": 6.8,
       "easting": 346700,
       "label": "Catterall",
       "lat": 53.866048,
@@ -57685,6 +57676,14 @@
           "period": 900,
           "qualifier": "Logged",
           "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/720535-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/720535-level-stage-i-15_min-mASD",
@@ -58848,7 +58847,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/47126",
       "easting": 241935,
       "gridReference": "SX4193589835",
-      "label": "ROADFORD WITS IP",
+      "label": "ROADFORD",
       "lat": 50.686638,
       "long": -4.238978,
       "measures": [
@@ -62828,7 +62827,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/49119",
       "easting": 223169,
       "gridReference": "SX2316970322",
-      "label": "SIBLYBACK WITS",
+      "label": "SIBLYBACK",
       "lat": 50.505924,
       "long": -4.495089,
       "measures": [
@@ -78227,6 +78226,14 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82221,14 +82228,6 @@
       "label": "Priors Heyes",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83278,14 +83277,6 @@
       "lat": 51.44708,
       "long": -0.347907,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3678TH-level-downstage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Downstream Stage",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3678TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
