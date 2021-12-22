@@ -66007,14 +66007,6 @@
           "unitName": "mAOD"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-height-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Height",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -121547,7 +121539,7 @@
       ],
       "northing": 157493,
       "notation": "9681SO",
-      "riverName": "Little Stour",
+      "riverName": "Groundwater Level",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/9681SO/stageScale",
       "stationReference": "9681SO",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
@@ -125283,6 +125275,25 @@
       "northing": 432888,
       "notation": "L3238",
       "stationReference": "L3238"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9332",
+      "RLOIid": "9449",
+      "catchmentName": "Cherwell Thame and Wye",
+      "dateOpened": "2015-05-20",
+      "easting": 473997,
+      "gridReference": "SU7399789243",
+      "label": "Stonor Estate",
+      "lat": 51.597176,
+      "long": -0.933089,
+      "northing": 189243,
+      "notation": "9332",
+      "riverName": "Groundwater Level",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/9332/stageScale",
+      "stationReference": "9332",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Stonor Estate",
+      "wiskiID": "SU78_45C"
     }
   ]
 }
