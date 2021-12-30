@@ -64442,12 +64442,28 @@
       "long": 0.032669,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
@@ -67270,14 +67286,6 @@
       "lat": 51.468767,
       "long": -0.620387,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2645TH-level-downstage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Downstream Stage",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2645TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
@@ -70956,14 +70964,6 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
-          "unitName": "mASD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2854TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
           "unitName": "mASD"
         }
       ],
@@ -108038,11 +108038,7 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3096",
-      "easting": 389750,
-      "gridReference": "SJ897019",
       "label": "Rainfall station",
-      "lat": 52.615214,
-      "long": -2.152813,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3096-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -108053,7 +108049,6 @@
           "unitName": "mm"
         }
       ],
-      "northing": 301950,
       "notation": "3096",
       "stationReference": "3096"
     },
@@ -125090,6 +125085,27 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Stonor Estate",
       "wiskiID": "SU78_45C"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/713204",
+      "easting": 370073,
+      "gridReference": "SD7007320912",
+      "label": "Clough St Overflow",
+      "lat": 53.683788,
+      "long": -2.454585,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/713204-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 420912,
+      "notation": "713204",
+      "stationReference": "713204"
     }
   ]
 }
