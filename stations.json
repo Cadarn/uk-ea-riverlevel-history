@@ -58842,16 +58842,16 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/48119",
       "easting": 180699,
       "gridReference": "SW8069945870",
-      "label": "NEWMILL DAM WITS ATU",
+      "label": "NEWMILL DAM",
       "lat": 50.271975,
       "long": -5.078915,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-stage-i-15_min-m",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-1-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Stage",
+          "qualifier": "1",
           "unitName": "m"
         }
       ],
@@ -125188,6 +125188,27 @@
       "northing": 144668,
       "notation": "7509SE",
       "stationReference": "7509SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/765600",
+      "easting": 338299,
+      "gridReference": "NY3829955720 ",
+      "label": "Raffles Ave Grid",
+      "lat": 54.892374,
+      "long": -2.963486,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/765600-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 555720,
+      "notation": "765600",
+      "stationReference": "765600"
     }
   ]
 }
