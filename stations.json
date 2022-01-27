@@ -66601,6 +66601,14 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5300_w2TH-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 208585,
@@ -114486,16 +114494,6 @@
       "label": "Rainfall station",
       "lat": 51.952224,
       "long": -2.73694,
-      "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1606-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        }
-      ],
       "northing": 228450,
       "notation": "1606",
       "stationReference": "1606"
@@ -125201,6 +125199,27 @@
       "northing": 555720,
       "notation": "765600",
       "stationReference": "765600"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/015313",
+      "easting": 394650,
+      "gridReference": "NY946684",
+      "label": "Rainfall station",
+      "lat": 55.010561,
+      "long": -2.08518,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/015313-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 568450,
+      "notation": "015313",
+      "stationReference": "015313"
     }
   ]
 }
