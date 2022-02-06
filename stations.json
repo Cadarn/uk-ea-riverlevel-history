@@ -95062,14 +95062,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -125253,6 +125245,57 @@
       "northing": 568450,
       "notation": "015313",
       "stationReference": "015313"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SD43_1",
+      "gridReference": "SD4736",
+      "label": "Woodsfold Bridge Catforth T6",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SD43_1-level-groundwater-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        }
+      ],
+      "notation": "SD43_1",
+      "stationReference": "SD43_1"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SD43_3",
+      "gridReference": "SD4834",
+      "label": "Swillbrook Catforth T43",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SD43_3-level-groundwater-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        }
+      ],
+      "notation": "SD43_3",
+      "stationReference": "SD43_3"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SD43_2",
+      "gridReference": "SD4938",
+      "label": "Hallidays Farm Bilsborrow T17",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SD43_2-level-groundwater-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        }
+      ],
+      "notation": "SD43_2",
+      "stationReference": "SD43_2"
     }
   ]
 }
