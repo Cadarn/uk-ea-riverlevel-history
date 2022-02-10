@@ -15,18 +15,6 @@
   },
   "items": [
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/49131-level-stage-i-15_min-m/2022-01-12T13-45-00Z",
-      "dateTime": "2022-01-12T13:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/49131-level-stage-i-15_min-m",
-      "value": -0.971
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E24255-level-stage-i-15_min-mASD/2022-01-12T04-30-00Z",
-      "dateTime": "2022-01-12T04:30:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24255-level-stage-i-15_min-mASD",
-      "value": 0.318
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E21408-level-stage-i-15_min-m/2022-01-25T04-30-00Z",
       "dateTime": "2022-01-25T04:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21408-level-stage-i-15_min-m",
@@ -75,21 +63,9 @@
       "value": 6.467
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SP00_144-level-groundwater-i-1_h-mAOD/2022-01-12T07-00-00Z",
-      "dateTime": "2022-01-12T07:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP00_144-level-groundwater-i-1_h-mAOD",
-      "value": 109.549
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/559100R-rainfall-tipping_bucket_raingauge-t-15_min-mm/2022-01-26T22-30-00Z",
       "dateTime": "2022-01-26T22:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/559100R-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/568363-rainfall-tipping_bucket_raingauge-t-15_min-mm/2022-01-12T09-00-00Z",
-      "dateTime": "2022-01-12T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/568363-rainfall-tipping_bucket_raingauge-t-15_min-mm",
       "value": 0
     },
     {
