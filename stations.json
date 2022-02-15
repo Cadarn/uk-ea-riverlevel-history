@@ -78201,7 +78201,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E5314",
       "easting": 533535,
       "gridReference": "TF3353599742",
-      "label": "THORESBY LOUTH CANAL GS",
+      "label": "THORESBY LOUTH CANAL WITS",
       "lat": 53.47746,
       "long": 0.010648,
       "measures": [
@@ -109536,14 +109536,6 @@
       "label": "Gorstons",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-1-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -125483,6 +125475,43 @@
       "stationReference": "E84443",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "wiskiID": "SX99F200"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/152503002",
+      "easting": 451747,
+      "gridReference": "SU5174713505",
+      "label": "Botley Mill Stream RL",
+      "lat": 50.91869,
+      "long": -1.265211,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/152503002-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 113505,
+      "notation": "152503002",
+      "stationReference": "152503002"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SD53_12",
+      "label": "Maxy House Cottam T26",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SD53_12-level-groundwater-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        }
+      ],
+      "notation": "SD53_12",
+      "stationReference": "SD53_12"
     }
   ]
 }
