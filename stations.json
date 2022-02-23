@@ -66304,7 +66304,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E2634",
       "easting": 520909,
       "gridReference": "TL2090997419",
-      "label": "STANGROUND SLUICE PETERBOROUGH",
+      "label": "STANGROUND SLUICE PETERBOROUGH WITS",
       "lat": 52.561171,
       "long": -0.217789,
       "measures": [
@@ -66633,14 +66633,6 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5300_w2TH-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 208585,
@@ -118518,7 +118510,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4805",
       "easting": 518575,
       "gridReference": "TF1857546802",
-      "label": "FIVE WILLOW WATH BRIDGE GS SOUTH KYME",
+      "label": "FIVE WILLOW WATH BRIDGE GS SOUTH KYME WITS",
       "lat": 53.005402,
       "long": -0.234331,
       "measures": [
