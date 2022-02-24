@@ -66633,6 +66633,14 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5300_w2TH-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 208585,
@@ -67619,14 +67627,6 @@
       "long": -0.307703,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3399TH-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3399TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -68039,7 +68039,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23042",
       "easting": 612700,
       "gridReference": "TM1270046500",
-      "label": "BRAMFORD FGS",
+      "label": "BRAMFORD FGS WITS",
       "lat": 52.075981,
       "long": 1.10243,
       "measures": [
