@@ -15,24 +15,6 @@
   },
   "items": [
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/055223-rainfall-tipping_bucket_raingauge-t-15_min-mm/2022-02-10T11-30-00Z",
-      "dateTime": "2022-02-10T11:30:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/055223-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-      "value": 0
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SJ45_102-level-groundwater-i-1_h-m/2022-02-10T11-00-00Z",
-      "dateTime": "2022-02-10T11:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ45_102-level-groundwater-i-1_h-m",
-      "value": 2.983
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SJ45_155-level-groundwater-i-1_h-m/2022-02-10T09-00-00Z",
-      "dateTime": "2022-02-10T09:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ45_155-level-groundwater-i-1_h-m",
-      "value": 25.501
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/305111-rainfall-tipping_bucket_raingauge-Event-Unspecified-mm/2022-02-13T17-09-30Z",
       "dateTime": "2022-02-13T17:09:30Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/305111-rainfall-tipping_bucket_raingauge-Event-Unspecified-mm",
@@ -223,12 +205,6 @@
       "dateTime": "2022-03-08T23:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/690120-level-stage-i-15_min-m",
       "value": 0.186
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/SJ46_24-level-groundwater-i-1_h-m/2022-02-10T12-00-00Z",
-      "dateTime": "2022-02-10T12:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ46_24-level-groundwater-i-1_h-m",
-      "value": 4.74
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2421TH-level-downstage-i-15_min-mASD/2022-03-09T09-00-00Z",
