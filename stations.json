@@ -60523,14 +60523,6 @@
       "long": 0.398508,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6621-flow--Mean-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6621-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
