@@ -55819,6 +55819,14 @@
       "long": -2.005082,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/021999-level-tidal_level-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/021999-level-tidal_level-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -60689,7 +60697,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/48168",
       "easting": 182292,
       "gridReference": "SW8229247265",
-      "label": "IDLESS WITS",
+      "label": "IDLESS",
       "lat": 50.285093,
       "long": -5.057396,
       "measures": [
@@ -65667,7 +65675,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E2151",
       "easting": 511365,
       "gridReference": "TF1136589327",
-      "label": "RASE NORTH BRANCH FSR MKT RASEN",
+      "label": "RASE NORTH BRANCH FSR MKT RASEN WITS",
       "lat": 53.389037,
       "long": -0.326917,
       "measures": [
@@ -95120,14 +95128,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
