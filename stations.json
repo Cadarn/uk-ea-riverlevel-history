@@ -81721,7 +81721,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SJ28_34",
       "gridReference": "SJ2889",
-      "label": "Bidston Hill OBH",
+      "label": "Bidston Hill",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ28_34-level-groundwater-i-1_h-m",
@@ -82786,7 +82786,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SJ38_88",
       "gridReference": "SJ3283",
-      "label": "Brackenwood Golf Club",
+      "label": "Brackenwood GC",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ38_88-level-groundwater-i-1_h-m",
@@ -95128,6 +95128,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
