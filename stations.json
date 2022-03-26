@@ -67493,6 +67493,14 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5300_w1TH-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 208585,
@@ -72277,11 +72285,11 @@
       "long": -0.170396,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-southern-level-1-i-15_min-mASD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-southern-level-downstage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "1",
+          "qualifier": "Downstream Stage",
           "unitName": "mASD"
         }
       ],
@@ -72298,11 +72306,11 @@
       "long": -0.170396,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-thames-level-1-i-15_min-mASD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-thames-level-downstage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "1",
+          "qualifier": "Downstream Stage",
           "unitName": "mASD"
         }
       ],
@@ -95104,14 +95112,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -114601,6 +114601,14 @@
           "period": 900,
           "qualifier": "Logged",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690554-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 400960,
@@ -125701,6 +125709,27 @@
       "northing": 435740,
       "notation": "L2029A",
       "stationReference": "L2029A"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/050301012",
+      "easting": 449440,
+      "gridReference": "SZ4944084410",
+      "label": "Chillerton GS",
+      "lat": 50.657274,
+      "long": -1.301934,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/050301012-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 84410,
+      "notation": "050301012",
+      "stationReference": "050301012"
     }
   ]
 }
