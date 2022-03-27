@@ -64492,28 +64492,12 @@
           "unitName": "mAOD"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Downstream Stage",
-          "unitName": "mASD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -72285,11 +72269,11 @@
       "long": -0.170396,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-southern-level-downstage-i-15_min-mASD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-southern-level-1-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Downstream Stage",
+          "qualifier": "1",
           "unitName": "mASD"
         }
       ],
@@ -72306,11 +72290,11 @@
       "long": -0.170396,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-thames-level-downstage-i-15_min-mASD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-thames-level-1-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Downstream Stage",
+          "qualifier": "1",
           "unitName": "mASD"
         }
       ],
