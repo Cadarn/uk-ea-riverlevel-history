@@ -64492,12 +64492,28 @@
           "unitName": "mAOD"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -67477,14 +67493,6 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5300_w1TH-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 208585,
@@ -72275,6 +72283,14 @@
           "period": 900,
           "qualifier": "1",
           "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-southern-level-downstage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 167785,
@@ -72295,6 +72311,14 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "1",
+          "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-thames-level-downstage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
           "unitName": "mASD"
         }
       ],
@@ -95096,6 +95120,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
