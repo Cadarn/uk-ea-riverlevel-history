@@ -72555,6 +72555,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E19862-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 312700,
@@ -125746,6 +125754,48 @@
       "northing": 84410,
       "notation": "050301012",
       "stationReference": "050301012"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/575092",
+      "easting": 378750,
+      "gridReference": "SD787274",
+      "label": "Rainfall station",
+      "lat": 53.742978,
+      "long": -2.323663,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/575092-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 427450,
+      "notation": "575092",
+      "stationReference": "575092"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SE7050",
+      "easting": 575950,
+      "gridReference": "TQ759117",
+      "label": "CROWHURST RL",
+      "lat": 50.878456,
+      "long": 0.499693,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SE7050-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 111750,
+      "notation": "SE7050",
+      "stationReference": "SE7050"
     }
   ]
 }
