@@ -92386,10 +92386,10 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/45230",
       "easting": 311450,
-      "gridReference": "SY114956",
+      "gridReference": "SY114955",
       "label": "Rainfall station",
-      "lat": 50.753667,
-      "long": -3.256649,
+      "lat": 50.752768,
+      "long": -3.256625,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/45230-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -92400,7 +92400,7 @@
           "unitName": "mm"
         }
       ],
-      "northing": 95650,
+      "northing": 95550,
       "notation": "45230",
       "stationReference": "45230"
     },
@@ -95128,6 +95128,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -99680,17 +99688,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "label": "FENCE BRIDGE GATE RL",
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
+      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -125497,11 +125510,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84463",
-      "easting": 312345,
-      "gridReference": "ST1234554321",
+      "easting": 321339,
+      "gridReference": "ST2133900790",
       "label": "WILMINGTON HAYNE LANE TUNNEL",
-      "lat": 51.281257,
-      "long": -3.258163,
+      "lat": 50.801307,
+      "long": -3.117593,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E84463-level-stage-i-15_min-m",
@@ -125512,7 +125525,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 154321,
+      "northing": 100790,
       "notation": "E84463",
       "stationReference": "E84463"
     },
