@@ -79706,22 +79706,6 @@
       "label": "BEEDING HILL GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2308SO-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2308SO-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2308SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -99688,22 +99672,17 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "easting": 614950,
-      "gridReference": "TM149414",
-      "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "label": "FENCE BRIDGE GATE RL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -125788,6 +125767,69 @@
       "northing": 427450,
       "notation": "575092",
       "stationReference": "575092"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SE7050",
+      "easting": 575950,
+      "gridReference": "TQ759117",
+      "label": "CROWHURST RL",
+      "lat": 50.878456,
+      "long": 0.499693,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SE7050-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 111750,
+      "notation": "SE7050",
+      "stationReference": "SE7050"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E82920",
+      "easting": 296750,
+      "gridReference": "SX967786",
+      "label": "Rainfall station",
+      "lat": 50.598409,
+      "long": -3.460219,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E82920-rainfall-1-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 78650,
+      "notation": "E82920",
+      "stationReference": "E82920"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E82960",
+      "easting": 287850,
+      "gridReference": "SX878651",
+      "label": "Rainfall station",
+      "lat": 50.475407,
+      "long": -3.581856,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E82960-rainfall-1-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 65150,
+      "notation": "E82960",
+      "stationReference": "E82960"
     }
   ]
 }
