@@ -119211,7 +119211,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4890",
       "easting": 526636,
       "gridReference": "TA2663609458",
-      "label": "FRESHNEY TILTING GATE GRIMSBY",
+      "label": "FRESHNEY TILTING GATE GRIMSBY WITS",
       "lat": 53.566445,
       "long": -0.089317,
       "measures": [
@@ -125830,6 +125830,258 @@
       "northing": 65150,
       "notation": "E82960",
       "stationReference": "E82960"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2542",
+      "easting": 427241,
+      "gridReference": "SP2724165718",
+      "label": "Warwick Wedgnock Lane",
+      "lat": 52.288919,
+      "long": -1.602042,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2542-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 265718,
+      "notation": "2542",
+      "stationReference": "2542"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2541",
+      "easting": 396611,
+      "gridReference": "SO9661171641",
+      "label": "Warwick Old Budbrooke Road",
+      "lat": 52.342826,
+      "long": -2.051161,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2541-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 271641,
+      "notation": "2541",
+      "stationReference": "2541"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2543",
+      "easting": 427677,
+      "gridReference": "SP2767766134",
+      "label": "Warwick Rothwell Road",
+      "lat": 52.292637,
+      "long": -1.595616,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2543-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 266134,
+      "notation": "2543",
+      "stationReference": "2543"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2544",
+      "easting": 396611,
+      "gridReference": "SO9661171641",
+      "label": "Bromsgrove Burcot Avenue",
+      "lat": 52.342826,
+      "long": -2.051161,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2544-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 271641,
+      "notation": "2544",
+      "stationReference": "2544"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2545",
+      "easting": 395442,
+      "gridReference": "SO9544270367",
+      "label": "Bromsgrove Factory Lane",
+      "lat": 52.331364,
+      "long": -2.068303,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2545-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 270367,
+      "notation": "2545",
+      "stationReference": "2545"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2546",
+      "easting": 395040,
+      "gridReference": "SO9504067027",
+      "label": "Stoke Prior Hanbury Road",
+      "lat": 52.301333,
+      "long": -2.074152,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2546-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 267027,
+      "notation": "2546",
+      "stationReference": "2546"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2547",
+      "easting": 343187,
+      "gridReference": "SO4318782677",
+      "label": "Craven Arms Burnside Close",
+      "lat": 52.439087,
+      "long": -2.837173,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2547-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 282677,
+      "notation": "2547",
+      "stationReference": "2547"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4650",
+      "easting": 402829,
+      "gridReference": "SP0282983108",
+      "label": "Birmingham Lodge Hill Elford Road",
+      "lat": 52.44592,
+      "long": -1.959798,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4650-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 283108,
+      "notation": "4650",
+      "stationReference": "4650"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4688",
+      "easting": 446545,
+      "gridReference": "SK4654547494",
+      "label": "Eastwood Mansfield Road ",
+      "lat": 53.022713,
+      "long": -1.307535,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4688-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 347494,
+      "notation": "4688",
+      "stationReference": "4688"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4690",
+      "easting": 481781,
+      "gridReference": "SK8178150844",
+      "label": "Newark Balderton Staple Lane",
+      "lat": 53.048603,
+      "long": -0.781479,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4690-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 350844,
+      "notation": "4690",
+      "stationReference": "4690"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4691",
+      "easting": 462548,
+      "gridReference": "SK6254847846",
+      "label": "Nottingham Woodborough Main Street",
+      "lat": 53.024249,
+      "long": -1.068919,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4691-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 347846,
+      "notation": "4691",
+      "stationReference": "4691"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4693",
+      "easting": 411573,
+      "gridReference": "SP1157396086",
+      "label": "Bradwell Brook",
+      "lat": 52.562477,
+      "long": -1.830703,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4693-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 296086,
+      "notation": "4693",
+      "stationReference": "4693"
     }
   ]
 }
