@@ -7586,6 +7586,14 @@
           "unitName": "m"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-level-tidal_level-Mean-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-wind-direction-Mean-15_min-deg",
           "parameter": "wind",
           "parameterName": "Wind",
@@ -28438,6 +28446,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1151-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 425430,
@@ -60525,14 +60541,6 @@
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3004TH-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 157705,
@@ -65305,11 +65313,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/693001",
-      "easting": 361745,
-      "gridReference": "SD61740432",
+      "RLOIid": "9472",
+      "catchmentName": "Upper Mersey",
+      "dateOpened": "2012-05-28",
+      "easting": 361774,
+      "gridReference": "SD6177404323",
       "label": "First Avenue",
-      "lat": 53.534163,
-      "long": -2.578628,
+      "lat": 53.534147,
+      "long": -2.578191,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/693001-level-stage-i-15_min-m",
@@ -65320,9 +65331,13 @@
           "unitName": "m"
         }
       ],
-      "northing": 404325,
+      "northing": 404323,
       "notation": "693001",
-      "stationReference": "693001"
+      "riverName": "Borsdane Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/693001/stageScale",
+      "stationReference": "693001",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "693001"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/52248",
@@ -66839,6 +66854,14 @@
       "lat": 53.402528,
       "long": -2.23534,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/692706-level-logged-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Logged",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/692706-level-stage-i-15_min-m",
           "parameter": "level",
@@ -86673,14 +86696,6 @@
           "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 300,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
         }
       ],
       "northing": 319770,
@@ -91617,6 +91632,14 @@
       "lat": 53.300189,
       "long": -2.155251,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/564769-rainfall-tipping_bucket_raingauge-t-15_min----",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/564769-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
@@ -98283,6 +98306,14 @@
       "long": -3.310562,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/596026-rainfall-tipping_bucket_raingauge-t-15_min----",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/596026-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -99872,11 +99903,7 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "easting": 614950,
-      "gridReference": "TM149414",
-      "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "label": "FENCE BRIDGE GATE RL",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
@@ -99895,7 +99922,6 @@
           "unitName": "mm"
         }
       ],
-      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -100642,6 +100668,14 @@
       "lat": 53.694788,
       "long": -2.486856,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/575935-rainfall-tipping_bucket_raingauge-t-15_min----",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/575935-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
@@ -103225,6 +103259,14 @@
       "lat": 52.207563,
       "long": -0.73336,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
@@ -107778,6 +107820,14 @@
       "long": -3.557159,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/592158-rainfall-tipping_bucket_raingauge-t-15_min----",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/592158-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -109782,6 +109832,14 @@
       "gridReference": "SJ5969",
       "label": "Gorstons",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-1-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "1",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-groundwater-i-1_h-m",
           "parameter": "level",
@@ -119049,7 +119107,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4940",
       "easting": 526210,
       "gridReference": "TA2621010940",
-      "label": "NEW CUT DRAIN OUTFALL GRIMSBY",
+      "label": "NEW CUT DRAIN OUTFALL GRIMSBY WITS",
       "lat": 53.579861,
       "long": -0.095147,
       "measures": [
@@ -125365,6 +125423,9 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/023066",
+      "RLOIid": "9470",
+      "catchmentName": "Tyne",
+      "dateOpened": "2021-12-14",
       "easting": 405686,
       "gridReference": "NZ0568660663",
       "label": "Stocksfield Ridley Mill",
@@ -125382,7 +125443,12 @@
       ],
       "northing": 560663,
       "notation": "023066",
-      "stationReference": "023066"
+      "riverName": "Stocksfield Burn",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/023066/stageScale",
+      "stationReference": "023066",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Stocksfield Ridley Mill",
+      "wiskiID": "023066"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3345THF",
@@ -125449,11 +125515,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3238",
+      "RLOIid": "9467",
+      "catchmentName": "Hull and East Riding",
+      "dateOpened": "2021-12-17",
       "easting": 504161,
       "gridReference": "TA0416132888",
       "label": "Cottingham Hallgate",
-      "lat": 53.781894,
-      "long": -0.420669,
+      "lat": 54.680273,
+      "long": -0.385993,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L3238-level-stage-i-15_min-m",
@@ -125464,9 +125533,14 @@
           "unitName": "m"
         }
       ],
-      "northing": 432888,
+      "northing": 532888,
       "notation": "L3238",
-      "stationReference": "L3238"
+      "riverName": "Broadlane Beck",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3238/stageScale",
+      "stationReference": "L3238",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Cottingham Hallgate",
+      "wiskiID": "L3238"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E5092",
@@ -125551,7 +125625,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/7509SE",
       "easting": 583502,
       "gridReference": "TQ8350244668",
-      "label": "Ulcombe Road RL",
+      "label": "Headcorn Ulcombe Road RL Level",
       "lat": 51.171804,
       "long": 0.623572,
       "measures": [
@@ -126472,9 +126546,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3915",
+      "RLOIid": "9468",
+      "catchmentName": "Tees",
+      "dateOpened": "2021-11-16",
       "easting": 446240,
-      "gridReference": "NZ4624024801",
-      "label": "Billingham Pannington Close ",
+      "gridReference": "NZ462402480",
+      "label": "Billingham Pennington Close",
       "lat": 54.616236,
       "long": -1.285486,
       "measures": [
@@ -126489,7 +126566,12 @@
       ],
       "northing": 524801,
       "notation": "L3915",
-      "stationReference": "L3915"
+      "riverName": "Cowbridge Beck",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3915/stageScale",
+      "stationReference": "L3915",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Billingham Pennington Close",
+      "wiskiID": "L3915"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4662",
@@ -126514,6 +126596,9 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/F1509",
+      "RLOIid": "9471",
+      "catchmentName": "Aire and Calder",
+      "dateOpened": "2022-03-18",
       "easting": 392902,
       "gridReference": "SD9290254136",
       "label": "Gargrave High Street",
@@ -126531,7 +126616,12 @@
       ],
       "northing": 454136,
       "notation": "F1509",
-      "stationReference": "F1509"
+      "riverName": "River Aire",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/F1509/stageScale",
+      "stationReference": "F1509",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Gargrave High Street",
+      "wiskiID": "F1509"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L39020",
@@ -126584,7 +126674,7 @@
       ],
       "northing": 484034,
       "notation": "L2551",
-      "riverName": "River Rye",
+      "riverName": "Borough Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L2551/stageScale",
       "stationReference": "L2551",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
@@ -126593,6 +126683,9 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/024030",
+      "RLOIid": "9469",
+      "catchmentName": "Wear",
+      "dateOpened": "2021-11-16",
       "easting": 416696,
       "gridReference": "NZ1669635589",
       "label": "Crook West Bridge Street",
@@ -126610,7 +126703,12 @@
       ],
       "northing": 535589,
       "notation": "024030",
-      "stationReference": "024030"
+      "riverName": "Crook Beck",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/024030/stageScale",
+      "stationReference": "024030",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Crook West Bridge Street",
+      "wiskiID": "024030"
     }
   ]
 }
