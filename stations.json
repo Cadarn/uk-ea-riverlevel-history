@@ -66815,14 +66815,6 @@
       "long": -2.23534,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/692706-level-logged-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Logged",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/692706-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -80103,14 +80095,6 @@
       "gridReference": "ST9398",
       "label": "Macmillan Way OBH",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -126434,6 +126418,90 @@
       "northing": 446250,
       "notation": "062916",
       "stationReference": "062916"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/713038_",
+      "easting": 364863,
+      "gridReference": "SD6486335593",
+      "label": "Sarmation Bridge",
+      "lat": 53.815409,
+      "long": -2.53514,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/713038_-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 435593,
+      "notation": "713038_",
+      "stationReference": "713038_"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/700405",
+      "easting": 359643,
+      "gridReference": "SD5964317755",
+      "label": "Chorley Haworth Road",
+      "lat": 53.65471,
+      "long": -2.612083,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/700405-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 417755,
+      "notation": "700405",
+      "stationReference": "700405"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2529",
+      "easting": 409101,
+      "gridReference": "SP0910137279",
+      "label": "Broadway FSA",
+      "lat": 52.033838,
+      "long": -1.868738,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2529-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 237279,
+      "notation": "2529",
+      "stationReference": "2529"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2528",
+      "easting": 407883,
+      "gridReference": "SP0788338500",
+      "label": "Childswickham LVL",
+      "lat": 52.044833,
+      "long": -1.886465,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2528-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 238500,
+      "notation": "2528",
+      "stationReference": "2528"
     }
   ]
 }
