@@ -37626,7 +37626,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/49152",
       "easting": 207180,
       "gridReference": "SX0718067074",
-      "label": "BODMIN CROCKWELL STREET",
+      "label": "BODMIN CROCKWELL STREET WITS",
       "lat": 50.471699,
       "long": -4.718637,
       "measures": [
@@ -59575,6 +59575,14 @@
       "lat": 51.507967,
       "long": 0.174152,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-1-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
