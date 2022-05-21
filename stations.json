@@ -6364,6 +6364,14 @@
       "long": -1.171327,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -28430,6 +28438,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1151-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 425430,
@@ -80176,14 +80192,6 @@
       "label": "Macmillan Way OBH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83078,14 +83086,6 @@
       "gridReference": "SJ5794",
       "label": "Sankey Valley Ind Est",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-1-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-groundwater-i-1_h-m",
           "parameter": "level",
@@ -86614,6 +86614,14 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -109721,14 +109729,6 @@
       "label": "Gorstons",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-1-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -126216,9 +126216,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4688",
+      "RLOIid": "9474",
+      "catchmentName": "Lower Trent and Erewash",
+      "dateOpened": "2021-08-18",
       "easting": 446545,
       "gridReference": "SK4654547494",
-      "label": "Eastwood Mansfield Road ",
+      "label": "Eastwood",
       "lat": 53.022713,
       "long": -1.307535,
       "measures": [
@@ -126233,13 +126236,21 @@
       ],
       "northing": 347494,
       "notation": "4688",
-      "stationReference": "4688"
+      "riverName": "Beauvale Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4688/stageScale",
+      "stationReference": "4688",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Eastwood",
+      "wiskiID": "4688"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4690",
+      "RLOIid": "9476",
+      "catchmentName": "Lower Trent and Erewash",
+      "dateOpened": "2021-11-05",
       "easting": 481781,
       "gridReference": "SK8178150844",
-      "label": "Newark Balderton Staple Lane",
+      "label": "Newark Balderton",
       "lat": 53.048603,
       "long": -0.781479,
       "measures": [
@@ -126254,13 +126265,21 @@
       ],
       "northing": 350844,
       "notation": "4690",
-      "stationReference": "4690"
+      "riverName": "Lowfield Drain",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4690/stageScale",
+      "stationReference": "4690",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Balderton",
+      "wiskiID": "4690"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4691",
+      "RLOIid": "9473",
+      "catchmentName": "Lower Trent and Erewash",
+      "dateOpened": "2022-03-07",
       "easting": 462548,
       "gridReference": "SK6254847846",
-      "label": "Nottingham Woodborough Main Street",
+      "label": "Woodborough",
       "lat": 53.024249,
       "long": -1.068919,
       "measures": [
@@ -126275,15 +126294,23 @@
       ],
       "northing": 347846,
       "notation": "4691",
-      "stationReference": "4691"
+      "riverName": "Dover Beck",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4691/stageScale",
+      "stationReference": "4691",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Woodborough",
+      "wiskiID": "4691"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4693",
-      "easting": 411573,
-      "gridReference": "SP1157396086",
-      "label": "Bradwell Brook",
-      "lat": 52.562477,
-      "long": -1.830703,
+      "RLOIid": "9475",
+      "catchmentName": "Derbyshire Derwent",
+      "dateOpened": "2022-03-11",
+      "easting": 417493,
+      "gridReference": "SK1749381312",
+      "label": "Bradwell",
+      "lat": 53.328427,
+      "long": -1.738804,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4693-level-stage-i-15_min-mASD",
@@ -126294,9 +126321,14 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 296086,
+      "northing": 381312,
       "notation": "4693",
-      "stationReference": "4693"
+      "riverName": "Bradwell Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4693/stageScale",
+      "stationReference": "4693",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Bradwell",
+      "wiskiID": "4693"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1775",
