@@ -22612,14 +22612,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1656-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 347169,
@@ -76979,6 +76971,14 @@
       "label": "NORTHFIELD FARM OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78902,6 +78902,14 @@
       "gridReference": "SU4578",
       "label": "Gibbet Cottage OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -82581,6 +82589,14 @@
       "gridReference": "TQ0852",
       "label": "West Horsley Place OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -99839,12 +99855,16 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "easting": 614950,
-      "gridReference": "TM149414",
-      "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "label": "FENCE BRIDGE GATE RL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
@@ -99854,7 +99874,6 @@
           "unitName": "mm"
         }
       ],
-      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -109600,7 +109619,7 @@
       "riverName": "River Stour",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3810/stageScale",
       "stationReference": "E3810",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Sandwich",
       "wiskiID": "654800002"
     },
@@ -126923,6 +126942,27 @@
       "northing": 439207,
       "notation": "720708",
       "stationReference": "720708"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E20747",
+      "easting": 183294,
+      "gridReference": "SW8329443564",
+      "label": "TRURO TIDE GATE",
+      "lat": 50.252224,
+      "long": -5.041232,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E20747-level-sump_level-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Sump Level",
+          "unitName": "m"
+        }
+      ],
+      "northing": 43564,
+      "notation": "E20747",
+      "stationReference": "E20747"
     }
   ]
 }
