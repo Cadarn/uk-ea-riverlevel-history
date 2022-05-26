@@ -85351,6 +85351,14 @@
       "long": -1.367352,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12411-flow--i-15_min----",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12411-flow--i-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
@@ -90024,28 +90032,12 @@
       "label": "High View (Kimpton) OBH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9409SE-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9409SE-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9409SE-level-groundwater-i-1_h-mBDAT",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mBDAT"
         }
       ],
       "notation": "9409SE",
@@ -103204,14 +103196,6 @@
       "long": -0.73336,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -109768,14 +109752,6 @@
       "gridReference": "SJ5969",
       "label": "Gorstons",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-1-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-groundwater-i-1_h-m",
           "parameter": "level",
@@ -126714,6 +126690,9 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/700405",
+      "RLOIid": "9479",
+      "catchmentName": "Ribble Douglas and Crossens",
+      "dateOpened": "2022-04-27",
       "easting": 359643,
       "gridReference": "SD5964317755",
       "label": "Chorley Haworth Road",
@@ -126731,7 +126710,12 @@
       ],
       "northing": 417755,
       "notation": "700405",
-      "stationReference": "700405"
+      "riverName": "Black Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/700405/stageScale",
+      "stationReference": "700405",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Chorley",
+      "wiskiID": "700405"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2529",
@@ -126819,9 +126803,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/732003",
+      "RLOIid": "9482",
+      "catchmentName": "South Cumbria",
+      "dateOpened": "2022-05-13",
       "easting": 337912,
       "gridReference": "SD3791278877",
-      "label": "Wheelhouse Bridge",
+      "label": "Cartmel Wheelhouse Bridge",
       "lat": 54.201851,
       "long": -2.953279,
       "measures": [
@@ -126836,13 +126823,21 @@
       ],
       "northing": 478877,
       "notation": "732003",
-      "stationReference": "732003"
+      "riverName": "Eea River",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/732003/stageScale",
+      "stationReference": "732003",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Cartmel",
+      "wiskiID": "732003"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/713038",
+      "RLOIid": "9481",
+      "catchmentName": "Ribble Douglas and Crossens",
+      "dateOpened": "2022-04-27",
       "easting": 364863,
       "gridReference": "SD6486335593",
-      "label": "Sarmatian Bridge",
+      "label": "Ribchester Sarmatian Bridge",
       "lat": 53.815409,
       "long": -2.53514,
       "measures": [
@@ -126857,13 +126852,21 @@
       ],
       "northing": 435593,
       "notation": "713038",
-      "stationReference": "713038"
+      "riverName": "Boyces Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/713038/stageScale",
+      "stationReference": "713038",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Ribchester",
+      "wiskiID": "713038"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/710200",
+      "RLOIid": "9477",
+      "catchmentName": "Ribble Douglas and Crossens",
+      "dateOpened": "2022-05-10",
       "easting": 378690,
       "gridReference": "SD7869049446",
-      "label": "Bolton by Bowland Hellifield Road",
+      "label": "Bolton by Bowland Hellifield rd",
       "lat": 53.940669,
       "long": -2.326107,
       "measures": [
@@ -126878,13 +126881,21 @@
       ],
       "northing": 449446,
       "notation": "710200",
-      "stationReference": "710200"
+      "riverName": "Kirk Beck",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/710200/stageScale",
+      "stationReference": "710200",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Bolton by Bowland",
+      "wiskiID": "710200"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/710401",
+      "RLOIid": "9478",
+      "catchmentName": "Ribble Douglas and Crossens",
+      "dateOpened": "2022-05-18",
       "easting": 377072,
       "gridReference": "SD7707244026",
-      "label": "Pendle Ave",
+      "label": "Chatburn Pendle Avenue",
       "lat": 53.891887,
       "long": -2.350346,
       "measures": [
@@ -126899,7 +126910,12 @@
       ],
       "northing": 444026,
       "notation": "710401",
-      "stationReference": "710401"
+      "riverName": "Heys Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/710401/stageScale",
+      "stationReference": "710401",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Chatburn",
+      "wiskiID": "710401"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E12022",
@@ -126924,9 +126940,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/720708",
+      "RLOIid": "9480",
+      "catchmentName": "Lune and Wyre",
+      "dateOpened": "2022-05-19",
       "easting": 333937,
       "gridReference": "SD3393739207",
-      "label": "Cottam Hall Field Grid",
+      "label": "Poulton Cottam Hall Field Grid",
       "lat": 53.844871,
       "long": -3.005565,
       "measures": [
@@ -126941,7 +126960,12 @@
       ],
       "northing": 439207,
       "notation": "720708",
-      "stationReference": "720708"
+      "riverName": "Horsebridge Dyke",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/720708/stageScale",
+      "stationReference": "720708",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Poulton",
+      "wiskiID": "720708"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E20747",
