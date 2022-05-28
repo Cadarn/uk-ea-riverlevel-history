@@ -6364,6 +6364,14 @@
       "long": -1.171327,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -56191,7 +56199,7 @@
       "riverName": "River Wye",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2590TH/stageScale",
       "stationReference": "2590TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Bourne End",
       "wiskiID": "2590TH"
     },
@@ -75037,7 +75045,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4489",
       "easting": 488819,
       "gridReference": "SP8881974811",
-      "label": "WEETABIX GS BURTON LATIMER",
+      "label": "WEETABIX GS BURTOM LATIMER WITS",
       "lat": 52.364156,
       "long": -0.697032,
       "measures": [
@@ -76971,6 +76979,14 @@
       "label": "NORTHFIELD FARM OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78894,6 +78910,14 @@
       "gridReference": "SU4578",
       "label": "Gibbet Cottage OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -82573,6 +82597,14 @@
       "gridReference": "TQ0852",
       "label": "West Horsley Place OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -86630,6 +86662,14 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -99823,17 +99863,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "label": "FENCE BRIDGE GATE RL",
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
+      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -126302,7 +126347,7 @@
       ],
       "northing": 347846,
       "notation": "4691",
-      "riverName": "Dover Beck",
+      "riverName": "Woodborough Brook",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4691/stageScale",
       "stationReference": "4691",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
@@ -126971,6 +127016,42 @@
       "northing": 43564,
       "notation": "E20747",
       "stationReference": "E20747"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4542",
+      "RLOIid": "9484",
+      "catchmentName": "Warwickshire Avon",
+      "dateOpened": "2018-10-10",
+      "easting": 409125,
+      "gridReference": "SP0912537353",
+      "label": "Broadway Flood Storage Area",
+      "lat": 52.034502,
+      "long": -1.868386,
+      "northing": 237353,
+      "notation": "4542",
+      "riverName": "Badsey Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4542/stageScale",
+      "stationReference": "4542",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "2529"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4540",
+      "RLOIid": "9483",
+      "catchmentName": "Warwickshire Avon",
+      "dateOpened": "2018-10-16",
+      "easting": 407885,
+      "gridReference": "SP0788538497",
+      "label": "Childswickham",
+      "lat": 52.044806,
+      "long": -1.886436,
+      "northing": 238497,
+      "notation": "4540",
+      "riverName": "Badsey Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4540/stageScale",
+      "stationReference": "4540",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "2528"
     }
   ]
 }
