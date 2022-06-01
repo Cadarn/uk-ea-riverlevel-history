@@ -62114,7 +62114,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/48112",
       "easting": 155798,
       "gridReference": "SW5579837643",
-      "label": "COPPERHOUSE",
+      "label": "COPPERHOUSE WITS",
       "lat": 50.188345,
       "long": -5.422438,
       "measures": [
@@ -95127,6 +95127,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
