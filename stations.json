@@ -99658,22 +99658,17 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "easting": 614950,
-      "gridReference": "TM149414",
-      "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "label": "FENCE BRIDGE GATE RL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -127356,6 +127351,69 @@
       "northing": 304233,
       "notation": "4680",
       "stationReference": "4680"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4689",
+      "easting": 450568,
+      "gridReference": "SK5056864329",
+      "label": "Mansfield Pleasley Chesterfield Road North",
+      "lat": 53.173665,
+      "long": -1.24492,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4689-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 364329,
+      "notation": "4689",
+      "stationReference": "4689"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4692",
+      "easting": 452149,
+      "gridReference": "SK5214938756",
+      "label": "Nottingham Woodbank Drive",
+      "lat": 52.943657,
+      "long": -1.225402,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4692-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 338756,
+      "notation": "4692",
+      "stationReference": "4692"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1772",
+      "easting": 357650,
+      "gridReference": "SO576107",
+      "label": "Rainfall station",
+      "lat": 51.793782,
+      "long": -2.615455,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1772-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 210750,
+      "notation": "1772",
+      "stationReference": "1772"
     }
   ]
 }
