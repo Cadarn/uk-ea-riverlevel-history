@@ -77108,7 +77108,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/48196",
       "easting": 164315,
       "gridReference": "SW6431524280",
-      "label": "LOE BAR",
+      "label": "LOE BAR WITS",
       "lat": 50.071815,
       "long": -5.295076,
       "measures": [
@@ -77983,7 +77983,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/48197",
       "easting": 164315,
       "gridReference": "SW6431524280",
-      "label": "LOE BAR",
+      "label": "LOE BAR WITS",
       "lat": 50.071815,
       "long": -5.295076,
       "measures": [
@@ -127414,6 +127414,27 @@
       "northing": 210750,
       "notation": "1772",
       "stationReference": "1772"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4687",
+      "easting": 445729,
+      "gridReference": "SK4572934006",
+      "label": "Long Eaton Breaston Holmes Road",
+      "lat": 52.901545,
+      "long": -1.321599,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4687-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 334006,
+      "notation": "4687",
+      "stationReference": "4687"
     }
   ]
 }
