@@ -15,24 +15,6 @@
   },
   "items": [
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/4199-level-stage-i-15_min-mAOD/2022-06-17T04-00-00Z",
-      "dateTime": "2022-06-17T04:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/4199-level-stage-i-15_min-mAOD",
-      "value": 2.802
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E6381-level-stage-i-15_min-mASD/2022-06-17T13-15-00Z",
-      "dateTime": "2022-06-17T13:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6381-level-stage-i-15_min-mASD",
-      "value": 1.26
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E6380-level-stage-i-15_min-mASD/2022-06-17T13-15-00Z",
-      "dateTime": "2022-06-17T13:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-level-stage-i-15_min-mASD",
-      "value": 3.763
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/26115-level-groundwater-i-1_h-mBDAT/2022-06-16T09-00-00Z",
       "dateTime": "2022-06-16T09:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/26115-level-groundwater-i-1_h-mBDAT",
@@ -43,6 +25,24 @@
       "dateTime": "2022-06-16T13:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2851SO-level-stage-i-15_min-mAOD",
       "value": 34.05
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/4199-level-stage-i-15_min-mAOD/2022-06-17T04-00-00Z",
+      "dateTime": "2022-06-17T04:00:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/4199-level-stage-i-15_min-mAOD",
+      "value": 2.802
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E6380-level-stage-i-15_min-mASD/2022-06-17T13-15-00Z",
+      "dateTime": "2022-06-17T13:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-level-stage-i-15_min-mASD",
+      "value": 3.763
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E6381-level-stage-i-15_min-mASD/2022-06-17T13-15-00Z",
+      "dateTime": "2022-06-17T13:15:00Z",
+      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6381-level-stage-i-15_min-mASD",
+      "value": 1.26
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/E82484-level-stage-i-15_min-m/2022-06-21T02-00-00Z",
