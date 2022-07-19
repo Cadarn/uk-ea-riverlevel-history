@@ -95106,6 +95106,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -127603,6 +127611,27 @@
       "northing": 344510,
       "notation": "4685",
       "stationReference": "4685"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/754008",
+      "easting": 317861,
+      "gridReference": "NY1786141595",
+      "label": "Blennerhasset Bridge",
+      "lat": 54.762528,
+      "long": -3.278037,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/754008-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 541595,
+      "notation": "754008",
+      "stationReference": "754008"
     }
   ]
 }
