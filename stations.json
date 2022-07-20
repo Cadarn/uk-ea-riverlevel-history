@@ -76343,7 +76343,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/NY52_2H",
       "gridReference": "NY5826",
-      "label": "Cliburn",
+      "label": "Cliburn BH",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/NY52_2H-level-groundwater-i-1_h-m",
@@ -95106,14 +95106,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -127632,6 +127624,48 @@
       "northing": 541595,
       "notation": "754008",
       "stationReference": "754008"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3237",
+      "easting": 505010,
+      "gridReference": "TA0501032878",
+      "label": "Cottingham Station Road",
+      "lat": 53.781634,
+      "long": -0.407793,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L3237-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 432878,
+      "notation": "L3237",
+      "stationReference": "L3237"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/075497",
+      "easting": 411750,
+      "gridReference": "SE117354",
+      "label": "Rainfall station",
+      "lat": 53.815189,
+      "long": -1.823015,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/075497-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 435450,
+      "notation": "075497",
+      "stationReference": "075497"
     }
   ]
 }
