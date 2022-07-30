@@ -74012,7 +74012,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/NY54_56",
       "gridReference": "NY5142",
-      "label": "Barronwood",
+      "label": "Baronwood",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/NY54_56-level-groundwater-i-1_h-m",
@@ -99659,17 +99659,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "label": "FENCE BRIDGE GATE RL",
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
+      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -127704,6 +127709,27 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Dovecliff",
       "wiskiID": "47000"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/753200",
+      "easting": 299198,
+      "gridReference": "NX9919825433",
+      "label": "Harrington Eadie Street",
+      "lat": 54.613939,
+      "long": -3.562381,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/753200-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 525433,
+      "notation": "753200",
+      "stationReference": "753200"
     }
   ]
 }
