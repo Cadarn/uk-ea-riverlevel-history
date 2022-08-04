@@ -76585,7 +76585,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21738",
       "easting": 627900,
       "gridReference": "TM2790058200",
-      "label": "LETHERINGHAM MILL SLUICE NEW",
+      "label": "LETHERINGHAM MILL SLUICE",
       "lat": 52.17495,
       "long": 1.331675,
       "measures": [
@@ -127725,6 +127725,23 @@
       "northing": 525433,
       "notation": "753200",
       "stationReference": "753200"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9634SE",
+      "gridReference": "TQ5567",
+      "label": "Farningham OBH",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9634SE-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "9634SE",
+      "stationReference": "9634SE"
     }
   ]
 }
