@@ -24471,6 +24471,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L1800-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 425000,
@@ -72614,6 +72622,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E19862-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 312700,
@@ -127839,6 +127855,468 @@
       "northing": 425608,
       "notation": "713207",
       "stationReference": "713207"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1390TH",
+      "easting": 453325,
+      "gridReference": "SP5332504501",
+      "label": "Campbell Road RL",
+      "lat": 51.736683,
+      "long": -1.229173,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1390TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 204501,
+      "notation": "1390TH",
+      "stationReference": "1390TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2416TH",
+      "easting": 481581,
+      "gridReference": "SU8158154304",
+      "label": "Kings Road Bridge RL",
+      "lat": 51.282041,
+      "long": -0.831662,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2416TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 154304,
+      "notation": "2416TH",
+      "stationReference": "2416TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1482TH",
+      "easting": 458302,
+      "gridReference": "SP5830222534",
+      "label": "Hunt Close Bridge RL",
+      "lat": 51.898304,
+      "long": -1.154078,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1482TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 222534,
+      "notation": "1482TH",
+      "stationReference": "1482TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3092TH",
+      "easting": 504021,
+      "gridReference": "TQ0402161284",
+      "label": "West Byfleet RL RL",
+      "lat": 51.341131,
+      "long": -0.507986,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3092TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 161284,
+      "notation": "3092TH",
+      "stationReference": "3092TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3072TH",
+      "easting": 494526,
+      "gridReference": "SU9452655649",
+      "label": "Pirbright Road Bridge RL",
+      "lat": 51.292133,
+      "long": -0.645752,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3072TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 155649,
+      "notation": "3072TH",
+      "stationReference": "3072TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1912TH",
+      "easting": 480133,
+      "gridReference": "SP8013303153",
+      "label": "Princes Risborough RL",
+      "lat": 51.721379,
+      "long": -0.841337,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1912TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 203153,
+      "notation": "1912TH",
+      "stationReference": "1912TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2434TH",
+      "easting": 481781,
+      "gridReference": "SU8178164907",
+      "label": "The Brambles Bridge",
+      "lat": 51.377331,
+      "long": -0.826364,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2434TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 164907,
+      "notation": "2434TH",
+      "stationReference": "2434TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/0301TH",
+      "easting": 419220,
+      "gridReference": "SU1922088072",
+      "label": "Highworth Bridge RL",
+      "lat": 51.591169,
+      "long": -1.723948,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0301TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 188072,
+      "notation": "0301TH",
+      "stationReference": "0301TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2934TH",
+      "easting": 503332,
+      "gridReference": "TQ0333266837",
+      "label": "Pyrcroft Road RL",
+      "lat": 51.39117,
+      "long": -0.516262,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2934TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 166837,
+      "notation": "2934TH",
+      "stationReference": "2934TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2450TH",
+      "easting": 479765,
+      "gridReference": "SU7976549324",
+      "label": "Crondall Bridge RL",
+      "lat": 51.237527,
+      "long": -0.858803,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2450TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 149324,
+      "notation": "2450TH",
+      "stationReference": "2450TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1304TH",
+      "easting": 450926,
+      "gridReference": "SP5092605998",
+      "label": "Oxford Castle Mill RL",
+      "lat": 51.750364,
+      "long": -1.263692,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1304TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 205998,
+      "notation": "1304TH",
+      "stationReference": "1304TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9623SE",
+      "easting": 531936,
+      "gridReference": "TQ3193643469",
+      "label": "Churchill Road RL",
+      "lat": 51.175242,
+      "long": -0.113993,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9623SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 143469,
+      "notation": "9623SE",
+      "stationReference": "9623SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9625SE",
+      "easting": 559667,
+      "gridReference": "TQ5966749145",
+      "label": "Frog Bridge RL",
+      "lat": 51.219175,
+      "long": 0.28492,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9625SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 149145,
+      "notation": "9625SE",
+      "stationReference": "9625SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9627SE",
+      "easting": 527666,
+      "gridReference": "TQ2766648074",
+      "label": "Maple Road RL",
+      "lat": 51.217597,
+      "long": -0.173407,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9627SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 148074,
+      "notation": "9627SE",
+      "stationReference": "9627SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9624SE",
+      "easting": 611221,
+      "gridReference": "TR1122165212",
+      "label": "St Andrews Close",
+      "lat": 51.346718,
+      "long": 1.03165,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9624SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 165212,
+      "notation": "9624SE",
+      "stationReference": "9624SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9630SE",
+      "easting": 620478,
+      "gridReference": "TR2047837064",
+      "label": "Postling Road RL",
+      "lat": 51.090486,
+      "long": 1.147071,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9630SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 137064,
+      "notation": "9630SE",
+      "stationReference": "9630SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9450SE",
+      "easting": 443089,
+      "gridReference": "SU4308921410",
+      "label": "Valley Road RL",
+      "lat": 50.99048,
+      "long": -1.387439,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9450SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 121410,
+      "notation": "9450SE",
+      "stationReference": "9450SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9453SE",
+      "easting": 488950,
+      "gridReference": "SU8895021356",
+      "label": "The Wharf Bridge RL",
+      "lat": 50.984744,
+      "long": -0.734155,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9453SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 121356,
+      "notation": "9453SE",
+      "stationReference": "9453SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9452SE",
+      "easting": 424104,
+      "gridReference": "SZ2410493792",
+      "label": "Highlands Road RL",
+      "lat": 50.743237,
+      "long": -1.659739,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9452SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 93792,
+      "notation": "9452SE",
+      "stationReference": "9452SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9451SE",
+      "easting": 452723,
+      "gridReference": "SU5272309129",
+      "label": "Whiteley RL",
+      "lat": 50.879255,
+      "long": -1.251959,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9451SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 109129,
+      "notation": "9451SE",
+      "stationReference": "9451SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9626SE",
+      "easting": 515923,
+      "gridReference": "TQ1592349673",
+      "label": "Curtis Road Bridge RL",
+      "lat": 51.234471,
+      "long": -0.340951,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9626SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 149673,
+      "notation": "9626SE",
+      "stationReference": "9626SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/0331TH",
+      "easting": 413367,
+      "gridReference": "SU1336789375",
+      "label": "Eastbury Road RL",
+      "lat": 51.603052,
+      "long": -1.808386,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0331TH-wind-stage-i-15_min-mASD",
+          "parameter": "wind",
+          "parameterName": "Wind",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 189375,
+      "notation": "0331TH",
+      "stationReference": "0331TH"
     }
   ]
 }
