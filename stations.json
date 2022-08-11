@@ -128317,6 +128317,27 @@
       "northing": 189375,
       "notation": "0331TH",
       "stationReference": "0331TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5485TH",
+      "easting": 546013,
+      "gridReference": "TQ4601388051",
+      "label": "Seven Kings Park RL",
+      "lat": 51.57242,
+      "long": 0.105546,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5485TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 188051,
+      "notation": "5485TH",
+      "stationReference": "5485TH"
     }
   ]
 }
