@@ -71887,6 +71887,14 @@
       "long": -0.151524,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4151TH-level-downstage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4151TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -72397,7 +72405,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E1366",
       "easting": 483668,
       "gridReference": "SP8366857777",
-      "label": "DENTON FSR",
+      "label": "DENTON FSR WITS",
       "lat": 52.211862,
       "long": -0.776883,
       "measures": [
@@ -95107,6 +95115,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
