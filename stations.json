@@ -127784,11 +127784,11 @@
       "long": -0.023228,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E68651-level-downstage-i-15_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E68651-level-tidal_level-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Downstream Stage",
+          "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
       ],
@@ -128362,6 +128362,27 @@
       "northing": 188051,
       "notation": "5485TH",
       "stationReference": "5485TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4653",
+      "easting": 406215,
+      "gridReference": "SP0621593420",
+      "label": "Birmingham Perry Beeches Beeches Road",
+      "lat": 52.538596,
+      "long": -1.909791,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4653-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 293420,
+      "notation": "4653",
+      "stationReference": "4653"
     }
   ]
 }
