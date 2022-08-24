@@ -75810,7 +75810,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21581",
       "easting": 619700,
       "gridReference": "TG1970010500",
-      "label": "HELLESDON MILL SLUICE NORWICH NEW",
+      "label": "HELLESDON MILL SLUICE NORWICH",
       "lat": 52.647705,
       "long": 1.246275,
       "measures": [
@@ -128383,6 +128383,27 @@
       "northing": 293420,
       "notation": "4653",
       "stationReference": "4653"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/765005",
+      "easting": 332369,
+      "gridReference": "NY3236939858",
+      "label": "Caldbeck Gill Beck Bridge",
+      "lat": 54.749088,
+      "long": -3.05221,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/765005-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 539858,
+      "notation": "765005",
+      "stationReference": "765005"
     }
   ]
 }
