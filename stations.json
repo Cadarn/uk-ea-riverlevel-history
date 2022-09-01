@@ -70178,7 +70178,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/53118",
       "easting": 350261,
       "gridReference": "ST5026179051",
-      "label": "AVONMOUTH TIDAL",
+      "label": "AVONMOUTH TIDAL S2000",
       "lat": 51.508182,
       "long": -2.718065,
       "measures": [
@@ -72623,14 +72623,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m3/s"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E19862-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
         }
       ],
       "northing": 312700,
@@ -95116,6 +95108,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
