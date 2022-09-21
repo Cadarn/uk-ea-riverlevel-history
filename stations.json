@@ -95116,14 +95116,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -122074,7 +122066,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/445610",
       "easting": 362978,
       "gridReference": "SY6297889736",
-      "label": "WINTERBOURNE STEEPLETON WITS ATU",
+      "label": "WINTERBOURNE STEEPLETON WITS",
       "lat": 50.706072,
       "long": -2.525645,
       "measures": [
