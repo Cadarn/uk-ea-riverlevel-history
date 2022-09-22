@@ -7572,10 +7572,10 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/755900",
       "easting": 310615,
-      "gridReference": "NY10615347",
-      "label": "Silloth",
-      "lat": 54.868017,
-      "long": -3.394284,
+      "gridReference": "NY10615353",
+      "label": "Silloth Docks",
+      "lat": 54.868556,
+      "long": -3.394303,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-level-stage-i-15_min-m",
@@ -7602,7 +7602,7 @@
           "unitName": "m/s"
         }
       ],
-      "northing": 553475,
+      "northing": 553535,
       "notation": "755900",
       "stationReference": "755900"
     },
@@ -62970,11 +62970,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/693023",
-      "easting": 366855,
-      "gridReference": "SD66850008",
+      "easting": 366850,
+      "gridReference": "SD668000",
       "label": "Bedford FW",
-      "lat": 53.496402,
-      "long": -2.501086,
+      "lat": 53.496087,
+      "long": -2.501157,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/693023-level-1-i-15_min-m",
@@ -62993,7 +62993,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 400085,
+      "northing": 400050,
       "notation": "693023",
       "stationReference": "693023"
     },
@@ -95116,6 +95116,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -128537,6 +128545,48 @@
       "northing": 436112,
       "notation": "F3485",
       "stationReference": "F3485"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E560A",
+      "easting": 562960,
+      "gridReference": "TQ6296047227",
+      "label": "HARTLAKE RL",
+      "lat": 51.201014,
+      "long": 0.331161,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E560A-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 147227,
+      "notation": "E560A",
+      "stationReference": "E560A"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SE560",
+      "easting": 562960,
+      "gridReference": "TQ6296047227",
+      "label": "HARTLAKE RL",
+      "lat": 51.201014,
+      "long": 0.331161,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SE560-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 147227,
+      "notation": "SE560",
+      "stationReference": "SE560"
     }
   ]
 }
