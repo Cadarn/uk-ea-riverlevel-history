@@ -6372,6 +6372,14 @@
       "long": -1.171327,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -7583,6 +7591,14 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
+          "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-level-tidal_level-Mean-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Tidal Level",
           "unitName": "m"
         },
         {
@@ -38120,7 +38136,7 @@
       "riverName": "River Nene",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E42124/stageScale",
       "stationReference": "E42124",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Northampton",
       "wiskiID": "L32066"
     },
@@ -59004,7 +59020,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/44223",
       "easting": 402081,
       "gridReference": "SZ0208179352",
-      "label": "SWANAGE PROSPECT FARM FAS WITS",
+      "label": "SWANAGE PROSPECT FARM FAS",
       "lat": 50.613874,
       "long": -1.971941,
       "measures": [
@@ -64816,7 +64832,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/44226",
       "easting": 402611,
       "gridReference": "SZ0261179124",
-      "label": "SWANAGE KING GEORGES FIELD FAS WITS",
+      "label": "SWANAGE KING GEORGES FIELD FAS",
       "lat": 50.611822,
       "long": -1.964452,
       "measures": [
@@ -64924,7 +64940,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/44225",
       "easting": 402611,
       "gridReference": "SZ0261179124",
-      "label": "SWANAGE KING GEORGES FIELD FAS WITS",
+      "label": "SWANAGE KING GEORGES FIELD FAS",
       "lat": 50.611822,
       "long": -1.964452,
       "measures": [
@@ -66196,7 +66212,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/44222",
       "easting": 402081,
       "gridReference": "SZ0208179352",
-      "label": "SWANAGE PROSPECT FARM FAS WITS",
+      "label": "SWANAGE PROSPECT FARM FAS",
       "lat": 50.613874,
       "long": -1.971941,
       "measures": [
@@ -78331,6 +78347,14 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78671,6 +78695,14 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -80813,6 +80845,14 @@
       "gridReference": "SU3875",
       "label": "Great Shefford OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -103164,14 +103204,6 @@
       "long": -0.73336,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -115329,6 +115361,14 @@
       "gridReference": "SU8716",
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
