@@ -66096,6 +66096,14 @@
           "unitName": "mAOD"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-height-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Height",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -80814,14 +80822,6 @@
       "label": "Great Shefford OBH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83150,6 +83150,14 @@
       "gridReference": "SJ5794",
       "label": "Sankey Valley Ind Est",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-1-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "1",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-groundwater-i-1_h-m",
           "parameter": "level",
@@ -86622,6 +86630,14 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -99807,16 +99823,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "label": "FENCE BRIDGE GATE RL",
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
@@ -99826,6 +99838,7 @@
           "unitName": "mm"
         }
       ],
+      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -127604,9 +127617,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4692",
+      "RLOIid": "9496",
+      "catchmentName": "Lower Trent and Erewash",
+      "dateOpened": "2022-04-12",
       "easting": 452149,
-      "gridReference": "SK5214938756",
-      "label": "Nottingham Woodbank Drive",
+      "gridReference": "SK214938756",
+      "label": "Wollaton",
       "lat": 52.943657,
       "long": -1.225402,
       "measures": [
@@ -127621,7 +127637,12 @@
       ],
       "northing": 338756,
       "notation": "4692",
-      "stationReference": "4692"
+      "riverName": "Tottle Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4692/stageScale",
+      "stationReference": "4692",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Lenton Abbey",
+      "wiskiID": "4692"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1772",
@@ -127646,9 +127667,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4687",
+      "RLOIid": "9495",
+      "catchmentName": "Lower Trent and Erewash",
+      "dateOpened": "2021-08-18",
       "easting": 445729,
       "gridReference": "SK4572934006",
-      "label": "Long Eaton Breaston Holmes Road",
+      "label": "Breaston",
       "lat": 52.901545,
       "long": -1.321599,
       "measures": [
@@ -127663,7 +127687,12 @@
       ],
       "northing": 334006,
       "notation": "4687",
-      "stationReference": "4687"
+      "riverName": "Golden Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4687/stageScale",
+      "stationReference": "4687",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Breaston",
+      "wiskiID": "4687"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2540",
