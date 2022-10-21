@@ -61640,7 +61640,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/44135",
       "easting": 368049,
       "gridReference": "SY6804973958",
-      "label": "CHISWELL WITS",
+      "label": "CHISWELL",
       "lat": 50.56449,
       "long": -2.452469,
       "measures": [
@@ -61806,7 +61806,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/44134",
       "easting": 368049,
       "gridReference": "SY6804973958",
-      "label": "CHISWELL WITS",
+      "label": "CHISWELL",
       "lat": 50.56449,
       "long": -2.452469,
       "measures": [
@@ -95103,14 +95103,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
