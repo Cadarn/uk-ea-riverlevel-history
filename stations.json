@@ -55192,7 +55192,7 @@
       "riverName": "River Loddon",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2481TH/stageScale",
       "stationReference": "2481TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Sindlesham",
       "wiskiID": "2481TH"
     },
@@ -62587,14 +62587,6 @@
       "lat": 51.142293,
       "long": 0.877089,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4360-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4360-level-stage-i-15_min-mASD",
           "parameter": "level",
@@ -73798,6 +73790,14 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "2",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
           "unitName": "mAOD"
         }
       ],
@@ -86638,6 +86638,14 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -99818,17 +99826,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "label": "FENCE BRIDGE GATE RL",
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
+      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -122248,7 +122261,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/445610",
       "easting": 362978,
       "gridReference": "SY6297889736",
-      "label": "WINTERBOURNE STEEPLETON WITS",
+      "label": "WINTERBOURNE STEEPLETON",
       "lat": 50.706072,
       "long": -2.525645,
       "measures": [
