@@ -7586,6 +7586,14 @@
           "unitName": "m"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-level-tidal_level-Mean-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-wind-direction-Mean-15_min-deg",
           "parameter": "wind",
           "parameterName": "Wind",
@@ -30982,13 +30990,35 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4069",
-      "RLOIid": "2131",
-      "catchmentName": "Tame Anker and Mease",
-      "dateOpened": "1979-05-01",
-      "easting": 420570,
-      "label": "Tamworth",
-      "lat": 52.631289,
-      "long": -1.697508,
+      "RLOIid": [
+        "2131",
+        "9501"
+      ],
+      "catchmentName": [
+        "Tame Anker and Mease",
+        "Teme"
+      ],
+      "dateOpened": [
+        "1979-05-01",
+        "2022-01-03"
+      ],
+      "easting": [
+        339346,
+        420570
+      ],
+      "gridReference": "SO3934678585",
+      "label": [
+        "Clungunford",
+        "Tamworth"
+      ],
+      "lat": [
+        52.401891,
+        52.631289
+      ],
+      "long": [
+        -1.697508,
+        -2.892925
+      ],
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4069-level-stage-i-15_min-mASD",
@@ -30999,9 +31029,15 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 303770,
+      "northing": [
+        278585,
+        303770
+      ],
       "notation": "4069",
-      "riverName": "River Tame",
+      "riverName": [
+        "Clun",
+        "River Tame"
+      ],
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4069/stageScale",
       "stationReference": "4069",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
@@ -58902,6 +58938,22 @@
           "period": 900,
           "qualifier": "1",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-2-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 45870,
@@ -61161,7 +61213,7 @@
       "stationReference": "E14821",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Budbridge",
-      "wiskiID": "50101012"
+      "wiskiID": "050101012"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E15460",
@@ -68208,6 +68260,14 @@
       "lat": 51.067397,
       "long": -2.269502,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-1-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "m3/s"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-water-i-15_min-m3_s",
           "parameter": "flow",
@@ -77996,6 +78056,14 @@
       "long": -0.517993,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2877TH-level-1-i-15_min-_",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "%"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2877TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78290,6 +78358,14 @@
       "gridReference": "SU4224",
       "label": "HURSLEY GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -78631,6 +78707,14 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -84424,22 +84508,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 340250,
-      "gridReference": "SY402979",
-      "label": "Rainfall station",
-      "lat": 50.778033,
-      "long": -2.848812,
+      "easting": 589070,
+      "gridReference": "TQ8907083023",
+      "label": "SOUTHEND PIER TS",
+      "lat": 51.514481,
+      "long": 0.72348,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "1",
-          "unitName": "mm"
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 97950,
+      "northing": 183023,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -86600,14 +86684,6 @@
           "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 300,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
         }
       ],
       "northing": 319770,
@@ -87151,7 +87227,7 @@
       "dateOpened": "2014-07-10",
       "easting": 273591,
       "gridReference": "SX7359166254",
-      "label": "Buckfastleigh",
+      "label": "Buckfastleigh Mardle",
       "lat": 50.482427,
       "long": -3.783081,
       "measures": [
@@ -87170,7 +87246,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/46165/stageScale",
       "stationReference": "46165",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Buckfasteligh",
+      "town": "Buckfastleigh",
       "wiskiID": "SX76F045"
     },
     {
@@ -92777,11 +92853,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1712",
-      "easting": 378050,
-      "gridReference": "SJ780046",
-      "label": "Rainfall station",
-      "lat": 52.639137,
-      "long": -2.325793,
+      "RLOIid": "9503",
+      "catchmentName": "Shropshire Middle Severn",
+      "dateOpened": "2022-01-03",
+      "easting": 378036,
+      "gridReference": "SJ7803604671",
+      "label": "Cosford River",
+      "lat": 52.639325,
+      "long": -2.326002,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1712-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -92792,9 +92871,13 @@
           "unitName": "mm"
         }
       ],
-      "northing": 304650,
+      "northing": 304671,
       "notation": "1712",
-      "stationReference": "1712"
+      "riverName": "River Worfe",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/1712/stageScale",
+      "stationReference": "1712",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "1712"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/287283TP",
@@ -99795,14 +99878,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
       "notation": "E23500",
@@ -115293,6 +115368,14 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -129055,6 +129138,81 @@
       "northing": 239694,
       "notation": "E31349",
       "stationReference": "E31349"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Egerton1",
+      "easting": 370450,
+      "gridReference": "SD704156",
+      "label": "Rainfall station",
+      "lat": 53.636515,
+      "long": -2.448375,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Egerton1-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 415650,
+      "notation": "Egerton1",
+      "stationReference": "Egerton1"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4331",
+      "RLOIid": "9504",
+      "catchmentName": "Shropshire Middle Severn",
+      "dateOpened": "2022-01-03",
+      "easting": 370946,
+      "gridReference": "SO7094690272",
+      "label": "Mor Brook",
+      "lat": 52.50955,
+      "long": -2.429504,
+      "northing": 290272,
+      "notation": "4331",
+      "riverName": "Moors River",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4331/stageScale",
+      "stationReference": "4331",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "4331"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4070",
+      "RLOIid": "9505",
+      "catchmentName": "Severn Uplands",
+      "dateOpened": "2022-01-03",
+      "easting": 362854,
+      "gridReference": "SJ6285431485",
+      "label": "Ternhill",
+      "lat": 52.879528,
+      "long": -2.553394,
+      "northing": 331485,
+      "notation": "4070",
+      "riverName": "River Tern",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4070/stageScale",
+      "stationReference": "4070",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "4070"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4267",
+      "RLOIid": "9502",
+      "catchmentName": "Severn Uplands",
+      "dateOpened": "2022-01-03",
+      "easting": 338825,
+      "gridReference": "SJ3882507786",
+      "label": "Farley Bridge",
+      "lat": 52.664312,
+      "long": -2.90597,
+      "northing": 307786,
+      "notation": "4267",
+      "riverName": "Rea Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4267/stageScale",
+      "stationReference": "4267",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "4267"
     }
   ]
 }
