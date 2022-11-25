@@ -22638,6 +22638,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1656-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 347169,
@@ -28031,7 +28039,7 @@
       "riverName": "River Severn",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2071/stageScale",
       "stationReference": "2071",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Ashleworth",
       "wiskiID": "2071"
     },
@@ -58559,28 +58567,12 @@
       "long": -3.018054,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/694670-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/694670-wind-direction-Mean-15_min-deg",
           "parameter": "wind",
           "parameterName": "Wind",
           "period": 900,
           "qualifier": "Direction",
           "unitName": "deg"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/694670-wind-speed-Mean-15_min-m_s",
-          "parameter": "wind",
-          "parameterName": "Wind",
-          "period": 900,
-          "qualifier": "Speed",
-          "unitName": "m/s"
         }
       ],
       "northing": 395255,
@@ -62397,11 +62389,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2759TH",
-      "easting": 497655,
-      "gridReference": "SU97657802",
+      "easting": 497656,
+      "gridReference": "SU9765678023",
       "label": "Jubilee River at Black Potts",
-      "lat": 51.492741,
-      "long": -0.594744,
+      "lat": 51.492723,
+      "long": -0.59473,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2759TH-level-downstage-i-15_min-mAOD",
@@ -62420,7 +62412,7 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 178025,
+      "northing": 178023,
       "notation": "2759TH",
       "stationReference": "2759TH"
     },
@@ -73798,14 +73790,6 @@
           "period": 900,
           "qualifier": "2",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 261800,
@@ -77010,14 +76994,6 @@
       "label": "NORTHFIELD FARM OBH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -77511,7 +77487,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/43181",
       "gridReference": "ST8200",
-      "label": "CHESCOMBE FARM GW",
+      "label": "CHESCOMBE FARM GW WITS",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43181-level-groundwater-i-15_min-m",
@@ -77875,11 +77851,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5484TH",
-      "easting": 545205,
-      "gridReference": "TQ45208290",
+      "easting": 544025,
+      "gridReference": "TQ4402584726",
       "label": "Loxford Sluices FD",
-      "lat": 51.52639,
-      "long": 0.091773,
+      "lat": 51.543054,
+      "long": 0.07552,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5484TH-level-1-i-15_min-mAOD",
@@ -77906,7 +77882,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 182905,
+      "northing": 184726,
       "notation": "5484TH",
       "stationReference": "5484TH"
     },
@@ -78941,14 +78917,6 @@
       "gridReference": "SU4578",
       "label": "Gibbet Cottage OBH",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -80246,6 +80214,14 @@
       "gridReference": "ST9398",
       "label": "Macmillan Way OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -82620,14 +82596,6 @@
       "gridReference": "TQ0852",
       "label": "West Horsley Place OBH",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -86637,14 +86605,6 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -103174,6 +103134,14 @@
       "long": -0.73336,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -112971,14 +112939,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2975SE-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 136741,
@@ -129313,6 +129273,27 @@
       "northing": 86742,
       "notation": "2940SO",
       "stationReference": "2940SO"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/605324",
+      "easting": 320150,
+      "gridReference": "NY201216",
+      "label": "Rainfall station",
+      "lat": 54.583702,
+      "long": -3.237013,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/605324-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 521650,
+      "notation": "605324",
+      "stationReference": "605324"
     }
   ]
 }
