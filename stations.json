@@ -7594,6 +7594,14 @@
           "unitName": "m"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-level-tidal_level-Mean-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-wind-direction-Mean-15_min-deg",
           "parameter": "wind",
           "parameterName": "Wind",
@@ -58894,6 +58902,22 @@
           "period": 900,
           "qualifier": "1",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-2-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 45870,
@@ -73097,7 +73121,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21022",
       "easting": 638700,
       "gridReference": "TM3870061800",
-      "label": "BENHALL BRIDGE GS",
+      "label": "BENHALL BRIDGE GS WITS",
       "lat": 52.202693,
       "long": 1.49185,
       "measures": [
@@ -80911,6 +80935,14 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -87198,7 +87230,7 @@
       "dateOpened": "2014-07-10",
       "easting": 273591,
       "gridReference": "SX7359166254",
-      "label": "Buckfastleigh Mardle",
+      "label": "Buckfastleigh Higher Town Bridge",
       "lat": 50.482427,
       "long": -3.783081,
       "measures": [
@@ -91592,6 +91624,14 @@
       "long": -2.155251,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/564769-rainfall-tipping_bucket_raingauge-t-15_min----",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/564769-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -95294,14 +95334,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -99850,14 +99882,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
       "notation": "E23500",
@@ -113473,11 +113497,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2608",
-      "easting": 351625,
-      "gridReference": "SJ51620678",
-      "label": "Boreton Bridge LVL",
-      "lat": 52.65661,
-      "long": -2.716578,
+      "RLOIid": "9512",
+      "catchmentName": "Severn Uplands",
+      "dateOpened": "2022-01-01",
+      "easting": 351620,
+      "gridReference": "SJ5162006781",
+      "label": "Boreton Bridge",
+      "lat": 52.656574,
+      "long": -2.716652,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2608-level-stage-i-15_min-mASD",
@@ -113488,9 +113515,13 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 306785,
+      "northing": 306781,
       "notation": "2608",
-      "stationReference": "2608"
+      "riverName": "Colne Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2608/stageScale",
+      "stationReference": "2608",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "2608"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2046",
