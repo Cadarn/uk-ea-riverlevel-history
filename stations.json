@@ -62357,11 +62357,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2759TH",
-      "easting": 497656,
-      "gridReference": "SU9765678023",
+      "easting": 497655,
+      "gridReference": "SU97657802",
       "label": "Jubilee River at Black Potts",
-      "lat": 51.492723,
-      "long": -0.59473,
+      "lat": 51.492741,
+      "long": -0.594744,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2759TH-level-downstage-i-15_min-mAOD",
@@ -62380,7 +62380,7 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 178023,
+      "northing": 178025,
       "notation": "2759TH",
       "stationReference": "2759TH"
     },
@@ -117856,11 +117856,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/151816001",
-      "easting": 435450,
-      "gridReference": "SU354188",
-      "label": "Rainfall station",
-      "lat": 50.967981,
-      "long": -1.496522,
+      "easting": 435406,
+      "gridReference": "SU3540618864",
+      "label": "Romsey Broadlands Estate",
+      "lat": 50.968109,
+      "long": -1.497147,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816001-level-stage-i-15_min-mASD",
@@ -117879,7 +117879,7 @@
           "unitName": "deg C"
         }
       ],
-      "northing": 118850,
+      "northing": 118864,
       "notation": "151816001",
       "stationReference": "151816001"
     },
@@ -122820,7 +122820,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/43179",
       "gridReference": "SU0431",
-      "label": "BARFORD CEMETERY GW",
+      "label": "BARFORD CEMETERY GW WITS",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43179-level-groundwater-i-15_min-mAOD",
@@ -128434,9 +128434,9 @@
       "long": -1.808386,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0331TH-wind-stage-i-15_min-mASD",
-          "parameter": "wind",
-          "parameterName": "Wind",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0331TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mASD"
@@ -129196,6 +129196,27 @@
       "northing": 273291,
       "notation": "E7310",
       "stationReference": "E7310"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/386386",
+      "easting": 389640,
+      "gridReference": "SJ8964086386",
+      "label": "Bramhall Green Bridge Lane",
+      "lat": 53.374217,
+      "long": -2.157174,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/386386-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 386386,
+      "notation": "386386",
+      "stationReference": "386386"
     }
   ]
 }
