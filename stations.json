@@ -112874,60 +112874,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/",
-      "easting": 466215,
-      "gridReference": "SU6621570998",
-      "label": "Reading Calcot Bridge 17",
-      "lat": 51.434117,
-      "long": -1.048842,
+      "easting": 452315,
+      "gridReference": "NZ5231508454",
+      "label": "Stokesley",
+      "lat": 54.468752,
+      "long": -1.194323,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-flow-logged-i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "Logged",
-          "unitName": "m3/s"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-level--i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-level-downstage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Downstream Stage",
-          "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-level-downstage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Downstream Stage",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-level-reservoir_level-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Reservoir Level",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-level-stage-i-15_min-m",
           "parameter": "level",
@@ -112935,17 +112887,9 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
-      "northing": 170998,
+      "northing": 508454,
       "notation": "",
       "stationReference": ""
     },
