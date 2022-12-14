@@ -1108,9 +1108,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2206",
+      "RLOIid": "2204",
+      "catchmentName": "Severn Vale",
+      "dateOpened": "2009-04-07",
       "easting": 385049,
-      "gridReference": "SO8504905381",
-      "label": "Merrywalks LVL",
+      "label": "Merrywalks",
       "lat": 51.746918,
       "long": -2.217953,
       "measures": [
@@ -1133,7 +1135,12 @@
       ],
       "northing": 205381,
       "notation": "2206",
-      "stationReference": "2206"
+      "riverName": "Slad Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2206/stageScale",
+      "stationReference": "2206",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Stroud",
+      "wiskiID": "2206"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4161",
@@ -57219,7 +57226,7 @@
       "riverName": "River Great Ouse",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21493/stageScale",
       "stationReference": "E21493",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Stony Stratford",
       "wiskiID": "U33093"
     },
@@ -73798,6 +73805,14 @@
           "period": 900,
           "qualifier": "2",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 261800,
@@ -77002,6 +77017,14 @@
       "label": "NORTHFIELD FARM OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78917,6 +78940,14 @@
       "gridReference": "SU4578",
       "label": "Gibbet Cottage OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -82588,6 +82619,14 @@
       "gridReference": "TQ0852",
       "label": "West Horsley Place OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -99794,6 +99833,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
       "notation": "E23500",
@@ -114783,6 +114830,14 @@
           "period": 900,
           "qualifier": "Logged",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690554-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 400960,
@@ -115295,6 +115350,14 @@
       "gridReference": "SU9012",
       "label": "East Dean Butchers Lane GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2825SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2825SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -122463,24 +122526,6 @@
       "wiskiID": "433606"
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4225",
-      "RLOIid": "2204",
-      "catchmentName": "Severn Vale",
-      "dateOpened": "2009-04-07",
-      "easting": 385049,
-      "label": "Merrywalks",
-      "lat": 51.746918,
-      "long": -2.217953,
-      "northing": 205381,
-      "notation": "4225",
-      "riverName": "Slad Brook",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4225/stageScale",
-      "stationReference": "4225",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Stroud",
-      "wiskiID": "2206"
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L1719",
       "RLOIid": "9400",
       "catchmentName": "Aire and Calder",
@@ -126755,11 +126800,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2529",
-      "easting": 409101,
-      "gridReference": "SP0910137279",
-      "label": "Broadway FSA",
-      "lat": 52.033838,
-      "long": -1.868738,
+      "RLOIid": "9484",
+      "catchmentName": "Warwickshire Avon",
+      "dateOpened": "2018-10-10",
+      "easting": 409125,
+      "gridReference": "SP0912537353",
+      "label": "Broadway Flood Storage Area",
+      "lat": 52.034502,
+      "long": -1.868386,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2529-level-stage-i-15_min-mASD",
@@ -126770,17 +126818,24 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 237279,
+      "northing": 237353,
       "notation": "2529",
-      "stationReference": "2529"
+      "riverName": "Badsey Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2529/stageScale",
+      "stationReference": "2529",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "2529"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2528",
-      "easting": 407883,
-      "gridReference": "SP0788338500",
-      "label": "Childswickham LVL",
-      "lat": 52.044833,
-      "long": -1.886465,
+      "RLOIid": "9483",
+      "catchmentName": "Warwickshire Avon",
+      "dateOpened": "2018-10-16",
+      "easting": 407885,
+      "gridReference": "SP0788538497",
+      "label": "Childswickham",
+      "lat": 52.044806,
+      "long": -1.886436,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2528-level-stage-i-15_min-mASD",
@@ -126791,9 +126846,13 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 238500,
+      "northing": 238497,
       "notation": "2528",
-      "stationReference": "2528"
+      "riverName": "Badsey Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2528/stageScale",
+      "stationReference": "2528",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "2528"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L2926",
@@ -127023,42 +127082,6 @@
       "northing": 43564,
       "notation": "E20747",
       "stationReference": "E20747"
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4542",
-      "RLOIid": "9484",
-      "catchmentName": "Warwickshire Avon",
-      "dateOpened": "2018-10-10",
-      "easting": 409125,
-      "gridReference": "SP0912537353",
-      "label": "Broadway Flood Storage Area",
-      "lat": 52.034502,
-      "long": -1.868386,
-      "northing": 237353,
-      "notation": "4542",
-      "riverName": "Badsey Brook",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4542/stageScale",
-      "stationReference": "4542",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "wiskiID": "2529"
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4540",
-      "RLOIid": "9483",
-      "catchmentName": "Warwickshire Avon",
-      "dateOpened": "2018-10-16",
-      "easting": 407885,
-      "gridReference": "SP0788538497",
-      "label": "Childswickham",
-      "lat": 52.044806,
-      "long": -1.886436,
-      "northing": 238497,
-      "notation": "4540",
-      "riverName": "Badsey Brook",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4540/stageScale",
-      "stationReference": "4540",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "wiskiID": "2528"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3952",
@@ -128600,6 +128623,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0331TH-wind-stage-i-15_min-mASD",
+          "parameter": "wind",
+          "parameterName": "Wind",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 189375,
@@ -129380,11 +129411,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2537",
-      "easting": 341997,
-      "gridReference": "SO4199772020",
-      "label": "Crifton Ford Bridge",
+      "RLOIid": "9514",
+      "catchmentName": "Teme",
+      "dateOpened": "2022-01-03",
+      "easting": 341998,
+      "gridReference": "SO4199872020",
+      "label": "Criftin Ford bridge",
       "lat": 52.343165,
-      "long": -2.852827,
+      "long": -2.852812,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2537-level-stage-i-15_min-mASD",
@@ -129397,14 +129431,21 @@
       ],
       "northing": 272020,
       "notation": "2537",
-      "stationReference": "2537"
+      "riverName": "River Teme",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2537/stageScale",
+      "stationReference": "2537",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "2537"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2552",
+      "RLOIid": "9515",
+      "catchmentName": "Teme",
+      "dateOpened": "2022-01-03",
       "easting": 367330,
-      "gridReference": "SO6733075639",
-      "label": "Cleobury Mortimer Eagle Lane",
-      "lat": 52.377799,
+      "gridReference": "SO6733075637",
+      "label": "Cleobury Mortimer",
+      "lat": 52.377781,
       "long": -2.481344,
       "measures": [
         {
@@ -129416,9 +129457,13 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 275639,
+      "northing": 275637,
       "notation": "2552",
-      "stationReference": "2552"
+      "riverName": "Field Drain",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2552/stageScale",
+      "stationReference": "2552",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "2552"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E60880",
