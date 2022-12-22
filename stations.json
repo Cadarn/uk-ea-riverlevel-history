@@ -993,7 +993,7 @@
       "riverName": "Stevenage Brook",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4827TH/stageScale",
       "stationReference": "4827TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Bragbury End",
       "wiskiID": "4827TH"
     },
@@ -8255,7 +8255,7 @@
       "riverName": "River Calder",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L12061/stageScale",
       "stationReference": "L12061",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "High Green",
       "wiskiID": "L12061"
     },
@@ -33610,6 +33610,14 @@
       "long": -2.769772,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/761102-level-logged-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Logged",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/761102-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -42839,7 +42847,7 @@
       "riverName": "River Pinn",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2803TH/stageScale",
       "stationReference": "2803TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Pinner",
       "wiskiID": "2803TH"
     },
@@ -66392,11 +66400,11 @@
       "long": 0.579348,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6150-level-stage-i-15_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6150-level-speed-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Stage",
+          "qualifier": "Speed",
           "unitName": "mAOD"
         }
       ],
@@ -73813,6 +73821,14 @@
           "period": 900,
           "qualifier": "2",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 261800,
@@ -78337,14 +78353,6 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78685,14 +78693,6 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -80261,6 +80261,14 @@
       "gridReference": "ST9398",
       "label": "Macmillan Way OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -84886,11 +84894,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/0",
-      "easting": 209882,
-      "gridReference": "SX0988291254",
-      "label": "BOSCASTLE COUNTY BRIDGE",
-      "lat": 50.68979,
-      "long": -4.692972,
+      "easting": 400454,
+      "gridReference": "SU0045471168",
+      "label": "CALNE PRINCE CHARLES DRIVE",
+      "lat": 51.439502,
+      "long": -1.994851,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-level-stage-i-15_min-m",
@@ -84901,7 +84909,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 91254,
+      "northing": 171168,
       "notation": "0",
       "stationReference": "0"
     },
@@ -99832,22 +99840,17 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23500",
-      "easting": 614950,
-      "gridReference": "TM149414",
-      "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "label": "FENCE BRIDGE GATE RL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 241450,
       "notation": "E23500",
       "stationReference": "E23500"
     },
@@ -103177,14 +103180,6 @@
       "lat": 52.207563,
       "long": -0.73336,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
@@ -113086,11 +113081,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/",
-      "easting": 452315,
-      "gridReference": "NZ5231508454",
-      "label": "Stokesley",
-      "lat": 54.468752,
-      "long": -1.194323,
+      "easting": 443474,
+      "gridReference": "SK4347479805",
+      "label": "Eckington Rotherham Road",
+      "lat": 53.313391,
+      "long": -1.348936,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/-flow--i-15_min-m3_s",
@@ -113157,7 +113152,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 508454,
+      "northing": 379805,
       "notation": "",
       "stationReference": ""
     },
@@ -115372,14 +115367,6 @@
       "gridReference": "SU8716",
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -121743,6 +121730,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2292BTH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 170998,
@@ -125513,7 +125508,7 @@
       "riverName": "Broadlane Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3238/stageScale",
       "stationReference": "L3238",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Cottingham Hallgate",
       "wiskiID": "L3238"
     },
@@ -129572,7 +129567,7 @@
       ],
       "northing": 404735,
       "notation": "L0908",
-      "riverName": "River Don",
+      "riverName": "Dun Navigation Canal",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L0908/stageScale",
       "stationReference": "L0908",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
