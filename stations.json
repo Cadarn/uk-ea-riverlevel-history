@@ -7601,6 +7601,14 @@
           "unitName": "m"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-level-tidal_level-Mean-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-wind-direction-Mean-15_min-deg",
           "parameter": "wind",
           "parameterName": "Wind",
@@ -14578,7 +14586,7 @@
       "riverName": "River Caen (Tidal)",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/50124/stageScale",
       "stationReference": "50124",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Braunton",
       "wiskiID": "S50496_FW"
     },
@@ -22645,6 +22653,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1656-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 347169,
@@ -30031,7 +30047,7 @@
       "riverName": "River Windrush",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/1082TH/stageScale",
       "stationReference": "1082TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Witney",
       "wiskiID": "1082TH"
     },
@@ -58925,6 +58941,22 @@
           "period": 900,
           "qualifier": "1",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-2-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 45870,
@@ -78353,6 +78385,14 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78693,6 +78733,14 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -80918,6 +80966,14 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -86652,14 +86708,6 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -103181,6 +103229,14 @@
       "long": -0.73336,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -115368,6 +115424,14 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -126856,6 +126920,9 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L2926",
+      "RLOIid": "9517",
+      "catchmentName": "Tees",
+      "dateOpened": "2022-03-23",
       "easting": 472506,
       "gridReference": "NZ7250618226",
       "label": "Loftus East Crescent",
@@ -126873,7 +126940,12 @@
       ],
       "northing": 518226,
       "notation": "L2926",
-      "stationReference": "L2926"
+      "riverName": "Loftus Beck",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L2926/stageScale",
+      "stationReference": "L2926",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "town": "Loftus East Crescent",
+      "wiskiID": "L2926"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/710200_",
@@ -127106,6 +127178,9 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/023062",
+      "RLOIid": "9518",
+      "catchmentName": "Tyne",
+      "dateOpened": "2015-10-12",
       "easting": 393019,
       "gridReference": "NY9301966050",
       "label": "Acomb Garden House",
@@ -127123,7 +127198,12 @@
       ],
       "northing": 566050,
       "notation": "023062",
-      "stationReference": "023062"
+      "riverName": "Birkey Burn",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/023062/stageScale",
+      "stationReference": "023062",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Acomb Garden House",
+      "wiskiID": "023062"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/024121",
