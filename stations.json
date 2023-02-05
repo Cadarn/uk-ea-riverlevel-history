@@ -117983,11 +117983,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/151816001",
-      "easting": 435450,
-      "gridReference": "SU354188",
-      "label": "Rainfall station",
-      "lat": 50.967981,
-      "long": -1.496522,
+      "easting": 435406,
+      "gridReference": "SU3540618864",
+      "label": "Romsey Broadlands Estate",
+      "lat": 50.968109,
+      "long": -1.497147,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816001-level-stage-i-15_min-mASD",
@@ -118006,7 +118006,7 @@
           "unitName": "deg C"
         }
       ],
-      "northing": 118850,
+      "northing": 118864,
       "notation": "151816001",
       "stationReference": "151816001"
     },
