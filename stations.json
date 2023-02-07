@@ -63741,7 +63741,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/48142",
       "easting": 180699,
       "gridReference": "SW8069945870",
-      "label": "NEWMILL DAM WITS ATU",
+      "label": "NEWMILL DAM TO BE WITSD",
       "lat": 50.271975,
       "long": -5.078915,
       "measures": [
@@ -68081,7 +68081,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/43235",
       "easting": 402118,
       "gridReference": "SZ0211898902",
-      "label": "WIMBORNE A31 ATU",
+      "label": "WIMBORNE A31 TO BE WITSD",
       "lat": 50.789681,
       "long": -1.971312,
       "measures": [
@@ -121881,7 +121881,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/434313",
       "easting": 388778,
       "gridReference": "ST8877806243",
-      "label": "BLANDFORD LANGTON MEADOWS WITS",
+      "label": "BLANDFORD LANGTON MEADOWS TO BE WITSD",
       "lat": 50.855587,
       "long": -2.16079,
       "measures": [
@@ -122178,7 +122178,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/445930",
       "easting": 380588,
       "gridReference": "SY8058884852",
-      "label": "WINFRITH GS WITS ATU",
+      "label": "WINFRITH GS TO BE WITSD",
       "lat": 50.66301,
       "long": -2.276007,
       "measures": [
@@ -127359,11 +127359,11 @@
       "long": -2.344082,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1486-level-1-i-5_min-m",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1486-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
-          "period": 300,
-          "qualifier": "1",
+          "period": 900,
+          "qualifier": "Stage",
           "unitName": "m"
         }
       ],
