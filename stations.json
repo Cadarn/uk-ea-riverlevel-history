@@ -64570,12 +64570,28 @@
           "unitName": "mAOD"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-downstage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -66092,14 +66108,6 @@
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-height-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Height",
-          "unitName": "m"
         },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-stage-i-15_min-mAOD",
@@ -118598,12 +118606,12 @@
           "unitName": "mAOD"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0350TH-level-stage-i-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0350TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "mm"
+          "unitName": "mAOD"
         }
       ],
       "northing": 180186,
@@ -118643,7 +118651,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/FWLL01_FW",
       "easting": 354070,
       "gridReference": "SY5407089720",
-      "label": "LITTON LANE DL",
+      "label": "LITTON LANE TO BE WITSD",
       "lat": 50.705291,
       "long": -2.651786,
       "measures": [
