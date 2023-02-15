@@ -61347,7 +61347,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3088TH",
       "easting": 501555,
       "gridReference": "TQ01555619",
-      "label": "Broadmead Gates",
+      "label": "River Wey at Broadmead Gates",
       "lat": 51.295832,
       "long": -0.544825,
       "measures": [
@@ -66108,6 +66108,14 @@
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-height-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Height",
+          "unitName": "m"
         },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-stage-i-15_min-mAOD",
@@ -71264,17 +71272,17 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5291TH",
       "easting": 539103,
       "gridReference": "TL3910309213",
-      "label": "Feildes Weir",
+      "label": "Feildes Weir FD",
       "lat": 51.76432,
       "long": 0.014322,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5291TH-level-stage-i-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5291TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "mm"
+          "unitName": "mASD"
         }
       ],
       "northing": 209213,
@@ -77849,11 +77857,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5484TH",
-      "easting": 545205,
-      "gridReference": "TQ45208290",
+      "easting": 544025,
+      "gridReference": "TQ4402584726",
       "label": "Loxford Sluices FD",
-      "lat": 51.52639,
-      "long": 0.091773,
+      "lat": 51.543054,
+      "long": 0.07552,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5484TH-level-1-i-15_min-mAOD",
@@ -77880,7 +77888,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 182905,
+      "northing": 184726,
       "notation": "5484TH",
       "stationReference": "5484TH"
     },
@@ -118651,7 +118659,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/FWLL01_FW",
       "easting": 354070,
       "gridReference": "SY5407089720",
-      "label": "LITTON LANE TO BE WITSD",
+      "label": "LITTON LANE WITS",
       "lat": 50.705291,
       "long": -2.651786,
       "measures": [
@@ -129770,6 +129778,27 @@
       "northing": 288640,
       "notation": "E1073",
       "stationReference": "E1073"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E8731",
+      "easting": 540829,
+      "gridReference": "TQ4082909711",
+      "label": "BELL LANE GRILL RL",
+      "lat": 50.869751,
+      "long": 4.3e-05,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8731-level-downstage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 109711,
+      "notation": "E8731",
+      "stationReference": "E8731"
     }
   ]
 }
