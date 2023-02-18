@@ -61075,14 +61075,6 @@
           "period": 900,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E22300-southern-level-groundwater-i-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
         }
       ],
       "notation": "E22300-southern",
@@ -77536,7 +77528,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/531182",
       "gridReference": "ST8287",
-      "label": "DIDMARTON BORE HOLES",
+      "label": "DIDMARTON BOREHOLES",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/531182-level-groundwater-i-15_min-m",
@@ -80204,14 +80196,6 @@
       "gridReference": "ST9398",
       "label": "Macmillan Way OBH",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
