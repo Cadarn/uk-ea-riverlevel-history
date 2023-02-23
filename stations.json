@@ -68071,14 +68071,6 @@
           "unitName": "mASD"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1414TH-level-stage-i-15_min----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1414TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -85894,11 +85886,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3403",
-      "easting": 621150,
-      "gridReference": "TR211575",
-      "label": "LITTLEBOURNE USGS",
-      "lat": 51.274155,
-      "long": 1.16925,
+      "easting": 531352,
+      "gridReference": "TF3135287021",
+      "label": "LOUTH NORTH FSR",
+      "lat": 53.363734,
+      "long": -0.027521,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-flow--i-15_min-m3_s",
@@ -85907,9 +85899,17 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
-      "northing": 157550,
+      "northing": 387021,
       "notation": "E3403",
       "stationReference": "E3403"
     },
@@ -118667,7 +118667,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/FWLL01_FW",
       "easting": 354070,
       "gridReference": "SY5407089720",
-      "label": "LITTON LANE WITS",
+      "label": "LITTON LANE",
       "lat": 50.705291,
       "long": -2.651786,
       "measures": [
@@ -120520,18 +120520,10 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/765100",
       "easting": 339395,
       "gridReference": "NY39395629",
-      "label": "Little Caldew PS",
+      "label": "Little Caldew FW",
       "lat": 54.897675,
       "long": -2.946523,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/765100-level-1-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "1",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/765100-level-stage-i-15_min-m",
           "parameter": "level",
@@ -129943,6 +129935,48 @@
       "northing": 132450,
       "notation": "E14820",
       "stationReference": "E14820"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/94521SE",
+      "easting": 424104,
+      "gridReference": "SZ2410493792",
+      "label": "Highlands Road RL",
+      "lat": 50.743237,
+      "long": -1.659739,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/94521SE-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 93792,
+      "notation": "94521SE",
+      "stationReference": "94521SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/94531SE",
+      "easting": 488950,
+      "gridReference": "SU8895021356",
+      "label": "The Wharf Bridge RL",
+      "lat": 50.984744,
+      "long": -0.734155,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/94531SE-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 121356,
+      "notation": "94531SE",
+      "stationReference": "94531SE"
     }
   ]
 }
