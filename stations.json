@@ -73070,7 +73070,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E27101",
       "gridReference": "TL5861",
-      "label": "NEW ENGLAND BOREHOLE WITS",
+      "label": "NEW ENGLAND BOREHOLE",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E27101-level-groundwater-i-15_min-mAOD",
@@ -75853,7 +75853,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E19039",
       "gridReference": "TL6259",
-      "label": "EAGLE LANE DULLINGHAM BOREHOLE GSM",
+      "label": "EAGLE LANE DULLINGHAM BOREHOLE",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E19039-level-groundwater-i-15_min-mAOD",
@@ -130119,7 +130119,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/94510SE",
+      "easting": 452723,
+      "gridReference": "SU5272309129",
       "label": "Whiteley RL",
+      "lat": 50.879255,
+      "long": -1.251959,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/94510SE-level-stage-i-15_min-mAOD",
@@ -130130,6 +130134,7 @@
           "unitName": "mAOD"
         }
       ],
+      "northing": 109129,
       "notation": "94510SE",
       "stationReference": "94510SE"
     },
