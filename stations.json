@@ -84398,22 +84398,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 589070,
-      "gridReference": "TQ8907083023",
-      "label": "SOUTHEND PIER TS",
-      "lat": 51.514481,
-      "long": 0.72348,
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
+          "qualifier": "2",
+          "unitName": "mm"
         }
       ],
-      "northing": 183023,
+      "northing": 241450,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -114775,6 +114775,14 @@
           "period": 900,
           "qualifier": "Logged",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690554-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 400960,
@@ -130329,6 +130337,132 @@
       ],
       "notation": "SD44_13",
       "stationReference": "SD44_13"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E10565",
+      "easting": 336723,
+      "gridReference": "ST3672343062",
+      "label": "GOLD CORNER",
+      "lat": 51.183266,
+      "long": -2.906699,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E10565-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 143062,
+      "notation": "E10565",
+      "stationReference": "E10565"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7532",
+      "easting": 343816,
+      "gridReference": "ST4381663884",
+      "label": "CONGRESBURY",
+      "lat": 51.371216,
+      "long": -2.808509,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7532-level-1-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "m"
+        }
+      ],
+      "northing": 163884,
+      "notation": "E7532",
+      "stationReference": "E7532"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4580",
+      "easting": 394015,
+      "gridReference": "ST9401583153",
+      "label": "STARTLEY",
+      "lat": 51.547231,
+      "long": -2.087697,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4580-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 183153,
+      "notation": "E4580",
+      "stationReference": "E4580"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E10525",
+      "easting": 336723,
+      "gridReference": "ST3672343062",
+      "label": "GOLD CORNER",
+      "lat": 51.183266,
+      "long": -2.906699,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E10525-level-downstage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 143062,
+      "notation": "E10525",
+      "stationReference": "E10525"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E9092",
+      "easting": 329279,
+      "gridReference": "ST2927945727",
+      "label": "HUNTSPILL",
+      "lat": 51.206351,
+      "long": -3.013711,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E9092-level-1-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "m"
+        }
+      ],
+      "northing": 145727,
+      "notation": "E9092",
+      "stationReference": "E9092"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E83164",
+      "easting": 406152,
+      "gridReference": "SU0615244959",
+      "label": "SHREWTON ELSTON LANE",
+      "lat": 51.203807,
+      "long": -1.913317,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E83164-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 144959,
+      "notation": "E83164",
+      "stationReference": "E83164"
     }
   ]
 }
