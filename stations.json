@@ -1794,6 +1794,14 @@
       "long": -0.043637,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5380TH-level-downstage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5380TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -66104,6 +66112,14 @@
           "unitName": "mAOD"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-height-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Height",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -76317,7 +76333,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E1491",
       "easting": 546635,
       "gridReference": "TF4663576821",
-      "label": "BILSBY GS",
+      "label": "BILSBY GS WITS",
       "lat": 53.268103,
       "long": 0.197262,
       "measures": [
@@ -84398,22 +84414,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 340250,
-      "gridReference": "SY402979",
-      "label": "Rainfall station",
-      "lat": 50.778033,
-      "long": -2.848812,
+      "easting": 589070,
+      "gridReference": "TQ8907083023",
+      "label": "SOUTHEND PIER TS",
+      "lat": 51.514481,
+      "long": 0.72348,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "1",
-          "unitName": "mm"
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 97950,
+      "northing": 183023,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -102471,11 +102487,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/45113",
-      "easting": 278850,
-      "gridReference": "SX788987",
+      "easting": 277650,
+      "gridReference": "SS776014",
       "label": "Rainfall station",
-      "lat": 50.775637,
-      "long": -3.719618,
+      "lat": 50.799653,
+      "long": -3.737529,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/45113-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -102486,7 +102502,7 @@
           "unitName": "mm"
         }
       ],
-      "northing": 98750,
+      "northing": 101450,
       "notation": "45113",
       "stationReference": "45113"
     },
