@@ -130605,6 +130605,27 @@
       "northing": 78510,
       "notation": "E70404",
       "stationReference": "E70404"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E15621",
+      "easting": 556394,
+      "gridReference": "TQ5639446117",
+      "label": "Leigh Barrier",
+      "lat": 51.192874,
+      "long": 0.236774,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E15621-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 146117,
+      "notation": "E15621",
+      "stationReference": "E15621"
     }
   ]
 }
