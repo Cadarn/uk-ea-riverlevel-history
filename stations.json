@@ -130626,6 +130626,23 @@
       "northing": 146117,
       "notation": "E15621",
       "stationReference": "E15621"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9609SO",
+      "gridReference": "TQ3852",
+      "label": "Oxted Hythe GWL",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9609SO-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "9609SO",
+      "stationReference": "9609SO"
     }
   ]
 }
