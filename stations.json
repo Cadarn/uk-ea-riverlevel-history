@@ -71778,6 +71778,14 @@
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4175TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 168585,
@@ -123026,7 +123034,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/43180",
       "gridReference": "ST8406",
-      "label": "BROADLEY WOOD GW TO BE WITSD",
+      "label": "BROADLEY WOOD DNP3",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43180-level-groundwater-i-15_min-m",
