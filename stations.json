@@ -130710,6 +130710,27 @@
       ],
       "notation": "TA08IOW1CO",
       "stationReference": "TA08IOW1CO"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L0711",
+      "easting": 451384,
+      "gridReference": "SK5138498505",
+      "label": "Conisbrough",
+      "lat": 53.480755,
+      "long": -1.227185,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L0711-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 398505,
+      "notation": "L0711",
+      "stationReference": "L0711"
     }
   ]
 }
