@@ -109723,14 +109723,6 @@
       "label": "Gorstons",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-1-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -130731,6 +130723,90 @@
       "northing": 398505,
       "notation": "L0711",
       "stationReference": "L0711"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/432321",
+      "easting": 391115,
+      "gridReference": "ST9111542646",
+      "label": "HEYTESBURY A36",
+      "lat": 51.182969,
+      "long": -2.128492,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/432321-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 142646,
+      "notation": "432321",
+      "stationReference": "432321"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/450130",
+      "easting": 312345,
+      "gridReference": "ST1234554321",
+      "label": "UPLYME SPRING HEAD ROAD",
+      "lat": 51.281257,
+      "long": -3.258163,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/450130-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 154321,
+      "notation": "450130",
+      "stationReference": "450130"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4605",
+      "easting": 403984,
+      "gridReference": "SP0398492894",
+      "label": "Birmingham Sandwell Woodend",
+      "lat": 52.533888,
+      "long": -1.942691,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4605-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 292894,
+      "notation": "4605",
+      "stationReference": "4605"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5042",
+      "easting": 403876,
+      "gridReference": "SP0387692889",
+      "label": "Forge Mill Reservoir",
+      "lat": 52.533844,
+      "long": -1.944283,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5042-level-reservoir_level-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Reservoir Level",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 292889,
+      "notation": "5042",
+      "stationReference": "5042"
     }
   ]
 }
