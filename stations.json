@@ -76843,7 +76843,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4928",
       "easting": 544324,
       "gridReference": "TF4432465484",
-      "label": "LADY WATHS BECK",
+      "label": "LADY WATHS BECK WITS",
       "lat": 53.166903,
       "long": 0.157512,
       "measures": [
@@ -114791,14 +114791,6 @@
           "period": 900,
           "qualifier": "Logged",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690554-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
         }
       ],
       "northing": 400960,
@@ -122426,7 +122418,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4926",
       "easting": 544324,
       "gridReference": "TF4432465484",
-      "label": "LADY WATHS BECK",
+      "label": "LADY WATHS BECK WITS",
       "lat": 53.166903,
       "long": 0.157512,
       "measures": [
