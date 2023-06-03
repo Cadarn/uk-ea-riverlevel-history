@@ -22718,14 +22718,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1656-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 347169,
@@ -46404,6 +46396,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21046-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 248903,
@@ -68105,14 +68105,6 @@
           "unitName": "mASD"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1414TH-level-stage-i-15_min----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1414TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -79014,6 +79006,14 @@
       "label": "Gibbet Cottage OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -80901,6 +80901,14 @@
       "label": "Great Shefford OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82692,6 +82700,14 @@
       "gridReference": "TQ0852",
       "label": "West Horsley Place OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -86807,6 +86823,14 @@
           "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 300,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
         }
       ],
       "northing": 319770,
@@ -87245,9 +87269,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/738345",
+      "RLOIid": "9548",
+      "catchmentName": "South Cumbria",
+      "dateOpened": "2010-05-23",
       "easting": 322728,
       "gridReference": "SD2272873895",
-      "label": "Bow Bridge",
+      "label": "Bow Bridge Abbey Road",
       "lat": 54.155019,
       "long": -3.184714,
       "measures": [
@@ -87270,7 +87297,12 @@
       ],
       "northing": 473895,
       "notation": "738345",
-      "stationReference": "738345"
+      "riverName": "Poaka Beck",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/738345/stageScale",
+      "stationReference": "738345",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Dalton In Furness",
+      "wiskiID": "738345"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/713119_TEMP",
@@ -87324,9 +87356,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/738360",
+      "RLOIid": "9549",
+      "catchmentName": "South Cumbria",
+      "dateOpened": "2010-05-23",
       "easting": 323263,
       "gridReference": "SD2326374446",
-      "label": "Butts Beck",
+      "label": "Butts Beck James Terrace",
       "lat": 54.16005,
       "long": -3.176664,
       "measures": [
@@ -87341,7 +87376,12 @@
       ],
       "northing": 474446,
       "notation": "738360",
-      "stationReference": "738360"
+      "riverName": "Poaka Beck",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/738360/stageScale",
+      "stationReference": "738360",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Dalton In Furness",
+      "wiskiID": "738360"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/46165",
@@ -114983,6 +115023,14 @@
           "period": 900,
           "qualifier": "Logged",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690554-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 400960,
@@ -128880,6 +128928,14 @@
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0331TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0331TH-wind-stage-i-15_min-mASD",
+          "parameter": "wind",
+          "parameterName": "Wind",
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mASD"
