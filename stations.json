@@ -131235,6 +131235,111 @@
       "northing": 512150,
       "notation": "598145",
       "stationReference": "598145"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E83203",
+      "easting": 292533,
+      "gridReference": "SX9253372259",
+      "label": "SHALDON RINGMORE",
+      "lat": 50.540194,
+      "long": -3.517933,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E83203-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 72259,
+      "notation": "E83203",
+      "stationReference": "E83203"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E83223",
+      "easting": 293288,
+      "gridReference": "SX9328873187",
+      "label": "TEIGNMOUTH FIRST AVENUE",
+      "lat": 50.548675,
+      "long": -3.507548,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E83223-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 73187,
+      "notation": "E83223",
+      "stationReference": "E83223"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E74304",
+      "easting": 310651,
+      "gridReference": "SY1065195646",
+      "label": "OTTERY SM KENNAWAY RD",
+      "lat": 50.753509,
+      "long": -3.267972,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E74304-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 95646,
+      "notation": "E74304",
+      "stationReference": "E74304"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/569723",
+      "easting": 363250,
+      "gridReference": "SD632121",
+      "label": "Rainfall station",
+      "lat": 53.604601,
+      "long": -2.556847,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/569723-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 412150,
+      "notation": "569723",
+      "stationReference": "569723"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E73370",
+      "easting": 268356,
+      "gridReference": "SX6835646507",
+      "label": "SOUTH EFFORD MARSH",
+      "lat": 50.303779,
+      "long": -3.849905,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E73370-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 46507,
+      "notation": "E73370",
+      "stationReference": "E73370"
     }
   ]
 }
