@@ -9239,7 +9239,7 @@
       "riverName": "Derwentwater",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/750106/stageScale",
       "stationReference": "750106",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Derwent Water at Lodore",
       "wiskiID": "750106"
     },
@@ -22718,14 +22718,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1656-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 347169,
@@ -28576,6 +28568,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1151-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 425430,
@@ -57141,7 +57141,7 @@
       "riverName": "River Rea",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2039/stageScale",
       "stationReference": "2039",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Newnham Bridge",
       "wiskiID": "2039"
     },
@@ -82586,7 +82586,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SD41_24",
       "gridReference": "SD4515",
-      "label": "Mere End OBH",
+      "label": "Mere End",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SD41_24-level-groundwater-i-1_h-m",
@@ -86853,6 +86853,14 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -95511,6 +95519,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -122470,7 +122486,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/432315",
       "easting": 387200,
       "gridReference": "ST8720045224",
-      "label": "WARMINSTER GEORGE STREET",
+      "label": "WARMINSTER GEORGE STREET TO BE WITSD",
       "lat": 51.206075,
       "long": -2.184597,
       "measures": [
@@ -129819,7 +129835,7 @@
       "riverName": "Pudding Brook",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2552/stageScale",
       "stationReference": "2552",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "wiskiID": "2552"
     },
     {
@@ -131383,9 +131399,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/764117",
+      "RLOIid": "9551",
+      "catchmentName": "Eden and Esk",
+      "dateOpened": "2008-12-07",
       "easting": 342222,
       "gridReference": "NY4222256117",
-      "label": "Durranhill FW",
+      "label": "Durranhill Pumping Station",
       "lat": 54.896411,
       "long": -2.902412,
       "measures": [
@@ -131400,7 +131419,12 @@
       ],
       "northing": 556117,
       "notation": "764117",
-      "stationReference": "764117"
+      "riverName": "Durranhill Beck",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/764117/stageScale",
+      "stationReference": "764117",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Carlisle",
+      "wiskiID": "764117"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71003",
