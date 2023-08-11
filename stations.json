@@ -92773,11 +92773,11 @@
       "long": 0.296316,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E15520-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E15520-rainfall-water-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
+          "qualifier": "Water",
           "unitName": "mm"
         }
       ],
@@ -95341,6 +95341,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
