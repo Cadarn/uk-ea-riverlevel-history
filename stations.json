@@ -63463,7 +63463,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/49179",
       "easting": 220386,
       "gridReference": "SX2038651497",
-      "label": "POLPERRO LANGREEK WITS",
+      "label": "POLPERRO LANGREEK TO BE WITSD",
       "lat": 50.335947,
       "long": -4.52528,
       "measures": [
@@ -120956,11 +120956,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/46109",
-      "easting": 463775,
-      "gridReference": "SK6377504851",
-      "label": "Dakyn Road LVL",
-      "lat": 52.637658,
-      "long": -1.059015,
+      "easting": 463990,
+      "gridReference": "SK6399004711",
+      "label": "Dakyn Road Inlet LVL",
+      "lat": 52.636374,
+      "long": -1.055865,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/46109-level-stage-i-15_min-mASD",
@@ -120971,7 +120971,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 304851,
+      "northing": 304711,
       "notation": "46109",
       "stationReference": "46109"
     },
@@ -131441,6 +131441,27 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Mytholmroyd",
       "wiskiID": "F1204"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1403SE",
+      "easting": 532250,
+      "gridReference": "TQ322420",
+      "label": "Rainfall station",
+      "lat": 51.162417,
+      "long": -0.110025,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1403SE-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 142050,
+      "notation": "1403SE",
+      "stationReference": "1403SE"
     }
   ]
 }
