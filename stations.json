@@ -66244,7 +66244,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/49178",
       "easting": 220688,
       "gridReference": "SX2068851871",
-      "label": "POLPERRO TOP SCREEN WITS",
+      "label": "POLPERRO TOP SCREEN TO BE WITSD",
       "lat": 50.339399,
       "long": -4.521218,
       "measures": [
@@ -82568,14 +82568,6 @@
       "label": "West Horsley Place OBH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -84433,22 +84425,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 589070,
-      "gridReference": "TQ8907083023",
-      "label": "SOUTHEND PIER TS",
-      "lat": 51.514481,
-      "long": 0.72348,
+      "easting": 340250,
+      "gridReference": "SY402979",
+      "label": "Rainfall station",
+      "lat": 50.778033,
+      "long": -2.848812,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
+          "qualifier": "1",
+          "unitName": "mm"
         }
       ],
-      "northing": 183023,
+      "northing": 97950,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -131444,11 +131436,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1403SE",
-      "easting": 532250,
-      "gridReference": "TQ322420",
+      "easting": 632250,
+      "gridReference": "TR322420",
       "label": "Rainfall station",
-      "lat": 51.162417,
-      "long": -0.110025,
+      "lat": 51.130603,
+      "long": 1.318089,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1403SE-rainfall-tipping_bucket_raingauge-t-15_min-mm",
