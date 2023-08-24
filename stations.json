@@ -4283,7 +4283,7 @@
       "riverName": "River Churnet",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4143/stageScale",
       "stationReference": "4143",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Leek",
       "wiskiID": "4143"
     },
@@ -7630,14 +7630,6 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-level-tidal_level-Mean-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Tidal Level",
           "unitName": "m"
         },
         {
@@ -72360,6 +72352,14 @@
       "long": -0.183893,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4177TH-level-downstage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4177TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82414,14 +82414,6 @@
       "gridReference": "SJ5166",
       "label": "Priors Heyes",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-1_h-m",
           "parameter": "level",
@@ -95501,14 +95493,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -103396,14 +103380,6 @@
       "lat": 52.207563,
       "long": -0.73336,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
@@ -111621,7 +111597,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3465",
       "easting": 522999,
       "gridReference": "TF2299975267",
-      "label": "HORNCASTLE FSR",
+      "label": "HORNCASTLE FSR WITS",
       "lat": 53.260143,
       "long": -0.157528,
       "measures": [
@@ -113116,6 +113092,14 @@
       "lat": 51.041373,
       "long": -0.097452,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8242-flow--Mean-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8242-flow--i-15_min-m3_s",
           "parameter": "flow",
@@ -129688,6 +129672,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2834/stageScale",
       "stationReference": "2834",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "One Prentre Brook approx 400m from confluence with River Severn.",
       "wiskiID": "2834"
     },
     {
@@ -131793,6 +131778,27 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "River Swilgate",
       "wiskiID": "2101"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/26350",
+      "easting": 352003,
+      "gridReference": "SO5200339857",
+      "label": "Herefford Ledbury Road LVL",
+      "lat": 52.054999,
+      "long": -2.701397,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26350-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 239857,
+      "notation": "26350",
+      "stationReference": "26350"
     }
   ]
 }
