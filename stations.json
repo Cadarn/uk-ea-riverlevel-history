@@ -68399,6 +68399,14 @@
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/692388-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 388805,
@@ -78658,14 +78666,6 @@
       "label": "COMPTON GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -80233,14 +80233,6 @@
       "gridReference": "ST9398",
       "label": "Macmillan Way OBH",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -95333,14 +95325,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
