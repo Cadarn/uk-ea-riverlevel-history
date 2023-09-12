@@ -61398,7 +61398,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3088TH",
       "easting": 501555,
       "gridReference": "TQ01555619",
-      "label": "Broadmead Gates",
+      "label": "River Wey at Broadmead Gates",
       "lat": 51.295832,
       "long": -0.544825,
       "measures": [
@@ -80249,14 +80249,6 @@
       "label": "Macmillan Way OBH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -85390,14 +85382,6 @@
       "lat": 50.936779,
       "long": -1.367352,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12411-flow--i-15_min----",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "---"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12411-flow--i-15_min-m3_s",
           "parameter": "flow",
@@ -131650,6 +131634,27 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Uplyme",
       "wiskiID": "450130"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9498SE",
+      "easting": 452734,
+      "gridReference": "SU5273415282",
+      "label": "Durley Mill Eel Pass RL",
+      "lat": 50.934579,
+      "long": -1.250915,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9498SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 115282,
+      "notation": "9498SE",
+      "stationReference": "9498SE"
     }
   ]
 }
