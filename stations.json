@@ -60176,10 +60176,10 @@
       "long": 0.097044,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_EAST_UR-level-tidal_level-i-15_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_EAST_UR-level-tidal_level-i-1_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
-          "period": 900,
+          "period": 60,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -114832,11 +114832,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/690554",
-      "easting": 381839,
-      "gridReference": "SD8183900960",
-      "label": "Castle Irwell Inlet",
-      "lat": 53.505001,
-      "long": -2.275273,
+      "easting": 382406,
+      "gridReference": "SD8240601280",
+      "label": "Castle Irwell Basin",
+      "lat": 53.507896,
+      "long": -2.266743,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690554-level-logged-i-15_min-m",
@@ -114855,7 +114855,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 400960,
+      "northing": 401280,
       "notation": "690554",
       "stationReference": "690554"
     },
@@ -117766,12 +117766,12 @@
       "label": "Totton Testwood Bridge",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816015-level-groundwater-i-15_min-m",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816015-level-groundwater-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Groundwater",
-          "unitName": "m"
+          "unitName": "mAOD"
         }
       ],
       "notation": "151816015",
@@ -131655,6 +131655,27 @@
       "northing": 115282,
       "notation": "9498SE",
       "stationReference": "9498SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/BB_EAST_URv",
+      "easting": 545605,
+      "gridReference": "TQ45608171",
+      "label": "Barking Barrier East UR",
+      "lat": 51.515594,
+      "long": 0.097044,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_EAST_URv-level-tidal_level-i-1_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 60,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 181715,
+      "notation": "BB_EAST_URv",
+      "stationReference": "BB_EAST_URv"
     }
   ]
 }
