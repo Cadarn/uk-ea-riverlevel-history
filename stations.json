@@ -60171,15 +60171,15 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/BB_EAST_UR",
       "easting": 545605,
       "gridReference": "TQ45608171",
-      "label": "Barking Barrier East UR",
+      "label": "Barking Barrier",
       "lat": 51.515594,
       "long": 0.097044,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_EAST_UR-level-tidal_level-i-1_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_EAST_UR-level-tidal_level-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
-          "period": 60,
+          "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -64096,15 +64096,15 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/BB_WEST_DR",
       "easting": 545605,
       "gridReference": "TQ45608171",
-      "label": "Barking Barrier West DR",
+      "label": "Barking Barrier",
       "lat": 51.515594,
       "long": 0.097044,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_WEST_DR-level-tidal_level-i-1_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_WEST_DR-level-tidal_level-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
-          "period": 60,
+          "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -66602,15 +66602,15 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/BB_EAST_DR",
       "easting": 545605,
       "gridReference": "TQ45608171",
-      "label": "Barking Barrier East DR",
+      "label": "Barking Barrierr",
       "lat": 51.515594,
       "long": 0.097044,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_EAST_DR-level-tidal_level-i-1_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_EAST_DR-level-tidal_level-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
-          "period": 60,
+          "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -66790,15 +66790,15 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/BB_WEST_UR",
       "easting": 545605,
       "gridReference": "TQ45608171",
-      "label": "Barking Barrier West UR",
+      "label": "Barking Barrier",
       "lat": 51.515594,
       "long": 0.097044,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_WEST_UR-level-tidal_level-i-1_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_WEST_UR-level-tidal_level-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
-          "period": 60,
+          "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
