@@ -2864,7 +2864,7 @@
       "riverName": "River Clyst",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/45162/stageScale",
       "stationReference": "45162",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Broadclyst",
       "wiskiID": "SX99U075"
     },
@@ -19453,34 +19453,6 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Merton",
       "wiskiID": "4192TH"
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/0008",
-      "RLOIid": "7392",
-      "catchmentName": "London",
-      "dateOpened": "1988-01-01",
-      "easting": 528578,
-      "label": "Chelsea",
-      "lat": 51.484369,
-      "long": -0.149631,
-      "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0008-level-tidal_level-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
-        }
-      ],
-      "northing": 177781,
-      "notation": "0008",
-      "riverName": "Thames Tideway",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/0008/stageScale",
-      "stationReference": "0008",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusClosed",
-      "town": "Chelsea",
-      "wiskiID": "4230TH"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/48137",
@@ -64644,10 +64616,18 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4387TH",
       "easting": 541335,
       "gridReference": "TQ41337451",
-      "label": "Eltham Palace Road FWS",
+      "label": "Eltham Palace Road FD",
       "lat": 51.45198,
       "long": 0.032669,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
           "parameter": "level",
@@ -76332,7 +76312,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E42895",
       "easting": 634800,
       "gridReference": "TG3480024800",
-      "label": "WAYFORD BRIDGE TS WITS",
+      "label": "WAYFORD BRIDGE TS WINDOWED DO NOT POLL",
       "lat": 52.7697,
       "long": 1.479261,
       "measures": [
@@ -82346,14 +82326,6 @@
       "label": "Priors Heyes",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -85982,22 +85954,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3403",
-      "easting": 531352,
-      "gridReference": "TF3135287021",
-      "label": "LOUTH NORTH FSR",
-      "lat": 53.363734,
-      "long": -0.027521,
+      "easting": 621150,
+      "gridReference": "TR211575",
+      "label": "LITTLEBOURNE USGS",
+      "lat": 51.274155,
+      "long": 1.16925,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
+          "qualifier": "",
+          "unitName": "m3/s"
         }
       ],
-      "northing": 387021,
+      "northing": 157550,
       "notation": "E3403",
       "stationReference": "E3403"
     },
@@ -104748,22 +104720,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7040",
-      "easting": 487650,
-      "gridReference": "SK876868",
-      "label": "Rainfall station",
-      "lat": 53.371241,
-      "long": -0.684077,
+      "easting": 558652,
+      "gridReference": "TQ5865204692",
+      "label": "WANNOCK MILL RL",
+      "lat": 50.82004,
+      "long": 0.250967,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 386850,
+      "northing": 104692,
       "notation": "E7040",
       "stationReference": "E7040"
     },
@@ -131600,14 +131572,13 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5160",
-      "RLOIid": "9563",
+      "RLOIid": "9567",
       "catchmentName": "Warwickshire Avon",
       "dateOpened": "2023-08-08",
-      "easting": 390021,
-      "gridReference": "SO9002129769",
-      "label": "Tewkesbury Tredington",
-      "lat": 51.966299,
-      "long": -2.146648,
+      "easting": 390000,
+      "label": "Tredington 02",
+      "lat": 51.965678,
+      "long": -2.146952,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5160-level-stage-i-15_min-mASD",
@@ -131618,7 +131589,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 229769,
+      "northing": 229700,
       "notation": "5160",
       "riverName": "River Swilgate",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/5160/stageScale",
@@ -131656,9 +131627,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2101",
+      "RLOIid": "9563",
+      "catchmentName": "Warwickshire Avon",
+      "dateOpened": "2023-08-08",
       "easting": 390021,
       "gridReference": "SO9002129769",
-      "label": "Tewksbury Tredington",
+      "label": "Tewkesbury Tredington",
       "lat": 51.966299,
       "long": -2.146648,
       "measures": [
@@ -131673,7 +131647,11 @@
       ],
       "northing": 229769,
       "notation": "2101",
-      "stationReference": "2101"
+      "riverName": "River Swilgate",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2101/stageScale",
+      "stationReference": "2101",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "2101"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9498SE",
@@ -131738,6 +131716,9 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/0010",
+      "RLOIid": "7392",
+      "catchmentName": "London",
+      "dateOpened": "2023-09-14",
       "easting": 522656,
       "gridReference": "TQ2265678260",
       "label": "Hammersmith",
@@ -131755,7 +131736,12 @@
       ],
       "northing": 178260,
       "notation": "0010",
-      "stationReference": "0010"
+      "riverName": "Thames Tideway",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/0010/stageScale",
+      "stationReference": "0010",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Hammersmith",
+      "wiskiID": "4229TH"
     }
   ]
 }
