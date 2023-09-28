@@ -58677,14 +58677,6 @@
       "long": -2.162837,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2700-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2700-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -107641,11 +107633,11 @@
       "long": 0.289494,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8020-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8020-rainfall-water-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
+          "qualifier": "Water",
           "unitName": "mm"
         }
       ],
