@@ -131734,6 +131734,27 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Hammersmith",
       "wiskiID": "4229TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/761441",
+      "easting": 542251,
+      "gridReference": "TQ4225134913",
+      "label": "Freshfield Bank RL",
+      "lat": 51.095884,
+      "long": 0.030095,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/761441-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 134913,
+      "notation": "761441",
+      "stationReference": "761441"
     }
   ]
 }
