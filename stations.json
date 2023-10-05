@@ -219,7 +219,7 @@
       "riverName": "River Brock",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/720215/stageScale",
       "stationReference": "720215",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Bilsborrow",
       "wiskiID": "720215"
     },
@@ -5184,7 +5184,7 @@
       "riverName": "River Aire",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/F1508/stageScale",
       "stationReference": "F1508",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusClosed",
       "town": "Gargrave",
       "wiskiID": "F1508"
     },
@@ -35959,7 +35959,7 @@
       "riverName": "River Ellen",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/754016/stageScale",
       "stationReference": "754016",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Allerby",
       "wiskiID": "754016"
     },
@@ -46915,7 +46915,7 @@
       "riverName": "River Arrow",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/055L010SG/stageScale",
       "stationReference": "055L010SG",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Eardisland",
       "wiskiID": "055829"
     },
@@ -84464,22 +84464,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 614950,
-      "gridReference": "TM149414",
-      "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "easting": 589070,
+      "gridReference": "TQ8907083023",
+      "label": "SOUTHEND PIER TS",
+      "lat": 51.514481,
+      "long": 0.72348,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "2",
-          "unitName": "mm"
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 241450,
+      "northing": 183023,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -104712,11 +104712,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7040",
-      "easting": 487650,
-      "gridReference": "SK876868",
-      "label": "Rainfall station",
-      "lat": 53.371241,
-      "long": -0.684077,
+      "easting": 558652,
+      "gridReference": "TQ5865204692",
+      "label": "WANNOCK MILL RL",
+      "lat": 50.82004,
+      "long": 0.250967,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-level-stage-i-15_min-mAOD",
@@ -104725,17 +104725,9 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
-      "northing": 386850,
+      "northing": 104692,
       "notation": "E7040",
       "stationReference": "E7040"
     },
@@ -131154,9 +131146,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E85263",
+      "RLOIid": "9568",
+      "catchmentName": "Otter, Sid, Axe and Lim",
+      "dateOpened": "2023-05-10",
       "easting": 307132,
-      "gridReference": "SY0713282985",
-      "label": "BUDLEIGH SOUTH FARM ROAD WEST BRIDGE",
+      "label": "Budleigh South Farm Road West Bridge",
       "lat": 50.639129,
       "long": -3.314657,
       "measures": [
@@ -131171,7 +131165,11 @@
       ],
       "northing": 82985,
       "notation": "E85263",
-      "stationReference": "E85263"
+      "riverName": "River Otter",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E85263/stageScale",
+      "stationReference": "E85263",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "wiskiID": "SY08F490"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84189",
@@ -131571,33 +131569,6 @@
       "stationReference": "1403SE"
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5160",
-      "RLOIid": "9567",
-      "catchmentName": "Warwickshire Avon",
-      "dateOpened": "2023-08-08",
-      "easting": 390000,
-      "label": "Tredington 02",
-      "lat": 51.965678,
-      "long": -2.146952,
-      "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5160-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
-        }
-      ],
-      "northing": 229700,
-      "notation": "5160",
-      "riverName": "River Swilgate",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/5160/stageScale",
-      "stationReference": "5160",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "wiskiID": "2101"
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/26350",
       "RLOIid": "9566",
       "catchmentName": "Wye",
@@ -131705,6 +131676,16 @@
       "label": "Uplyme Springhead Road",
       "lat": 50.735964,
       "long": -2.952462,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E83173-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
       "northing": 93361.58441,
       "notation": "E83173",
       "riverName": "River Lim",
