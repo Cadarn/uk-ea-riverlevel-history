@@ -46915,7 +46915,7 @@
       "riverName": "River Arrow",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/055L010SG/stageScale",
       "stationReference": "055L010SG",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Eardisland",
       "wiskiID": "055829"
     },
@@ -117526,11 +117526,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/45264",
-      "easting": 327679,
-      "gridReference": "ST2767902987",
+      "easting": 327693,
+      "gridReference": "ST2769302989",
       "label": "MEMBURY",
-      "lat": 50.821887,
-      "long": -3.028076,
+      "lat": 50.821907,
+      "long": -3.027878,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/45264-level-stage-i-15_min-m",
@@ -117541,7 +117541,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 102987,
+      "northing": 102989,
       "notation": "45264",
       "stationReference": "45264"
     },
