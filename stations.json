@@ -131744,6 +131744,48 @@
       "northing": 134913,
       "notation": "761441",
       "stationReference": "761441"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2602",
+      "easting": 374655,
+      "gridReference": "SJ74652386",
+      "label": "Whitleyford Bridge LVL",
+      "lat": 52.811719,
+      "long": -2.377451,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2602-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 323865,
+      "notation": "2602",
+      "stationReference": "2602"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2199",
+      "easting": 377985,
+      "gridReference": "SJ77981927",
+      "label": "Coley Mill LVL",
+      "lat": 52.770605,
+      "long": -2.327738,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2199-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 319275,
+      "notation": "2199",
+      "stationReference": "2199"
     }
   ]
 }
