@@ -28519,14 +28519,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1151-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 425430,
@@ -69944,7 +69936,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/53152",
       "easting": 372440,
       "gridReference": "ST7244064862",
-      "label": "TWERTON GATE",
+      "label": "BATH TWERTON GATE RADIAL",
       "lat": 51.382127,
       "long": -2.397394,
       "measures": [
@@ -69965,7 +69957,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/53151",
       "easting": 372440,
       "gridReference": "ST7244064862",
-      "label": "TWERTON GATE",
+      "label": "BATH TWERTON GATE RADIAL",
       "lat": 51.382127,
       "long": -2.397394,
       "measures": [
@@ -84612,22 +84604,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 614950,
-      "gridReference": "TM149414",
+      "easting": 340250,
+      "gridReference": "SY402979",
       "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "lat": 50.778033,
+      "long": -2.848812,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "2",
+          "qualifier": "1",
           "unitName": "mm"
         }
       ],
-      "northing": 241450,
+      "northing": 97950,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -86094,11 +86086,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3403",
-      "easting": 621150,
-      "gridReference": "TR211575",
-      "label": "LITTLEBOURNE USGS",
-      "lat": 51.274155,
-      "long": 1.16925,
+      "easting": 531352,
+      "gridReference": "TF3135287021",
+      "label": "LOUTH NORTH FSR",
+      "lat": 53.363734,
+      "long": -0.027521,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-flow--i-15_min-m3_s",
@@ -86107,9 +86099,17 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
-      "northing": 157550,
+      "northing": 387021,
       "notation": "E3403",
       "stationReference": "E3403"
     },
@@ -103407,14 +103407,6 @@
       "lat": 52.207563,
       "long": -0.73336,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
