@@ -60073,7 +60073,7 @@
       "dateOpened": "2009-07-27",
       "easting": 430650,
       "gridReference": "SP 30650 77380",
-      "label": "Sir Henry Parkes Road",
+      "label": "Sir Henry Parkes Rd",
       "lat": 52.39358,
       "long": -1.551005,
       "measures": [
@@ -68311,6 +68311,14 @@
       "long": -2.269502,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-1-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-water-i-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
@@ -74355,6 +74363,14 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ54_102-level-groundwater-i-30_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 1800,
+          "qualifier": "Groundwater",
+          "unitName": "m"
         }
       ],
       "notation": "SJ54_102",
@@ -77080,6 +77096,14 @@
       "label": "NORTHFIELD FARM OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_63-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -77163,6 +77187,14 @@
       "gridReference": "SU4882",
       "label": "HODCOTT 2 OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU48_72B-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU48_72B-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -78700,6 +78732,14 @@
       "label": "MARCHAM OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU49_75B-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU49_75B-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78716,14 +78756,6 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -78995,6 +79027,14 @@
       "gridReference": "SU4578",
       "label": "Gibbet Cottage OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -80293,6 +80333,14 @@
       "label": "Macmillan Way OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -80858,6 +80906,14 @@
       "gridReference": "SU3875",
       "label": "Great Shefford OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -81612,6 +81668,14 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ45_160-level-groundwater-i-30_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 1800,
+          "qualifier": "Groundwater",
+          "unitName": "m"
         }
       ],
       "notation": "SJ45_160",
@@ -82354,6 +82418,14 @@
       "label": "Priors Heyes",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82642,6 +82714,14 @@
       "gridReference": "TQ0852",
       "label": "West Horsley Place OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -83163,6 +83243,14 @@
       "gridReference": "SJ5794",
       "label": "Sankey Valley Ind Est",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-1-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "1",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-groundwater-i-1_h-m",
           "parameter": "level",
@@ -84500,22 +84588,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 589070,
-      "gridReference": "TQ8907083023",
-      "label": "SOUTHEND PIER TS",
-      "lat": 51.514481,
-      "long": 0.72348,
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
+          "qualifier": "2",
+          "unitName": "mm"
         }
       ],
-      "northing": 183023,
+      "northing": 241450,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -90126,12 +90214,28 @@
       "label": "High View (Kimpton) OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9409SE-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9409SE-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9409SE-level-groundwater-i-1_h-mBDAT",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mBDAT"
         }
       ],
       "notation": "9409SE",
@@ -104756,11 +104860,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7040",
-      "easting": 487650,
-      "gridReference": "SK876868",
-      "label": "Rainfall station",
-      "lat": 53.371241,
-      "long": -0.684077,
+      "easting": 558652,
+      "gridReference": "TQ5865204692",
+      "label": "WANNOCK MILL RL",
+      "lat": 50.82004,
+      "long": 0.250967,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-level-stage-i-15_min-mAOD",
@@ -104769,17 +104873,9 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
-      "northing": 386850,
+      "northing": 104692,
       "notation": "E7040",
       "stationReference": "E7040"
     },
@@ -111607,6 +111703,14 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9430SO-level-groundwater-i-1_h-mBDAT",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mBDAT"
         }
       ],
       "notation": "9430SO",
@@ -116929,7 +117033,7 @@
       "riverName": "Dearne Washlands",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L0801/stageScale",
       "stationReference": "L0801",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Dearne Washlands",
       "wiskiID": "L0801"
     },
@@ -117833,6 +117937,14 @@
       "gridReference": "SU3515",
       "label": "Totton Testwood Bridge",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816015-level-groundwater-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816015-level-groundwater-i-15_min-mAOD",
           "parameter": "level",
@@ -123373,6 +123485,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E49234-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 253487,
@@ -126526,12 +126646,9 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4691",
-      "RLOIid": "9473",
-      "catchmentName": "Lower Trent and Erewash",
-      "dateOpened": "2022-03-07",
       "easting": 462548,
       "gridReference": "SK6254847846",
-      "label": "Woodborough",
+      "label": "Nottingham Woodborough Main Street",
       "lat": 53.024249,
       "long": -1.068919,
       "measures": [
@@ -126546,12 +126663,7 @@
       ],
       "northing": 347846,
       "notation": "4691",
-      "riverName": "Woodborough Brook",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4691/stageScale",
-      "stationReference": "4691",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Woodborough",
-      "wiskiID": "4691"
+      "stationReference": "4691"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4693",
@@ -127026,7 +127138,7 @@
       "riverName": "Loftus Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L2926/stageScale",
       "stationReference": "L2926",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Loftus East Crescent",
       "wiskiID": "L2926"
     },
@@ -129262,6 +129374,14 @@
       "lat": 50.916942,
       "long": -0.146678,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/253222001-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/253222001-level-stage-i-15_min-mASD",
           "parameter": "level",
@@ -131896,6 +132016,25 @@
       "northing": 358320,
       "notation": "067022",
       "stationReference": "067022"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3214",
+      "RLOIid": "9473",
+      "catchmentName": "Lower Trent and Erewash",
+      "dateOpened": "2022-03-07",
+      "easting": 462548,
+      "gridReference": "SK6254847846",
+      "label": "Woodborough",
+      "lat": 53.024249,
+      "long": -1.068919,
+      "northing": 347846,
+      "notation": "3214",
+      "riverName": "Woodborough Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/3214/stageScale",
+      "stationReference": "3214",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Woodborough",
+      "wiskiID": "4691"
     }
   ]
 }
