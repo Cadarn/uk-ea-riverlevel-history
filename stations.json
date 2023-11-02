@@ -4979,7 +4979,7 @@
       "riverName": "River Kennet",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2230TH/stageScale",
       "stationReference": "2230TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Whittonditch",
       "wiskiID": "2230_w1TH"
     },
@@ -60073,7 +60073,7 @@
       "dateOpened": "2009-07-27",
       "easting": 430650,
       "gridReference": "SP 30650 77380",
-      "label": "Sir Henry Parkes Rd",
+      "label": "Sir Henry Parkes Road",
       "lat": 52.39358,
       "long": -1.551005,
       "measures": [
@@ -86070,11 +86070,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3403",
-      "easting": 621150,
-      "gridReference": "TR211575",
-      "label": "LITTLEBOURNE USGS",
-      "lat": 51.274155,
-      "long": 1.16925,
+      "easting": 531352,
+      "gridReference": "TF3135287021",
+      "label": "LOUTH NORTH FSR",
+      "lat": 53.363734,
+      "long": -0.027521,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-flow--i-15_min-m3_s",
@@ -86083,9 +86083,17 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
-      "northing": 157550,
+      "northing": 387021,
       "notation": "E3403",
       "stationReference": "E3403"
     },
@@ -86835,6 +86843,14 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -100044,6 +100060,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23500-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
       "notation": "E23500",
@@ -126646,9 +126670,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4691",
+      "RLOIid": "9473",
+      "catchmentName": "Lower Trent and Erewash",
+      "dateOpened": "2022-03-07",
       "easting": 462548,
       "gridReference": "SK6254847846",
-      "label": "Nottingham Woodborough Main Street",
+      "label": "Woodborough",
       "lat": 53.024249,
       "long": -1.068919,
       "measures": [
@@ -126663,7 +126690,12 @@
       ],
       "northing": 347846,
       "notation": "4691",
-      "stationReference": "4691"
+      "riverName": "Woodborough Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4691/stageScale",
+      "stationReference": "4691",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Woodborough",
+      "wiskiID": "4691"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4693",
@@ -132016,25 +132048,6 @@
       "northing": 358320,
       "notation": "067022",
       "stationReference": "067022"
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3214",
-      "RLOIid": "9473",
-      "catchmentName": "Lower Trent and Erewash",
-      "dateOpened": "2022-03-07",
-      "easting": 462548,
-      "gridReference": "SK6254847846",
-      "label": "Woodborough",
-      "lat": 53.024249,
-      "long": -1.068919,
-      "northing": 347846,
-      "notation": "3214",
-      "riverName": "Woodborough Brook",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/3214/stageScale",
-      "stationReference": "3214",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Woodborough",
-      "wiskiID": "4691"
     }
   ]
 }
