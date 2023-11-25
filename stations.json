@@ -6382,6 +6382,14 @@
       "long": -1.171327,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -17076,7 +17084,7 @@
       "riverName": "Bedburn Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/024004/stageScale",
       "stationReference": "024004",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Hamsterley",
       "wiskiID": "024004"
     },
@@ -28475,6 +28483,35 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Hythe End",
       "wiskiID": "2894TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E1151",
+      "easting": 511990,
+      "gridReference": "TA1199025430",
+      "label": "GOXHILL OUTFALL SLUICE",
+      "lat": 53.713268,
+      "long": -0.304607,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1151-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1151-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 425430,
+      "notation": "E1151",
+      "stationReference": "E1151"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L1810",
@@ -77049,7 +77086,7 @@
       "notation": "SU37_63",
       "riverName": "Groundwater Level",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU37_63/stageScale",
-      "stationReference": "SU37_63",
+      "stationReference": "SU37/63",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Lambourn (Great Shefford)",
       "wiskiID": "SU37_63"
@@ -77120,43 +77157,6 @@
       ],
       "notation": "26116",
       "stationReference": "26116"
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU48_72B",
-      "RLOIid": "9578",
-      "catchmentName": "Loddon",
-      "dateOpened": "2001-08-31",
-      "easting": 448260,
-      "gridReference": "SU4826082110",
-      "label": "Hodcott",
-      "lat": 51.535833,
-      "long": -1.305596,
-      "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU48_72B-level-groundwater-i-1_h----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "---"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU48_72B-level-groundwater-i-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        }
-      ],
-      "northing": 182110,
-      "notation": "SU48_72B",
-      "riverName": "Groundwater Level",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU48_72B/stageScale",
-      "stationReference": "SU48_72B",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
-      "town": "Upper Pang",
-      "wiskiID": "SU48_72B"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SP90_64",
@@ -78391,6 +78391,14 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78732,6 +78740,14 @@
       "label": "COMPTON GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -79002,6 +79018,14 @@
       "gridReference": "SU4578",
       "label": "Gibbet Cottage OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -79776,7 +79800,7 @@
       "notation": "SU97_78A",
       "riverName": "Groundwater Level",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU97_78A/stageScale",
-      "stationReference": "SU97_78A",
+      "stationReference": "SU97/78A",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Egham",
       "wiskiID": "SU97_78A"
@@ -80486,7 +80510,7 @@
       "notation": "SU89_7",
       "riverName": "Groundwater Level",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU89_7/stageScale",
-      "stationReference": "SU89_7",
+      "stationReference": "SU89/7",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Wye",
       "wiskiID": "SU89_7"
@@ -81569,7 +81593,7 @@
       "notation": "SU38_46B",
       "riverName": "Groundwater Level",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU38_46B/stageScale",
-      "stationReference": "SU38_46B",
+      "stationReference": "SU38/46B",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Upper Lambourn",
       "wiskiID": "SU38_46B"
@@ -82717,6 +82741,14 @@
       "gridReference": "TQ0852",
       "label": "West Horsley Place OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -84595,22 +84627,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 589070,
-      "gridReference": "TQ8907083023",
-      "label": "SOUTHEND PIER TS",
-      "lat": 51.514481,
-      "long": 0.72348,
+      "easting": 340250,
+      "gridReference": "SY402979",
+      "label": "Rainfall station",
+      "lat": 50.778033,
+      "long": -2.848812,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
+          "qualifier": "1",
+          "unitName": "mm"
         }
       ],
-      "northing": 183023,
+      "northing": 97950,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -115578,6 +115610,14 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -118288,11 +118328,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/151816001",
-      "easting": 435450,
-      "gridReference": "SU354188",
-      "label": "Rainfall station",
-      "lat": 50.967981,
-      "long": -1.496522,
+      "easting": 435406,
+      "gridReference": "SU3540618864",
+      "label": "Romsey Broadlands Estate",
+      "lat": 50.968109,
+      "long": -1.497147,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816001-level-stage-i-15_min-mASD",
@@ -118311,7 +118351,7 @@
           "unitName": "deg C"
         }
       ],
-      "northing": 118850,
+      "northing": 118864,
       "notation": "151816001",
       "stationReference": "151816001"
     },
@@ -132232,8 +132272,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU4872B",
-      "gridReference": "SU4882",
-      "label": "HODCOTT 2 OBH",
+      "RLOIid": "9578",
+      "catchmentName": "Loddon",
+      "dateOpened": "2001-08-31",
+      "easting": 448260,
+      "gridReference": "SU4826082110",
+      "label": "Hodcott",
+      "lat": 51.535833,
+      "long": -1.305596,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU4872B-level-groundwater-i-1_h-mAOD",
@@ -132244,8 +132290,14 @@
           "unitName": "mAOD"
         }
       ],
+      "northing": 182110,
       "notation": "SU4872B",
-      "stationReference": "SU4872B"
+      "riverName": "Groundwater Level",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU4872B/stageScale",
+      "stationReference": "SU4872B",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "town": "Upper Pang",
+      "wiskiID": "SU48_72B"
     }
   ]
 }
