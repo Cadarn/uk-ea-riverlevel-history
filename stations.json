@@ -84552,22 +84552,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 589070,
-      "gridReference": "TQ8907083023",
-      "label": "SOUTHEND PIER TS",
-      "lat": 51.514481,
-      "long": 0.72348,
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
+          "qualifier": "2",
+          "unitName": "mm"
         }
       ],
-      "northing": 183023,
+      "northing": 241450,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -107491,11 +107491,7 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/085960",
-      "easting": 440850,
-      "gridReference": "SE408035",
       "label": "Rainfall station",
-      "lat": 53.527019,
-      "long": -1.385249,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/085960-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -107506,7 +107502,6 @@
           "unitName": "mm"
         }
       ],
-      "northing": 403550,
       "notation": "085960",
       "stationReference": "085960"
     },
@@ -113628,6 +113623,14 @@
       "lat": 52.639325,
       "long": -2.326002,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2046-level-stage-i-15_min----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2046-level-stage-i-15_min-mASD",
           "parameter": "level",
