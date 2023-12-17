@@ -132278,6 +132278,40 @@
       "northing": 216915,
       "notation": "0340TH",
       "stationReference": "0340TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/TQ35_41B",
+      "gridReference": "TQ3152",
+      "label": "Pendell Farm Folkstone GWL",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ35_41B-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "TQ35_41B",
+      "stationReference": "TQ35_41B"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/TQ35_41A",
+      "gridReference": "TQ3152",
+      "label": "Pendell Farm Hythe GWL",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ35_41A-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "TQ35_41A",
+      "stationReference": "TQ35_41A"
     }
   ]
 }
