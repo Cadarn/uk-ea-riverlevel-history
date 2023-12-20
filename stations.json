@@ -84576,22 +84576,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 614950,
-      "gridReference": "TM149414",
+      "easting": 340250,
+      "gridReference": "SY402979",
       "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "lat": 50.778033,
+      "long": -2.848812,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "2",
+          "qualifier": "1",
           "unitName": "mm"
         }
       ],
-      "northing": 241450,
+      "northing": 97950,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -95460,6 +95460,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -132304,6 +132312,27 @@
       ],
       "notation": "TQ35_41A",
       "stationReference": "TQ35_41A"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/711086",
+      "easting": 365295,
+      "gridReference": "SD65295289",
+      "label": "Footholme Flume",
+      "lat": 53.970939,
+      "long": -2.530546,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/711086-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 452895,
+      "notation": "711086",
+      "stationReference": "711086"
     }
   ]
 }
