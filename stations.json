@@ -2497,7 +2497,7 @@
       "riverName": "River Ouse",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E8210/stageScale",
       "stationReference": "E8210",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Scayne's Hill",
       "wiskiID": "372810001"
     },
@@ -47176,6 +47176,14 @@
       "long": -0.799526,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L3411-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L3411-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -86771,7 +86779,7 @@
       "riverName": "Meadlake Ditch",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2935TH/stageScale",
       "stationReference": "2935TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Norlands Lane FD",
       "wiskiID": "2935TH"
     },
@@ -116186,7 +116194,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/448301",
       "easting": 347022,
       "gridReference": "SY4702292759",
-      "label": "BRIDPORT EAST BRIDGE",
+      "label": "BRIDPORT EAST BRIDGE TO BE WITSD",
       "lat": 50.732016,
       "long": -2.752023,
       "measures": [
