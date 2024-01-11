@@ -8209,7 +8209,7 @@
       "riverName": "River Thames",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2003TH/stageScale",
       "stationReference": "2003TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Streatley",
       "wiskiID": "2003TH"
     },
@@ -17883,7 +17883,7 @@
       "riverName": "River Thames",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2702TH/stageScale",
       "stationReference": "2702TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Hythe End",
       "wiskiID": "2702TH"
     },
@@ -38497,7 +38497,7 @@
       "riverName": "River Ock",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/1745TH/stageScale",
       "stationReference": "1745TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Stanford In The Vale",
       "wiskiID": "1745TH"
     },
@@ -78475,6 +78475,14 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78815,6 +78823,14 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -84703,22 +84719,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 614950,
-      "gridReference": "TM149414",
+      "easting": 340250,
+      "gridReference": "SY402979",
       "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "lat": 50.778033,
+      "long": -2.848812,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "2",
+          "qualifier": "1",
           "unitName": "mm"
         }
       ],
-      "northing": 241450,
+      "northing": 97950,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -103507,14 +103523,6 @@
       "long": -0.73336,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -115702,6 +115710,14 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -123423,7 +123439,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/43179",
       "gridReference": "SU0431",
-      "label": "BARFORD CEMETERY GW DNP3",
+      "label": "BARFORD CEMETERY GW DNP3 NEW",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43179-level-groundwater-i-15_min-mAOD",
@@ -132586,6 +132602,35 @@
       "northing": 121169,
       "notation": "8116SE",
       "stationReference": "8116SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2534",
+      "RLOIid": "9590",
+      "catchmentName": "Severn Vale",
+      "dateOpened": "1998-10-16",
+      "easting": 387066,
+      "gridReference": "SO8706630024",
+      "label": "Deerhurst Flood Plain Level",
+      "lat": 51.96853,
+      "long": -2.189668,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2534-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 230024,
+      "notation": "2534",
+      "riverName": "River Severn",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2534/stageScale",
+      "stationReference": "2534",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Flood plain",
+      "wiskiID": "2534"
     }
   ]
 }
