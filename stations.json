@@ -75697,7 +75697,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E2993",
       "easting": 501823,
       "gridReference": "TF0182306039",
-      "label": "TINWELL GS",
+      "label": "TINWELL GS WITS",
       "lat": 52.642538,
       "long": -0.496579,
       "measures": [
@@ -109954,14 +109954,6 @@
       "label": "Gorstons",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-1-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -120015,7 +120007,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L2809B",
       "easting": 479093,
       "gridReference": "SE7909371425",
-      "label": "Malton Mill Beck PS",
+      "label": "Norton Mill Beck PS",
       "lat": 54.132582,
       "long": -0.791032,
       "measures": [
