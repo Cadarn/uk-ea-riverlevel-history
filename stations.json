@@ -2678,11 +2678,11 @@
       "long": -0.544254,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2062-level-stage-i-15_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2062-level-downstage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Stage",
+          "qualifier": "Downstream Stage",
           "unitName": "mAOD"
         }
       ],
@@ -6374,14 +6374,6 @@
       "long": -1.171327,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -9254,7 +9246,7 @@
       "riverName": "River Derwent",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L2810/stageScale",
       "stationReference": "L2810",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Tan Hall",
       "wiskiID": "L2810"
     },
@@ -17084,7 +17076,7 @@
       "riverName": "Bedburn Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/024004/stageScale",
       "stationReference": "024004",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Hamsterley",
       "wiskiID": "024004"
     },
@@ -62534,7 +62526,6 @@
       "catchmentName": "Nene",
       "dateOpened": "1997-01-01",
       "datumOffset": 27.64,
-      "downstageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E2061/downstageScale",
       "easting": 499100,
       "gridReference": "SP9910079200",
       "label": "Islip Sluice",
@@ -78493,14 +78484,6 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78842,14 +78825,6 @@
       "label": "COMPTON GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -79030,7 +79005,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E46631",
       "easting": 527614,
       "gridReference": "TA2761404806",
-      "label": "NEW WALTHAM GS GSM",
+      "label": "NEW WALTHAM GS WITS",
       "lat": 53.524418,
       "long": -0.076455,
       "measures": [
@@ -80445,6 +80420,14 @@
       "gridReference": "ST9398",
       "label": "Macmillan Way OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/ST99_98-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -84735,14 +84718,6 @@
       "lat": 52.029778,
       "long": 1.132036,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
           "parameter": "rainfall",
@@ -115672,14 +115647,6 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -132757,6 +132724,43 @@
       ],
       "notation": "SP90_56",
       "stationReference": "SP90_56"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU74_73",
+      "label": "Long Sutton OBH",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU74_73-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SU74_73",
+      "stationReference": "SU74_73"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/8114SE",
+      "easting": 453680,
+      "gridReference": "SZ5368083770",
+      "label": "Waightshale RL",
+      "lat": 50.651145,
+      "long": -1.242049,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/8114SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 83770,
+      "notation": "8114SE",
+      "stationReference": "8114SE"
     }
   ]
 }
