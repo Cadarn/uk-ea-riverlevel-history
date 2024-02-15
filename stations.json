@@ -59065,9 +59065,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/710103",
+      "RLOIid": "9592",
+      "catchmentName": "Ribble Douglas and Crossens",
+      "dateOpened": "1973-05-10",
       "easting": 383861,
       "gridReference": "SD8386155586",
-      "label": "Arnford",
+      "label": "Arnford Weir",
       "lat": 53.996041,
       "long": -2.247662,
       "measures": [
@@ -59082,7 +59085,12 @@
       ],
       "northing": 455586,
       "notation": "710103",
-      "stationReference": "710103"
+      "riverName": "River Ribble",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/710103/stageScale",
+      "stationReference": "710103",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Arnford Weir",
+      "wiskiID": "710103"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1900TH",
@@ -66184,14 +66192,6 @@
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-height-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Height",
-          "unitName": "m"
         },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-stage-i-15_min-mAOD",
@@ -78492,6 +78492,14 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78833,6 +78841,14 @@
       "label": "COMPTON GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -79103,6 +79119,14 @@
       "gridReference": "SU4578",
       "label": "Gibbet Cottage OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -81261,14 +81285,6 @@
       "label": "Myddleton Lane",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ69_133-level-1-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ69_133-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82826,6 +82842,14 @@
       "gridReference": "TQ0852",
       "label": "West Horsley Place OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -84704,22 +84728,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 614950,
-      "gridReference": "TM149414",
-      "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "easting": 589070,
+      "gridReference": "TQ8907083023",
+      "label": "SOUTHEND PIER TS",
+      "lat": 51.514481,
+      "long": 0.72348,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "2",
-          "unitName": "mm"
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 241450,
+      "northing": 183023,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -86887,6 +86911,14 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -103436,14 +103468,6 @@
       "long": -0.73336,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -115638,6 +115662,14 @@
       "gridReference": "SU8716",
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -131481,9 +131513,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84189",
+      "RLOIid": "9593",
+      "catchmentName": "Exe",
+      "dateOpened": "2022-03-23",
       "easting": 294812,
-      "gridReference": "SX9481292612",
-      "label": "EXETER HEAVITREE SWEETBRIAR LANE",
+      "label": "Exeter Heavitree Sweetbriar Lane",
       "lat": 50.723577,
       "long": -3.491564,
       "measures": [
@@ -131498,7 +131532,11 @@
       ],
       "northing": 92612,
       "notation": "E84189",
-      "stationReference": "E84189"
+      "riverName": "Northbrook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84189/stageScale",
+      "stationReference": "E84189",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "SX99F100"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E85123",
@@ -132451,11 +132489,13 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/711086",
-      "easting": 365295,
-      "gridReference": "SD65295289",
+      "RLOIid": "9594",
+      "catchmentName": "Ribble Douglas and Crossens",
+      "dateOpened": "1995-10-23",
+      "easting": 365289,
       "label": "Footholme Flume",
-      "lat": 53.970939,
-      "long": -2.530546,
+      "lat": 53.970893,
+      "long": -2.530637,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/711086-level-stage-i-15_min-m",
@@ -132466,9 +132506,14 @@
           "unitName": "m"
         }
       ],
-      "northing": 452895,
+      "northing": 452890,
       "notation": "711086",
-      "stationReference": "711086"
+      "riverName": "River Dunsop",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/711086/stageScale",
+      "stationReference": "711086",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Footholme Flume",
+      "wiskiID": "711086"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU38_46A",
