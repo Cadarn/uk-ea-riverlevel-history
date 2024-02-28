@@ -7604,14 +7604,6 @@
           "unitName": "m"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-level-tidal_level-Mean-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-wind-direction-Mean-15_min-deg",
           "parameter": "wind",
           "parameterName": "Wind",
@@ -12822,7 +12814,6 @@
       "RLOIid": "6053",
       "catchmentName": "Witham",
       "dateOpened": "1989-01-01",
-      "datumOffset": 7.9,
       "easting": 492900,
       "label": "Brant Broughton",
       "lat": 53.080542,
@@ -53501,10 +53492,10 @@
       "RLOIid": "3289",
       "catchmentName": "West Dorset Streams",
       "dateOpened": "1988-01-01",
-      "easting": 367000,
+      "easting": 368155,
       "label": "Chiswell",
-      "lat": 50.56481,
-      "long": -2.467283,
+      "lat": 50.562374,
+      "long": -2.450952,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/44111-level-tidal_level-i-15_min-mAOD",
@@ -53515,7 +53506,7 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 74000,
+      "northing": 73722,
       "notation": "44111",
       "riverName": "Dorset Coast",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/44111/stageScale",
@@ -66549,7 +66540,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/43194",
       "gridReference": "SU0637",
-      "label": "SERRINGTON GW",
+      "label": "SERRINGTON GW DNP3  NEW",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43194-level-groundwater-i-15_min-m",
@@ -78509,14 +78500,6 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78857,14 +78840,6 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -79387,7 +79362,7 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SP10_54",
       "gridReference": "SP1203",
-      "label": "DONKEYWELL OBH",
+      "label": "Donkeywell OBH Level",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP10_54-level-groundwater-i-1_h-mAOD",
@@ -83535,14 +83510,6 @@
       "gridReference": "SU1095",
       "label": "Down Ampney OBH",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -115696,14 +115663,6 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -133446,6 +133405,180 @@
       ],
       "notation": "SU56_119",
       "stationReference": "SU56_119"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E50048",
+      "easting": 599733,
+      "gridReference": "TF9973304377",
+      "label": "SOUTHBURGH RIVER LANE",
+      "lat": 52.600447,
+      "long": 0.947862,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E50048-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 304377,
+      "notation": "E50048",
+      "stationReference": "E50048"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SP00_143",
+      "gridReference": "SP0000",
+      "label": "College Farm OBH",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP00_143-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SP00_143",
+      "stationReference": "SP00_143"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SP10_105",
+      "gridReference": "SP1600",
+      "label": "Fairford FC OBH",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP10_105-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SP10_105",
+      "stationReference": "SP10_105"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU75_29",
+      "gridReference": "SU7257",
+      "label": "Cowfold OBH",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU75_29-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SU75_29",
+      "stationReference": "SU75_29"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU69_119",
+      "gridReference": "SU6490",
+      "label": "EWELME GRUNDON No.2",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU69_119-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SU69_119",
+      "stationReference": "SU69_119"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU57_165",
+      "gridReference": "SU5374",
+      "label": "Everington House",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU57_165-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SU57_165",
+      "stationReference": "SU57_165"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SP10_85",
+      "gridReference": "SP1400",
+      "label": "Fairford OBH",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SP10_85-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SP10_85",
+      "stationReference": "SP10_85"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU66_91",
+      "gridReference": "SU6963",
+      "label": "Fair Cross OBH",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU66_91-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SU66_91",
+      "stationReference": "SU66_91"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU57_154",
+      "gridReference": "SU5279",
+      "label": "Compton OBH",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU57_154-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SU57_154",
+      "stationReference": "SU57_154"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU27_70",
+      "gridReference": "SU2972",
+      "label": "Newbury Eastridge Farm OBH",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU27_70-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SU27_70",
+      "stationReference": "SU27_70"
     }
   ]
 }
