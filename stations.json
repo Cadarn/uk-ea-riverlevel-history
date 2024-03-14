@@ -73936,6 +73936,14 @@
           "period": 900,
           "qualifier": "2",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 261800,
@@ -103468,14 +103476,6 @@
       "long": -0.73336,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -122623,11 +122623,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/445930",
-      "easting": 380588,
-      "gridReference": "SY8058884852",
-      "label": "WINFRITH GS TO BE WITSD",
-      "lat": 50.66301,
-      "long": -2.276007,
+      "RLOIid": "9597",
+      "catchmentName": "Frome, Piddle, Poole Harbour and Purbeck",
+      "dateOpened": "1999-05-27",
+      "easting": 380583,
+      "gridReference": "SY8058384868",
+      "label": "Winfrith",
+      "lat": 50.663154,
+      "long": -2.276078,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/445930-level-stage-i-15_min-m",
@@ -122638,9 +122641,14 @@
           "unitName": "m"
         }
       ],
-      "northing": 84852,
+      "northing": 84868,
       "notation": "445930",
-      "stationReference": "445930"
+      "riverName": "River Frome",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/445930/stageScale",
+      "stationReference": "445930",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Winfrith",
+      "wiskiID": "445930"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/448115",
@@ -135213,25 +135221,6 @@
       "northing": 143815,
       "notation": "E4660",
       "stationReference": "E4660"
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E39038",
-      "RLOIid": "9597",
-      "catchmentName": "Frome, Piddle, Poole Harbour and Purbeck",
-      "dateOpened": "1999-05-27",
-      "easting": 380583,
-      "gridReference": "SY8058384868",
-      "label": "Winfrith",
-      "lat": 50.663154,
-      "long": -2.276078,
-      "northing": 84868,
-      "notation": "E39038",
-      "riverName": "River Frome",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E39038/stageScale",
-      "stationReference": "E39038",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Winfrith",
-      "wiskiID": "445930"
     }
   ]
 }
