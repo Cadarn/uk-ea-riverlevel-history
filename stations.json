@@ -42183,7 +42183,7 @@
       "riverName": "River Nene",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4826/stageScale",
       "stationReference": "E4826",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Whittlesey",
       "wiskiID": "L32056"
     },
@@ -79128,6 +79128,14 @@
       "label": "Gibbet Cottage OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -79160,7 +79168,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3012",
       "easting": 492907,
       "gridReference": "SK9290754581",
-      "label": "BRANT BROUGHTON GS",
+      "label": "BRANT BROUGHTON GS WITS",
       "lat": 53.08037,
       "long": -0.61448,
       "measures": [
@@ -81031,6 +81039,14 @@
       "label": "Great Shefford OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82843,6 +82859,14 @@
       "label": "West Horsley Place OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83502,6 +83526,14 @@
       "gridReference": "SU1095",
       "label": "Down Ampney OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -103451,6 +103483,14 @@
       "lat": 52.207563,
       "long": -0.73336,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
@@ -135179,11 +135219,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4660",
-      "easting": 361935,
-      "gridReference": "ST6193543815",
-      "label": "SHEPTON MALLET LOWER LANE",
-      "lat": 51.192276,
-      "long": -2.546086,
+      "RLOIid": "9600",
+      "catchmentName": "Parrett, Brue and West Somerset Streams",
+      "dateOpened": "2011-04-22",
+      "easting": 361934,
+      "gridReference": "ST6193443813",
+      "label": "Shepton Mallet Lower Lane",
+      "lat": 51.192258,
+      "long": -2.5461,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4660-level-1-i-15_min-m",
@@ -135194,9 +135237,14 @@
           "unitName": "m"
         }
       ],
-      "northing": 143815,
+      "northing": 143813,
       "notation": "E4660",
-      "stationReference": "E4660"
+      "riverName": "River Sheppey",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4660/stageScale",
+      "stationReference": "E4660",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Shepton Mallet",
+      "wiskiID": "521002"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/6c72f76a-b76c-4a28-8701-71cdca25c0f5",
@@ -135265,6 +135313,23 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Edenhall",
       "wiskiID": "762007"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU07_6",
+      "gridReference": "SU0671",
+      "label": "Opposite 24",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU07_6-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SU07_6",
+      "stationReference": "SU07_6"
     }
   ]
 }
