@@ -65056,11 +65056,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/52226",
-      "easting": 362200,
-      "gridReference": "ST6220043709",
-      "label": "SHEPTON MALLET GARSTON",
-      "lat": 51.191341,
-      "long": -2.542282,
+      "RLOIid": "9601",
+      "catchmentName": "Parrett, Brue and West Somerset Streams",
+      "dateOpened": "2011-04-22",
+      "easting": 362195,
+      "gridReference": "ST6219543712",
+      "label": "Shepton Mallet Garston Street",
+      "lat": 51.191367,
+      "long": -2.542354,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/52226-level-4-i-15_min-m",
@@ -65071,9 +65074,14 @@
           "unitName": "m"
         }
       ],
-      "northing": 143709,
+      "northing": 143712,
       "notation": "52226",
-      "stationReference": "52226"
+      "riverName": "River Sheppey",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/52226/stageScale",
+      "stationReference": "52226",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Shepton Mallet",
+      "wiskiID": "521000"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/067015",
@@ -84744,22 +84752,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 589070,
-      "gridReference": "TQ8907083023",
-      "label": "SOUTHEND PIER TS",
-      "lat": 51.514481,
-      "long": 0.72348,
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
+          "qualifier": "2",
+          "unitName": "mm"
         }
       ],
-      "northing": 183023,
+      "northing": 241450,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -86573,7 +86581,7 @@
       "riverName": "Beverley and Barmston Drain",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3231/stageScale",
       "stationReference": "L3231",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Wilfholme PS",
       "wiskiID": "L3231"
     },
