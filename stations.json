@@ -97500,11 +97500,7 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1335",
-      "easting": 324450,
-      "gridReference": "SJ244301",
       "label": "Rainfall station",
-      "lat": 52.863499,
-      "long": -3.123644,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1335-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -97515,7 +97511,6 @@
           "unitName": "mm"
         }
       ],
-      "northing": 330150,
       "notation": "1335",
       "stationReference": "1335"
     },
