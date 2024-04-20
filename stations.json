@@ -84640,22 +84640,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 614950,
-      "gridReference": "TM149414",
+      "easting": 340250,
+      "gridReference": "SY402979",
       "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "lat": 50.778033,
+      "long": -2.848812,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "2",
+          "qualifier": "1",
           "unitName": "mm"
         }
       ],
-      "northing": 241450,
+      "northing": 97950,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -99406,7 +99406,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/282947TP",
+      "easting": 495250,
+      "gridReference": "SU952543",
       "label": "Rainfall station",
+      "lat": 51.280335,
+      "long": -0.635718,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/282947TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -99417,6 +99421,7 @@
           "unitName": "mm"
         }
       ],
+      "northing": 154350,
       "notation": "282947TP",
       "stationReference": "282947TP"
     },
@@ -124584,14 +124589,6 @@
           "period": 900,
           "qualifier": "1",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E80535-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
         }
       ],
       "northing": 145902,
@@ -135202,6 +135199,27 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Luxborough",
       "wiskiID": "510805"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/755950",
+      "easting": 322865,
+      "gridReference": "NY22865707",
+      "label": "Kirkbride",
+      "lat": 54.902401,
+      "long": -3.204424,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755950-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 557075,
+      "notation": "755950",
+      "stationReference": "755950"
     }
   ]
 }
