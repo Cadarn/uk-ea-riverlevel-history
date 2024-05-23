@@ -80812,11 +80812,15 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21397",
-      "easting": 623800,
-      "gridReference": "TM2380060200",
-      "label": "BRANDESTON GS",
-      "lat": 52.194578,
-      "long": 1.273138,
+      "RLOIid": "9603",
+      "catchmentName": "East Suffolk",
+      "dateOpened": "2002-12-16",
+      "datumOffset": 18.6,
+      "easting": 623848,
+      "gridReference": "TM2384860208",
+      "label": "Brandeston",
+      "lat": 52.194631,
+      "long": 1.273844,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21397-level-stage-i-15_min-mAOD",
@@ -80825,11 +80829,24 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21397-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
-      "northing": 260200,
+      "northing": 260208,
       "notation": "E21397",
-      "stationReference": "E21397"
+      "riverName": "River Deben",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21397/stageScale",
+      "stationReference": "E21397",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Brandeston",
+      "wiskiID": "U35035"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/TQ36_38",
@@ -95705,14 +95722,6 @@
           "parameterName": "Rainfall",
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/261602TP-rainfall-water-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Water",
           "unitName": "mm"
         }
       ],
@@ -132633,14 +132642,6 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E79974-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
           "unitName": "mAOD"
         }
       ],
