@@ -95578,14 +95578,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/261602TP-rainfall-water-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Water",
-          "unitName": "mm"
         }
       ],
       "northing": 209050,
@@ -135314,6 +135306,23 @@
       "northing": 330252,
       "notation": "4765",
       "stationReference": "4765"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU48_76",
+      "gridReference": "SU4280",
+      "label": "Newbury Brighwalton Common",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU48_76-level-groundwater-i-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "SU48_76",
+      "stationReference": "SU48_76"
     }
   ]
 }
