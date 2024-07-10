@@ -84616,22 +84616,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 614950,
-      "gridReference": "TM149414",
+      "easting": 340250,
+      "gridReference": "SY402979",
       "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "lat": 50.778033,
+      "long": -2.848812,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "2",
+          "qualifier": "1",
           "unitName": "mm"
         }
       ],
-      "northing": 241450,
+      "northing": 97950,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -117018,6 +117018,14 @@
       "long": -1.420921,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L0208-level-downstage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L0208-level-stage-i-15_min----",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -135344,6 +135352,69 @@
       "northing": 104750,
       "notation": "E83440",
       "stationReference": "E83440"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4256",
+      "easting": 462604,
+      "gridReference": "SK6260411569",
+      "label": "Syston Town LVL ",
+      "lat": 52.698179,
+      "long": -1.075042,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4256-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 311569,
+      "notation": "4256",
+      "stationReference": "4256"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4254",
+      "easting": 460196,
+      "gridReference": "SK6019615057",
+      "label": "Sileby LVL",
+      "lat": 52.729803,
+      "long": -1.110033,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4254-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 315057,
+      "notation": "4254",
+      "stationReference": "4254"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4255",
+      "easting": 465142,
+      "gridReference": "SK6514214516",
+      "label": "Rearsby LVL",
+      "lat": 52.724368,
+      "long": -1.036909,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4255-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 314516,
+      "notation": "4255",
+      "stationReference": "4255"
     }
   ]
 }
