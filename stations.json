@@ -127575,7 +127575,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/024121",
+      "easting": 420050,
+      "gridReference": "NZ200422",
       "label": "Rainfall station",
+      "lat": 54.774754,
+      "long": -1.689832,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/024121-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -127586,6 +127590,7 @@
           "unitName": "mm"
         }
       ],
+      "northing": 542250,
       "notation": "024121",
       "stationReference": "024121"
     },
