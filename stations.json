@@ -73895,14 +73895,6 @@
           "period": 900,
           "qualifier": "2",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 261800,
@@ -79087,6 +79079,14 @@
       "label": "Gibbet Cottage OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -81015,6 +81015,14 @@
       "label": "Great Shefford OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82827,6 +82835,14 @@
       "label": "West Horsley Place OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83486,6 +83502,14 @@
       "gridReference": "SU1095",
       "label": "Down Ampney OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -135520,9 +135544,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4256",
+      "RLOIid": "9606",
+      "catchmentName": "Soar",
+      "dateOpened": "2024-08-05",
       "easting": 462604,
       "gridReference": "SK6260411569",
-      "label": "Syston Town LVL ",
+      "label": "Syston Town",
       "lat": 52.698179,
       "long": -1.075042,
       "measures": [
@@ -135537,13 +135564,21 @@
       ],
       "northing": 311569,
       "notation": "4256",
-      "stationReference": "4256"
+      "riverName": "Barkby Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4256/stageScale",
+      "stationReference": "4256",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Syston",
+      "wiskiID": "4256"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4254",
+      "RLOIid": "9605",
+      "catchmentName": "Soar",
+      "dateOpened": "2024-08-05",
       "easting": 460196,
-      "gridReference": "SK6019615057",
-      "label": "Sileby LVL",
+      "gridReference": "SK6019615067",
+      "label": "Sileby",
       "lat": 52.729803,
       "long": -1.110033,
       "measures": [
@@ -135558,15 +135593,23 @@
       ],
       "northing": 315057,
       "notation": "4254",
-      "stationReference": "4254"
+      "riverName": "Sileby Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4254/stageScale",
+      "stationReference": "4254",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Sileby",
+      "wiskiID": "4254"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4255",
-      "easting": 465142,
-      "gridReference": "SK6514214516",
-      "label": "Rearsby LVL",
-      "lat": 52.724368,
-      "long": -1.036909,
+      "RLOIid": "9604",
+      "catchmentName": "Soar",
+      "dateOpened": "2024-08-05",
+      "easting": 465140,
+      "gridReference": "SK6514014515",
+      "label": "Rearsby",
+      "lat": 52.72436,
+      "long": -1.036939,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4255-level-stage-i-15_min-mASD",
@@ -135577,9 +135620,14 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 314516,
+      "northing": 314515,
       "notation": "4255",
-      "stationReference": "4255"
+      "riverName": "Rearsby Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4255/stageScale",
+      "stationReference": "4255",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Rearsby",
+      "wiskiID": "4255"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/442790",
@@ -135618,6 +135666,27 @@
       ],
       "notation": "SU46_139",
       "stationReference": "SU46_139"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E83400",
+      "easting": 262750,
+      "gridReference": "SX627576",
+      "label": "Rainfall station",
+      "lat": 50.402654,
+      "long": -3.932642,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E83400-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 57650,
+      "notation": "E83400",
+      "stationReference": "E83400"
     }
   ]
 }
