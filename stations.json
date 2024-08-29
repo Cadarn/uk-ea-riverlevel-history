@@ -724,6 +724,14 @@
           "unitName": "m3/s"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3400TH-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3400TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -12622,6 +12630,14 @@
           "unitName": "m3/s"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1800TH-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1800TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -22165,6 +22181,14 @@
           "unitName": "m3/s"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2989TH-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2989TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -26939,6 +26963,14 @@
           "parameterName": "Flow",
           "period": 900,
           "qualifier": "",
+          "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3090TH-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
           "unitName": "m3/s"
         },
         {
@@ -55784,6 +55816,14 @@
           "unitName": "m3/s"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1080TH-flow-water-Mean-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1080TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -59463,11 +59503,11 @@
       "long": -0.940772,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2448TH-flow--i-15_min-m3_s",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2448TH-flow-water-i-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
           "period": 900,
-          "qualifier": "",
+          "qualifier": "Water",
           "unitName": "m3/s"
         },
         {
@@ -67474,11 +67514,11 @@
       "long": -0.307703,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3399TH-flow--i-15_min-m3_s",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3399TH-flow-water-i-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
           "period": 900,
-          "qualifier": "",
+          "qualifier": "Water",
           "unitName": "m3/s"
         },
         {
@@ -115072,6 +115112,14 @@
           "unitName": "m3/s"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2270_w1TH-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2270_w1TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -135083,6 +135131,27 @@
       "northing": 57650,
       "notation": "E83400",
       "stationReference": "E83400"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E10016",
+      "easting": 504650,
+      "gridReference": "TQ046229",
+      "label": "PALLINGHAM GS",
+      "lat": 50.996436,
+      "long": -0.510104,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E10016-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 122950,
+      "notation": "E10016",
+      "stationReference": "E10016"
     }
   ]
 }
