@@ -58157,7 +58157,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/50181",
       "easting": 298860,
       "gridReference": "SX9886084130",
-      "label": "LYMPSTONE FSK",
+      "label": "LYMPSTONE",
       "lat": 50.648044,
       "long": -3.431911,
       "measures": [
@@ -69054,7 +69054,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/50182",
       "easting": 298860,
       "gridReference": "SX9886084130",
-      "label": "LYMPSTONE FSK",
+      "label": "LYMPSTONE",
       "lat": 50.648044,
       "long": -3.431911,
       "measures": [
@@ -77709,11 +77709,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5484TH",
-      "easting": 545205,
-      "gridReference": "TQ45208290",
+      "easting": 544025,
+      "gridReference": "TQ4402584726",
       "label": "Loxford Sluices FD",
-      "lat": 51.52639,
-      "long": 0.091773,
+      "lat": 51.543054,
+      "long": 0.07552,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5484TH-level-1-i-15_min-mAOD",
@@ -77740,7 +77740,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 182905,
+      "northing": 184726,
       "notation": "5484TH",
       "stationReference": "5484TH"
     },
@@ -135152,6 +135152,27 @@
       "northing": 122950,
       "notation": "E10016",
       "stationReference": "E10016"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/558975",
+      "easting": 403550,
+      "gridReference": "SK035963",
+      "label": "Rainfall station",
+      "lat": 53.463871,
+      "long": -1.947989,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/558975-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 396350,
+      "notation": "558975",
+      "stationReference": "558975"
     }
   ]
 }
