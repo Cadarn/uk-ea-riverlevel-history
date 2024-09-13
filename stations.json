@@ -62997,6 +62997,30 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3307-temperature-dry_bulb-i-15_min----",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 900,
+          "qualifier": "Dry Bulb",
+          "unitName": "---"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3307-temperature-dry_bulb-i-15_min-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 900,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3307-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 366650,
@@ -76920,9 +76944,9 @@
       "riverName": "Beverley and Barmston Drain",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3230/stageScale",
       "stationReference": "L3230",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Hull",
-      "wiskiID": "L3206"
+      "wiskiID": "L3230"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E2991",
@@ -78856,6 +78880,14 @@
       "label": "Gibbet Cottage OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU47_141-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -80755,6 +80787,14 @@
       "label": "Great Shefford OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU37_1-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82567,6 +82607,14 @@
       "label": "West Horsley Place OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TQ05_12-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83226,6 +83274,14 @@
       "gridReference": "SU1095",
       "label": "Down Ampney OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
