@@ -62981,30 +62981,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3307-temperature-dry_bulb-i-15_min----",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 900,
-          "qualifier": "Dry Bulb",
-          "unitName": "---"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3307-temperature-dry_bulb-i-15_min-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 900,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3307-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 366650,
@@ -119187,7 +119163,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E46493",
       "easting": 497459,
       "gridReference": "SK9745970152",
-      "label": "SEWELLS WALK LINCOLN GS",
+      "label": "SEWELLS WALK LINCOLN GS WITS",
       "lat": 53.219481,
       "long": -0.541817,
       "measures": [
