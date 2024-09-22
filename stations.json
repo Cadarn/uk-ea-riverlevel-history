@@ -70682,20 +70682,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E6380",
-      "easting": 593450,
-      "gridReference": "TQ934247",
-      "label": "SCOTS FLOAT SLUICE RL",
-      "lat": 50.989632,
-      "long": 0.75505,
+      "easting": 368150,
+      "gridReference": "ST681291",
+      "label": "Rainfall station",
+      "lat": 51.060794,
+      "long": -2.455851,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
@@ -70705,7 +70697,7 @@
           "unitName": "mm"
         }
       ],
-      "northing": 124750,
+      "northing": 129150,
       "notation": "E6380",
       "stationReference": "E6380"
     },
