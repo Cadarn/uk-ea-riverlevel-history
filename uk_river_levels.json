@@ -15,54 +15,6 @@
   },
   "items": [
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2989TH-flow--i-15_min-m3_s/2024-08-28T15-15-00Z",
-      "dateTime": "2024-08-28T15:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2989TH-flow--i-15_min-m3_s",
-      "value": 0.28
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/3400TH-flow--i-15_min-m3_s/2024-08-28T15-30-00Z",
-      "dateTime": "2024-08-28T15:30:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/3400TH-flow--i-15_min-m3_s",
-      "value": 26.676
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/1800TH-flow--i-15_min-m3_s/2024-08-28T15-30-00Z",
-      "dateTime": "2024-08-28T15:30:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/1800TH-flow--i-15_min-m3_s",
-      "value": 9.006
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/3399TH-flow--i-15_min-m3_s/2024-08-28T15-30-00Z",
-      "dateTime": "2024-08-28T15:30:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/3399TH-flow--i-15_min-m3_s",
-      "value": 27.466
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2270_w1TH-flow--i-15_min-m3_s/2024-08-28T15-45-00Z",
-      "dateTime": "2024-08-28T15:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2270_w1TH-flow--i-15_min-m3_s",
-      "value": 1.184
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/3090TH-flow--i-15_min-m3_s/2024-08-28T15-45-00Z",
-      "dateTime": "2024-08-28T15:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/3090TH-flow--i-15_min-m3_s",
-      "value": 4.331
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/2448TH-flow--i-15_min-m3_s/2024-08-28T15-45-00Z",
-      "dateTime": "2024-08-28T15:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/2448TH-flow--i-15_min-m3_s",
-      "value": 0.348
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/1080TH-flow--Mean-15_min-m3_s/2024-08-28T15-45-00Z",
-      "dateTime": "2024-08-28T15:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/1080TH-flow--Mean-15_min-m3_s",
-      "value": 1.23
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/TL02_94C-level-groundwater-i-1_h-mAOD/2024-08-30T10-00-00Z",
       "dateTime": "2024-08-30T10:00:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/TL02_94C-level-groundwater-i-1_h-mAOD",
