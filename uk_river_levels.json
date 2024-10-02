@@ -15,18 +15,6 @@
   },
   "items": [
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/50182-wind-direction-i-15_min-deg/2024-09-03T08-15-00Z",
-      "dateTime": "2024-09-03T08:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/50182-wind-direction-i-15_min-deg",
-      "value": 46.364
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/50181-wind-speed-i-15_min-Knots/2024-09-03T08-15-00Z",
-      "dateTime": "2024-09-03T08:15:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/50181-wind-speed-i-15_min-Knots",
-      "value": 1.135
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/Greens1-rainfall-tipping_bucket_raingauge-t-15_min-mm/2024-09-11T08-30-00Z",
       "dateTime": "2024-09-11T08:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/Greens1-rainfall-tipping_bucket_raingauge-t-15_min-mm",
