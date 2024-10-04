@@ -7576,6 +7576,14 @@
           "unitName": "m"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-level-tidal_level-Mean-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-wind-direction-Mean-15_min-deg",
           "parameter": "wind",
           "parameterName": "Wind",
@@ -78564,6 +78572,14 @@
       "label": "COMPTON GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -115313,6 +115329,14 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -135448,11 +135472,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E2532",
-      "easting": 361571,
-      "gridReference": "ST6157172704",
-      "label": "BRISTOL NETHAM LOCK",
+      "RLOIid": "9609",
+      "catchmentName": "Bristol Avon Little Avon Axe and North Somerset St",
+      "dateOpened": "2024-04-12",
+      "easting": 361566,
+      "gridReference": "ST6156772704",
+      "label": "Bristol Netham Lock",
       "lat": 51.452001,
-      "long": -2.554418,
+      "long": -2.55449,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2532-level-stage-i-15_min-m",
@@ -135465,7 +135492,12 @@
       ],
       "northing": 172704,
       "notation": "E2532",
-      "stationReference": "E2532"
+      "riverName": "River Avon",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E2532/stageScale",
+      "stationReference": "E2532",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Bristol",
+      "wiskiID": "0"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E2534",
@@ -135560,25 +135592,6 @@
       "stationReference": "5156"
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E18195",
-      "RLOIid": "9608",
-      "catchmentName": "Hampshire Avon",
-      "dateOpened": "2006-04-06",
-      "easting": 414100,
-      "gridReference": "SU1410013960",
-      "label": "Fordingbridge Bowerwood Road",
-      "lat": 50.924923,
-      "long": -1.800752,
-      "northing": 113960,
-      "notation": "E18195",
-      "riverName": "River Avon",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E18195/stageScale",
-      "stationReference": "E18195",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Fordingbridge",
-      "wiskiID": "432715"
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5115",
       "easting": 410306,
       "gridReference": "SK1030681943",
@@ -135648,6 +135661,44 @@
       "northing": 367168,
       "notation": "067650",
       "stationReference": "067650"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3350",
+      "RLOIid": "9608",
+      "catchmentName": "Hampshire Avon",
+      "dateOpened": "2006-04-06",
+      "easting": 414100,
+      "gridReference": "SU1410013960",
+      "label": "Fordingbridge Bowerwood Road",
+      "lat": 50.924923,
+      "long": -1.800752,
+      "northing": 113960,
+      "notation": "3350",
+      "riverName": "River Avon",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/3350/stageScale",
+      "stationReference": "3350",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Fordingbridge",
+      "wiskiID": "432715"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E30010",
+      "RLOIid": "9610",
+      "catchmentName": "Bristol Avon Little Avon Axe and North Somerset St",
+      "dateOpened": "2024-08-19",
+      "easting": 359728,
+      "gridReference": "ST5972973569",
+      "label": "Bristol Wade Street",
+      "lat": 51.45965,
+      "long": -2.581039,
+      "northing": 173569,
+      "notation": "E30010",
+      "riverName": "River Frome",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E30010/stageScale",
+      "stationReference": "E30010",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Bristol",
+      "wiskiID": "0"
     }
   ]
 }
