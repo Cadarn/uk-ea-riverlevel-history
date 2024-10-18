@@ -44221,36 +44221,6 @@
       "wiskiID": "F2508"
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E46059",
-      "RLOIid": "6091",
-      "catchmentName": "East Suffolk",
-      "dateOpened": "2000-02-02",
-      "datumOffset": 44.435,
-      "easting": 597585,
-      "gridReference": "TL 97585 58883",
-      "label": "Rattlesden",
-      "lat": 52.192763,
-      "long": 0.889367,
-      "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E46059-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
-        }
-      ],
-      "northing": 258883,
-      "notation": "E46059",
-      "riverName": "Rattlesden River",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E46059/stageScale",
-      "stationReference": "E46059",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Rattlesden",
-      "wiskiID": "L350801"
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E6600",
       "RLOIid": "1122",
       "catchmentName": "Rother",
@@ -75848,14 +75818,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E25767-level-stage-i-30_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 1800,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 256600,
@@ -78255,14 +78217,6 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78603,14 +78557,6 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -81391,6 +81337,14 @@
       "gridReference": "TL1522",
       "label": "Lilley Bottom OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TL12_122-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TL12_122-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -84495,22 +84449,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 340250,
-      "gridReference": "SY402979",
-      "label": "Rainfall station",
-      "lat": 50.778033,
-      "long": -2.848812,
+      "easting": 589070,
+      "gridReference": "TQ8907083023",
+      "label": "SOUTHEND PIER TS",
+      "lat": 51.514481,
+      "long": 0.72348,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "1",
-          "unitName": "mm"
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 97950,
+      "northing": 183023,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -88911,11 +88865,15 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E24828",
-      "easting": 597600,
-      "gridReference": "TL9760058900",
-      "label": "RATTLESDEN GS",
-      "lat": 52.192911,
-      "long": 0.889596,
+      "RLOIid": "6091",
+      "catchmentName": "East Suffolk",
+      "dateOpened": "2000-02-02",
+      "datumOffset": 44.435,
+      "easting": 597585,
+      "gridReference": "TL 97585 58883",
+      "label": "Rattlesden",
+      "lat": 52.192763,
+      "long": 0.889367,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24828-level-2-i-15_min-mAOD",
@@ -88924,11 +88882,24 @@
           "period": 900,
           "qualifier": "2",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24828-level-2-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "mASD"
         }
       ],
-      "northing": 258900,
+      "northing": 258883,
       "notation": "E24828",
-      "stationReference": "E24828"
+      "riverName": "Rattlesden River",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E24828/stageScale",
+      "stationReference": "E24828",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Rattlesden",
+      "wiskiID": "L350801"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4816",
@@ -115347,14 +115318,6 @@
       "gridReference": "SU8716",
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
