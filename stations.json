@@ -59886,14 +59886,6 @@
           "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_EAST_UR-level-tidal_level-i-1_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 60,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
         }
       ],
       "northing": 181715,
@@ -63812,14 +63804,6 @@
           "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_WEST_DR-level-tidal_level-i-1_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 60,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
         }
       ],
       "northing": 181715,
@@ -66328,26 +66312,10 @@
       "long": 0.097044,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_EAST_DR-level-tidal_level-i-15_min----",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "---"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_EAST_DR-level-tidal_level-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_EAST_DR-level-tidal_level-i-1_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 60,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -66536,14 +66504,6 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/BB_WEST_UR-level-tidal_level-i-1_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 60,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
@@ -83120,14 +83080,6 @@
       "label": "Down Ampney OBH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -84337,22 +84289,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 589070,
-      "gridReference": "TQ8907083023",
-      "label": "SOUTHEND PIER TS",
-      "lat": 51.514481,
-      "long": 0.72348,
+      "easting": 340250,
+      "gridReference": "SY402979",
+      "label": "Rainfall station",
+      "lat": 50.778033,
+      "long": -2.848812,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
+          "qualifier": "1",
+          "unitName": "mm"
         }
       ],
-      "northing": 183023,
+      "northing": 97950,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -95153,6 +95105,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
