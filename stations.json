@@ -7562,10 +7562,10 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/755900",
       "easting": 310615,
-      "gridReference": "NY10615347",
+      "gridReference": "NY10615353",
       "label": "Silloth",
-      "lat": 54.868017,
-      "long": -3.394284,
+      "lat": 54.868556,
+      "long": -3.394303,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-level-stage-i-15_min-m",
@@ -7574,25 +7574,9 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-wind-direction-Mean-15_min-deg",
-          "parameter": "wind",
-          "parameterName": "Wind",
-          "period": 900,
-          "qualifier": "Direction",
-          "unitName": "deg"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-wind-speed-Mean-15_min-m_s",
-          "parameter": "wind",
-          "parameterName": "Wind",
-          "period": 900,
-          "qualifier": "Speed",
-          "unitName": "m/s"
         }
       ],
-      "northing": 553475,
+      "northing": 553535,
       "notation": "755900",
       "stationReference": "755900"
     },
@@ -34568,14 +34552,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1598-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 397100,
@@ -77091,14 +77067,8 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/43184",
-      "RLOIid": "9607",
-      "catchmentName": "Hampshire Avon",
-      "dateOpened": "2008-08-01",
-      "easting": 408618,
-      "gridReference": "SU0862032070",
-      "label": "Ditchampton Reservoir",
-      "lat": 51.087887,
-      "long": -1.878324,
+      "gridReference": "SU1337",
+      "label": "GREAT DURNFORD GW DNP3",
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43184-level-groundwater-i-15_min-mAOD",
@@ -77109,14 +77079,8 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 132071,
       "notation": "43184",
-      "riverName": "Groundwater Level",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/43184/stageScale",
-      "stationReference": "43184",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Ditchampton Reservoir",
-      "wiskiID": "90103400"
+      "stationReference": "43184"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3053",
@@ -78517,6 +78481,14 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -135050,8 +135022,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E78441",
-      "gridReference": "SU0832",
-      "label": "DITCHAMPTON RESERVOIR DNP3",
+      "RLOIid": "9607",
+      "catchmentName": "Hampshire Avon",
+      "dateOpened": "2008-08-01",
+      "easting": 408618,
+      "gridReference": "SU0862032070",
+      "label": "Ditchampton Reservoir",
+      "lat": 51.087887,
+      "long": -1.878324,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E78441-level-groundwater-i-15_min-mAOD",
@@ -135062,8 +135040,14 @@
           "unitName": "mAOD"
         }
       ],
+      "northing": 132071,
       "notation": "E78441",
-      "stationReference": "E78441"
+      "riverName": "Groundwater Level",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E78441/stageScale",
+      "stationReference": "E78441",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Ditchampton Reservoir",
+      "wiskiID": "90103400"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4765",
