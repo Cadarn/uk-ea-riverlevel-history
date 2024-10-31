@@ -70620,14 +70620,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
       "northing": 124750,
@@ -135256,6 +135248,22 @@
           "period": 900,
           "qualifier": "Water",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2534-velocity-3-i-15_min-m_s",
+          "parameter": "velocity",
+          "parameterName": "Velocity",
+          "period": 900,
+          "qualifier": "3",
+          "unitName": "m/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2534-velocity-4-i-15_min-m_s",
+          "parameter": "velocity",
+          "parameterName": "Velocity",
+          "period": 900,
+          "qualifier": "4",
+          "unitName": "m/s"
         }
       ],
       "northing": 172704,
