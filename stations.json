@@ -58709,6 +58709,22 @@
           "period": 900,
           "qualifier": "1",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-2-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 45870,
