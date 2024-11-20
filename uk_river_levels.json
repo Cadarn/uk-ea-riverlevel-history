@@ -15,18 +15,6 @@
   },
   "items": [
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/755900-wind-speed-Mean-15_min-m_s/2024-10-22T14-00-30Z",
-      "dateTime": "2024-10-22T14:00:30Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-wind-speed-Mean-15_min-m_s",
-      "value": 7.297
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/755900-wind-direction-Mean-15_min-deg/2024-10-22T14-00-30Z",
-      "dateTime": "2024-10-22T14:00:30Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/755900-wind-direction-Mean-15_min-deg",
-      "value": 244
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/7056-level-groundwater-i-15_min-mBDAT/2024-10-24T14-30-00Z",
       "dateTime": "2024-10-24T14:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/7056-level-groundwater-i-15_min-mBDAT",
