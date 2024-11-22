@@ -59771,6 +59771,14 @@
       "long": -0.008439,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5312TH-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5312TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -70652,6 +70660,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
       "northing": 124750,
@@ -72425,6 +72441,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E19862-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 312740,
@@ -74596,11 +74620,15 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21854",
-      "easting": 621500,
-      "gridReference": "TM2150053700",
-      "label": "CLOPTON GS",
-      "lat": 52.137162,
-      "long": 1.235306,
+      "RLOIid": "9625",
+      "catchmentName": "East Suffolk",
+      "dateOpened": "2003-03-30",
+      "datumOffset": 25.5,
+      "easting": 621476,
+      "gridReference": "TM2147653671",
+      "label": "Clopton",
+      "lat": 52.136911,
+      "long": 1.234937,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21854-level-stage-i-15_min-mAOD",
@@ -74609,11 +74637,23 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21854-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
-      "northing": 253700,
+      "northing": 253671,
       "notation": "E21854",
-      "stationReference": "E21854"
+      "riverName": "River Lark",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21854/stageScale",
+      "stationReference": "E21854",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "L350603"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21158",
@@ -76041,11 +76081,15 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22024",
-      "easting": 635900,
-      "gridReference": "TM3590069900",
-      "label": "SIBTON GS",
-      "lat": 52.276587,
-      "long": 1.456604,
+      "RLOIid": "9624",
+      "catchmentName": "East Suffolk",
+      "dateOpened": "2008-06-19",
+      "datumOffset": 17,
+      "easting": 635904,
+      "gridReference": "TM3590469924",
+      "label": "Sibton",
+      "lat": 52.2768,
+      "long": 1.456679,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E22024-level-stage-i-15_min-mAOD",
@@ -76056,9 +76100,13 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 269900,
+      "northing": 269924,
       "notation": "E22024",
-      "stationReference": "E22024"
+      "riverName": "River Yox",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22024/stageScale",
+      "stationReference": "E22024",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "L350302"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E26981",
@@ -76083,11 +76131,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E42895",
-      "easting": 634800,
-      "gridReference": "TG3480024800",
-      "label": "WAYFORD BRIDGE TS WINDOWED DO NOT POLL",
-      "lat": 52.7697,
-      "long": 1.479261,
+      "RLOIid": "9621",
+      "catchmentName": "Broadland Rivers",
+      "dateOpened": "1994-02-21",
+      "easting": 634818,
+      "gridReference": "TG3481824846",
+      "label": "Wayford Bridge",
+      "lat": 52.770105,
+      "long": 1.47956,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E42895-level-tidal_level-i-15_min-mAOD",
@@ -76098,9 +76149,13 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 324800,
+      "northing": 324846,
       "notation": "E42895",
-      "stationReference": "E42895"
+      "riverName": "River Ant",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E42895/stageScale",
+      "stationReference": "E42895",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "T340904"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21773",
@@ -76188,11 +76243,15 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E24808",
-      "easting": 640059,
-      "gridReference": "TM4005973840",
-      "label": "BRAMFIELD",
-      "lat": 52.310143,
-      "long": 1.520251,
+      "RLOIid": "9623",
+      "catchmentName": "East Suffolk",
+      "dateOpened": "2000-04-03",
+      "datumOffset": 9.2,
+      "easting": 640057,
+      "gridReference": "TM4005773798",
+      "label": "Bramfield",
+      "lat": 52.309767,
+      "long": 1.520192,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24808-level-stage-i-15_min-mAOD",
@@ -76201,11 +76260,23 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24808-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
-      "northing": 273840,
+      "northing": 273798,
       "notation": "E24808",
-      "stationReference": "E24808"
+      "riverName": "Bramfield Watercourse",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E24808/stageScale",
+      "stationReference": "E24808",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "L350203"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/NY52_2H",
@@ -78231,6 +78302,14 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78571,6 +78650,14 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -115341,6 +115428,14 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -117737,6 +117832,14 @@
       "gridReference": "SU3515",
       "label": "Totton Testwood Bridge",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816015-level-groundwater-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816015-level-groundwater-i-15_min-mAOD",
           "parameter": "level",
@@ -129311,11 +129414,15 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E31329",
+      "RLOIid": "9627",
+      "catchmentName": "Essex",
+      "dateOpened": "2022-12-06",
+      "datumOffset": 50.3,
       "easting": 573363,
-      "gridReference": "TL7336323303",
-      "label": "BRAINTREE SHALFORD ROAD",
-      "lat": 51.881331,
-      "long": 0.517362,
+      "gridReference": "TL7336323302",
+      "label": "Braintree",
+      "lat": 51.881322,
+      "long": 0.517361,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E31329-level-stage-i-15_min-mAOD",
@@ -129326,15 +129433,23 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 223303,
+      "northing": 223302,
       "notation": "E31329",
-      "stationReference": "E31329"
+      "riverName": "Pods Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E31329/stageScale",
+      "stationReference": "E31329",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "L361510"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E31349",
+      "RLOIid": "9626",
+      "catchmentName": "Essex",
+      "dateOpened": "2022-10-06",
+      "datumOffset": 58.55,
       "easting": 574480,
       "gridReference": "TL7448039694",
-      "label": "GREAT YELDHAM RIDGEWELL ROAD",
+      "label": "Great Yeldham",
       "lat": 52.028205,
       "long": 0.541889,
       "measures": [
@@ -129349,7 +129464,11 @@
       ],
       "northing": 239694,
       "notation": "E31349",
-      "stationReference": "E31349"
+      "riverName": "River Colne",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E31349/stageScale",
+      "stationReference": "E31349",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "L361511"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Egerton1",
@@ -133072,9 +133191,13 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E50048",
+      "RLOIid": "9622",
+      "catchmentName": "Broadland Rivers",
+      "dateOpened": "2023-11-08",
+      "datumOffset": 39.107,
       "easting": 599733,
       "gridReference": "TF9973304377",
-      "label": "SOUTHBURGH RIVER LANE",
+      "label": "Southburgh",
       "lat": 52.600447,
       "long": 0.947862,
       "measures": [
@@ -133085,11 +133208,23 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E50048-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 304377,
       "notation": "E50048",
-      "stationReference": "E50048"
+      "riverName": "Blackwater River",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E50048/stageScale",
+      "stationReference": "E50048",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "L341306"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SP00_143",
