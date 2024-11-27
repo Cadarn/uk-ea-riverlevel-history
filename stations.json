@@ -43134,32 +43134,13 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1090_w1TH",
-      "RLOIid": [
-        "7044",
-        "9569"
-      ],
+      "RLOIid": "7044",
       "catchmentName": "Cotswolds",
-      "dateOpened": [
-        "1986-01-01",
-        "2023-10-05"
-      ],
-      "easting": [
-        440100,
-        440213
-      ],
-      "gridReference": "SP4021301996",
-      "label": [
-        "Newbridge GS",
-        "Newbridge Weir A"
-      ],
-      "lat": [
-        51.713499,
-        51.715253
-      ],
-      "long": [
-        -1.41933,
-        -1.420988
-      ],
+      "dateOpened": "1986-01-01",
+      "easting": 440100,
+      "label": "Newbridge Weir A",
+      "lat": 51.713499,
+      "long": -1.420988,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1090_w1TH-level-stage-i-15_min-mASD",
@@ -43170,23 +43151,14 @@
           "unitName": "mASD"
         }
       ],
-      "northing": [
-        201800,
-        201996
-      ],
+      "northing": 201800,
       "notation": "1090_w1TH",
       "riverName": "River Windrush",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/1090_w1TH/stageScale",
       "stationReference": "1090_w1TH",
-      "status": [
-        "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-        "http://environment.data.gov.uk/flood-monitoring/def/core/statusClosed"
-      ],
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusClosed",
       "town": "Standlake",
-      "wiskiID": [
-        "1090TH",
-        "1090_w1TH"
-      ]
+      "wiskiID": "1090_w1TH"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2495TH",
@@ -82336,14 +82308,6 @@
       "label": "Priors Heyes",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83292,6 +83256,14 @@
       "gridReference": "SU1095",
       "label": "Down Ampney OBH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU19_70-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -84510,22 +84482,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 589070,
-      "gridReference": "TQ8907083023",
-      "label": "SOUTHEND PIER TS",
-      "lat": 51.514481,
-      "long": 0.72348,
+      "easting": 614950,
+      "gridReference": "TM149414",
+      "label": "Rainfall station",
+      "lat": 52.029778,
+      "long": 1.132036,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
+          "qualifier": "2",
+          "unitName": "mm"
         }
       ],
-      "northing": 183023,
+      "northing": 241450,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -135956,11 +135928,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1090TH",
-      "easting": 440185,
-      "gridReference": "SP40180185",
-      "label": "RIVER WINDRUSH AT NEWBRIDGE",
-      "lat": 51.713987,
-      "long": -1.419751,
+      "RLOIid": "9569",
+      "catchmentName": "Cotswolds",
+      "dateOpened": "2023-10-05",
+      "easting": 440213,
+      "gridReference": "SP4021901993",
+      "label": "Newbridge GS",
+      "lat": 51.715253,
+      "long": -1.41933,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1090TH-level-stage-i-15_min-mASD",
@@ -135971,9 +135946,56 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 201855,
+      "northing": 201996,
       "notation": "1090TH",
-      "stationReference": "1090TH"
+      "riverName": "River Windrush",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/1090TH/stageScale",
+      "stationReference": "1090TH",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Standlake",
+      "wiskiID": "1090TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E99682",
+      "easting": 312850,
+      "gridReference": "ST128074",
+      "label": "Rainfall station",
+      "lat": 50.859966,
+      "long": -3.239613,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E99682-rainfall-tipping_bucket_raingauge-t-1_h-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 3600,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 107450,
+      "notation": "E99682",
+      "stationReference": "E99682"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/055036",
+      "easting": 356039,
+      "gridReference": "SO5603919371",
+      "label": "Marstow Mill FLOW",
+      "lat": 51.871163,
+      "long": -2.63991,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/055036-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 219371,
+      "notation": "055036",
+      "stationReference": "055036"
     }
   ]
 }
