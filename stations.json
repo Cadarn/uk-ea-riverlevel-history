@@ -6354,6 +6354,14 @@
       "long": -1.171327,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7050-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -28443,6 +28451,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1151-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 425430,
@@ -66208,7 +66224,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3471",
       "easting": 631350,
       "gridReference": "TR313597",
-      "label": "STOURMOUTH PS",
+      "label": "STOURMOUTH PS US Level",
       "lat": 51.289858,
       "long": 1.316654,
       "measures": [
@@ -67467,7 +67483,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3470",
       "easting": 631350,
       "gridReference": "TR313597",
-      "label": "STOURMOUTH PS",
+      "label": "STOURMOUTH PS DS Level",
       "lat": 51.289858,
       "long": 1.316654,
       "measures": [
@@ -73266,6 +73282,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5321TH-level-stage-i-15_min-mm",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mm"
         }
       ],
       "northing": 201705,
@@ -73580,6 +73604,14 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "2",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
           "unitName": "mAOD"
         }
       ],
@@ -82300,6 +82332,14 @@
       "label": "Priors Heyes",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -84466,22 +84506,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 614950,
-      "gridReference": "TM149414",
-      "label": "Rainfall station",
-      "lat": 52.029778,
-      "long": 1.132036,
+      "easting": 589070,
+      "gridReference": "TQ8907083023",
+      "label": "SOUTHEND PIER TS",
+      "lat": 51.514481,
+      "long": 0.72348,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-2-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "2",
-          "unitName": "mm"
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 241450,
+      "northing": 183023,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -112888,14 +112928,6 @@
       "long": -0.097452,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8242-flow--Mean-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8242-flow--i-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
@@ -135988,6 +136020,192 @@
       "northing": 219371,
       "notation": "055036",
       "stationReference": "055036"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3551",
+      "label": "HACKLINGE PS",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3551-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "E3551",
+      "stationReference": "E3551"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3481",
+      "label": "ASH LEVEL PS",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3481-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "E3481",
+      "stationReference": "E3481"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3540",
+      "easting": 632004,
+      "gridReference": "TR3200459360",
+      "label": "BUTTERFLY PS",
+      "lat": 51.286091,
+      "long": 1.325764,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3540-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 159360,
+      "notation": "E3540",
+      "stationReference": "E3540"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3501",
+      "label": "Cooper Street PS",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3501-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "E3501",
+      "stationReference": "E3501"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3530",
+      "label": "BLACK SLUICE PS",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3530-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "E3530",
+      "stationReference": "E3530"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3495",
+      "label": "MINSTER PS",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3495-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "E3495",
+      "stationReference": "E3495"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3490",
+      "label": "RECULVER PS",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3490-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "E3490",
+      "stationReference": "E3490"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3461",
+      "label": "SARRE PS US Level",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3461-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "E3461",
+      "stationReference": "E3461"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3531",
+      "easting": 634513,
+      "gridReference": "TR3451355130",
+      "label": "WORTH MINNIS PS",
+      "lat": 51.247094,
+      "long": 1.358907,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3531-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 155130,
+      "notation": "E3531",
+      "stationReference": "E3531"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3460",
+      "label": "SARRE PS DS Level",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3460-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "E3460",
+      "stationReference": "E3460"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3511",
+      "label": "POLDERS PS",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3511-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "notation": "E3511",
+      "stationReference": "E3511"
     }
   ]
 }
