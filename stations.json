@@ -1097,7 +1097,7 @@
       "riverName": "Slad Brook",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2206/stageScale",
       "stationReference": "2206",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Stroud",
       "wiskiID": "2206"
     },
@@ -3070,34 +3070,6 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Bredbury",
       "wiskiID": "692423"
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/50197",
-      "RLOIid": "3359",
-      "catchmentName": "Taw and North Devon Streams",
-      "dateOpened": "2008-05-07",
-      "easting": 251959,
-      "label": "Ilfracombe Lambda",
-      "lat": 51.196412,
-      "long": -4.120133,
-      "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/50197-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
-        }
-      ],
-      "northing": 146270,
-      "notation": "50197",
-      "riverName": "East Wilder Brook",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/50197/stageScale",
-      "stationReference": "50197",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Ilfracombe",
-      "wiskiID": "SS54F011"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/700306",
@@ -10086,7 +10058,7 @@
       "riverName": "Slad Brook",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2226/stageScale",
       "stationReference": "2226",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Stroud",
       "wiskiID": "2226"
     },
@@ -32228,6 +32200,22 @@
       "long": -1.066995,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2290TH-flow--Mean-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2290TH-level-downstage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2290TH-level-downstage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -34547,6 +34535,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1598-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 397100,
@@ -58668,6 +58664,22 @@
           "period": 900,
           "qualifier": "1",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-2-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
       "northing": 45870,
@@ -73269,14 +73281,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5321TH-level-stage-i-15_min-mm",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mm"
         }
       ],
       "northing": 201705,
@@ -81422,6 +81426,14 @@
       "label": "Lilley Bottom OBH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TL12_122-level-groundwater-i-1_h----",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "---"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/TL12_122-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -84525,22 +84537,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/Not_Specified",
-      "easting": 589070,
-      "gridReference": "TQ8907083023",
-      "label": "SOUTHEND PIER TS",
-      "lat": 51.514481,
-      "long": 0.72348,
+      "easting": 506800,
+      "gridReference": "TF0680016000",
+      "label": "MANTHORPE GS WITS",
+      "lat": 52.731094,
+      "long": -0.419825,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-tidal_level-i-15_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
-      "northing": 183023,
+      "northing": 316000,
       "notation": "Not_Specified",
       "stationReference": "Not_Specified"
     },
@@ -126384,7 +126396,7 @@
       "riverName": "Spadesbourne Brook",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2545/stageScale",
       "stationReference": "2545",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "wiskiID": "2545"
     },
     {
@@ -131352,9 +131364,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E85123",
+      "RLOIid": "3359",
+      "catchmentName": "Taw and North Devon Streams",
+      "dateOpened": "2022-09-15",
       "easting": 251969,
-      "gridReference": "SS5196946176",
-      "label": "ILFRACOMBE LAMBDA UPSTREAM",
+      "label": "Ilfracombe Lambda Upstream",
       "lat": 51.19557,
       "long": -4.119951,
       "measures": [
@@ -131369,7 +131383,12 @@
       ],
       "northing": 146176,
       "notation": "E85123",
-      "stationReference": "E85123"
+      "riverName": "East Wilder Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E85123/stageScale",
+      "stationReference": "E85123",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Ilfracombe",
+      "wiskiID": "SS54F020"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E85183",
@@ -136475,6 +136494,48 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Stourpaine",
       "wiskiID": "433413-3"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E19865",
+      "easting": 617700,
+      "gridReference": "TG1770012700",
+      "label": "COSTESSEY MILL SLUICE",
+      "lat": 52.668256,
+      "long": 1.218212,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E19865-flow-stage-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 312700,
+      "notation": "E19865",
+      "stationReference": "E19865"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5011",
+      "easting": 420452,
+      "gridReference": "SK2045201519",
+      "label": "Fazeley FG (w)",
+      "lat": 52.611058,
+      "long": -1.69939,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5011-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 301519,
+      "notation": "5011",
+      "stationReference": "5011"
     }
   ]
 }
