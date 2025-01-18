@@ -72216,6 +72216,14 @@
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-southern-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 167785,
@@ -72244,6 +72252,14 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Downstream Stage",
+          "unitName": "mASD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4171TH-thames-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
           "unitName": "mASD"
         }
       ],
@@ -136801,12 +136817,22 @@
       "label": "Shipton Bellinger",
       "lat": 51.2085,
       "long": -1.67021,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E18203-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
       "northing": 145529,
       "notation": "E18203",
       "riverName": "River Bourne",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E18203/stageScale",
       "stationReference": "E18203",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Shipton Bellinger",
       "wiskiID": "432404"
     },
@@ -136870,6 +136896,35 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Manthorpe",
       "wiskiID": "031008"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E18197",
+      "RLOIid": "9652",
+      "catchmentName": "Hampshire Avon",
+      "dateOpened": "2007-01-23",
+      "easting": 416449,
+      "gridReference": "SU1644960120",
+      "label": "Pewsey",
+      "lat": 51.339928,
+      "long": -1.765238,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E18197-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 160120,
+      "notation": "E18197",
+      "riverName": "River Avon",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E18197/stageScale",
+      "stationReference": "E18197",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Pewsey",
+      "wiskiID": "FWPE01_FW"
     }
   ]
 }
