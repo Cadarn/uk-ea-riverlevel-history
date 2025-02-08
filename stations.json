@@ -136693,6 +136693,28 @@
       ],
       "notation": "L1601",
       "stationReference": "L1601"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4090",
+      "easting": 417365,
+      "gridReference": "SK17368985",
+      "label": "Derwent Reservoir LVL",
+      "lat": 53.40522,
+      "long": -1.74026,
+      "northing": 389855,
+      "notation": "4090",
+      "stationReference": "4090"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4089",
+      "easting": 416905,
+      "gridReference": "SK16909250",
+      "label": "Howden Reservoir LVL",
+      "lat": 53.429054,
+      "long": -1.747038,
+      "northing": 392505,
+      "notation": "4089",
+      "stationReference": "4089"
     }
   ]
 }
