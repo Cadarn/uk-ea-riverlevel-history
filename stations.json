@@ -72906,11 +72906,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4835",
-      "easting": 546102,
-      "gridReference": "TF4610209910",
-      "label": "WISBECH TIDAL WITS",
-      "lat": 52.667208,
-      "long": 0.159108,
+      "easting": 378533,
+      "gridReference": "ST7853367023",
+      "label": "BATHFORD",
+      "lat": 51.401821,
+      "long": -2.309976,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-flow-water-i-15_min-m3_s",
@@ -72919,17 +72919,9 @@
           "period": 900,
           "qualifier": "Water",
           "unitName": "m3/s"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-level-tidal_level-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "mAOD"
         }
       ],
-      "northing": 309910,
+      "northing": 167023,
       "notation": "E4835",
       "stationReference": "E4835"
     },
@@ -84184,6 +84176,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1412-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 287250,
@@ -114832,14 +114832,6 @@
       "lat": 53.505001,
       "long": -2.275273,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690554-level-logged-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Logged",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690554-level-stage-i-15_min-m",
           "parameter": "level",
