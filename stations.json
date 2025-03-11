@@ -136773,6 +136773,27 @@
       "northing": 380950,
       "notation": "082673",
       "stationReference": "082673"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4342",
+      "easting": 604950,
+      "gridReference": "TR049470",
+      "label": "WYE GS",
+      "lat": 51.185918,
+      "long": 0.931329,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4342-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 147050,
+      "notation": "E4342",
+      "stationReference": "E4342"
     }
   ]
 }
