@@ -64366,6 +64366,14 @@
       "long": -1.47564,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4173-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4173-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -117593,7 +117601,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/45194",
       "easting": 296561,
       "gridReference": "SX9656181397",
-      "label": "STAPLAKE NIVUS",
+      "label": "STAPLAKE GS",
       "lat": 50.623071,
       "long": -3.463655,
       "measures": [
@@ -136794,6 +136802,22 @@
       "northing": 147050,
       "notation": "E4342",
       "stationReference": "E4342"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/067033_TG_148",
+      "label": "Chester Sus Bridge",
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/067033_TG_148-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "notation": "067033_TG_148",
+      "stationReference": "067033_TG_148"
     }
   ]
 }
