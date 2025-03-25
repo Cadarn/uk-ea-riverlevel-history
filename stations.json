@@ -136998,6 +136998,27 @@
       "northing": 167250,
       "notation": "E7970",
       "stationReference": "E7970"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E14620",
+      "easting": 322750,
+      "gridReference": "ST227300",
+      "label": "Rainfall station",
+      "lat": 51.064563,
+      "long": -3.103786,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E14620-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 130050,
+      "notation": "E14620",
+      "stationReference": "E14620"
     }
   ]
 }
