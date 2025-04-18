@@ -15,18 +15,6 @@
   },
   "items": [
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/53152-level-downstage-i-15_min-mAOD/2025-03-20T10-45-00Z",
-      "dateTime": "2025-03-20T10:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/53152-level-downstage-i-15_min-mAOD",
-      "value": 12.853
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/53151-level-stage-i-15_min-mAOD/2025-03-20T10-45-00Z",
-      "dateTime": "2025-03-20T10:45:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/53151-level-stage-i-15_min-mAOD",
-      "value": 15.502
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/279941TP-rainfall-tipping_bucket_raingauge-t-15_min-mm/2025-03-21T11-30-00Z",
       "dateTime": "2025-03-21T11:30:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/279941TP-rainfall-tipping_bucket_raingauge-t-15_min-mm",
