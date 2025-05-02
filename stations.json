@@ -44911,6 +44911,14 @@
           "unitName": "Ml/d"
         },
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4015-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4015-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -61054,7 +61062,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3088TH",
       "easting": 501555,
       "gridReference": "TQ01555619",
-      "label": "River Wey at Broadmead Gates",
+      "label": "Broadmead Gates",
       "lat": 51.295832,
       "long": -0.544825,
       "measures": [
@@ -118110,11 +118118,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/151816001",
-      "easting": 435450,
-      "gridReference": "SU354188",
-      "label": "Rainfall station",
-      "lat": 50.967981,
-      "long": -1.496522,
+      "easting": 435406,
+      "gridReference": "SU3540618864",
+      "label": "Romsey Broadlands Estate",
+      "lat": 50.968109,
+      "long": -1.497147,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816001-level-stage-i-15_min-mASD",
@@ -118133,7 +118141,7 @@
           "unitName": "deg C"
         }
       ],
-      "northing": 118850,
+      "northing": 118864,
       "notation": "151816001",
       "stationReference": "151816001"
     },
