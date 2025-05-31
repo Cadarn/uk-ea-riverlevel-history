@@ -84905,22 +84905,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/0",
-      "easting": 255672,
-      "gridReference": "SX5567290323",
-      "label": "OKEHAMPTON MELDON RESERVOIR",
-      "lat": 50.694596,
-      "long": -4.044842,
+      "easting": 221377,
+      "gridReference": "SS2137703814",
+      "label": "HELEBRIDGE",
+      "lat": 50.806271,
+      "long": -4.5365,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-level-1-i-15_min-m",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-level-2-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "1",
+          "qualifier": "2",
           "unitName": "m"
         }
       ],
-      "northing": 90323,
+      "northing": 103814,
       "notation": "0",
       "stationReference": "0"
     },
@@ -103218,14 +103218,6 @@
       "lat": 52.207563,
       "long": -0.73336,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-flow--i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "",
-          "unitName": "m3/s"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7070-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
