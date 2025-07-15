@@ -70762,6 +70762,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
       "northing": 124750,
@@ -89854,7 +89862,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E65401",
       "easting": 522878,
       "gridReference": "TL2287898347",
-      "label": "PADHOLME PS",
+      "label": "PADHOLME PS WITS",
       "lat": 52.569069,
       "long": -0.188415,
       "measures": [
