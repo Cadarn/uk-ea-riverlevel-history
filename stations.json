@@ -137484,6 +137484,27 @@
       "northing": 62454,
       "notation": "E21186",
       "stationReference": "E21186"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/152206005",
+      "easting": 448650,
+      "gridReference": "SU486297",
+      "label": "Rainfall station",
+      "lat": 51.065027,
+      "long": -1.307095,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/152206005-temperature-water-i-15_min-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "deg C"
+        }
+      ],
+      "northing": 129750,
+      "notation": "152206005",
+      "stationReference": "152206005"
     }
   ]
 }
