@@ -28457,14 +28457,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1151-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 425430,
@@ -81090,6 +81082,14 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -95721,14 +95721,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/261602TP-rainfall-water-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Water",
-          "unitName": "mm"
         }
       ],
       "northing": 209050,
@@ -110056,6 +110048,14 @@
       "gridReference": "SJ5969",
       "label": "Gorstons",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-1-i-1_h-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "1",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ37_13-level-groundwater-i-1_h-m",
           "parameter": "level",
@@ -137144,6 +137144,16 @@
       "label": "Derwent Reservoir LVL",
       "lat": 53.40522,
       "long": -1.74026,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4090-level-logged-i-15_min-mBDAT",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Logged",
+          "unitName": "mBDAT"
+        }
+      ],
       "northing": 389855,
       "notation": "4090",
       "stationReference": "4090"
@@ -137827,6 +137837,48 @@
       "northing": 583300,
       "notation": "023049_",
       "stationReference": "023049_"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/694021",
+      "easting": 358642,
+      "gridReference": "SD5864298904",
+      "label": "Lincoln Drive",
+      "lat": 54.383922,
+      "long": -2.6383,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/694021-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 498904,
+      "notation": "694021",
+      "stationReference": "694021"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/023049",
+      "easting": 383932,
+      "gridReference": "NY8393283300",
+      "label": "Hareshaw Burn",
+      "lat": 55.143769,
+      "long": -2.253613,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/023049-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 583300,
+      "notation": "023049",
+      "stationReference": "023049"
     }
   ]
 }
