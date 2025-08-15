@@ -72992,22 +72992,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E4835",
-      "easting": 378533,
-      "gridReference": "ST7853367023",
-      "label": "BATHFORD",
-      "lat": 51.401821,
-      "long": -2.309976,
+      "easting": 546102,
+      "gridReference": "TF4610209910",
+      "label": "WISBECH TIDAL WITS",
+      "lat": 52.667208,
+      "long": 0.159108,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-flow-water-i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-level-tidal_level-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Water",
-          "unitName": "m3/s"
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
         }
       ],
-      "northing": 167023,
+      "northing": 309910,
       "notation": "E4835",
       "stationReference": "E4835"
     },
@@ -76636,7 +76636,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22505",
       "easting": 570800,
       "gridReference": "TL7080045000",
-      "label": "KEDINGTON FGS",
+      "label": "KEDINGTON GS WITS",
       "lat": 52.077008,
       "long": 0.490953,
       "measures": [
