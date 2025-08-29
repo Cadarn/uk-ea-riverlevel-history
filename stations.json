@@ -60550,6 +60550,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3275-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 304150,
@@ -84278,6 +84286,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1412-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 287250,
@@ -86022,30 +86038,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3403",
-      "easting": 531352,
-      "gridReference": "TF3135287021",
-      "label": "LOUTH NORTH FSR",
-      "lat": 53.363734,
-      "long": -0.027521,
+      "easting": 621150,
+      "gridReference": "TR211575",
+      "label": "LITTLEBOURNE USGS",
+      "lat": 51.274155,
+      "long": 1.16925,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-flow--i-15_min-m_s",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-flow--i-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
           "period": 900,
           "qualifier": "",
-          "unitName": "m/s"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
+          "unitName": "m3/s"
         }
       ],
-      "northing": 387021,
+      "northing": 157550,
       "notation": "E3403",
       "stationReference": "E3403"
     },
@@ -95433,6 +95441,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -115560,11 +115576,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1338",
-      "easting": 304150,
-      "gridReference": "SJ041025",
+      "easting": 304250,
+      "gridReference": "SJ042025",
       "label": "Rainfall station",
-      "lat": 52.612229,
-      "long": -3.417017,
+      "lat": 52.612246,
+      "long": -3.41554,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1338-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -115581,11 +115597,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1750",
-      "easting": 320650,
-      "gridReference": "SO206905",
+      "easting": 320750,
+      "gridReference": "SO207905",
       "label": "Rainfall station",
-      "lat": 52.507038,
-      "long": -3.170517,
+      "lat": 52.507053,
+      "long": -3.169044,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1750-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -129299,7 +129315,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2055",
-      "label": "Bryntail LVL",
+      "easting": 291412,
+      "gridReference": "SN9141286755",
+      "label": "Bryntail River Station",
+      "lat": 52.46789,
+      "long": -3.599896,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2055-level-stage-i-15_min-mASD",
@@ -129310,6 +129330,7 @@
           "unitName": "mASD"
         }
       ],
+      "northing": 286755,
       "notation": "2055",
       "stationReference": "2055"
     },
@@ -137661,6 +137682,216 @@
       "northing": 583300,
       "notation": "023049",
       "stationReference": "023049"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/8403SE",
+      "easting": 616357,
+      "gridReference": "TR1635759786",
+      "label": "Vauxhall Road Bridga",
+      "lat": 51.29607,
+      "long": 1.101995,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/8403SE-flow--Mean-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 159786,
+      "notation": "8403SE",
+      "stationReference": "8403SE"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/13341",
+      "easting": 315450,
+      "gridReference": "SJ154188",
+      "label": "Rainfall station",
+      "lat": 52.760603,
+      "long": -3.254367,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/13341-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 318850,
+      "notation": "13341",
+      "stationReference": "13341"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1221",
+      "easting": 323550,
+      "gridReference": "SJ235071",
+      "label": "Rainfall station",
+      "lat": 52.656654,
+      "long": -3.131637,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1221-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 307150,
+      "notation": "1221",
+      "stationReference": "1221"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/1765",
+      "easting": 303150,
+      "gridReference": "SO031925",
+      "label": "Rainfall station",
+      "lat": 52.522181,
+      "long": -3.428856,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1765-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 292550,
+      "notation": "1765",
+      "stationReference": "1765"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2061",
+      "easting": 329905,
+      "gridReference": "SJ2990516938",
+      "label": "Llandrinio River Station",
+      "lat": 52.74549,
+      "long": -3.039794,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2061-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 316938,
+      "notation": "2061",
+      "stationReference": "2061"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2072",
+      "easting": 321154,
+      "gridReference": "SJ2115401051",
+      "label": "Munlyn River Station",
+      "lat": 52.601494,
+      "long": -3.165593,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2072-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 301051,
+      "notation": "2072",
+      "stationReference": "2072"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2021",
+      "easting": 325375,
+      "gridReference": "SJ2537519598",
+      "label": "Llanymynech River Station",
+      "lat": 52.76879,
+      "long": -3.107493,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2021-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 319598,
+      "notation": "2021",
+      "stationReference": "2021"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2035",
+      "easting": 315709,
+      "gridReference": "SJ1570912891",
+      "label": "Meifod River Station",
+      "lat": 52.707088,
+      "long": -3.248998,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2035-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 312891,
+      "notation": "2035",
+      "stationReference": "2035"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2009",
+      "easting": 316565,
+      "gridReference": "SO1656595731",
+      "label": "Abermule River Station",
+      "lat": 52.552993,
+      "long": -3.231991,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2009-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 295731,
+      "notation": "2009",
+      "stationReference": "2009"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/476898",
+      "easting": 349550,
+      "gridReference": "SO495284",
+      "label": "Rainfall station",
+      "lat": 51.952233,
+      "long": -2.735485,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/476898-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 228450,
+      "notation": "476898",
+      "stationReference": "476898"
     }
   ]
 }
