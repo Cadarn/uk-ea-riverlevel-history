@@ -66039,14 +66039,6 @@
           "unitName": "mAOD"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-height-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Height",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2758TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -73706,7 +73698,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E24207",
       "easting": 576800,
       "gridReference": "TL7680010700",
-      "label": "CRABBS BRIDGE GS GSM HATFIELD PEVEREL DUAL COMMS",
+      "label": "CRABBS BRIDGE GS",
       "lat": 51.767053,
       "long": 0.560814,
       "measures": [
@@ -86206,11 +86198,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3403",
-      "easting": 621150,
-      "gridReference": "TR211575",
-      "label": "LITTLEBOURNE USGS",
-      "lat": 51.274155,
-      "long": 1.16925,
+      "easting": 531352,
+      "gridReference": "TF3135287021",
+      "label": "LOUTH NORTH FSR",
+      "lat": 53.363734,
+      "long": -0.027521,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-flow--i-15_min-m3_s",
@@ -86219,9 +86211,17 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
         }
       ],
-      "northing": 157550,
+      "northing": 387021,
       "notation": "E3403",
       "stationReference": "E3403"
     },
@@ -137899,11 +137899,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/694021",
+      "RLOIid": "10434",
+      "catchmentName": "Lower Mersey",
+      "dateOpened": "2013-07-11",
       "easting": 358642,
-      "gridReference": "SD5864298904",
+      "gridReference": "SJ5864298904",
       "label": "Lincoln Drive",
-      "lat": 54.383922,
-      "long": -2.6383,
+      "lat": 53.485204,
+      "long": -2.624724,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/694021-level-stage-i-15_min-m",
@@ -137914,9 +137917,14 @@
           "unitName": "m"
         }
       ],
-      "northing": 498904,
+      "northing": 398904,
       "notation": "694021",
-      "stationReference": "694021"
+      "riverName": "Millingford Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/694021/stageScale",
+      "stationReference": "694021",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Ashton-In-Makerfield",
+      "wiskiID": "694021"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/023049",
@@ -138211,6 +138219,27 @@
       "northing": 42121,
       "notation": "E75925",
       "stationReference": "E75925"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/064280",
+      "easting": 444850,
+      "gridReference": "SE448416",
+      "label": "Rainfall station",
+      "lat": 53.869116,
+      "long": -1.319414,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/064280-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 441650,
+      "notation": "064280",
+      "stationReference": "064280"
     }
   ]
 }
