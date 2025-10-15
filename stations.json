@@ -29738,7 +29738,7 @@
       "riverName": "River Aire",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L1801/stageScale",
       "stationReference": "L1801",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Snaith",
       "wiskiID": "L1801"
     },
@@ -138277,6 +138277,27 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Oadby",
       "wiskiID": "5169"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/690143",
+      "easting": 382229,
+      "gridReference": "SD8222922530",
+      "label": "Hill End Lane",
+      "lat": 53.698888,
+      "long": -2.270631,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690143-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 422530,
+      "notation": "690143",
+      "stationReference": "690143"
     }
   ]
 }
