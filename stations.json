@@ -54584,7 +54584,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/694039/stageScale",
       "stationReference": "694039",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Dallam",
+      "town": "Warrington",
       "wiskiID": "694039"
     },
     {
@@ -58749,22 +58749,6 @@
           "period": 900,
           "qualifier": "1",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-2-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "2",
-          "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
         }
       ],
       "northing": 45870,
@@ -62204,6 +62188,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/693021/stageScale",
       "stationReference": "693021",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Leigh",
       "wiskiID": "693021"
     },
     {
@@ -62833,6 +62818,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/685120/stageScale",
       "stationReference": "685120",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Ellesmere Port",
       "wiskiID": "685120"
     },
     {
@@ -66406,6 +66392,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/693033/stageScale",
       "stationReference": "693033",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Tyldesley",
       "wiskiID": "693033"
     },
     {
@@ -68335,6 +68322,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/694020/stageScale",
       "stationReference": "694020",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Ashton-in-Makerfield",
       "wiskiID": "694020"
     },
     {
@@ -76074,14 +76062,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E25767-level-stage-i-30_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 1800,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 256600,
@@ -78546,14 +78526,6 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78894,14 +78866,6 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -81163,14 +81127,6 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -85551,6 +85507,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/690115/stageScale",
       "stationReference": "690115",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Bacup",
       "wiskiID": "690115"
     },
     {
@@ -85579,6 +85536,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/690105/stageScale",
       "stationReference": "690105",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Rossendale",
       "wiskiID": "690105"
     },
     {
@@ -85657,6 +85615,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/694122/stageScale",
       "stationReference": "694122",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "St Helens",
       "wiskiID": "694122"
     },
     {
@@ -93980,7 +93939,7 @@
       "long": -2.516845,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/013336-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/013336-rainfall-tipping_bucket_raingauge-i-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
@@ -98344,14 +98303,6 @@
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/077256-rainfall-tipping_bucket_raingauge-i-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/077256-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
@@ -109764,6 +109715,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/693009/stageScale",
       "stationReference": "693009",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Leigh",
       "wiskiID": "693009"
     },
     {
@@ -114647,6 +114599,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/693544/stageScale",
       "stationReference": "693544",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Warrington",
       "wiskiID": "693544"
     },
     {
@@ -115807,14 +115760,6 @@
       "gridReference": "SU8716",
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -128772,6 +128717,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/067639/stageScale",
       "stationReference": "067639",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Chester",
       "wiskiID": "067639"
     },
     {
@@ -136797,6 +136743,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/690175/stageScale",
       "stationReference": "690175",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusClosed",
+      "town": "Radcliffe",
       "wiskiID": "690175"
     },
     {
@@ -137029,6 +136976,7 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/693028/stageScale",
       "stationReference": "693028",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Leigh",
       "wiskiID": "693028"
     },
     {
