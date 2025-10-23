@@ -29731,7 +29731,7 @@
       "riverName": "River Aire",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L1801/stageScale",
       "stationReference": "L1801",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Snaith",
       "wiskiID": "L1801"
     },
@@ -50129,7 +50129,7 @@
       "riverName": "East Okement River",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/50195/stageScale",
       "stationReference": "50195",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Okehampton",
       "wiskiID": "SX59F100"
     },
@@ -59441,14 +59441,6 @@
       "long": 0.174152,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-1-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "1",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -61026,14 +61018,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E15460-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 170350,
@@ -66746,7 +66730,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/45142",
       "easting": 292245,
       "gridReference": "SX9224591886",
-      "label": "TREWS WEIR OLD DLFSK",
+      "label": "TREWS WEIR",
       "lat": 50.71658,
       "long": -3.527705,
       "measures": [
@@ -67800,14 +67784,6 @@
       "lat": 53.305797,
       "long": -1.088289,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3901-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3901-temperature-dry_bulb-i-15_min-deg_C",
           "parameter": "temperature",
@@ -73825,14 +73801,6 @@
           "period": 900,
           "qualifier": "2",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 261800,
@@ -78526,6 +78494,14 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78866,6 +78842,14 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -81127,6 +81111,14 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -107453,7 +107445,7 @@
       "long": -1.58894,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/076413-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/076413-rainfall-tipping_bucket_raingauge-i-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
@@ -115760,6 +115752,14 @@
       "gridReference": "SU8716",
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -136726,25 +136726,6 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "near swing bridge",
       "wiskiID": "682218"
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/690175",
-      "RLOIid": "9629",
-      "catchmentName": "Northern Manchester",
-      "dateOpened": "2024-07-25",
-      "easting": 379712,
-      "gridReference": "SD7971209037",
-      "label": "Warth Bridge, Radcliffe",
-      "lat": 53.57752,
-      "long": -2.307868,
-      "northing": 409037,
-      "notation": "690175",
-      "riverName": "River Irwell",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/690175/stageScale",
-      "stationReference": "690175",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusClosed",
-      "town": "Radcliffe",
-      "wiskiID": "690175"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23014",
