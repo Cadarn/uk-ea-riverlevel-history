@@ -59441,6 +59441,14 @@
       "long": 0.174152,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-1-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5562TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -59646,11 +59654,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/692830",
-      "easting": 385805,
-      "gridReference": "SJ85809350",
-      "label": "Cringle Brook",
-      "lat": 53.438115,
-      "long": -2.215139,
+      "RLOIid": "10436",
+      "catchmentName": "Upper Mersey",
+      "dateOpened": "2001-04-01",
+      "easting": 385759,
+      "gridReference": "SJ8575993540",
+      "label": "Cringle Brook Debris Screen",
+      "lat": 53.438429,
+      "long": -2.215833,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/692830-level-downstage-i-15_min-m",
@@ -59669,9 +59680,14 @@
           "unitName": "m"
         }
       ],
-      "northing": 393505,
+      "northing": 393540,
       "notation": "692830",
-      "stationReference": "692830"
+      "riverName": "Cringle Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/692830/stageScale",
+      "stationReference": "692830",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Fallowfield",
+      "wiskiID": "692830"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/45223",
@@ -60463,11 +60479,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/693555",
-      "easting": 364265,
-      "gridReference": "SJ64268669",
+      "RLOIid": "10439",
+      "catchmentName": "Lower Mersey",
+      "dateOpened": "2009-01-19",
+      "easting": 364254,
+      "gridReference": "SJ6425486690",
       "label": "Morris Brook",
-      "lat": 53.375882,
-      "long": -2.538601,
+      "lat": 53.375836,
+      "long": -2.538765,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/693555-level-downstage-i-15_min-m",
@@ -60486,9 +60505,14 @@
           "unitName": "m"
         }
       ],
-      "northing": 386695,
+      "northing": 386690,
       "notation": "693555",
-      "stationReference": "693555"
+      "riverName": "Morris Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/693555/stageScale",
+      "stationReference": "693555",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Warrington",
+      "wiskiID": "693555"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2218",
@@ -60934,11 +60958,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/692675",
-      "easting": 387205,
-      "gridReference": "SJ87208870",
-      "label": "Lavington Avenue",
-      "lat": 53.395007,
-      "long": -2.193868,
+      "RLOIid": "10438",
+      "catchmentName": "Upper Mersey",
+      "dateOpened": "2001-08-31",
+      "easting": 387171,
+      "gridReference": "SJ8717188664",
+      "label": "Lavington Avenue Debris Screen",
+      "lat": 53.394638,
+      "long": -2.194378,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/692675-level-downstage-i-15_min-m",
@@ -60957,9 +60984,14 @@
           "unitName": "m"
         }
       ],
-      "northing": 388705,
+      "northing": 388664,
       "notation": "692675",
-      "stationReference": "692675"
+      "riverName": "Chorlton Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/692675/stageScale",
+      "stationReference": "692675",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Cheadle",
+      "wiskiID": "692675"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22300-anglian",
@@ -61405,11 +61437,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/692825",
-      "easting": 385605,
-      "gridReference": "SJ85609480",
-      "label": "Brighton Grove",
-      "lat": 53.449795,
-      "long": -2.21821,
+      "RLOIid": "10437",
+      "catchmentName": "Upper Mersey",
+      "dateOpened": "2001-08-31",
+      "easting": 385615,
+      "gridReference": "SJ8561594768",
+      "label": "Brighton Grove Debris Screen",
+      "lat": 53.449463,
+      "long": -2.218058,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/692825-level-downstage-i-15_min-m",
@@ -61428,9 +61463,14 @@
           "unitName": "m"
         }
       ],
-      "northing": 394805,
+      "northing": 394768,
       "notation": "692825",
-      "stationReference": "692825"
+      "riverName": "Platt Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/692825/stageScale",
+      "stationReference": "692825",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Fallowfield",
+      "wiskiID": "692825"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/8208TH",
@@ -67784,6 +67824,14 @@
       "lat": 53.305797,
       "long": -1.088289,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3901-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3901-temperature-dry_bulb-i-15_min-deg_C",
           "parameter": "temperature",
@@ -78494,14 +78542,6 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78842,14 +78882,6 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -81111,14 +81143,6 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -115752,14 +115776,6 @@
       "gridReference": "SU8716",
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
