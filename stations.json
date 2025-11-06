@@ -42220,7 +42220,7 @@
       "riverName": "River Petteril",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/764020/stageScale",
       "stationReference": "764020",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Melbourne Park Carlisle",
       "wiskiID": "764020"
     },
@@ -75829,7 +75829,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E23235",
       "easting": 617500,
       "gridReference": "TM1750077100",
-      "label": "OAKLEY GS GSM",
+      "label": "OAKLEY GS WITS",
       "lat": 52.348797,
       "long": 1.192003,
       "measures": [
@@ -76076,14 +76076,6 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E25767-level-stage-i-30_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 1800,
           "qualifier": "Stage",
           "unitName": "mAOD"
         }
@@ -87021,6 +87013,14 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E47907-level-tidal_level-i-5_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 300,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
         }
