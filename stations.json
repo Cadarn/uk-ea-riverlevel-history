@@ -73147,14 +73147,6 @@
       "long": 0.159108,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-flow-water-i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "Water",
-          "unitName": "m3/s"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-level-tidal_level-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
