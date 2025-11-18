@@ -64569,14 +64569,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -73042,12 +73034,12 @@
       "long": -0.963623,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E27501-level-stage-i-15_min-m",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E27501-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "m"
+          "unitName": "mAOD"
         }
       ],
       "northing": 286982,
@@ -73146,6 +73138,14 @@
       "lat": 52.667208,
       "long": 0.159108,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-level-tidal_level-i-15_min-mAOD",
           "parameter": "level",
@@ -75634,7 +75634,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22552",
       "easting": 584600,
       "gridReference": "TL8460047200",
-      "label": "GLEMSFORD GS WITS",
+      "label": "GLEMSFORD GS",
       "lat": 52.092341,
       "long": 0.693285,
       "measures": [
