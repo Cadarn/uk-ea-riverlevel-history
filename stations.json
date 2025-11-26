@@ -64548,6 +64548,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -107994,14 +108002,6 @@
       "long": 0.289494,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8020-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8020-rainfall-water-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -116535,7 +116535,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SY29F052",
       "easting": 326220,
       "gridReference": "SY2622095330",
-      "label": "WHITFORD BRIDGE TO BE WITSD",
+      "label": "WHITFORD BRIDGE OLD",
       "lat": 50.752859,
       "long": -3.047245,
       "measures": [
@@ -137438,14 +137438,6 @@
       "lat": 51.241173,
       "long": -0.593898,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/282751-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/282751-rainfall-water-t-15_min-mm",
           "parameter": "rainfall",
