@@ -24598,7 +24598,7 @@
       "riverName": "River Kennet",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2250TH/stageScale",
       "stationReference": "2250TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Newbury",
       "wiskiID": "2250TH"
     },
@@ -44064,7 +44064,7 @@
       "riverName": "River Ryburn",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/F1240/stageScale",
       "stationReference": "F1240",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Ripponden",
       "wiskiID": "F1240"
     },
@@ -68276,6 +68276,14 @@
       "long": -2.269502,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-1-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-water-i-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
@@ -73042,6 +73050,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E27501-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 286982,
@@ -73895,6 +73911,14 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "2",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
           "unitName": "mAOD"
         }
       ],
@@ -74845,6 +74869,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21985-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 246700,
@@ -78320,6 +78352,14 @@
       "gridReference": "SU6142",
       "label": "PRESTON CANDOVER GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E13180-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E13180-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -98363,14 +98403,6 @@
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/077256-rainfall-tipping_bucket_raingauge-i-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/077256-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
@@ -122290,6 +122322,14 @@
       "lat": 51.434117,
       "long": -1.048842,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2292BTH-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2292BTH-level-height-i-15_min-mAOD",
           "parameter": "level",
