@@ -59099,14 +59099,6 @@
           "unitName": "mAOD"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3091TH-level-downstage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Downstream Stage",
-          "unitName": "mASD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3091TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -64564,14 +64556,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -70963,6 +70947,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
       "northing": 124750,
@@ -96241,14 +96233,6 @@
       "lat": 50.83729,
       "long": -0.377415,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2321SO-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2321SO-rainfall-water-t-15_min-mm",
           "parameter": "rainfall",
