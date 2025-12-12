@@ -5464,7 +5464,7 @@
       "riverName": "River Dove",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/4046/stageScale",
       "stationReference": "4046",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Ilam",
       "wiskiID": "4046"
     },
@@ -58797,22 +58797,6 @@
           "period": 900,
           "qualifier": "1",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-2-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "2",
-          "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
         }
       ],
       "northing": 45870,
@@ -70966,22 +70950,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E6380",
-      "easting": 593450,
-      "gridReference": "TQ934247",
-      "label": "SCOTS FLOAT SLUICE RL",
-      "lat": 50.989632,
-      "long": 0.75505,
+      "easting": 368150,
+      "gridReference": "ST681291",
+      "label": "Rainfall station",
+      "lat": 51.060794,
+      "long": -2.455851,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
-      "northing": 124750,
+      "northing": 129150,
       "notation": "E6380",
       "stationReference": "E6380"
     },
@@ -74901,14 +74885,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21985-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 246700,
@@ -84225,7 +84201,7 @@
       "riverName": "Holderness Drain",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3241/stageScale",
       "stationReference": "L3241",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "East Hull Hedon Road",
       "wiskiID": "L3241"
     },
@@ -129378,14 +129354,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/9630SE-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 137064,
@@ -131744,6 +131712,7 @@
       "RLOIid": "9545",
       "catchmentName": "Old Bedford including the Middle Level",
       "dateOpened": "2020-08-05",
+      "datumOffset": 99,
       "easting": 523505,
       "gridReference": "TL 23505 85060",
       "label": "Ramsey Heights",
@@ -131754,7 +131723,7 @@
       "riverName": "Great Raveley Drain",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E48801/stageScale",
       "stationReference": "E48801",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Ramsey Heights",
       "wiskiID": "L33922"
     },
