@@ -15,24 +15,6 @@
   },
   "items": [
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/0-area-water-i-15_min-m2/2025-11-19T06-00-00Z",
-      "dateTime": "2025-11-19T06:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-area-water-i-15_min-m2",
-      "value": 0.508
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/0-velocity-water-i-15_min-m_s/2025-11-19T06-00-00Z",
-      "dateTime": "2025-11-19T06:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-velocity-water-i-15_min-m_s",
-      "value": 0.395
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/48189-level-stage-i-15_min-m/2025-11-19T06-00-00Z",
-      "dateTime": "2025-11-19T06:00:00Z",
-      "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/48189-level-stage-i-15_min-m",
-      "value": -0.716
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/data/readings/022001-level-stage-i-15_min-m/2025-11-20T14-45-00Z",
       "dateTime": "2025-11-20T14:45:00Z",
       "measure": "http://environment.data.gov.uk/flood-monitoring/id/measures/022001-level-stage-i-15_min-m",
