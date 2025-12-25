@@ -64556,14 +64556,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -73157,6 +73149,14 @@
       "long": 0.159108,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-level-tidal_level-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78613,14 +78613,6 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -78961,14 +78953,6 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -81230,14 +81214,6 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -85285,20 +85261,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/0",
-      "easting": 201179,
-      "gridReference": "SX0117945160",
-      "label": "MEVAGISSEY FIRE STATION",
-      "lat": 50.272853,
-      "long": -4.791515,
+      "easting": 221377,
+      "gridReference": "SS2137703814",
+      "label": "HELEBRIDGE",
+      "lat": 50.806271,
+      "long": -4.5365,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-flow-water-i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "Water",
-          "unitName": "m3/s"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-level-2-i-15_min-m",
           "parameter": "level",
@@ -85308,7 +85276,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 45160,
+      "northing": 103814,
       "notation": "0",
       "stationReference": "0"
     },
@@ -86371,7 +86339,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E6619",
       "easting": 568350,
       "gridReference": "TQ683263",
-      "label": "CROWHURST WEIR",
+      "label": "Crowhurst GS",
       "lat": 51.01189,
       "long": 0.398508,
       "measures": [
@@ -98419,14 +98387,6 @@
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/077256-rainfall-tipping_bucket_raingauge-i-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/077256-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
@@ -115906,14 +115866,6 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -127950,11 +127902,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/693012",
-      "easting": 368685,
+      "RLOIid": "10451",
+      "catchmentName": "Lower Mersey",
+      "dateOpened": "2022-04-01",
+      "easting": 386685,
       "gridReference": "SD6868502256",
       "label": "Atherton Shakerley Road",
-      "lat": 53.516028,
-      "long": -2.473719,
+      "lat": 53.516796,
+      "long": -2.202267,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/693012-level-stage-i-15_min-m",
@@ -127967,13 +127922,20 @@
       ],
       "northing": 402256,
       "notation": "693012",
-      "stationReference": "693012"
+      "riverName": "Shakerley Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/693012/stageScale",
+      "stationReference": "693012",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "wiskiID": "693012"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/693013",
+      "RLOIid": "10452",
+      "catchmentName": "Lower Mersey",
+      "dateOpened": "2022-04-01",
       "easting": 368471,
       "gridReference": "SD6847104342",
-      "label": "Atherton Woodlands Drive",
+      "label": "Atherton Woodland Drive",
       "lat": 53.534764,
       "long": -2.477157,
       "measures": [
@@ -127988,7 +127950,12 @@
       ],
       "northing": 404342,
       "notation": "693013",
-      "stationReference": "693013"
+      "riverName": "Carr Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/693013/stageScale",
+      "stationReference": "693013",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Atherton",
+      "wiskiID": "693013"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/690341",
@@ -137588,14 +137555,6 @@
       "lat": 51.241173,
       "long": -0.593898,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/282751-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/282751-rainfall-water-t-15_min-mm",
           "parameter": "rainfall",
