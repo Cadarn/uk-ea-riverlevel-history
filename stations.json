@@ -62357,11 +62357,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2759TH",
-      "easting": 497656,
-      "gridReference": "SU9765678023",
+      "easting": 497655,
+      "gridReference": "SU97657802",
       "label": "Jubilee River at Black Potts",
-      "lat": 51.492723,
-      "long": -0.59473,
+      "lat": 51.492741,
+      "long": -0.594744,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2759TH-level-downstage-i-15_min-mASD",
@@ -62372,7 +62372,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 178023,
+      "northing": 178025,
       "notation": "2759TH",
       "stationReference": "2759TH"
     },
@@ -64556,6 +64556,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -78114,11 +78122,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5484TH",
-      "easting": 545205,
-      "gridReference": "TQ45208290",
+      "easting": 544025,
+      "gridReference": "TQ4402584726",
       "label": "Loxford Sluices FD",
-      "lat": 51.52639,
-      "long": 0.091773,
+      "lat": 51.543054,
+      "long": 0.07552,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5484TH-level-1-i-15_min-mAOD",
@@ -78145,7 +78153,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 182905,
+      "northing": 184726,
       "notation": "5484TH",
       "stationReference": "5484TH"
     },
@@ -131299,7 +131307,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9609SO",
       "easting": 538344,
       "gridReference": "TQ3834452991",
-      "label": "Oxted Hythe GWL",
+      "label": "Oxted Folkstone GWL",
       "lat": 51.259298,
       "long": -0.018712,
       "measures": [
