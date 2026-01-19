@@ -68284,14 +68284,6 @@
       "long": -2.269502,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-1-i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "1",
-          "unitName": "m3/s"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-water-i-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
@@ -86251,7 +86243,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E6619",
       "easting": 568350,
       "gridReference": "TQ683263",
-      "label": "Crowhurst GS",
+      "label": "CROWHURST WEIR",
       "lat": 51.01189,
       "long": 0.398508,
       "measures": [
