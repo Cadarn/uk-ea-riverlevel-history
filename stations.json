@@ -59575,7 +59575,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2448TH",
       "easting": 473885,
       "gridReference": "SU73886017",
-      "label": "River Whitewater At Holdshot Farm",
+      "label": "River Whitewater at Holdshot Farm",
       "lat": 51.335871,
       "long": -0.940772,
       "measures": [
@@ -62373,11 +62373,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2759TH",
-      "easting": 497656,
-      "gridReference": "SU9765678023",
+      "easting": 497655,
+      "gridReference": "SU97657802",
       "label": "Jubilee River at Black Potts",
-      "lat": 51.492723,
-      "long": -0.59473,
+      "lat": 51.492741,
+      "long": -0.594744,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2759TH-level-downstage-i-15_min-mASD",
@@ -62388,7 +62388,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 178023,
+      "northing": 178025,
       "notation": "2759TH",
       "stationReference": "2759TH"
     },
@@ -73164,14 +73164,6 @@
       "lat": 52.667208,
       "long": 0.159108,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-flow-water-i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "Water",
-          "unitName": "m3/s"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4835-level-tidal_level-i-15_min-mAOD",
           "parameter": "level",
@@ -85195,14 +85187,6 @@
       "lat": 50.806271,
       "long": -4.5365,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-flow-water-i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "Water",
-          "unitName": "m3/s"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-level-2-i-15_min-m",
           "parameter": "level",
@@ -118478,11 +118462,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/151816001",
-      "easting": 435450,
-      "gridReference": "SU354188",
-      "label": "Rainfall station",
-      "lat": 50.967981,
-      "long": -1.496522,
+      "easting": 435406,
+      "gridReference": "SU3540618864",
+      "label": "Romsey Broadlands Estate",
+      "lat": 50.968109,
+      "long": -1.497147,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816001-level-stage-i-15_min-mBDAT",
@@ -118501,7 +118485,7 @@
           "unitName": "deg C"
         }
       ],
-      "northing": 118850,
+      "northing": 118864,
       "notation": "151816001",
       "stationReference": "151816001"
     },
@@ -123706,14 +123690,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E49234-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 253487,
