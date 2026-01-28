@@ -27150,7 +27150,7 @@
       "riverName": "Bloxham Brook",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/1431TH/stageScale",
       "stationReference": "1431TH",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Bloxham",
       "wiskiID": "1431TH"
     },
@@ -64572,14 +64572,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -68292,6 +68284,14 @@
       "long": -2.269502,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-1-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-water-i-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
@@ -70098,6 +70098,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "Ml/d"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2834-flow-stage-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m3/s"
         }
       ],
       "northing": 310741,
@@ -73066,14 +73074,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E27501-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 286982,
@@ -73927,14 +73927,6 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "2",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24822-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
           "unitName": "mAOD"
         }
       ],
@@ -74885,14 +74877,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21985-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 246700,
@@ -98941,7 +98925,7 @@
       "long": -1.337477,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/056505-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/056505-rainfall-tipping_bucket_raingauge-i-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
@@ -127985,11 +127969,11 @@
       "RLOIid": "10451",
       "catchmentName": "Lower Mersey",
       "dateOpened": "2022-04-01",
-      "easting": 386685,
+      "easting": 368684,
       "gridReference": "SD6868502256",
       "label": "Atherton Shakerley Road",
-      "lat": 53.516796,
-      "long": -2.202267,
+      "lat": 53.516028,
+      "long": -2.473734,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/693012-level-stage-i-15_min-m",
@@ -131514,6 +131498,14 @@
           "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SE71739-level-tidal_level-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "m"
         }
       ],
       "northing": 100040,
