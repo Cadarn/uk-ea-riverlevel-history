@@ -27813,7 +27813,7 @@
       "riverName": "River Ouzel",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21511/stageScale",
       "stationReference": "E21511",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Willen",
       "wiskiID": "033015"
     },
@@ -34619,14 +34619,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1598-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 397100,
@@ -36078,36 +36070,6 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Market Warsop",
       "wiskiID": "4032"
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22377",
-      "RLOIid": "6258",
-      "catchmentName": "Upper and Bedford Ouse",
-      "dateOpened": "2003-12-29",
-      "datumOffset": 55.6,
-      "easting": 488500,
-      "gridReference": "SP 88500 41300",
-      "label": "Milton Keynes",
-      "lat": 52.06301,
-      "long": -0.710466,
-      "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E22377-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
-        }
-      ],
-      "northing": 241300,
-      "notation": "E22377",
-      "riverName": "River Ouzel",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22377/stageScale",
-      "stationReference": "E22377",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Milton Keynes",
-      "wiskiID": "U33095"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/46124",
@@ -57144,7 +57106,7 @@
       "riverName": "River Great Ouse",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21493/stageScale",
       "stationReference": "E21493",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Stony Stratford",
       "wiskiID": "U33093"
     },
@@ -58828,22 +58790,6 @@
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "1",
-          "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-2-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "2",
-          "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48119-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
           "unitName": "m"
         }
       ],
@@ -63022,11 +62968,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/693023",
-      "easting": 366850,
-      "gridReference": "SD668000",
+      "easting": 366855,
+      "gridReference": "SD66850008",
       "label": "Bedford FW",
-      "lat": 53.496087,
-      "long": -2.501157,
+      "lat": 53.496402,
+      "long": -2.501086,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/693023-level-1-i-15_min-m",
@@ -63045,7 +62991,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 400050,
+      "northing": 400085,
       "notation": "693023",
       "stationReference": "693023"
     },
@@ -64604,14 +64550,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -70138,14 +70076,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "Ml/d"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2834-flow-stage-i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m3/s"
         }
       ],
       "northing": 310741,
@@ -74941,14 +74871,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21985-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 246700,
@@ -84986,6 +84908,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/Not_Specified-rainfall-1-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "mm"
         }
       ],
       "northing": 316000,
@@ -113924,7 +113854,6 @@
       "RLOIid": "9203",
       "catchmentName": "East Hampshire",
       "dateOpened": "1999-12-21",
-      "datumOffset": 20.666,
       "easting": 449543,
       "gridReference": "SU4954312947",
       "label": "Hobb Lane",
@@ -115458,11 +115387,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/690554",
-      "easting": 381839,
-      "gridReference": "SD8183900960",
-      "label": "Castle Irwell Inlet",
-      "lat": 53.505001,
-      "long": -2.275273,
+      "easting": 382406,
+      "gridReference": "SD8240601280",
+      "label": "Castle Irwell Basin",
+      "lat": 53.507896,
+      "long": -2.266743,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690554-level-logged-i-15_min-m",
@@ -115481,7 +115410,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 400960,
+      "northing": 401280,
       "notation": "690554",
       "stationReference": "690554"
     },
@@ -139020,6 +138949,26 @@
       "northing": 131250,
       "notation": "B23653",
       "stationReference": "B23653"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E47474",
+      "RLOIid": "6258",
+      "catchmentName": "Upper and Bedford Ouse",
+      "dateOpened": "2003-12-29",
+      "datumOffset": 55.6,
+      "easting": 488500,
+      "gridReference": "SP 88500 41300",
+      "label": "Milton Keynes",
+      "lat": 52.06301,
+      "long": -0.710466,
+      "northing": 241300,
+      "notation": "E47474",
+      "riverName": "River Ouzel",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E47474/stageScale",
+      "stationReference": "E47474",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "town": "Milton Keynes",
+      "wiskiID": "U33095"
     }
   ]
 }
