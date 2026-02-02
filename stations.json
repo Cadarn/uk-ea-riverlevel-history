@@ -64526,6 +64526,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -73020,14 +73028,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E27501-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
         }
       ],
       "northing": 286982,
@@ -76117,14 +76117,6 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E25767-level-stage-i-30_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 1800,
           "qualifier": "Stage",
           "unitName": "mAOD"
         }
@@ -118455,11 +118447,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/151816001",
-      "easting": 435406,
-      "gridReference": "SU3540618864",
-      "label": "Romsey Broadlands Estate",
-      "lat": 50.968109,
-      "long": -1.497147,
+      "easting": 435450,
+      "gridReference": "SU354188",
+      "label": "Rainfall station",
+      "lat": 50.967981,
+      "long": -1.496522,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816001-level-stage-i-15_min-mBDAT",
@@ -118478,7 +118470,7 @@
           "unitName": "deg C"
         }
       ],
-      "northing": 118864,
+      "northing": 118850,
       "notation": "151816001",
       "stationReference": "151816001"
     },
