@@ -28491,7 +28491,7 @@
       "riverName": "River Bull",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E8010/stageScale",
       "stationReference": "E8010",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Hellingly",
       "wiskiID": "371540001"
     },
@@ -37955,14 +37955,6 @@
       "long": -0.413243,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2304-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2304-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -45400,7 +45392,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E41071",
       "easting": 561254,
       "gridReference": "TF6125418547",
-      "label": "FREEBRIDGE TS KINGS LYNN DUAL COMMS",
+      "label": "Kings Lynn Freebridge",
       "lat": 52.740493,
       "long": 0.387203,
       "measures": [
@@ -69171,6 +69163,14 @@
       "long": -0.205967,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23774-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23774-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -71383,6 +71383,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
       "northing": 124750,
@@ -79048,6 +79056,14 @@
       "gridReference": "SU4224",
       "label": "HURSLEY GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -87035,12 +87051,12 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L3205",
-      "RLOIid": "8381",
+      "RLOIid": "10457",
       "catchmentName": "Hull and East Riding",
       "dateOpened": "1996-03-30",
       "easting": 506211,
       "gridReference": "TA0621147044",
-      "label": "Wilfholme Pumping Station",
+      "label": "Wilfholme PS",
       "lat": 53.908662,
       "long": -0.384682,
       "measures": [
@@ -87178,6 +87194,7 @@
       "RLOIid": "8380",
       "catchmentName": "Hull and East Riding",
       "dateOpened": "1996-03-30",
+      "datumOffset": -0.158,
       "easting": 506211,
       "gridReference": "TA0621147044",
       "label": "Wilfholme PS",
@@ -87199,6 +87216,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L3231-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 447044,
@@ -112426,6 +112451,14 @@
       "long": -0.025581,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3433-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3433-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -124357,6 +124390,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E49234-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
         }
       ],
       "northing": 253487,
