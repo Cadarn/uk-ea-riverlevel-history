@@ -30344,7 +30344,7 @@
       "riverName": "River Avon",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/43123/stageScale",
       "stationReference": "43123",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Fordingbridge",
       "wiskiID": "432610"
     },
@@ -42350,7 +42350,7 @@
       "riverName": "River Avon",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/43125/stageScale",
       "stationReference": "43125",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Fordingbridge",
       "wiskiID": "432620"
     },
@@ -52055,7 +52055,7 @@
       "riverName": "River Great Ouse",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E60901/stageScale",
       "stationReference": "E60901",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Thornborough",
       "wiskiID": "033005"
     },
@@ -71367,6 +71367,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
       "northing": 124750,
@@ -81673,8 +81681,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU17_110",
-      "gridReference": "SU1878",
-      "label": "DRAYCOT FOLIAT OBH",
+      "RLOIid": "10458",
+      "catchmentName": "Loddon",
+      "dateOpened": "2001-11-08",
+      "easting": 418226,
+      "gridReference": "SU1822678395",
+      "label": "Draycot Foliat",
+      "lat": 51.504193,
+      "long": -1.738794,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SU17_110-level-groundwater-i-1_h-mAOD",
@@ -81685,8 +81699,14 @@
           "unitName": "mAOD"
         }
       ],
+      "northing": 178395,
       "notation": "SU17_110",
-      "stationReference": "SU17_110"
+      "riverName": "Groundwater Level",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU17_110/stageScale",
+      "stationReference": "SU17_110",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Ogbourne",
+      "wiskiID": "SU17_110"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SD53_73",
@@ -112419,6 +112439,14 @@
       "long": -0.025581,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3433-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3433-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -129289,35 +129317,6 @@
       "stationReference": "075497"
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/47000",
-      "RLOIid": "9486",
-      "catchmentName": "Dove",
-      "dateOpened": "2013-01-27",
-      "easting": 425698,
-      "gridReference": "SK2569827787",
-      "label": "Dovecliff",
-      "lat": 52.846968,
-      "long": -1.619872,
-      "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/47000-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
-        }
-      ],
-      "northing": 327787,
-      "notation": "47000",
-      "riverName": "River Dove",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/47000/stageScale",
-      "stationReference": "47000",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Dovecliff",
-      "wiskiID": "47000"
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/753200",
       "RLOIid": "9492",
       "catchmentName": "Derwent West Cumbria and Duddon",
@@ -138081,14 +138080,6 @@
       "long": -0.593898,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/282751-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/282751-rainfall-water-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -138934,11 +138925,11 @@
       "long": -1.435176,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4106-level-stage-i-15_min-mBDAT",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4106-level-reservoir_level-i-15_min-mBDAT",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "Stage",
+          "qualifier": "Reservoir Level",
           "unitName": "mBDAT"
         }
       ],
