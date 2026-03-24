@@ -59918,7 +59918,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2448TH",
       "easting": 473885,
       "gridReference": "SU73886017",
-      "label": "River Whitewater At Holdshot Farm",
+      "label": "River Whitewater at Holdshot Farm",
       "lat": 51.335871,
       "long": -0.940772,
       "measures": [
@@ -89158,12 +89158,12 @@
       "long": -0.922204,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E43779-level-stage-i-15_min----",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E43779-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "---"
+          "unitName": "m"
         }
       ],
       "northing": 287100,
