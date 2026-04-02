@@ -13652,12 +13652,21 @@
       "RLOIid": "8246",
       "catchmentName": "Don and Rother",
       "dateOpened": "1990-11-20",
+      "downstageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L0902/downstageScale",
       "easting": 466758,
       "gridReference": "SE6675818735",
       "label": "Went Outfall",
       "lat": 53.660847,
       "long": -0.99124,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L0902-level-downstage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L0902-level-stage-i-15_min----",
           "parameter": "level",
@@ -86757,7 +86766,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E6619",
       "easting": 568350,
       "gridReference": "TQ683263",
-      "label": "Crowhurst GS",
+      "label": "CROWHURST WEIR",
       "lat": 51.01189,
       "long": 0.398508,
       "measures": [
@@ -96314,14 +96323,6 @@
           "parameterName": "Rainfall",
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/261602TP-rainfall-water-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Water",
           "unitName": "mm"
         }
       ],
@@ -111348,11 +111349,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E70324",
-      "easting": 222145,
-      "gridReference": "NC 22145 56079",
+      "easting": 222140,
+      "gridReference": "NC 22140 56093",
       "label": "Kinlochbervie",
-      "lat": 58.45661,
-      "long": -5.05008,
+      "lat": 58.45673,
+      "long": -5.05018,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E70324-level-tidal_level-Mean-15_min-m",
@@ -111363,7 +111364,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 956079,
+      "northing": 956093,
       "notation": "E70324",
       "stationReference": "E70324"
     },
@@ -111643,10 +111644,10 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E73339",
       "easting": 278549,
-      "gridReference": "SH 78549 83195",
+      "gridReference": "SH 78549 83191",
       "label": "Llandudno",
-      "lat": 53.33167,
-      "long": -3.82522,
+      "lat": 53.33164,
+      "long": -3.82521,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E73339-level-tidal_level-Mean-15_min-mAOD",
@@ -111657,7 +111658,7 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 383195,
+      "northing": 383191,
       "notation": "E73339",
       "stationReference": "E73339"
     },
@@ -116322,14 +116323,6 @@
       "gridReference": "SU9012",
       "label": "East Dean Butchers Lane GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2825SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2825SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -126862,7 +126855,7 @@
       "riverName": "River Teign",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E84409/stageScale",
       "stationReference": "E84409",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "wiskiID": "SX78F040"
     },
     {
@@ -131895,14 +131888,6 @@
           "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SE71739-level-tidal_level-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "m"
         }
       ],
       "northing": 100040,
@@ -139768,12 +139753,23 @@
       "label": "Stonyford Bridge",
       "lat": 53.529114,
       "long": -1.388764,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/L0853-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
       "northing": 403781.5,
       "notation": "L0853",
       "riverName": "River Dove",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L0853/stageScale",
       "stationReference": "L0853",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Stonyford Bridge",
       "wiskiID": "L0853"
     },
     {
@@ -139786,6 +139782,16 @@
       "label": "Slaithwaite",
       "lat": 53.627147,
       "long": -1.878462,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F1171-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
       "northing": 414521,
       "notation": "F1171",
       "riverName": "Crimble Clough",
