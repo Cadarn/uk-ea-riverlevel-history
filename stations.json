@@ -61023,6 +61023,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3275-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 304150,
@@ -79004,14 +79012,6 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -79352,14 +79352,6 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -81621,14 +81613,6 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -84967,6 +84951,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1412-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 287250,
@@ -96190,6 +96182,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -98839,14 +98839,6 @@
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/077256-rainfall-tipping_bucket_raingauge-i-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/077256-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
@@ -116341,14 +116333,6 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -130546,14 +130530,6 @@
       "long": -0.682303,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7300-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7300-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -137173,11 +137149,13 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/055036",
-      "easting": 356039,
-      "gridReference": "SO5603919371",
-      "label": "Marstow Mill FLOW",
-      "lat": 51.871163,
-      "long": -2.63991,
+      "RLOIid": "10462",
+      "catchmentName": "Wye",
+      "dateOpened": "2009-09-02",
+      "easting": 356017,
+      "label": "Marstow Mill",
+      "lat": 51.870918,
+      "long": -2.640226,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/055036-level-stage-i-15_min-mASD",
@@ -137188,9 +137166,14 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 219371,
+      "northing": 219344,
       "notation": "055036",
-      "stationReference": "055036"
+      "riverName": "Garren Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/055036/stageScale",
+      "stationReference": "055036",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Marstow Mill",
+      "wiskiID": "055036"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E3551",
@@ -139598,24 +139581,6 @@
       "northing": 428760,
       "notation": "L3240",
       "stationReference": "L3240"
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2314",
-      "RLOIid": "10462",
-      "catchmentName": "Wye",
-      "dateOpened": "2009-09-02",
-      "easting": 356017,
-      "label": "Marstow Mill",
-      "lat": 51.870918,
-      "long": -2.640226,
-      "northing": 219344,
-      "notation": "2314",
-      "riverName": "Garren Brook",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2314/stageScale",
-      "stationReference": "2314",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Marstow Mill",
-      "wiskiID": "055036"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4705",
