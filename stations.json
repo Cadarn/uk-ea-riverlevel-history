@@ -33264,6 +33264,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21647-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 250900,
@@ -61576,14 +61584,6 @@
           "unitName": "mAOD"
         },
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2736TH-level-height-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Height",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2736TH-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -64924,6 +64924,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -77418,8 +77426,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/26105",
-      "gridReference": "SJ6623",
+      "easting": 366500,
+      "gridReference": "SJ6650023340",
       "label": "Childs Ercall ABH",
+      "lat": 52.806553,
+      "long": -2.49838,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26105-flow-1-i-1_h-Ml_d",
@@ -77438,6 +77449,7 @@
           "unitName": "mBDAT"
         }
       ],
+      "northing": 323340,
       "notation": "26105",
       "stationReference": "26105"
     },
@@ -87643,10 +87655,10 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71339",
       "easting": 549395,
-      "gridReference": "TF 49395 33239",
+      "gridReference": "TF4939533238",
       "label": "Washpile",
-      "lat": 52.87587,
-      "long": 0.21839,
+      "lat": 52.875861,
+      "long": 0.218395,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E71339-level-tidal_level-Mean-15_min-mAOD",
@@ -87657,7 +87669,7 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 333239,
+      "northing": 333238,
       "notation": "E71339",
       "stationReference": "E71339"
     },
@@ -139809,6 +139821,14 @@
       "long": -2.337539,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2853-flow-abstraction-i-15_min-Ml_d",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Abstraction",
+          "unitName": "Ml/d"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2853-level-reservoir_level-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -139820,6 +139840,27 @@
       "northing": 278975,
       "notation": "2853",
       "stationReference": "2853"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2536A",
+      "easting": 386470,
+      "gridReference": "SO8647078030",
+      "label": "Hurcott Perriford Lane",
+      "lat": 52.400105,
+      "long": -2.200275,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2536A-level-stage-i-15_min-m3_s",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 278030,
+      "notation": "2536A",
+      "stationReference": "2536A"
     }
   ]
 }
