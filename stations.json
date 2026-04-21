@@ -87555,10 +87555,10 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71339",
       "easting": 549395,
-      "gridReference": "TF 49395 33239",
+      "gridReference": "TF4939533238",
       "label": "Washpile",
-      "lat": 52.87587,
-      "long": 0.21839,
+      "lat": 52.875861,
+      "long": 0.218395,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E71339-level-tidal_level-Mean-15_min-mAOD",
@@ -87569,7 +87569,7 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 333239,
+      "northing": 333238,
       "notation": "E71339",
       "stationReference": "E71339"
     },
@@ -139715,6 +139715,48 @@
       "northing": 287380,
       "notation": "2820",
       "stationReference": "2820"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2612",
+      "easting": 346440,
+      "gridReference": "SJ4644018210",
+      "label": "Uffington LVL",
+      "lat": 52.758818,
+      "long": -2.795088,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2612-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 318210,
+      "notation": "2612",
+      "stationReference": "2612"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/26110",
+      "easting": 362750,
+      "gridReference": "SJ6275019770",
+      "label": "Waters Upton LVL",
+      "lat": 52.774215,
+      "long": -2.553598,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26110-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
+        }
+      ],
+      "northing": 319770,
+      "notation": "26110",
+      "stationReference": "26110"
     }
   ]
 }
