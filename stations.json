@@ -71354,14 +71354,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E6380-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
       "northing": 124750,
@@ -85554,14 +85546,6 @@
       "label": "Heath House ABH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26104-flow-1-i-1_h-Ml_d",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "Ml/d"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26104-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -85578,6 +85562,14 @@
       "gridReference": "SJ6024",
       "label": "Heath House ABH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-flow-abstraction-i-1_h-Ml_d",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 3600,
+          "qualifier": "Abstraction",
+          "unitName": "Ml/d"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
@@ -87651,10 +87643,10 @@
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71339",
       "easting": 549395,
-      "gridReference": "TF 49395 33239",
+      "gridReference": "TF4939533238",
       "label": "Washpile",
-      "lat": 52.87587,
-      "long": 0.21839,
+      "lat": 52.875861,
+      "long": 0.218395,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E71339-level-tidal_level-Mean-15_min-mAOD",
@@ -87665,7 +87657,7 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 333239,
+      "northing": 333238,
       "notation": "E71339",
       "stationReference": "E71339"
     },
