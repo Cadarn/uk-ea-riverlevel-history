@@ -62789,11 +62789,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2759TH",
-      "easting": 497656,
-      "gridReference": "SU9765678023",
+      "easting": 497655,
+      "gridReference": "SU97657802",
       "label": "Jubilee River at Black Potts",
-      "lat": 51.492723,
-      "long": -0.59473,
+      "lat": 51.492741,
+      "long": -0.594744,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2759TH-level-downstage-i-15_min-mASD",
@@ -62804,7 +62804,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 178023,
+      "northing": 178025,
       "notation": "2759TH",
       "stationReference": "2759TH"
     },
@@ -71305,6 +71305,14 @@
       "lat": 54.65393,
       "long": -2.291344,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F3507-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F3507-level-stage-i-15_min-mASD",
           "parameter": "level",
@@ -96548,14 +96556,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/261602TP-rainfall-water-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Water",
-          "unitName": "mm"
         }
       ],
       "northing": 209050,
@@ -99071,6 +99071,14 @@
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/077256-rainfall-tipping_bucket_raingauge-i-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/077256-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
@@ -103145,6 +103153,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/068762-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
       "northing": 497450,
@@ -105831,11 +105847,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7040",
-      "easting": 487650,
-      "gridReference": "SK876868",
-      "label": "Rainfall station",
-      "lat": 53.371241,
-      "long": -0.684077,
+      "easting": 558652,
+      "gridReference": "TQ5865204692",
+      "label": "WANNOCK MILL RL",
+      "lat": 50.82004,
+      "long": 0.250967,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-level-stage-i-15_min-mAOD",
@@ -105844,17 +105860,9 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
-      "northing": 386850,
+      "northing": 104692,
       "notation": "E7040",
       "stationReference": "E7040"
     },
@@ -138954,7 +138962,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/8403SE",
       "easting": 616357,
       "gridReference": "TR1635759786",
-      "label": "Vauxhall Road Bridga",
+      "label": "Vauxhall Road Bridge",
       "lat": 51.29607,
       "long": 1.101995,
       "measures": [
@@ -140327,6 +140335,23 @@
       "northing": 318210,
       "notation": "26121",
       "stationReference": "26121"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E85783",
+      "RLOIid": "10470",
+      "catchmentName": "Teign Torbay and South Hams",
+      "dateOpened": "2026-02-05",
+      "easting": 288153,
+      "gridReference": "SX88153 62613",
+      "label": "Occombe Valley Road",
+      "lat": 50.452659,
+      "long": -3.576829,
+      "northing": 62613,
+      "notation": "E85783",
+      "riverName": "Occombe Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E85783/stageScale",
+      "stationReference": "E85783",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive"
     }
   ]
 }
