@@ -45916,7 +45916,7 @@
       "riverName": "River Kym",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21862/stageScale",
       "stationReference": "E21862",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Hail Weston",
       "wiskiID": "033012"
     },
@@ -71306,14 +71306,6 @@
       "long": -2.291344,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F3507-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F3507-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -85928,22 +85920,22 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/0",
-      "easting": 221377,
-      "gridReference": "SS2137703814",
-      "label": "HELEBRIDGE",
-      "lat": 50.806271,
-      "long": -4.5365,
+      "easting": 288153,
+      "gridReference": "SX8815362613",
+      "label": "OCCOMBE VALLEY ROAD",
+      "lat": 50.452659,
+      "long": -3.576829,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-level-2-i-15_min-m",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
-          "qualifier": "2",
+          "qualifier": "Stage",
           "unitName": "m"
         }
       ],
-      "northing": 103814,
+      "northing": 62613,
       "notation": "0",
       "stationReference": "0"
     },
@@ -99076,14 +99068,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/077256-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
       "northing": 433550,
@@ -103153,14 +103137,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/068762-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
       "northing": 497450,
@@ -105847,11 +105823,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7040",
-      "easting": 558652,
-      "gridReference": "TQ5865204692",
-      "label": "WANNOCK MILL RL",
-      "lat": 50.82004,
-      "long": 0.250967,
+      "easting": 487650,
+      "gridReference": "SK876868",
+      "label": "Rainfall station",
+      "lat": 53.371241,
+      "long": -0.684077,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-level-stage-i-15_min-mAOD",
@@ -105860,9 +105836,17 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
-      "northing": 104692,
+      "northing": 386850,
       "notation": "E7040",
       "stationReference": "E7040"
     },
@@ -116595,14 +116579,6 @@
       "gridReference": "SU9012",
       "label": "East Dean Butchers Lane GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2825SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2825SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -128383,7 +128359,7 @@
       "riverName": "Kirk Beck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/710200/stageScale",
       "stationReference": "710200",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Bolton by Bowland",
       "wiskiID": "710200"
     },
@@ -140352,6 +140328,48 @@
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E85783/stageScale",
       "stationReference": "E85783",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/693003",
+      "easting": 360844,
+      "gridReference": "SD6084402396",
+      "label": "Platt Bridge Templeton Road",
+      "lat": 53.516759,
+      "long": -2.591979,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/693003-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 402396,
+      "notation": "693003",
+      "stationReference": "693003"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/694025",
+      "easting": 347137,
+      "gridReference": "SD4713701225",
+      "label": "Lower Shades",
+      "lat": 53.505032,
+      "long": -2.798479,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/694025-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 401225,
+      "notation": "694025",
+      "stationReference": "694025"
     }
   ]
 }
