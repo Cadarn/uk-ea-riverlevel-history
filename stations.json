@@ -21127,36 +21127,6 @@
       "stationReference": "E71624"
     },
     {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E24367",
-      "RLOIid": "6078",
-      "catchmentName": "Upper and Bedford Ouse",
-      "dateOpened": "1993-03-01",
-      "datumOffset": 10.8,
-      "easting": 521278,
-      "gridReference": "TL 21278 65722",
-      "label": "Offord",
-      "lat": 52.27627,
-      "long": -0.223832,
-      "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E24367-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
-        }
-      ],
-      "northing": 265722,
-      "notation": "E24367",
-      "riverName": "River Great Ouse",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E24367/stageScale",
-      "stationReference": "E24367",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
-      "town": "Offord Cluny",
-      "wiskiID": "L33026"
-    },
-    {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/700309",
       "RLOIid": "5006",
       "catchmentName": "Ribble Douglas and Crossens",
@@ -61095,6 +61065,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3275-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 304150,
@@ -68071,11 +68049,15 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E61804",
-      "easting": 521675,
-      "gridReference": "TL2167566950",
-      "label": "OFFORD SLUICE AUTOMATION",
-      "lat": 52.287217,
-      "long": -0.217574,
+      "RLOIid": "6078",
+      "catchmentName": "Upper and Bedford Ouse",
+      "dateOpened": "1993-03-01",
+      "datumOffset": 10.8,
+      "easting": 521278,
+      "gridReference": "TL 21278 65722",
+      "label": "Offord",
+      "lat": 52.27627,
+      "long": -0.223832,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E61804-level-stage-i-15_min-mAOD",
@@ -68084,11 +68066,24 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E61804-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
-      "northing": 266950,
+      "northing": 265722,
       "notation": "E61804",
-      "stationReference": "E61804"
+      "riverName": "River Great Ouse",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E61804/stageScale",
+      "stationReference": "E61804",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Offord Cluny",
+      "wiskiID": "L33026"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E22561",
@@ -79132,14 +79127,6 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -79480,14 +79467,6 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -81789,14 +81768,6 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -85135,6 +85106,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1412-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 287250,
@@ -85926,6 +85905,14 @@
       "lat": 50.452659,
       "long": -3.576829,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-level-2-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "m"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/0-level-stage-i-15_min-m",
           "parameter": "level",
@@ -96414,6 +96401,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -104413,14 +104408,6 @@
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/924203-rainfall-tipping_bucket_raingauge-i-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/924203-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
@@ -116596,14 +116583,6 @@
       "gridReference": "SU8716",
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
