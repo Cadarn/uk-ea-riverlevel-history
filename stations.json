@@ -45886,7 +45886,7 @@
       "riverName": "River Kym",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21862/stageScale",
       "stationReference": "E21862",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Hail Weston",
       "wiskiID": "033012"
     },
@@ -68702,14 +68702,6 @@
       "lat": 51.067397,
       "long": -2.269502,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-1-i-15_min-m3_s",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "1",
-          "unitName": "m3/s"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43237-flow-water-i-15_min-m3_s",
           "parameter": "flow",
@@ -140476,6 +140468,27 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Golden Green",
       "wiskiID": "453300001"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E71394",
+      "easting": 245380,
+      "gridReference": "SS4538026960",
+      "label": "BIDEFORD ELLIOTS KINGSLEY ROAD",
+      "lat": 51.021162,
+      "long": -4.205938,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E71394-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 126960,
+      "notation": "E71394",
+      "stationReference": "E71394"
     }
   ]
 }
