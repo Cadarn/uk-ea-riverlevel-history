@@ -1162,7 +1162,7 @@
       "riverName": "River Bollin",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/693426/stageScale",
       "stationReference": "693426",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Prestbury",
       "wiskiID": "693426"
     },
@@ -2672,6 +2672,22 @@
           "period": 900,
           "qualifier": "Downstream Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2062-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2062-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 279011,
@@ -29445,7 +29461,7 @@
       "riverName": "River Ure",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L2201/stageScale",
       "stationReference": "L2201",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Boroughbridge",
       "wiskiID": "L2201"
     },
@@ -79127,6 +79143,14 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -79467,6 +79491,14 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -81752,6 +81784,14 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -116640,6 +116680,14 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -132344,8 +132392,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/L0711",
+      "RLOIid": "10472",
+      "catchmentName": "Don and Rother",
+      "dateOpened": "2022-08-30",
       "easting": 451384,
-      "gridReference": "SK5138498505",
+      "gridReference": "SK5138798508",
       "label": "Conisbrough",
       "lat": 53.480755,
       "long": -1.227185,
@@ -132361,7 +132412,12 @@
       ],
       "northing": 398505,
       "notation": "L0711",
-      "stationReference": "L0711"
+      "riverName": "Kearsley Brook",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/L0711/stageScale",
+      "stationReference": "L0711",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Conisbrough",
+      "wiskiID": "L0711"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/432321",
@@ -140472,6 +140528,27 @@
       "northing": 126960,
       "notation": "E71394",
       "stationReference": "E71394"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/F2313_SL",
+      "easting": 442216,
+      "gridReference": "SE4221676596",
+      "label": "Dalton",
+      "lat": 54.183396,
+      "long": -1.354626,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F2313_SL-level-stage-i-15_min-m3_s",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 476596,
+      "notation": "F2313_SL",
+      "stationReference": "F2313_SL"
     }
   ]
 }
