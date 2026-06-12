@@ -27573,7 +27573,7 @@
       "riverName": "River Ouzel",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21187/stageScale",
       "stationReference": "E21187",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Leighton Buzzard",
       "wiskiID": "033057"
     },
@@ -57557,7 +57557,7 @@
       "riverName": "River Great Ouse",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21493/stageScale",
       "stationReference": "E21493",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Stony Stratford",
       "wiskiID": "U33093"
     },
@@ -63023,12 +63023,12 @@
       "long": 0.877089,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4360-level-stage-i-15_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E4360-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "mAOD"
+          "unitName": "mASD"
         }
       ],
       "northing": 142050,
@@ -64990,14 +64990,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -96678,6 +96670,14 @@
           "parameterName": "Rainfall",
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/261602TP-rainfall-water-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Water",
           "unitName": "mm"
         }
       ],
@@ -140681,6 +140681,27 @@
       "northing": 231450,
       "notation": "E49601",
       "stationReference": "E49601"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/063028",
+      "easting": 415350,
+      "gridReference": "SE153573",
+      "label": "Rainfall station",
+      "lat": 54.011926,
+      "long": -1.767248,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/063028-rainfall-tipping_bucket_raingauge-i-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 457350,
+      "notation": "063028",
+      "stationReference": "063028"
     }
   ]
 }
