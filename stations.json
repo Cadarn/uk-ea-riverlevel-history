@@ -52807,7 +52807,7 @@
       "riverName": "River Sprint",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/730203/stageScale",
       "stationReference": "730203",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Burneside",
       "wiskiID": "730203"
     },
@@ -77291,14 +77291,6 @@
       "long": 1.192003,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23235-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23235-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -80404,6 +80396,14 @@
       "label": "COMPTON GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -80973,6 +80973,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/44246-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 85230,
@@ -97583,6 +97591,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/261602TP-rainfall-water-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "mm"
         }
       ],
       "northing": 209050,
@@ -106522,6 +106538,14 @@
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/079621-rainfall-tipping_bucket_raingauge-i-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/079621-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
@@ -117657,6 +117681,14 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -124683,6 +124715,14 @@
       "long": -2.276078,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/445930-level-1-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "mASD"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/445930-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -125153,14 +125193,6 @@
       "lat": 52.241997,
       "long": 0.710692,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E46651-level-stage-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Stage",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E46651-level-stage-i-1_h-mAOD",
           "parameter": "level",
@@ -142002,6 +142034,27 @@
       "northing": 129407,
       "notation": "SS92F051",
       "stationReference": "SS92F051"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E77275",
+      "easting": 209882,
+      "gridReference": "SX0988291254",
+      "label": "BOSCASTLE COUNTY BRIDGE",
+      "lat": 50.68979,
+      "long": -4.692972,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E77275-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 91254,
+      "notation": "E77275",
+      "stationReference": "E77275"
     }
   ]
 }
