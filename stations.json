@@ -52807,7 +52807,7 @@
       "riverName": "River Sprint",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/730203/stageScale",
       "stationReference": "730203",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Burneside",
       "wiskiID": "730203"
     },
@@ -79165,14 +79165,6 @@
           "period": 900,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43181-level-groundwater-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mASD"
         }
       ],
       "notation": "43181",
@@ -80395,14 +80387,6 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -106853,11 +106837,7 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/52150",
-      "easting": 354950,
-      "gridReference": "ST549231",
       "label": "Rainfall station",
-      "lat": 51.005958,
-      "long": -2.643449,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/52150-rainfall-tipping_bucket_raingauge-t-1_h-mm",
@@ -106868,7 +106848,6 @@
           "unitName": "mm"
         }
       ],
-      "northing": 123150,
       "notation": "52150",
       "stationReference": "52150"
     },
@@ -117680,14 +117659,6 @@
       "gridReference": "SU8716",
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -139921,6 +139892,14 @@
       "lat": 51.757886,
       "long": -0.475121,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2840TH-flow--i-15_min-V",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "V"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2840TH-flow--i-15_min-m3_s",
           "parameter": "flow",
