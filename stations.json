@@ -65875,6 +65875,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -78442,8 +78450,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/26105",
-      "gridReference": "SJ6623",
+      "easting": 366500,
+      "gridReference": "SJ6650023340",
       "label": "Childs Ercall ABH",
+      "lat": 52.806553,
+      "long": -2.49838,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26105-flow-1-i-1_h-Ml_d",
@@ -78452,16 +78463,9 @@
           "period": 3600,
           "qualifier": "1",
           "unitName": "Ml/d"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26105-level-groundwater-i-1_h-mBDAT",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mBDAT"
         }
       ],
+      "northing": 323340,
       "notation": "26105",
       "stationReference": "26105"
     },
@@ -79194,6 +79198,14 @@
           "period": 900,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43181-level-groundwater-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mASD"
         }
       ],
       "notation": "43181",
@@ -81131,12 +81143,12 @@
       "label": "FOXTON BOREHOLE",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21775-level-groundwater-i-15_min-m",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E21775-level-groundwater-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Groundwater",
-          "unitName": "m"
+          "unitName": "mASD"
         }
       ],
       "notation": "E21775",
