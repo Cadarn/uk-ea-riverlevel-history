@@ -65864,18 +65864,10 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4387TH",
       "easting": 541335,
       "gridReference": "TQ41337451",
-      "label": "Eltham Palace Road FD",
+      "label": "Eltham Palace Road FWS",
       "lat": 51.45198,
       "long": 0.032669,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
           "parameter": "level",
@@ -68323,12 +68315,12 @@
       "long": 1.16925,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3400-level-stage-i-15_min-mAOD",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3400-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "mAOD"
+          "unitName": "mASD"
         }
       ],
       "northing": 157550,
@@ -87952,12 +87944,12 @@
       "long": 1.16925,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-flow--i-15_min-m3_s",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E3403-flow--i-15_min-m_s",
           "parameter": "flow",
           "parameterName": "Flow",
           "period": 900,
           "qualifier": "",
-          "unitName": "m3/s"
+          "unitName": "m/s"
         }
       ],
       "northing": 157550,
