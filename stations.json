@@ -68006,11 +68006,11 @@
       "long": -2.41251,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43229-flow-1-i-15_min-m3_s",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43229-flow-water-i-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
           "period": 900,
-          "qualifier": "1",
+          "qualifier": "Water",
           "unitName": "m3/s"
         }
       ],
@@ -79206,14 +79206,6 @@
           "period": 900,
           "qualifier": "Groundwater",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/43181-level-groundwater-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mASD"
         }
       ],
       "notation": "43181",
@@ -120345,11 +120337,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/151816001",
-      "easting": 435406,
-      "gridReference": "SU3540618864",
-      "label": "Romsey Broadlands Estate",
-      "lat": 50.968109,
-      "long": -1.497147,
+      "easting": 435450,
+      "gridReference": "SU354188",
+      "label": "Rainfall station",
+      "lat": 50.967981,
+      "long": -1.496522,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/151816001-level-stage-i-15_min-mBDAT",
@@ -120368,7 +120360,7 @@
           "unitName": "deg C"
         }
       ],
-      "northing": 118864,
+      "northing": 118850,
       "notation": "151816001",
       "stationReference": "151816001"
     },
