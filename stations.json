@@ -60167,6 +60167,14 @@
       "long": -1.506572,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4117-level-1-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "m"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4117-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -142133,6 +142141,35 @@
       "northing": 84000,
       "notation": "E16528",
       "stationReference": "E16528"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/8483SE",
+      "easting": 557926,
+      "gridReference": "TQ5792647498",
+      "label": "Hildenborough FAS",
+      "lat": 51.204861,
+      "long": 0.259287,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/8483SE-level-downstage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Downstream Stage",
+          "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/8483SE-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        }
+      ],
+      "northing": 147498,
+      "notation": "8483SE",
+      "stationReference": "8483SE"
     }
   ]
 }
