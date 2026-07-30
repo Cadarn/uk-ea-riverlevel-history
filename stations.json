@@ -7853,11 +7853,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/690232",
-      "easting": 388690,
-      "gridReference": "SD8869018570",
+      "easting": 388695,
+      "gridReference": "SD88691857",
       "label": "Whitworth",
-      "lat": 53.663477,
-      "long": -2.172627,
+      "lat": 53.663522,
+      "long": -2.172551,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690232-level-downstage-i-15_min-m",
@@ -7876,7 +7876,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 418570,
+      "northing": 418575,
       "notation": "690232",
       "stationReference": "690232"
     },
@@ -15365,7 +15365,7 @@
       "riverName": "River Wansbeck",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/022007/stageScale",
       "stationReference": "022007",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Mitford",
       "wiskiID": "022007"
     },
@@ -42181,7 +42181,7 @@
       "riverName": "Clipstone Brook",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E21987/stageScale",
       "stationReference": "E21987",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Leighton Buzzard",
       "wiskiID": "033090"
     },
@@ -79662,11 +79662,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/5484TH",
-      "easting": 544025,
-      "gridReference": "TQ4402584726",
+      "easting": 545205,
+      "gridReference": "TQ45208290",
       "label": "Loxford Sluices FD",
-      "lat": 51.543054,
-      "long": 0.07552,
+      "lat": 51.52639,
+      "long": 0.091773,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/5484TH-level-1-i-15_min-mAOD",
@@ -79693,7 +79693,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 184726,
+      "northing": 182905,
       "notation": "5484TH",
       "stationReference": "5484TH"
     },
@@ -79860,6 +79860,14 @@
       "gridReference": "SU6142",
       "label": "PRESTON CANDOVER GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E13180-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E13180-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -80136,6 +80144,14 @@
       "gridReference": "SU4224",
       "label": "HURSLEY GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -80477,6 +80493,14 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -82812,6 +82836,14 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -109900,6 +109932,14 @@
       "long": 0.289494,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8020-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8020-rainfall-water-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -117764,6 +117804,14 @@
       "gridReference": "SU8716",
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -133601,7 +133649,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/9609SO",
       "easting": 538344,
       "gridReference": "TQ3834452991",
-      "label": "Oxted Folkstone GWL",
+      "label": "Oxted Hythe GWL",
       "lat": 51.259298,
       "long": -0.018712,
       "measures": [
@@ -142420,6 +142468,27 @@
       "stationReference": "692718",
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "wiskiID": "692718"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/169228",
+      "easting": 471250,
+      "gridReference": "SP712357",
+      "label": "Rainfall station",
+      "lat": 52.015604,
+      "long": -0.963195,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/169228-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 235750,
+      "notation": "169228",
+      "stationReference": "169228"
     }
   ]
 }
