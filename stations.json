@@ -7853,11 +7853,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/690232",
-      "easting": 388695,
-      "gridReference": "SD88691857",
+      "easting": 388690,
+      "gridReference": "SD8869018570",
       "label": "Whitworth",
-      "lat": 53.663522,
-      "long": -2.172551,
+      "lat": 53.663477,
+      "long": -2.172627,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690232-level-downstage-i-15_min-m",
@@ -7876,7 +7876,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 418575,
+      "northing": 418570,
       "notation": "690232",
       "stationReference": "690232"
     },
@@ -59299,7 +59299,7 @@
       "riverName": "River Isbourne",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/2711/stageScale",
       "stationReference": "2711",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Sedgeberrow",
       "wiskiID": "2711"
     },
@@ -65825,7 +65825,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/47174",
       "easting": 228319,
       "gridReference": "SS2831905513",
-      "label": "TAMARSTONE BRIDGE",
+      "label": "Tamarstone Bridge",
       "lat": 50.823636,
       "long": -4.438867,
       "measures": [
@@ -65888,18 +65888,10 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4387TH",
       "easting": 541335,
       "gridReference": "TQ41337451",
-      "label": "Eltham Palace Road FD",
+      "label": "Eltham Palace Road FWS",
       "lat": 51.45198,
       "long": 0.032669,
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
           "parameter": "level",
@@ -70642,7 +70634,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/52233",
       "easting": 340941,
       "gridReference": "ST4094127592",
-      "label": "MONKS LEAZE",
+      "label": "Monks Leaze RL",
       "lat": 51.044626,
       "long": -2.84382,
       "measures": [
@@ -71313,11 +71305,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/53152",
-      "easting": 372440,
-      "gridReference": "ST7244064862",
+      "easting": 372400,
+      "gridReference": "ST7240064900",
       "label": "BATH TWERTON GATE RADIAL",
-      "lat": 51.382127,
-      "long": -2.397394,
+      "lat": 51.382466,
+      "long": -2.397972,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/53152-level-downstage-i-15_min-mAOD",
@@ -71328,7 +71320,7 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 164862,
+      "northing": 164900,
       "notation": "53152",
       "stationReference": "53152"
     },
@@ -80145,14 +80137,6 @@
       "label": "HURSLEY GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E12770-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -80493,14 +80477,6 @@
       "gridReference": "SU7714",
       "label": "COMPTON GWL",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E11070-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
@@ -82836,14 +82812,6 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "mBDAT"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/7050-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "notation": "7050",
@@ -85645,8 +85613,8 @@
       "easting": 341549,
       "gridReference": "ST4154926802",
       "label": "LANGPORT GREAT BOW",
-      "lat": 51.0375855002858,
-      "long": -2.8350199309979702,
+      "lat": 51.037586,
+      "long": -2.83502,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/52231-flow-water-i-15_min-m3_s",
@@ -85683,8 +85651,8 @@
       "easting": 341549,
       "gridReference": "ST4154926802",
       "label": "LANGPORT GREAT BOW",
-      "lat": 51.0375855002858,
-      "long": -2.8350199309979702,
+      "lat": 51.037586,
+      "long": -2.83502,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/52230-level-stage-i-15_min-m",
@@ -117805,14 +117773,6 @@
       "label": "Cocking Hoefield Lane GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-Event-1_h-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2826SO-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -138877,6 +138837,14 @@
       "long": -1.41933,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1090TH-level-stage-i-15_min-V",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "V"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1090TH-level-stage-i-15_min-mASD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -142489,6 +142457,321 @@
       "northing": 235750,
       "notation": "169228",
       "stationReference": "169228"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E74093",
+      "easting": 220860,
+      "gridReference": "SS2086007169",
+      "label": "BUDE KENWYN CLOSE",
+      "lat": 50.836252,
+      "long": -4.545469,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E74093-level-stage-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "m"
+        }
+      ],
+      "northing": 107169,
+      "notation": "E74093",
+      "stationReference": "E74093"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E45744",
+      "easting": 252141,
+      "gridReference": "SX5214161175",
+      "label": "CARNWOOD",
+      "lat": 50.431758,
+      "long": -4.083214,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E45744-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 61175,
+      "notation": "E45744",
+      "stationReference": "E45744"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E73736",
+      "easting": 295862,
+      "gridReference": "SX9586276675",
+      "label": "DAWLISH",
+      "lat": 50.580497,
+      "long": -3.472207,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E73736-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 76675,
+      "notation": "E73736",
+      "stationReference": "E73736"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E44975",
+      "easting": 182866,
+      "gridReference": "SW8286659268",
+      "label": "GWILLS",
+      "lat": 50.393097,
+      "long": -5.056267,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E44975-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 59268,
+      "notation": "E44975",
+      "stationReference": "E44975"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E81836",
+      "easting": 264160,
+      "gridReference": "SX6416053210",
+      "label": "ERMINGTON",
+      "lat": 50.363074,
+      "long": -3.911208,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E81836-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 53210,
+      "notation": "E81836",
+      "stationReference": "E81836"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E73973",
+      "easting": 308665,
+      "gridReference": "SY0866588437",
+      "label": "DOTTON",
+      "lat": 50.688388,
+      "long": -3.294331,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E73973-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 88437,
+      "notation": "E73973",
+      "stationReference": "E73973"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E81805",
+      "easting": 249977,
+      "gridReference": "SS4997718498",
+      "label": "TORRINGTON",
+      "lat": 50.946342,
+      "long": -4.136948,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E81805-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 118498,
+      "notation": "E81805",
+      "stationReference": "E81805"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E46173",
+      "easting": 150465,
+      "gridReference": "SW5046539860",
+      "label": "ST IVES CONSOLS FARM",
+      "lat": 50.206022,
+      "long": -5.49846,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E46173-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 39860,
+      "notation": "E46173",
+      "stationReference": "E46173"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E16529",
+      "easting": 354986,
+      "gridReference": "SY5498690342",
+      "label": "LITTON CHENEY DL",
+      "lat": 50.710956,
+      "long": -2.638891,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E16529-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 90342,
+      "notation": "E16529",
+      "stationReference": "E16529"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E44973",
+      "easting": 229956,
+      "gridReference": "SX2995659471",
+      "label": "TREBROWNBRIDGE",
+      "lat": 50.410438,
+      "long": -4.394536,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E44973-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 59471,
+      "notation": "E44973",
+      "stationReference": "E44973"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E45728",
+      "easting": 154881,
+      "gridReference": "SW5488134171",
+      "label": "ST ERTH",
+      "lat": 50.156796,
+      "long": -5.433024,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E45728-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 34171,
+      "notation": "E45728",
+      "stationReference": "E45728"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E46193",
+      "easting": 200707,
+      "gridReference": "SX0070749476",
+      "label": "MOLINGEY",
+      "lat": 50.311462,
+      "long": -4.800407,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E46193-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 49476,
+      "notation": "E46193",
+      "stationReference": "E46193"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E45746",
+      "easting": 209796,
+      "gridReference": "SX0979662454",
+      "label": "RESTORMEL",
+      "lat": 50.431052,
+      "long": -4.679467,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E45746-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 62454,
+      "notation": "E45746",
+      "stationReference": "E45746"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E44963",
+      "easting": 257416,
+      "gridReference": "SX5741651110",
+      "label": "PUSLINCH",
+      "lat": 50.342604,
+      "long": -4.00517,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E44963-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 51110,
+      "notation": "E44963",
+      "stationReference": "E44963"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E16543",
+      "easting": 418359,
+      "gridReference": "SZ1835993409",
+      "label": "SOMERFORD",
+      "lat": 50.740001,
+      "long": -1.741179,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E16543-flow-water-i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "Water",
+          "unitName": "m3/s"
+        }
+      ],
+      "northing": 93409,
+      "notation": "E16543",
+      "stationReference": "E16543"
     }
   ]
 }
