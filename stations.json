@@ -7861,11 +7861,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/690232",
-      "easting": 388690,
-      "gridReference": "SD8869018570",
+      "easting": 388695,
+      "gridReference": "SD88691857",
       "label": "Whitworth",
-      "lat": 53.663477,
-      "long": -2.172627,
+      "lat": 53.663522,
+      "long": -2.172551,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690232-level-downstage-i-15_min-m",
@@ -7884,7 +7884,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 418570,
+      "northing": 418575,
       "notation": "690232",
       "stationReference": "690232"
     },
@@ -106549,6 +106549,14 @@
       "long": -1.667505,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/079621-rainfall-tipping_bucket_raingauge-i-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/079621-rainfall-tipping_bucket_raingauge-t-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
@@ -131994,14 +132002,6 @@
       "long": -0.682303,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7300-level-stage-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7300-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -133384,14 +133384,6 @@
           "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SE71739-level-tidal_level-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Tidal Level",
-          "unitName": "m"
         }
       ],
       "northing": 100040,
@@ -142633,6 +142625,27 @@
       "northing": 146383,
       "notation": "E73936",
       "stationReference": "E73936"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E73000",
+      "easting": 566210,
+      "gridReference": "TQ6621004299",
+      "label": "PEVENSEY WIND GAUGE",
+      "lat": 50.814391,
+      "long": 0.357993,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E73000-wind-speed-i-15_min-m_s",
+          "parameter": "wind",
+          "parameterName": "Wind",
+          "period": 900,
+          "qualifier": "Speed",
+          "unitName": "m/s"
+        }
+      ],
+      "northing": 104299,
+      "notation": "E73000",
+      "stationReference": "E73000"
     }
   ]
 }
