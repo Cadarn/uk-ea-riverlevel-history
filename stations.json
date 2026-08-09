@@ -7861,11 +7861,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/690232",
-      "easting": 388695,
-      "gridReference": "SD88691857",
+      "easting": 388690,
+      "gridReference": "SD8869018570",
       "label": "Whitworth",
-      "lat": 53.663522,
-      "long": -2.172551,
+      "lat": 53.663477,
+      "long": -2.172627,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690232-level-downstage-i-15_min-m",
@@ -7884,7 +7884,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 418575,
+      "northing": 418570,
       "notation": "690232",
       "stationReference": "690232"
     },
@@ -72965,14 +72965,6 @@
       "label": "LADIES MILE GWL",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8750-level-groundwater-i-15_min-mAOD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "mAOD"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8750-level-groundwater-i-1_h-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -106886,11 +106878,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7040",
-      "easting": 558652,
-      "gridReference": "TQ5865204692",
-      "label": "WANNOCK MILL RL",
-      "lat": 50.82004,
-      "long": 0.250967,
+      "easting": 487650,
+      "gridReference": "SK876868",
+      "label": "Rainfall station",
+      "lat": 53.371241,
+      "long": -0.684077,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-level-stage-i-15_min-mAOD",
@@ -106899,9 +106891,17 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
-      "northing": 104692,
+      "northing": 386850,
       "notation": "E7040",
       "stationReference": "E7040"
     },
