@@ -62054,14 +62054,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3275-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 304150,
@@ -86110,14 +86102,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1412-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 287250,
@@ -97501,14 +97485,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -106926,11 +106902,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7040",
-      "easting": 487650,
-      "gridReference": "SK876868",
-      "label": "Rainfall station",
-      "lat": 53.371241,
-      "long": -0.684077,
+      "easting": 558652,
+      "gridReference": "TQ5865204692",
+      "label": "WANNOCK MILL RL",
+      "lat": 50.82004,
+      "long": 0.250967,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-level-stage-i-15_min-mAOD",
@@ -106939,17 +106915,9 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
-      "northing": 386850,
+      "northing": 104692,
       "notation": "E7040",
       "stationReference": "E7040"
     },
@@ -141851,11 +141819,11 @@
       "long": -1.354626,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F2313_SL-level-stage-i-15_min-m3_s",
-          "parameter": "level",
-          "parameterName": "Water Level",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F2313_SL-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
           "period": 900,
-          "qualifier": "Stage",
+          "qualifier": "",
           "unitName": "m3/s"
         }
       ],
@@ -142736,6 +142704,27 @@
       "northing": 183704,
       "notation": "2654TH",
       "stationReference": "2654TH"
+    },
+    {
+      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/048718",
+      "easting": 418350,
+      "gridReference": "SE183488",
+      "label": "Rainfall station",
+      "lat": 53.935435,
+      "long": -1.721979,
+      "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/048718-rainfall-tipping_bucket_raingauge-i-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
+        }
+      ],
+      "northing": 448850,
+      "notation": "048718",
+      "stationReference": "048718"
     }
   ]
 }
