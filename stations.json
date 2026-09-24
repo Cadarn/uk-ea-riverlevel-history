@@ -62149,14 +62149,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3275-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 304150,
@@ -66047,10 +66039,18 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4387TH",
       "easting": 541335,
       "gridReference": "TQ41337451",
-      "label": "Eltham Palace Road FWS",
+      "label": "Eltham Palace Road FD",
       "lat": 51.45198,
       "long": 0.032669,
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mAOD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mAOD"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
           "parameter": "level",
@@ -81457,11 +81457,8 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2889",
-      "easting": 335000,
-      "gridReference": "SJ3500021700",
+      "gridReference": "SJ3521",
       "label": "Great Bolas ABH",
-      "lat": 52.788929,
-      "long": -2.965277,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2889-flow-1-i-1_h-Ml_d",
@@ -81480,7 +81477,6 @@
           "unitName": "mBDAT"
         }
       ],
-      "northing": 321700,
       "notation": "2889",
       "stationReference": "2889"
     },
@@ -81944,14 +81940,6 @@
       "label": "Cotton Farm ABH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2890-flow-1-i-1_h-Ml_d",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "Ml/d"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2890-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -81999,11 +81987,8 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/26119",
-      "easting": 343110,
-      "gridReference": "SJ4311019820",
+      "gridReference": "SJ4319",
       "label": "Frankbrook ABH",
-      "lat": 52.772949,
-      "long": -2.844707,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26119-flow-1-i-1_h-Ml_d",
@@ -82012,9 +81997,16 @@
           "period": 3600,
           "qualifier": "1",
           "unitName": "Ml/d"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26119-level-groundwater-i-1_h-mBDAT",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 3600,
+          "qualifier": "Groundwater",
+          "unitName": "mBDAT"
         }
       ],
-      "northing": 319820,
       "notation": "26119",
       "stationReference": "26119"
     },
@@ -86221,14 +86213,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1412-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 287250,
@@ -86904,14 +86888,6 @@
       "gridReference": "SJ6024",
       "label": "Heath House ABH",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-flow-1-i-15_min-Ml_d",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "1",
-          "unitName": "Ml/d"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
@@ -97612,14 +97588,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -133439,6 +133407,14 @@
           "period": 900,
           "qualifier": "Tidal Level",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SE71739-level-tidal_level-i-15_min-m",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Tidal Level",
+          "unitName": "m"
         }
       ],
       "northing": 100040,
@@ -141294,7 +141270,7 @@
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4705",
       "easting": 410160,
       "gridReference": "SP1016089761",
-      "label": "Birmingham Nechells Walker Drive",
+      "label": "Walker Drive",
       "lat": 52.505644,
       "long": -1.851738,
       "measures": [
@@ -141313,11 +141289,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/4704",
-      "easting": 408212,
-      "gridReference": "SP0821290899",
-      "label": "Birmingham Witton Atlas Bridge",
-      "lat": 52.515907,
-      "long": -1.88041,
+      "easting": 408198,
+      "gridReference": "SP0819890904",
+      "label": "Atlas Bridge",
+      "lat": 52.515952,
+      "long": -1.880616,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4704-level-stage-i-15_min-mAOD",
@@ -141328,7 +141304,7 @@
           "unitName": "mAOD"
         }
       ],
-      "northing": 290899,
+      "northing": 290904,
       "notation": "4704",
       "stationReference": "4704"
     },
@@ -141692,11 +141668,11 @@
       "long": -2.795088,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26121-flow-1-i-15_min-Ml_d",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26121-flow--i-15_min-Ml_d",
           "parameter": "flow",
           "parameterName": "Flow",
           "period": 900,
-          "qualifier": "1",
+          "qualifier": "",
           "unitName": "Ml/d"
         }
       ],
