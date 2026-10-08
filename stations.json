@@ -9826,6 +9826,14 @@
       "long": -1.283492,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4427-flow--i-15_min-m3_s",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "",
+          "unitName": "m3/s"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4427-flow--t-15_min-m3_s",
           "parameter": "flow",
           "parameterName": "Flow",
@@ -17412,6 +17420,14 @@
           "period": 900,
           "qualifier": "",
           "unitName": "m3/s"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2032-level-stage-i-15_min-V",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "V"
         },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2032-level-stage-i-15_min-mASD",
@@ -37153,7 +37169,7 @@
       "riverName": "River Arun",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E9520/stageScale",
       "stationReference": "E9520",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Arundel",
       "wiskiID": "254130001"
     },
@@ -62189,14 +62205,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3275-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 304150,
@@ -68418,11 +68426,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/3014",
-      "easting": 387850,
-      "gridReference": "SJ878321",
+      "easting": 387750,
+      "gridReference": "SJ877320",
       "label": "Rainfall station",
-      "lat": 52.886657,
-      "long": -2.182004,
+      "lat": 52.885755,
+      "long": -2.183487,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3014-rainfall-tipping_bucket_raingauge-t-15_min-mm",
@@ -68431,17 +68439,9 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3014-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
-      "northing": 332150,
+      "northing": 332050,
       "notation": "3014",
       "stationReference": "3014"
     },
@@ -80284,14 +80284,6 @@
       "label": "Hadnall ABH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2878B-flow-1-i-1_h-Ml_d",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "Ml/d"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2878B-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82024,14 +82016,6 @@
       "label": "Cotton Farm ABH",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2890-flow-1-i-1_h-Ml_d",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "Ml/d"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2890-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82082,6 +82066,14 @@
       "gridReference": "SJ4319",
       "label": "Frankbrook ABH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26119-flow-1-i-1_h-Ml_d",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 3600,
+          "qualifier": "1",
+          "unitName": "Ml/d"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26119-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
@@ -86345,14 +86337,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1412-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 287250,
@@ -87028,14 +87012,6 @@
       "gridReference": "SJ6024",
       "label": "Heath House ABH",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-flow-1-i-15_min-Ml_d",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "1",
-          "unitName": "Ml/d"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
@@ -90064,7 +90040,7 @@
       "riverName": "Barnham Rife",
       "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E10924/stageScale",
       "stationReference": "E10924",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
       "town": "Barnham",
       "wiskiID": "255422421"
     },
@@ -106554,6 +106530,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/075233-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
       "northing": 433450,
@@ -107137,11 +107121,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E7040",
-      "easting": 487650,
-      "gridReference": "SK876868",
-      "label": "Rainfall station",
-      "lat": 53.371241,
-      "long": -0.684077,
+      "easting": 558652,
+      "gridReference": "TQ5865204692",
+      "label": "WANNOCK MILL RL",
+      "lat": 50.82004,
+      "long": 0.250967,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-level-stage-i-15_min-mAOD",
@@ -107150,17 +107134,9 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E7040-rainfall-tipping_bucket_raingauge-t-15_min-mm",
-          "parameter": "rainfall",
-          "parameterName": "Rainfall",
-          "period": 900,
-          "qualifier": "Tipping Bucket Raingauge",
-          "unitName": "mm"
         }
       ],
-      "northing": 386850,
+      "northing": 104692,
       "notation": "E7040",
       "stationReference": "E7040"
     },
@@ -130956,6 +130932,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/075497-rainfall-tipping_bucket_raingauge-t-15_min-mm",
+          "parameter": "rainfall",
+          "parameterName": "Rainfall",
+          "period": 900,
+          "qualifier": "Tipping Bucket Raingauge",
+          "unitName": "mm"
         }
       ],
       "northing": 435450,
@@ -141633,11 +141617,8 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/26120",
-      "easting": 352470,
-      "gridReference": "SJ5247014270",
+      "gridReference": "SJ5214",
       "label": "Leaton Knolls LVL",
-      "lat": 52.723967,
-      "long": -2.705171,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26120-flow--i-15_min-Ml_d",
@@ -141656,7 +141637,6 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 314270,
       "notation": "26120",
       "stationReference": "26120"
     },
