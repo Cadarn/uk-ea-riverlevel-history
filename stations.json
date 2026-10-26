@@ -68478,6 +68478,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3014-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 332050,
@@ -80307,6 +80315,14 @@
       "label": "Hadnall ABH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2878B-flow-1-i-1_h-Ml_d",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 3600,
+          "qualifier": "1",
+          "unitName": "Ml/d"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/2878B-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -82089,14 +82105,6 @@
       "gridReference": "SJ4319",
       "label": "Frankbrook ABH",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26119-flow-1-i-1_h-Ml_d",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "Ml/d"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26119-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
@@ -86995,14 +87003,6 @@
       "gridReference": "SJ6024",
       "label": "Heath House ABH",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-flow-1-i-15_min-Ml_d",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "1",
-          "unitName": "Ml/d"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
@@ -97703,14 +97703,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
