@@ -43384,6 +43384,14 @@
       "long": -0.683513,
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2662-level-stage-i-15_min-V",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "V"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E2662-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -72537,11 +72545,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/F3507",
-      "easting": 381300,
-      "gridReference": "NY8130028800",
-      "label": "Cow Green",
-      "lat": 54.65393,
-      "long": -2.291344,
+      "easting": 381353,
+      "gridReference": "NY8135328979",
+      "label": "Cow Green Flow",
+      "lat": 54.65554,
+      "long": -2.290534,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F3507-level-stage-i-15_min-mASD",
@@ -72552,7 +72560,7 @@
           "unitName": "mASD"
         }
       ],
-      "northing": 528800,
+      "northing": 528979,
       "notation": "F3507",
       "stationReference": "F3507"
     },
@@ -82106,6 +82114,14 @@
       "label": "Frankbrook ABH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26119-flow-1-i-1_h-Ml_d",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 3600,
+          "qualifier": "1",
+          "unitName": "Ml/d"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26119-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -87003,6 +87019,14 @@
       "gridReference": "SJ6024",
       "label": "Heath House ABH",
       "measures": [
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-flow-1-i-15_min-Ml_d",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 900,
+          "qualifier": "1",
+          "unitName": "Ml/d"
+        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
@@ -133541,11 +133565,11 @@
       "long": -1.746153,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3340-rainfall-water-i-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3340-rainfall-tipping_bucket_raingauge-i-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Water",
+          "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
         }
       ],
