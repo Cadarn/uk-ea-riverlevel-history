@@ -10265,6 +10265,14 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E23705-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
       "northing": 311976,
@@ -30931,6 +30939,14 @@
           "period": 900,
           "qualifier": "2",
           "unitName": "m"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/46123-level-2-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "2",
+          "unitName": "mASD"
         }
       ],
       "northing": 77560,
@@ -30941,35 +30957,6 @@
       "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
       "town": "Bellever",
       "wiskiID": "SX67F051"
-    },
-    {
-      "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E8312",
-      "RLOIid": "1100",
-      "catchmentName": "Ouse",
-      "dateOpened": "1999-11-17",
-      "datumOffset": 5.233,
-      "easting": 543740,
-      "label": "Barcombe",
-      "lat": 50.915667,
-      "long": 0.043425,
-      "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E8312-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
-        }
-      ],
-      "northing": 114900,
-      "notation": "E8312",
-      "riverName": "River Ouse",
-      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/E8312/stageScale",
-      "stationReference": "E8312",
-      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusSuspended",
-      "town": "Barcombe",
-      "wiskiID": "352710066"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/2832",
@@ -66169,14 +66156,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -76131,14 +76110,6 @@
           "period": 3600,
           "qualifier": "Groundwater",
           "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ54_102-level-groundwater-i-30_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 1800,
-          "qualifier": "Groundwater",
-          "unitName": "m"
         }
       ],
       "notation": "SJ54_102",
@@ -82130,6 +82101,14 @@
       "label": "Frankbrook ABH",
       "measures": [
         {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26119-flow-1-i-1_h-Ml_d",
+          "parameter": "flow",
+          "parameterName": "Flow",
+          "period": 3600,
+          "qualifier": "1",
+          "unitName": "Ml/d"
+        },
+        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26119-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83238,14 +83217,6 @@
       "label": "Myddleton Lane",
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ69_133-level-1-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ69_133-level-groundwater-i-1_h-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -83755,14 +83726,6 @@
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 3600,
-          "qualifier": "Groundwater",
-          "unitName": "m"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ45_160-level-groundwater-i-30_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 1800,
           "qualifier": "Groundwater",
           "unitName": "m"
         }
@@ -84506,14 +84469,6 @@
       "gridReference": "SJ5166",
       "label": "Priors Heyes",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-15_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Groundwater",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ56_46-level-groundwater-i-1_h-m",
           "parameter": "level",
@@ -85344,14 +85299,6 @@
       "gridReference": "SJ5794",
       "label": "Sankey Valley Ind Est",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-1-i-1_h-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 3600,
-          "qualifier": "1",
-          "unitName": "m"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/SJ59_184-level-groundwater-i-1_h-m",
           "parameter": "level",
@@ -130381,14 +130328,6 @@
       "long": -2.344082,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1486-level-1-i-5_min-m",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 300,
-          "qualifier": "1",
-          "unitName": "m"
-        },
-        {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E1486-level-stage-i-15_min-m",
           "parameter": "level",
           "parameterName": "Water Level",
@@ -143298,11 +143237,14 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/8635SE",
-      "easting": 543745,
-      "gridReference": "TQ43741489",
-      "label": "Barcombe USGS",
-      "lat": 50.915621,
-      "long": 0.043495,
+      "RLOIid": "1100",
+      "catchmentName": "Ouse",
+      "dateOpened": "1999-11-17",
+      "datumOffset": 5.233,
+      "easting": 543740,
+      "label": "Barcombe",
+      "lat": 50.915667,
+      "long": 0.043425,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/8635SE-flow--i-15_min-m3_s",
@@ -143319,11 +143261,24 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/8635SE-level-stage-i-15_min-mASD",
+          "parameter": "level",
+          "parameterName": "Water Level",
+          "period": 900,
+          "qualifier": "Stage",
+          "unitName": "mASD"
         }
       ],
-      "northing": 114895,
+      "northing": 114900,
       "notation": "8635SE",
-      "stationReference": "8635SE"
+      "riverName": "River Ouse",
+      "stageScale": "http://environment.data.gov.uk/flood-monitoring/id/stations/8635SE/stageScale",
+      "stationReference": "8635SE",
+      "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+      "town": "Barcombe",
+      "wiskiID": "352710066"
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/795529",
