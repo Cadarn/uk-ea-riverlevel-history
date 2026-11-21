@@ -64785,14 +64785,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3307-temperature-dry_bulb-i-15_min-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 900,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 366650,
@@ -66188,14 +66180,6 @@
           "period": 900,
           "qualifier": "Stage",
           "unitName": "mAOD"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/4387TH-level-stage-i-15_min-mASD",
-          "parameter": "level",
-          "parameterName": "Water Level",
-          "period": 900,
-          "qualifier": "Stage",
-          "unitName": "mASD"
         }
       ],
       "northing": 174515,
@@ -86367,6 +86351,14 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
+        },
+        {
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1412-temperature-dry_bulb-i-1_h-deg_C",
+          "parameter": "temperature",
+          "parameterName": "Temperature",
+          "period": 3600,
+          "qualifier": "Dry Bulb",
+          "unitName": "deg C"
         }
       ],
       "northing": 287250,
@@ -87042,14 +87034,6 @@
       "gridReference": "SJ6024",
       "label": "Heath House ABH",
       "measures": [
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-flow-1-i-15_min-Ml_d",
-          "parameter": "flow",
-          "parameterName": "Flow",
-          "period": 900,
-          "qualifier": "1",
-          "unitName": "Ml/d"
-        },
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/26144-level-groundwater-i-1_h-mBDAT",
           "parameter": "level",
@@ -97758,14 +97742,6 @@
           "period": 900,
           "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
-        },
-        {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/1413-temperature-dry_bulb-i-1_h-deg_C",
-          "parameter": "temperature",
-          "parameterName": "Temperature",
-          "period": 3600,
-          "qualifier": "Dry Bulb",
-          "unitName": "deg C"
         }
       ],
       "northing": 269750,
@@ -117351,11 +117327,11 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/690554",
-      "easting": 381839,
-      "gridReference": "SD8183900960",
-      "label": "Castle Irwell Inlet",
-      "lat": 53.505001,
-      "long": -2.275273,
+      "easting": 382406,
+      "gridReference": "SD8240601280",
+      "label": "Castle Irwell Basin",
+      "lat": 53.507896,
+      "long": -2.266743,
       "measures": [
         {
           "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/690554-level-logged-i-15_min-m",
@@ -117374,7 +117350,7 @@
           "unitName": "m"
         }
       ],
-      "northing": 400960,
+      "northing": 401280,
       "notation": "690554",
       "stationReference": "690554"
     },
@@ -125505,12 +125481,12 @@
       "long": -1.661996,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F1601-level-stage-i-15_min-m",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/F1601-level-stage-i-15_min-mAOD",
           "parameter": "level",
           "parameterName": "Water Level",
           "period": 900,
           "qualifier": "Stage",
-          "unitName": "m"
+          "unitName": "mAOD"
         }
       ],
       "northing": 436904,
@@ -133621,11 +133597,11 @@
       "long": -1.746153,
       "measures": [
         {
-          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3340-rainfall-water-i-15_min-mm",
+          "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/3340-rainfall-tipping_bucket_raingauge-i-15_min-mm",
           "parameter": "rainfall",
           "parameterName": "Rainfall",
           "period": 900,
-          "qualifier": "Water",
+          "qualifier": "Tipping Bucket Raingauge",
           "unitName": "mm"
         }
       ],
@@ -136574,6 +136550,7 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU17_122",
+      "gridReference": "SU1775",
       "label": "Herdswick Farm OBH",
       "measures": [
         {
@@ -137682,6 +137659,7 @@
     },
     {
       "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/SU17_98",
+      "gridReference": "SU1277",
       "label": "Marlborough Uffcott",
       "measures": [
         {
